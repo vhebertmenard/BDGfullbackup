@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sharepoint_Customer_Folder__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK("https://bdgl.sharepoint.com/sites/NSDocumentCentral/Customer%20Documents/" &amp; CASESAFEID(Id) , "SharePoint Customer Folder", "_blank")</formula>
+    <label>SharePoint Customer Folder</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

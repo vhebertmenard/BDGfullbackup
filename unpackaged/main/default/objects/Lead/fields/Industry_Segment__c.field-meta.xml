@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Segment__c</fullName>
+    <description>Sub-category of Industry. If Other, must also specify Industry Details. To configure dependency, see Account Industry/Segment.</description>
+    <inlineHelpText>Sub-category of Industry. If Other, must also specify Industry Details.</inlineHelpText>
+    <label>Industry Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Industry</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Industry_Segment</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Coal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Metals (Gold, Copper, Silver, Iron)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Non-Metals (excl Coal)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Defense (Naval Bases, Air Force Bases, Army Bases)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Indigenous</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Other Government (excl Education, Healthcare, Indigenous)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Commercial/Industrial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Residential</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Private</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Public</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Services</controllingFieldValue>
+            <valueName>Discretionary (excl Travel Management)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Services</controllingFieldValue>
+            <valueName>Staples</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities</controllingFieldValue>
+            <valueName>Utilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Agriculture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Transportation and Warehousing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Travel Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Clean and Renewable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Oil and Gas Downstream (Refineries/Petrochemicals)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Oil and Gas Midstream (Infrastructure, Pipelines, Facilities)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Oil and Gas Upstream - Completions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Oil and Gas Upstream - Drilling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Oil and Gas Upstream - Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Professional Services</controllingFieldValue>
+            <valueName>Information and Professional Services (excl Travel Management)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare</controllingFieldValue>
+            <valueName>Healthcare, Emergency Response and Social Services</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

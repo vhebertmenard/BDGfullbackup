@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Fleet</fullName>
+    <columns>NAME</columns>
+    <columns>Short_Serial_No__c</columns>
+    <columns>Unit_Number__c</columns>
+    <columns>Product__c</columns>
+    <columns>Product_Code__c</columns>
+    <columns>Asset_Size__c</columns>
+    <columns>Asset_Plumbing_Type__c</columns>
+    <columns>Asset_Frame_Type__c</columns>
+    <columns>Cost__c</columns>
+    <columns>NBV__c</columns>
+    <columns>Replacement_Value__c</columns>
+    <columns>Division_Name__c</columns>
+    <columns>SND_Location__c</columns>
+    <columns>Status__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Inactive</value>
+    </filters>
+    <filters>
+        <field>NS_Internal_ID__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>BD_Unit_Number__c</field>
+        <operation>contains</operation>
+        <value>820</value>
+    </filters>
+    <label>Active Fleet</label>
+</ListView>

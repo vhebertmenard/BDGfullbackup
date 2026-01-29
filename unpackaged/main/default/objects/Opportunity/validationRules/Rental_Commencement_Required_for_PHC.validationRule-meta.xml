@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rental_Commencement_Required_for_PHC</fullName>
+    <active>true</active>
+    <description>Required for Project Handover.</description>
+    <errorConditionFormula>AND($User.Username &lt;&gt;'rgali@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'ithelpdesk@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'salesforcedatamigration@blackdiamondgroup.com',
+RecordType.Name &lt;&gt; "Vanguard",
+OR(
+   RecordType.Name = "BD WFS CPQ",
+   RecordType.Name = "BD Workforce"),
+INCLUDES(Transaction_Type__c,"Rental"),
+ISBLANK(  Rental_Commencement_Date__c  ),
+IsWon = TRUE
+)</errorConditionFormula>
+    <errorDisplayField>Rental_Commencement_Date__c</errorDisplayField>
+    <errorMessage>Enter Rental Commencement Date.</errorMessage>
+</ValidationRule>

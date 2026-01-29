@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD Australia v1%2E0</fullName>
+    <description>Black Diamond all Australia Business Units Sales Process</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Contract Approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contract Sent</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Create Contract</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Create Quote</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Initial Inquiry %28RFI%2FPre-Qual%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Negotiation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Quote Prep</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Quote Sent</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Won</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

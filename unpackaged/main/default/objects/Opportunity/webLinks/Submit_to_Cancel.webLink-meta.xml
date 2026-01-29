@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Submit_to_Cancel</fullName>
+    <availability>online</availability>
+    <description>Created by Mark B post Winter 2016 release</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Submit to Cancel</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>window.location.href = '/apex/SubmitApprovalWithEvaluation?Id={!Opportunity.Id}';</url>
+</WebLink>

@@ -1,0 +1,1607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vanguard</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Vanguard_Compact_Layout</compactLayoutAssignment>
+    <label>Vanguard</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>360MobileOffice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Association%2FDirectory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event%2FTradeshow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Getable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indigenous Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offline Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walk-In</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Account_Flag__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Account_Hierarchy__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Account_Type__c</picklist>
+        <values>
+            <fullName>Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charter School Mgmnt Co</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dead Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Land Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Billing_Country__c</picklist>
+        <values>
+            <fullName>Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United States</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Billing_Province__c</picklist>
+        <values>
+            <fullName>Alabama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alberta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arizona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arkansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Australian Capital Territory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bowen Basin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brisbane</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>British Columbia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Coast%2FHunter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colorado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connecticut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delaware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Galillee Basin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goldfields</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idaho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indianna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louisiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manitoba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maryland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massachusets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minnesota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mississippi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missouri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nebraska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nevada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Brunswick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Hampshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Jersey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Newfoundland and Labrador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Queensland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Territory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Western Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northwest Territories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nova Scotia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nunavut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oklahoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ontario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oregon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perth Metro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pilbara</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prince Edward Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quebec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhode Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saskatchewan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunshine Coast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surat Basin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tasmania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennessee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vermont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Victoria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington D%2EC%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wisconsin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wyoming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yukon</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Billing_Region__c</picklist>
+        <values>
+            <fullName>Manitoba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midwest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Brunswick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New South Wales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Newfoundland and Labrador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Alberta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Saskatchewan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Territory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northwest Territories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nova Scotia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nunavut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ontario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pacific</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prince Edward Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quebec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queensland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rocky Mountain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southern Alberta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southern BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southern Saskatchewan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southwest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tasmania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Victoria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Coast BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yukon</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cooperative__c</picklist>
+        <values>
+            <fullName>--None--</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JMU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KPN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NCPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sourcewell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TIPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TXMAS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Category__c</picklist>
+        <values>
+            <fullName>External</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intercompany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intra-Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third Party Partnership</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deposit_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Division__c</picklist>
+        <values>
+            <fullName>TBA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Selected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry_Segment__c</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clean and Renewable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial%2FIndustrial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Defense %28Naval Bases%2C Air Force Bases%2C Army Bases%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discretionary %28excl Travel Management%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare%2C Emergency Response and Social Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indigenous</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information and Professional Services %28excl Travel Management%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metals %28Gold%2C Copper%2C Silver%2C Iron%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Metals %28excl Coal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil and Gas Downstream %28Refineries%2FPetrochemicals%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil and Gas Midstream %28Infrastructure%2C Pipelines%2C Facilities%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil and Gas Upstream - Completions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil and Gas Upstream - Drilling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil and Gas Upstream - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Government %28excl Education%2C Healthcare%2C Indigenous%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staples</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation and Warehousing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lease_Customer_Status__c</picklist>
+        <values>
+            <fullName>Current Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminated Customer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MSA__c</picklist>
+        <values>
+            <fullName>Aecon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Graham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kiewit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nutrien</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stuard Bird</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PO_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__CoTerminationEvent__c</picklist>
+        <values>
+            <fullName>Add-on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__ContractCoTermination__c</picklist>
+        <values>
+            <fullName>Always</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Never</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Prompt</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__RenewalModel__c</picklist>
+        <values>
+            <fullName>Asset Based</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Based</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__RenewalPricingMethod__c</picklist>
+        <values>
+            <fullName>List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Same</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Uplift</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__TaxExempt__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SIC_Code_Description__c</picklist>
+        <values>
+            <fullName>01-Agriculture%2FForestry%2FFishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02-Veterinarians</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07-Agricultural Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08-Forestry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>09-Fishing Hunting %26 Trapping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10-Mining%2FOil%26Gas Extrac%2FPipeline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12-Coal Mining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13-Oil %26 Gas Extraction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14-Mining %26 Quarrying-Nonmetallic Minerals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15-Bldg Construction - G%2EC%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15A-Architects %26 Engineers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16-Heavy Construction - Non bldg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17-Construction - Special Trades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20-Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20F-Food Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21-Tobacco Products Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>22-Textile Mill Products Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>23-Apparel %26 Other Finished Products-Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>24-Lumber %26 Wood Prods Except Furntr Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25-Furniture %26 Fixtures Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>26-Paper %26 Allied Products Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>27-Printing Publishing %26 Allied Industries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>28-Chemicals %26 Allied Products Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>28C-Cannabis Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>29-Petroleum Refining %26 Related Inds Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30-Rubber %26 Miscellaneous Plastics Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>31-Leather %26 Leather Products Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>32-Stone Clay Glass %26 Concrete Prods Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>33-Primary Metal Industries Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>34-Fabricated Metal Products Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35-Industrial %26 Commercial Machinery Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36-Electronic %26 Other Electrical Equip Mfr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>37-Transportation Equipment Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>373-Ship and Boat Building and Repairing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>38-Measuring %26 Analyzing Instruments-Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>39-Miscellaneous Manufacturing Inds Mfrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40-Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40R-Railroad Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>41-Local%2FSuburban Transit %26 Hwy Passenger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>42-Motor Freight Transportation%2FWarehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>43-U%2ES%2E Postal Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>44-Water Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>44P-Ports %26 Port Operators</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45-Transportation By Air</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>46-Pipelines Except Natural Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>47-Travel Agencies %26 Transp Srvcs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48-Communications Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>49-Electric%2CGas%2CWater%2CSanitarySrv</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50-Wholesale Trade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>51-Wholesale Trade-Nondurable Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>52-Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>53-General Merchandise Stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>54-Food Stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>55-Auto Dealers %26 Gas Stations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>56-Apparel %26 Accessory Stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>57-Home Furniture %26 Furnishings Stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>58-Eating %26 Drinking Places</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>59-Miscellaneous Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60-DepositryInstit-Banks%2CCr%2EUnion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>61-Non-depository Credit%26LoanInst</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>62-Security %26 Commodity Brokers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>63-Insurance Carriers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>64-Insurance Agents %26 Brokers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>65-Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>67-Holding %26 Other Investment Offices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>70-Hotels%2CCamps %26 Org%27l Lodgings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>72-Personal Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>73-Business Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75-Auto Repair%2C Services%2C Parking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>76-Misc%2E Repair Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>78-Motion Pictures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>79-Amusment Parks %26 Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>80-Health Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>801-Hospitals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>803-Clinics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>805-Medical Offices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>807-Laboratories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>809-Special Care %28all other%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>80B-Behavioral Health Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>81-Legal Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>82B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>82B-College %26 Universities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>82C-Charter Schools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>82H-Head Start</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>82K-Daycare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>82N-Public Schools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>82P-Priv%2FParochial Schools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>83-Social Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>84-Museum%2CGalleries%2CGarden%2CZoos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>86-Churches%2CTrade Assoc%2E%26 Orgs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>87-Eng%27rs%2CArchitects%2C Mngmnt Srvs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>88-Private Households</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>89-Miscellaneous Services Nec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>91-Gov%27t- Admin Offices%2FTraining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>92-Govt - Corrections%2FPubl Safety</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>93-Gov%27t - Civilian Agencies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>94-Gov%27t - Administration-Human Resource Programs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9451-Gov%27t-VA Hospitals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>95-Gov%27t - Housing - Barracks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>96-Gov%27t - Administration Of Economic Programs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>97-Gov%27t - Homeland Security</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Type__c</picklist>
+        <values>
+            <fullName>Alarms%2FSecurity %26 Fire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cabinets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carpenters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carpet and Tile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ceiling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charter School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Child Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Churches</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colleges and Universities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concrete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contractors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decks and Ramps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Defense Contractors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dumpsters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elevators</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Factory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Contractors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Govt City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Govt County%2FParish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Govt Federal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Govt State</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gutters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HVAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Builder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT Wiring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Land Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil Service Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil and Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Painters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plants and Refineries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plumbing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Schools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roofing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Set up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheet rock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stucco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suppliers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trucking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water District</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Top_10__c</picklist>
+        <values>
+            <fullName>Top 10 Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top 10 Prospect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charter School Mgmnt Co</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dead Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Land Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vanguard_Number_of_locations__c</picklist>
+        <values>
+            <fullName>11-50</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

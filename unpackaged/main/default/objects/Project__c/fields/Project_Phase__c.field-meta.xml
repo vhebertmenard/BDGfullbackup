@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Phase__c</fullName>
+    <description>Phase in a Project's lifecycle, taken from IIR database</description>
+    <inlineHelpText>Phase in a Project's lifecycle</inlineHelpText>
+    <label>Project Phase</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Feasibility</fullName>
+                <default>false</default>
+                <label>Feasibility</label>
+            </value>
+            <value>
+                <fullName>FERC</fullName>
+                <default>false</default>
+                <label>FERC</label>
+            </value>
+            <value>
+                <fullName>FID</fullName>
+                <default>false</default>
+                <label>FID</label>
+            </value>
+            <value>
+                <fullName>Project Sanctioned</fullName>
+                <default>false</default>
+                <label>Project Sanctioned</label>
+            </value>
+            <value>
+                <fullName>Tenders Issued</fullName>
+                <default>false</default>
+                <label>Tenders Issued</label>
+            </value>
+            <value>
+                <fullName>Contract Awarded</fullName>
+                <default>false</default>
+                <label>Contract Awarded</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

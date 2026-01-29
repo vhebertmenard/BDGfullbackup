@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Main Lead Process</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Attempted Contact</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Cold Called</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contacted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Converted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Dead</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Not Contacted</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Quick Quote</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upfront_Revenue__c</fullName>
+    <description>Sum of Sale Revenue and Lease Upfront One-Times to capture all Revenue for either type of business (Sale or Lease).</description>
+    <formula>IF(  ISNULL(SBQQ__PrimaryQuote__c),
+
+
+(Upfront_Project_Costs_L__c *( Upfront_Mark_up_L__c + 1)) + ( Upfront_Project_Costs_S__c *( Upfront_Markup_S__c + 1)) + ((New_Capped_Costs_S__c + In_fleet_Capped_Costs_S__c) * (Building_Mark_up_S__c + 1)),
+
+(SBQQ__PrimaryQuote__r.Upfront_Project_Costs_L__c * ( SBQQ__PrimaryQuote__r.Upfront_Mark_up_L__c + 1)) + (SBQQ__PrimaryQuote__r.Upfront_Project_Costs_S__c * (  SBQQ__PrimaryQuote__r.Upfront_Markup_S__c  + 1)) + (( SBQQ__PrimaryQuote__r.New_Capped_Costs_S__c  +  SBQQ__PrimaryQuote__r.In_fleet_Capped_Costs_S__c )*( SBQQ__PrimaryQuote__r.Building_Mark_up_S__c + 1))
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Upfront Revenue</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

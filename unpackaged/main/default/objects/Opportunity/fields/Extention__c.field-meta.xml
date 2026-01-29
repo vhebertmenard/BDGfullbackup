@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Extention__c</fullName>
+    <description>This field occurs in the following Record Types:
+Equipment Rentals</description>
+    <label>Extention</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Month-to-Month</fullName>
+                <default>false</default>
+                <label>Month-to-Month</label>
+            </value>
+            <value>
+                <fullName>Day-to-Day</fullName>
+                <default>false</default>
+                <label>Day-to-Day</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

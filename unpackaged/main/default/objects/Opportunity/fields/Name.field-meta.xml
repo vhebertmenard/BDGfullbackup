@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name</fullName>
+    <inlineHelpText>Unique name representing a scope of work to be presented to a customer. When relevant, formatted as [Project Owner] [Project Name] - [Product Qty/Type] - [Site Location], e.g. Shell LNG - (4) 3 Unit Complexes - Fort McMurray</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+</CustomField>

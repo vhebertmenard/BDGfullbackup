@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NS_Customer_Category_ID__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(JV_Partnership_Account__c )),'6',
+   IF(ISPICKVAL(Account.Customer_Category__c,'External'),'4',
+      IF(ISPICKVAL(Account.Customer_Category__c,'Intra-Group'),'6',
+        IF(ISPICKVAL(Account.Customer_Category__c,'Intercompany'),'2','0')
+      )
+   )
+)</formula>
+    <label>NS Customer Category ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

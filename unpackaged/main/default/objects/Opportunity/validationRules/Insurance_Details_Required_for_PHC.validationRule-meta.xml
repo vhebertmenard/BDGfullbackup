@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance_Details_Required_for_PHC</fullName>
+    <active>true</active>
+    <description>Required at Project Handover.</description>
+    <errorConditionFormula>AND(
+$User.Username &lt;&gt;'rgali@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'ithelpdesk@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'salesforcedatamigration@blackdiamondgroup.com',
+     RecordType.Name &lt;&gt; "Vanguard",
+     Is_CPQ__c = TRUE,
+     INCLUDES(Transaction_Type__c,"Rental"),
+    OR(
+       ISBLANK( TEXT( Proof_of_Insurance_Obtained__c )),
+       ISBLANK( TEXT( Insurance_Type__c )),
+       ISBLANK( TEXT( Proof_of_General_Liability_Obtained__c ))
+    ),
+    IsWon = TRUE
+)</errorConditionFormula>
+    <errorDisplayField>Insurance_Type__c</errorDisplayField>
+    <errorMessage>Indicate 1) Property Insurance Type,
+              2) whether you have obtained Proof of Property Insurance, and
+              3) whether you have obtained Proof of General Liability Insurance.</errorMessage>
+</ValidationRule>

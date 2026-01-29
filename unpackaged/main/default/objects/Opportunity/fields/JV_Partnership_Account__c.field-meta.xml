@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JV_Partnership_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>3rd Party Partnership Account</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <filterItems>
+            <field>Account.Name</field>
+            <operation>equals</operation>
+            <value>Black Diamond West Moberly Limited Partnership</value>
+        </filterItems>
+        <filterItems>
+            <field>Account.Name</field>
+            <operation>equals</operation>
+            <value>Black Diamond Nehiyawak Limited Partnership</value>
+        </filterItems>
+        <filterItems>
+            <field>Account.Name</field>
+            <operation>equals</operation>
+            <value>Black Diamond Dene Limited Partnership</value>
+        </filterItems>
+        <filterItems>
+            <field>Account.Name</field>
+            <operation>contains</operation>
+            <value>Whitecap Black Diamond Limited Partnership</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Opportunities (JV Partnership Account)</relationshipLabel>
+    <relationshipName>Opportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

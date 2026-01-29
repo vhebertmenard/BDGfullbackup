@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alcohol_Permitted__c</fullName>
+    <label>Alcohol Permitted</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dry Camp</fullName>
+                <default>false</default>
+                <label>Dry Camp</label>
+            </value>
+            <value>
+                <fullName>Moist Camp</fullName>
+                <default>false</default>
+                <label>Moist Camp</label>
+            </value>
+            <value>
+                <fullName>Wet Camp</fullName>
+                <default>false</default>
+                <label>Wet Camp</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

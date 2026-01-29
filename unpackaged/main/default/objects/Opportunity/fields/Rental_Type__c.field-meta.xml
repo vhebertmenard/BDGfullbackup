@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rental_Type__c</fullName>
+    <label>Rental Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Existing Fleet</fullName>
+                <default>false</default>
+                <label>Existing Fleet</label>
+            </value>
+            <value>
+                <fullName>New Fleet</fullName>
+                <default>false</default>
+                <label>New Fleet</label>
+            </value>
+            <value>
+                <fullName>Sub rental</fullName>
+                <default>false</default>
+                <label>Sub rental</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

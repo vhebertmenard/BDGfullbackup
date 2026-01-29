@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AUS_Fleet</fullName>
+    <columns>NAME</columns>
+    <columns>Product__c</columns>
+    <columns>Price_Code__c</columns>
+    <columns>Product_Code__c</columns>
+    <columns>Asset_Size__c</columns>
+    <columns>Asset_Plumbing_Type__c</columns>
+    <columns>Asset_Frame_Type__c</columns>
+    <columns>Cost__c</columns>
+    <columns>NBV__c</columns>
+    <columns>SND_Location__c</columns>
+    <columns>Item_Number__c</columns>
+    <columns>Status__c</columns>
+    <columns>BD_Unit_Number__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Division_Name__c</field>
+        <operation>equals</operation>
+        <value>International</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Inactive</value>
+    </filters>
+    <label>AUS Fleet</label>
+</ListView>

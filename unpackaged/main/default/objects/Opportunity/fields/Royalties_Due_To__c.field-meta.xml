@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Royalties_Due_To__c</fullName>
+    <label>Royalties Due To</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alexander First Nations</fullName>
+                <default>false</default>
+                <label>Alexander First Nations</label>
+            </value>
+            <value>
+                <fullName>Aseniwuche Winewak Nation</fullName>
+                <default>false</default>
+                <label>Aseniwuche Winewak Nation</label>
+            </value>
+            <value>
+                <fullName>Beaver Lake Cree Nation Nehiya</fullName>
+                <default>false</default>
+                <label>Beaver Lake Cree Nation Nehiya</label>
+            </value>
+            <value>
+                <fullName>Cheam</fullName>
+                <default>false</default>
+                <label>Cheam</label>
+            </value>
+            <value>
+                <fullName>Coast Tsimshian Enterprises</fullName>
+                <default>false</default>
+                <label>Coast Tsimshian Enterprises</label>
+            </value>
+            <value>
+                <fullName>Duncans First Nation</fullName>
+                <default>false</default>
+                <label>Duncan’s First Nation</label>
+            </value>
+            <value>
+                <fullName>Elk Valley Metis Resources Ltd</fullName>
+                <default>false</default>
+                <label>Elk Valley Metis Resources Ltd</label>
+            </value>
+            <value>
+                <fullName>Gitxaala Enterprises LP</fullName>
+                <default>false</default>
+                <label>Gitxaala Enterprises LP</label>
+            </value>
+            <value>
+                <fullName>Infinity Metis Corporation</fullName>
+                <default>false</default>
+                <label>Infinity Metis Corporation</label>
+            </value>
+            <value>
+                <fullName>K omoks First Nation</fullName>
+                <default>false</default>
+                <label>K'omoks First Nation</label>
+            </value>
+            <value>
+                <fullName>LBIN Ventures LP</fullName>
+                <default>false</default>
+                <label>LBIN Ventures LP</label>
+            </value>
+            <value>
+                <fullName>Lheidli T enneh</fullName>
+                <default>false</default>
+                <label>Lheidli T'enneh</label>
+            </value>
+            <value>
+                <fullName>Mississauga Credit Bus. LP</fullName>
+                <default>false</default>
+                <label>Mississauga Credit Bus. LP</label>
+            </value>
+            <value>
+                <fullName>O Chiese</fullName>
+                <default>false</default>
+                <label>O’Chiese</label>
+            </value>
+            <value>
+                <fullName>Saulteau First Nations</fullName>
+                <default>false</default>
+                <label>Saulteau First Nations</label>
+            </value>
+            <value>
+                <fullName>Seyem Qwantlen Business Group</fullName>
+                <default>false</default>
+                <label>Seyem Qwantlen Business Group</label>
+            </value>
+            <value>
+                <fullName>SPAL General Constructors</fullName>
+                <default>false</default>
+                <label>SPAL General Constructors</label>
+            </value>
+            <value>
+                <fullName>Tahltan Nation Development Co.</fullName>
+                <default>false</default>
+                <label>Tahltan Nation Development Co.</label>
+            </value>
+            <value>
+                <fullName>West Moberly First Nation</fullName>
+                <default>false</default>
+                <label>West Moberly First Nation</label>
+            </value>
+            <value>
+                <fullName>Yinka Dene Economic Dev LP</fullName>
+                <default>false</default>
+                <label>Yinka Dene Economic Dev LP</label>
+            </value>
+            <value>
+                <fullName>Whitecap Dakota First Nation</fullName>
+                <default>false</default>
+                <label>Whitecap Dakota First Nation</label>
+            </value>
+            <value>
+                <fullName>Fort Nelson First Nation Dene</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fort Nelson First Nation Dene</label>
+            </value>
+            <value>
+                <fullName>Yellowknives First Nation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Yellowknives First Nation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

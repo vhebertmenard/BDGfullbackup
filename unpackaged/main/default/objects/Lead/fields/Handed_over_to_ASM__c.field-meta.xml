@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Handed_over_to_ASM__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>EMS has handed over this Lead to the ASM for further follow-up</inlineHelpText>
+    <label>Handed over to ASM</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

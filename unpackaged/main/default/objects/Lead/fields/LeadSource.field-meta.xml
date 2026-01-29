@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadSource</fullName>
+    <description>Marketing field to track origin of this Lead.</description>
+    <inlineHelpText>Indicate the origin of this Lead. At conversion, will be mapped to Contact, Account and Opportunity.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+</CustomField>

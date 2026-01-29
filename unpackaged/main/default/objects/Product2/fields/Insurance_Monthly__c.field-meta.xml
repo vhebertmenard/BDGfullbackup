@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance_Monthly__c</fullName>
+    <description>Monthly Insurance rate is 0.17% of the Insurable value</description>
+    <formula>ROUND(Insurable_Value__c  * 0.0017, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Monthly Insurance rate is 0.17% of the Insurable value</inlineHelpText>
+    <label>Insurance Monthly</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

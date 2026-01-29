@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Transaction_Type_CPQ</fullName>
+    <active>false</active>
+    <description>Forces users to use a product type that was selected in the Transaction Type field for Non-CPQ opportunities</description>
+    <errorConditionFormula>AND(   Product2.Name = "Revenue Stream",
+NOT(OR(
+  AND(
+    INCLUDES(Opportunity.Transaction_Type__c, "Rental"),
+    CONTAINS(TEXT(Product_Record_Type__c), "Rental")
+  ),
+  AND(
+    INCLUDES(Opportunity.Transaction_Type__c, "Sale"),
+    CONTAINS(TEXT(Product_Record_Type__c), "Sale")
+  ),
+  AND(
+    INCLUDES(Opportunity.Transaction_Type__c, "Operations"),
+    CONTAINS(TEXT(Product_Record_Type__c), "Operations")
+  ),
+  AND(
+    INCLUDES(Opportunity.Transaction_Type__c, "Recurring Non-Rental"),
+    CONTAINS(TEXT(Product_Record_Type__c), "Sublease (Recurring Non-Rental)")
+  ),
+  AND(
+    INCLUDES(Opportunity.Transaction_Type__c, "Lodging"),
+    CONTAINS(TEXT(Product_Record_Type__c), "Lodging")
+  )
+)))</errorConditionFormula>
+    <errorDisplayField>Product_Record_Type__c</errorDisplayField>
+    <errorMessage>Please select a previously selected transaction type as product.</errorMessage>
+</ValidationRule>

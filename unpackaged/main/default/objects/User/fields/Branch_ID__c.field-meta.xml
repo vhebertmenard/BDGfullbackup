@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Branch_ID__c</fullName>
+    <description>Used to map Branch to object records. Populated by process. Maps from match of BDG Branch on User to Name on Branch.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ID of matching Branch object. Uses BDG Branch to match.</inlineHelpText>
+    <label>Branch_ID</label>
+    <length>30</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

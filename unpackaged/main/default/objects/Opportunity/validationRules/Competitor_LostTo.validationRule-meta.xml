@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor_LostTo</fullName>
+    <active>true</active>
+    <description>Ensures lost opportunities have Competitor selected.</description>
+    <errorConditionFormula>AND(
+$User.Username &lt;&gt;'rgali@blackdiamondgroup.com',
+$User.Username &lt;&gt;'rgali@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'ithelpdesk@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'salesforcedatamigration@blackdiamondgroup.com',
+RecordType.Name &lt;&gt; "Vanguard",
+CONTAINS(TEXT(StageName),"Lost"),   LEN( Competitor_LostTo__c )=0 )</errorConditionFormula>
+    <errorDisplayField>Competitor_LostTo__c</errorDisplayField>
+    <errorMessage>Select who the Opportunity was lost to. If unknown, select "Unknown". If N/A, select "None".</errorMessage>
+</ValidationRule>

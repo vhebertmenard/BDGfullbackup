@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vanguard_North_East_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>MSS - North East - No Business</label>
+    <queue>MSS_North_East_No_Business</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MSS_Active_Branches_survey_url</fullName>
+    <columns>NAME</columns>
+    <columns>Address_Street__c</columns>
+    <columns>Address_City__c</columns>
+    <columns>Address_Province_State__c</columns>
+    <columns>Address_Postal_Code__c</columns>
+    <columns>Address_Country__c</columns>
+    <columns>Branch_Manager__c</columns>
+    <columns>Branch_Phone__c</columns>
+    <columns>Google_Review_URL__c</columns>
+    <columns>Division__c</columns>
+    <columns>Region__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Division__c</field>
+        <operation>equals</operation>
+        <value>Modular Solutions</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <label>MSS - Active Branches - Review URL</label>
+    <sharedTo>
+        <role>General_Manager_Marketing_Services</role>
+        <roleAndSubordinatesInternal>General_Manager_Marketing_Services</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

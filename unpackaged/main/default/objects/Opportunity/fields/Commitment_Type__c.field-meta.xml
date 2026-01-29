@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commitment_Type__c</fullName>
+    <description>This field occurs in the following Record Types:
+Equipment Rentals</description>
+    <label>Commitment Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contract w/o min</fullName>
+                <default>false</default>
+                <label>Contract w/o min</label>
+            </value>
+            <value>
+                <fullName>Contract w/ min</fullName>
+                <default>false</default>
+                <label>Contract w/ min</label>
+            </value>
+            <value>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+                <label>Monthly</label>
+            </value>
+            <value>
+                <fullName>Daily</fullName>
+                <default>false</default>
+                <label>Daily</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

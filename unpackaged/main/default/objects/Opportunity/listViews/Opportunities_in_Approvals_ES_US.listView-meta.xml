@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunities_in_Approvals_ES_US</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Division_Region__c</columns>
+    <columns>Branch__c</columns>
+    <columns>Estimated_Contract_Value__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>Reason_s_Won_Lost_Cancelled__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Submitted_For_Cancellation__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Division_Region__c</field>
+        <operation>contains</operation>
+        <value>ES US</value>
+    </filters>
+    <label>Opportunities in Approvals - ES US</label>
+    <sharedTo>
+        <group>All_BD_Users</group>
+    </sharedTo>
+</ListView>

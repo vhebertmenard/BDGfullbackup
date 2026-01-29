@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IG_IC_Accounting_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>IG/IC Accounting Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Accounts (IG/IC Accounting Contact)</relationshipLabel>
+    <relationshipName>Accounts5</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

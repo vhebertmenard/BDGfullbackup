@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounting_Contact_required_for_PHC</fullName>
+    <active>true</active>
+    <description>Required for Project Handover.</description>
+    <errorConditionFormula>AND(
+$User.Username &lt;&gt;'rgali@blackdiamondgroup.com',
+ $User.Username  &lt;&gt; 'salesforcedatamigration@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'ithelpdesk@blackdiamondgroup.com',
+    Is_CPQ__c = TRUE,
+    RecordType.Name &lt;&gt; "BD ES CPQ",
+    RecordType.Name &lt;&gt; "BD Energy",
+    RecordType.Name &lt;&gt; "BD MSS",
+    RecordType.Name &lt;&gt; "BD Disaster",
+    RecordType.Name &lt;&gt; "BD Lodging",
+    RecordType.Name &lt;&gt; "Vanguard",
+    Quote_Transaction_Type__c &lt;&gt; "Lodging",
+    IsWon = TRUE,
+    ISBLANK( Accounting_Contact__c )
+)</errorConditionFormula>
+    <errorDisplayField>Accounting_Contact__c</errorDisplayField>
+    <errorMessage>Specify an Accounting Contact</errorMessage>
+</ValidationRule>

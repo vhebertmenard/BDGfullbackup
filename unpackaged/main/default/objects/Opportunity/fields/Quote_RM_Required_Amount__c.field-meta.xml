@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_RM_Required_Amount__c</fullName>
+    <description>Reads the R&amp;M Required Amount of the Primary Quote</description>
+    <formula>SBQQ__PrimaryQuote__r.RM_Required_Amount__c</formula>
+    <inlineHelpText>Reads the R&amp;M Required Amount of the Primary Quote</inlineHelpText>
+    <label>R&amp;M Total (Quote)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

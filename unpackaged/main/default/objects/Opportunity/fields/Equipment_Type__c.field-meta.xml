@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipment_Type__c</fullName>
+    <description>Enter the quantity and type of product required for this opportunity.</description>
+    <inlineHelpText>Enter the quantity and type of product required for this opportunity.</inlineHelpText>
+    <label>Product Quantity/Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

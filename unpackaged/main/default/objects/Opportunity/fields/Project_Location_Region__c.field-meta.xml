@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Location_Region__c</fullName>
+    <description>Region where the job will take place</description>
+    <inlineHelpText>Region where the job will take place</inlineHelpText>
+    <label>Site Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Project_Location_Country__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Manitoba</fullName>
+                <default>false</default>
+                <label>Manitoba</label>
+            </value>
+            <value>
+                <fullName>Midwest</fullName>
+                <default>false</default>
+                <label>Midwest</label>
+            </value>
+            <value>
+                <fullName>New Brunswick</fullName>
+                <default>false</default>
+                <label>New Brunswick</label>
+            </value>
+            <value>
+                <fullName>Newfoundland and Labrador</fullName>
+                <default>false</default>
+                <label>Newfoundland and Labrador</label>
+            </value>
+            <value>
+                <fullName>New South Wales</fullName>
+                <default>false</default>
+                <label>New South Wales</label>
+            </value>
+            <value>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+                <label>Northeast</label>
+            </value>
+            <value>
+                <fullName>Northern Alberta</fullName>
+                <default>false</default>
+                <label>Northern Alberta</label>
+            </value>
+            <value>
+                <fullName>Northern BC</fullName>
+                <default>false</default>
+                <label>Northern BC</label>
+            </value>
+            <value>
+                <fullName>Northern Saskatchewan</fullName>
+                <default>false</default>
+                <label>Northern Saskatchewan</label>
+            </value>
+            <value>
+                <fullName>Northern Territory</fullName>
+                <default>false</default>
+                <label>Northern Territory</label>
+            </value>
+            <value>
+                <fullName>Northwest Territories</fullName>
+                <default>false</default>
+                <label>Northwest Territories</label>
+            </value>
+            <value>
+                <fullName>Nova Scotia</fullName>
+                <default>false</default>
+                <label>Nova Scotia</label>
+            </value>
+            <value>
+                <fullName>Nunavut</fullName>
+                <default>false</default>
+                <label>Nunavut</label>
+            </value>
+            <value>
+                <fullName>Ontario</fullName>
+                <default>false</default>
+                <label>Ontario</label>
+            </value>
+            <value>
+                <fullName>Pacific</fullName>
+                <default>false</default>
+                <label>Pacific</label>
+            </value>
+            <value>
+                <fullName>Prince Edward Island</fullName>
+                <default>false</default>
+                <label>Prince Edward Island</label>
+            </value>
+            <value>
+                <fullName>Quebec</fullName>
+                <default>false</default>
+                <label>Quebec</label>
+            </value>
+            <value>
+                <fullName>Queensland</fullName>
+                <default>false</default>
+                <label>Queensland</label>
+            </value>
+            <value>
+                <fullName>Rocky Mountain</fullName>
+                <default>false</default>
+                <label>Rocky Mountain</label>
+            </value>
+            <value>
+                <fullName>South Australia</fullName>
+                <default>false</default>
+                <label>South Australia</label>
+            </value>
+            <value>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+                <label>Southeast</label>
+            </value>
+            <value>
+                <fullName>Southern Alberta</fullName>
+                <default>false</default>
+                <label>Southern Alberta</label>
+            </value>
+            <value>
+                <fullName>Southern BC</fullName>
+                <default>false</default>
+                <label>Southern BC</label>
+            </value>
+            <value>
+                <fullName>Southern Saskatchewan</fullName>
+                <default>false</default>
+                <label>Southern Saskatchewan</label>
+            </value>
+            <value>
+                <fullName>Southwest</fullName>
+                <default>false</default>
+                <label>Southwest</label>
+            </value>
+            <value>
+                <fullName>Tasmania</fullName>
+                <default>false</default>
+                <label>Tasmania</label>
+            </value>
+            <value>
+                <fullName>Victoria</fullName>
+                <default>false</default>
+                <label>Victoria</label>
+            </value>
+            <value>
+                <fullName>West Coast BC</fullName>
+                <default>false</default>
+                <label>West Coast BC</label>
+            </value>
+            <value>
+                <fullName>Western Australia</fullName>
+                <default>false</default>
+                <label>Western Australia</label>
+            </value>
+            <value>
+                <fullName>Yukon</fullName>
+                <default>false</default>
+                <label>Yukon</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Manitoba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>New Brunswick</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Newfoundland and Labrador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Northern Alberta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Northern BC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Northern Saskatchewan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Northwest Territories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Nova Scotia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Nunavut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Ontario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Prince Edward Island</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Quebec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Southern Alberta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Southern BC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Southern Saskatchewan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>West Coast BC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Yukon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <valueName>Midwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <valueName>Northeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <valueName>Pacific</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <valueName>Rocky Mountain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <valueName>Southeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <valueName>Southwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>New South Wales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Northern Territory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Queensland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>South Australia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Tasmania</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Victoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Western Australia</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

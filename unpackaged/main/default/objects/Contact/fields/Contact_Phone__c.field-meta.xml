@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Phone__c</fullName>
+    <description>Auto-filled by process from Primary # picklist</description>
+    <inlineHelpText>Auto-filled by process from selection in Primary #</inlineHelpText>
+    <label>Primary Phone</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Phone</type>
+</CustomField>

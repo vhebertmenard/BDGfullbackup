@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Branch__c</fullName>
+    <label>Branch</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Region__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Branches</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>MPA</controllingFieldValue>
+            <valueName>BOXX Banks Dallas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US East</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <valueName>BOXX Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US East</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <valueName>BOXX Charlotte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US East</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <valueName>BOXX Marietta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US East</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <valueName>BOXX Raleigh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US East</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <valueName>BOXX Schiavi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US Southwest</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <valueName>BOXX Fort Worth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US Southwest</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <valueName>BOXX Houston</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US Southwest</controllingFieldValue>
+            <valueName>BOXX Major Projects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US Southwest</controllingFieldValue>
+            <valueName>BOXX Dallas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US Southwest</controllingFieldValue>
+            <valueName>BOXX MPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS East</controllingFieldValue>
+            <controllingFieldValue>MSS Canada East</controllingFieldValue>
+            <valueName>BOXX Ottawa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS East</controllingFieldValue>
+            <controllingFieldValue>MSS Canada East</controllingFieldValue>
+            <valueName>BOXX Stoney Creek</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS Canada East</controllingFieldValue>
+            <valueName>BOXX Toronto East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS Canada East</controllingFieldValue>
+            <valueName>BOXX Moncton</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS Canada East</controllingFieldValue>
+            <valueName>BOXX CL Martin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS Canada West</controllingFieldValue>
+            <controllingFieldValue>MSS Prairies</controllingFieldValue>
+            <valueName>BOXX Calgary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS Canada West</controllingFieldValue>
+            <controllingFieldValue>MSS Prairies</controllingFieldValue>
+            <valueName>BOXX Edmonton</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS Canada West</controllingFieldValue>
+            <controllingFieldValue>MSS Pacific</controllingFieldValue>
+            <valueName>BOXX Kelowna</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS Canada West</controllingFieldValue>
+            <controllingFieldValue>MSS Pacific</controllingFieldValue>
+            <valueName>BOXX Langley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS Canada West</controllingFieldValue>
+            <controllingFieldValue>MSS Pacific</controllingFieldValue>
+            <valueName>BOXX Nanaimo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS Canada West</controllingFieldValue>
+            <controllingFieldValue>MSS Pacific</controllingFieldValue>
+            <valueName>BOXX Prince George</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS Canada West</controllingFieldValue>
+            <controllingFieldValue>MSS Prairies</controllingFieldValue>
+            <valueName>BOXX Saskatchewan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS Canada West</controllingFieldValue>
+            <controllingFieldValue>MSS Prairies</controllingFieldValue>
+            <valueName>BOXX Winnipeg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>AUS Brisbane</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>AUS Melbourne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>AUS Perth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>AUS Sydney</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US MP</controllingFieldValue>
+            <valueName>Major Projects California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <valueName>Camps East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <valueName>Camps West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <valueName>Horn River Lodge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <valueName>Little Prairie Lodge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <valueName>Lodges on Spec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <valueName>Smoky River Lodge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <valueName>Sunday Creek Lodge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <valueName>Sunset Prairie Lodge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <valueName>ES Estevan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <valueName>ES Fort St John</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <valueName>ES Grande Prairie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <valueName>ES Colorado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <valueName>ES North Dakota</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <valueName>ES Texas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps US</controllingFieldValue>
+            <valueName>Camps US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Head Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US Vanguard</controllingFieldValue>
+            <valueName>BOXX Vanguard</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

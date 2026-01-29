@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Open_Opportunities_w_ISR</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Contract_Number__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Estimated_First_Revenue__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Odds_of_BD_Winning__c</columns>
+    <columns>Odds_of_Customer_Winning__c</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>My Open Opportunities w/ ISR</label>
+    <sharedTo>
+        <group>All_BD_Users</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General_Contractor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>General Contractor for this Project</description>
+    <inlineHelpText>General Contractor for this Project</inlineHelpText>
+    <label>General Contractor</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Projects (General Contractor)</relationshipLabel>
+    <relationshipName>Project_GCs</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

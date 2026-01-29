@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NS_Branch_ID__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case( Branch__c ,
+'1001 - CORP - Black Diamond Head Office','1',
+'CORP - Accounting','11',
+'CORP - Board','2',
+'CORP - CEO Office','6',
+'CORP - CFO Office','7',
+'CORP - Communications/Events/GR','4',
+'CORP - ERP','16',
+'CORP - Human Resources','3',
+'CORP - Information Technology','15',
+'CORP - Investor Relations &amp; Corp Dev','5',
+'CORP - Legal','10',
+'CORP - Office Services','9',
+'CORP - Real Estate','8',
+'CORP - Tax','13',
+'CORP - TD&amp;S','14',
+'CORP - Treasury','12',
+'MSS - Engineering','21',
+'MSS - Head Office','17',
+'MSS - Marketing','18',
+'MSS - Operational Excellence','19',
+'MSS - Product Management','20',
+'MSS - Canada East Head Office','22',
+'BOXX CL Martin','35',
+'BOXX Moncton','38',
+'BOXX Modular Montreal','37',
+'BOXX Ottawa','36',
+'BOXX Stoney Creek','34',
+'BOXX Calgary','31',
+'MSS - Canada West Head Office','23',
+'BOXX Edmonton','32',
+'MSS - Fort St. John, BC','28',
+'BOXX Kelowna','30',
+'BOXX Langley','26',
+'BOXX Nanaimo','25',
+'BOXX Prince George','27',
+'BOXX Saskatchewan','33',
+'MSS - Terrace, BC','29',
+'BOXX Atlanta','43',
+'BOXX Charlotte','42',
+'BOXX Fort Worth','44',
+'BOXX Marietta','40',
+'BOXX Houston','46',
+'Major Projects California','47',
+'BOXX Schiavi','39',
+'BOXX Raleigh','41',
+'MSS - US Head Office','24',
+'BOXX Winnipeg','208',
+'BOXX MPA','206',
+'0'
+
+)</formula>
+    <label>NS Branch ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

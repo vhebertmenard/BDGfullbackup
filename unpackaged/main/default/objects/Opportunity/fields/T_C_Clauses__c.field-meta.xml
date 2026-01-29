@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>T_C_Clauses__c</fullName>
+    <description>T&amp;C wording that triggers alternate approval flows for Non-Standard Legal</description>
+    <inlineHelpText>Non-Standard Legal terms and conditions clauses that trigger approval flows</inlineHelpText>
+    <label>T&amp;C Clauses</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>T_C__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Without indemnification for BD</fullName>
+                <default>false</default>
+                <label>Without indemnification for BD</label>
+            </value>
+            <value>
+                <fullName>Without liability cap</fullName>
+                <default>false</default>
+                <label>Without liability cap</label>
+            </value>
+            <value>
+                <fullName>With liquidated damages</fullName>
+                <default>false</default>
+                <label>With liquidated damages</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Non-Standard - Legal</controllingFieldValue>
+            <valueName>Without indemnification for BD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Standard - Legal</controllingFieldValue>
+            <valueName>Without liability cap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Standard - Legal</controllingFieldValue>
+            <valueName>With liquidated damages</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

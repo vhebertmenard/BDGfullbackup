@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vanguard_Qualified_Estmd_CV_Req</fullName>
+    <active>false</active>
+    <description>Estimated Contract Value is required when a Vanguard Opportunity is Qualified</description>
+    <errorConditionFormula>AND( 
+RecordType.Name = "Vanguard",
+ISPICKVAL( StageName , "Qualified") , 
+ISBLANK(  Estimated_Contract_Value__c  )
+)</errorConditionFormula>
+    <errorDisplayField>Estimated_Contract_Value__c</errorDisplayField>
+    <errorMessage>Estimated Contract Value is Required when Opportunity is Qualified</errorMessage>
+</ValidationRule>

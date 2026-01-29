@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lynn_Leads_Contacted</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7</booleanFilter>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <columns>LEAD.LAST_ACTIVITY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Lead_Status_Detail__c</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>Dead_Lead_Reason__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Contacted</value>
+    </filters>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>equals</operation>
+        <value>Website,360MobileOffice,Getable</value>
+    </filters>
+    <filters>
+        <field>Opportunity_Country__c</field>
+        <operation>notEqual</operation>
+        <value>AU</value>
+    </filters>
+    <filters>
+        <field>Opportunity_Province_State_Territory__c</field>
+        <operation>equals</operation>
+        <value>CT,DE,DC,IN,KY,ME,MD,MA,NH,NJ,NY,NC,OH PA,RI,SC VT,VA,WV</value>
+    </filters>
+    <filters>
+        <field>Handed_over_to_ASM__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Business_Line__c</field>
+        <operation>equals</operation>
+        <value>Vanguard,MSS</value>
+    </filters>
+    <label>Lynn Leads - Contacted</label>
+    <sharedTo>
+        <group>All_BD_Users</group>
+        <role>Marketing_Specialist</role>
+    </sharedTo>
+</ListView>

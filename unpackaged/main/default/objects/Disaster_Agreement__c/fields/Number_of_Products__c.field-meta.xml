@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Products__c</fullName>
+    <description>Rollup count of the products associated with this account</description>
+    <inlineHelpText>Rollup count of the products associated with this account</inlineHelpText>
+    <label># of Products</label>
+    <summaryForeignKey>DA_Product__c.Disaster_Agreement__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

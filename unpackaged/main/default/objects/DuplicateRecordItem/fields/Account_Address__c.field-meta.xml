@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Address__c</fullName>
+    <description>Account Billing Address</description>
+    <externalId>false</externalId>
+    <formula>AccountName__r.BillingStreet + IF(AccountName__r.BillingStreet = "", "", ", ") + AccountName__r.BillingCity + IF(AccountName__r.BillingCity = "", "", ", ") + TEXT(AccountName__r.BillingStateCode) + IF(AccountName__r.BillingPostalCode = "", "", " ") + AccountName__r.BillingPostalCode</formula>
+    <inlineHelpText>Account Billing Address</inlineHelpText>
+    <label>Account Address</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

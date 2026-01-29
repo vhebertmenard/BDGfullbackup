@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sale_Revenue__c</fullName>
+    <description>Sale Revenue = Sum(New Capped Costs (S) + In-fleet Capped Costs (S)) * Sum(Building Mark-up + 1) + (Upfront Project Costs (S) * Sum(Upfront Mark-up (S) + 1)) - To be used by Vanguard</description>
+    <formula>IF(  ISNULL(SBQQ__PrimaryQuote__c),
+
+((New_Capped_Costs_S__c +  In_fleet_Capped_Costs_S__c) * (Building_Mark_up_S__c + 1)) + ( Upfront_Project_Costs_S__c * ( Upfront_Markup_S__c + 1))
+,
+
+((SBQQ__PrimaryQuote__r.New_Capped_Costs_S__c + SBQQ__PrimaryQuote__r.In_fleet_Capped_Costs_S__c) *  (SBQQ__PrimaryQuote__r.Building_Mark_up_S__c + 1 )) + ( SBQQ__PrimaryQuote__r.Upfront_Project_Costs_S__c * ( SBQQ__PrimaryQuote__r.Upfront_Markup_S__c  + 1))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Sale Revenue</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

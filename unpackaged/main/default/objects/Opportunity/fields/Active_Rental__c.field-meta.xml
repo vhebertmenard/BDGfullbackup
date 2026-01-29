@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Rental__c</fullName>
+    <formula>IF( IsWon ,IF(Quote_Transaction_Type__c == 'Rental',IF( ADDMONTHS( Estimated_First_Revenue__c , Quote_Term_Length__c )&gt; TODAY(),TRUE,FALSE ),FALSE),FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Active Rental</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

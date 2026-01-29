@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NPS_Passive__c</fullName>
+    <description>If survey response is 3</description>
+    <externalId>false</externalId>
+    <formula>IF( NPS_Score__c  = 3, 1, 0)</formula>
+    <inlineHelpText>If survey response is 3</inlineHelpText>
+    <label>NPS Passive</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

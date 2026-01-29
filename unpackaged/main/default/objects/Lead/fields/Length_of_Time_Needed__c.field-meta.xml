@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Length_of_Time_Needed__c</fullName>
+    <inlineHelpText>How long the mobile office will be needed, used primarily for 360 mobile office web leads.</inlineHelpText>
+    <label>Length of Time Needed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Less than 6 months</fullName>
+                <default>false</default>
+                <label>Less than 6 months</label>
+            </value>
+            <value>
+                <fullName>6 to 12 months</fullName>
+                <default>false</default>
+                <label>6 to 12 months</label>
+            </value>
+            <value>
+                <fullName>12 months or more</fullName>
+                <default>false</default>
+                <label>12 months or more</label>
+            </value>
+            <value>
+                <fullName>Plan on Purchasing</fullName>
+                <default>false</default>
+                <label>Plan on Purchasing</label>
+            </value>
+            <value>
+                <fullName>I plan on purchasing the mobile office</fullName>
+                <default>false</default>
+                <label>I plan on purchasing the mobile office</label>
+            </value>
+            <value>
+                <fullName>ASAP</fullName>
+                <default>false</default>
+                <label>ASAP</label>
+            </value>
+            <value>
+                <fullName>In three to six months</fullName>
+                <default>false</default>
+                <label>In three to six months</label>
+            </value>
+            <value>
+                <fullName>In one to three months</fullName>
+                <default>false</default>
+                <label>In one to three months</label>
+            </value>
+            <value>
+                <fullName>More than six months</fullName>
+                <default>false</default>
+                <label>More than six months</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Branch_Google_Review_URL__c</fullName>
+    <description>Google Review URL from opp Branch</description>
+    <externalId>false</externalId>
+    <formula>Branch_Name__r.Google_Review_URL__c</formula>
+    <inlineHelpText>Google review URL from opp Branch</inlineHelpText>
+    <label>Branch Google Review URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Branch__c</fullName>
+    <label>Branch</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Austin, TX</fullName>
+                <default>false</default>
+                <label>Austin, TX</label>
+            </value>
+            <value>
+                <fullName>Calgary, AB</fullName>
+                <default>false</default>
+                <label>Calgary, AB</label>
+            </value>
+            <value>
+                <fullName>Denver, CO</fullName>
+                <default>false</default>
+                <label>Denver, CO</label>
+            </value>
+            <value>
+                <fullName>Houston, TX</fullName>
+                <default>false</default>
+                <label>Houston, TX</label>
+            </value>
+            <value>
+                <fullName>Lewisville, TX</fullName>
+                <default>false</default>
+                <label>Lewisville, TX</label>
+            </value>
+            <value>
+                <fullName>North Dakota</fullName>
+                <default>false</default>
+                <label>North Dakota</label>
+            </value>
+            <value>
+                <fullName>Stoney Creek, ON</fullName>
+                <default>false</default>
+                <label>Stoney Creek, ON</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

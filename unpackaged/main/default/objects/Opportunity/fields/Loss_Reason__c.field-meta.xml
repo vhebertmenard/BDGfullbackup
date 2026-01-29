@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason__c</fullName>
+    <description>Primary reason Opportunity was Lost</description>
+    <inlineHelpText>Primary reason Opportunity was Lost</inlineHelpText>
+    <label>Loss Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bad Data</fullName>
+                <default>false</default>
+                <label>Bad Data (incl Duplicate)</label>
+            </value>
+            <value>
+                <fullName>Client Not Awarded</fullName>
+                <default>false</default>
+                <label>Client Not Awarded</label>
+            </value>
+            <value>
+                <fullName>Indigenous Partnership</fullName>
+                <default>false</default>
+                <label>Indigenous Partnership</label>
+            </value>
+            <value>
+                <fullName>No Response</fullName>
+                <default>false</default>
+                <label>No Response</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Product Availability</fullName>
+                <default>false</default>
+                <label>Product Availability</label>
+            </value>
+            <value>
+                <fullName>Project Cancelled</fullName>
+                <default>false</default>
+                <label>Project Cancelled</label>
+            </value>
+            <value>
+                <fullName>Relationship</fullName>
+                <default>false</default>
+                <label>Relationship</label>
+            </value>
+            <value>
+                <fullName>Timing</fullName>
+                <default>false</default>
+                <label>Timing</label>
+            </value>
+            <value>
+                <fullName>Vanguard- contract issues</fullName>
+                <default>false</default>
+                <label>Vanguard- contract issues</label>
+            </value>
+            <value>
+                <fullName>Vanguard- did not meet customer schedule</fullName>
+                <default>false</default>
+                <label>Vanguard- did not meet customer schedule</label>
+            </value>
+            <value>
+                <fullName>Customer- could not obtain funding</fullName>
+                <default>false</default>
+                <label>Customer- could not obtain funding</label>
+            </value>
+            <value>
+                <fullName>Customer- used existing space</fullName>
+                <default>false</default>
+                <label>Customer- used existing space</label>
+            </value>
+            <value>
+                <fullName>Customer- did nothing</fullName>
+                <default>false</default>
+                <label>Customer- did nothing</label>
+            </value>
+            <value>
+                <fullName>Customer- unresponsive</fullName>
+                <default>false</default>
+                <label>Customer- unresponsive</label>
+            </value>
+            <value>
+                <fullName>Customer- did not win job</fullName>
+                <default>false</default>
+                <label>Customer- did not win job</label>
+            </value>
+            <value>
+                <fullName>Customer- project delayed indefinitely</fullName>
+                <default>false</default>
+                <label>Customer- project delayed indefinitely</label>
+            </value>
+            <value>
+                <fullName>Vanguard- available building did not meet need</fullName>
+                <default>false</default>
+                <label>Vanguard- available building did not meet need</label>
+            </value>
+            <value>
+                <fullName>Vanguard- declined to submit proposal</fullName>
+                <default>false</default>
+                <label>Vanguard- declined to submit proposal</label>
+            </value>
+            <value>
+                <fullName>Customer- could not obtain land</fullName>
+                <default>false</default>
+                <label>Customer- could not obtain land</label>
+            </value>
+            <value>
+                <fullName>Customer- selected competitor on price</fullName>
+                <default>false</default>
+                <label>Customer- selected competitor on price</label>
+            </value>
+            <value>
+                <fullName>Customer- could not obtain regulatory approval, zoning</fullName>
+                <default>false</default>
+                <label>Customer- could not obtain regulatory approval, zoning</label>
+            </value>
+            <value>
+                <fullName>Customer- selected competitor on spec</fullName>
+                <default>false</default>
+                <label>Customer- selected competitor on spec</label>
+            </value>
+            <value>
+                <fullName>Customer- lost for other reasons</fullName>
+                <default>false</default>
+                <label>Customer- lost for other reasons</label>
+            </value>
+            <value>
+                <fullName>Customer- selected competitor on delivery schedule</fullName>
+                <default>false</default>
+                <label>Customer- selected competitor on delivery schedule</label>
+            </value>
+            <value>
+                <fullName>Customer- could not obtain regulatory approval, land development</fullName>
+                <default>false</default>
+                <label>Customer- could not obtain regulatory approval, land development</label>
+            </value>
+            <value>
+                <fullName>Customer- would not provide reason</fullName>
+                <default>false</default>
+                <label>Customer- would not provide reason</label>
+            </value>
+            <value>
+                <fullName>Customer- selected alternate construction</fullName>
+                <default>false</default>
+                <label>Customer- selected alternate construction</label>
+            </value>
+            <value>
+                <fullName>Vanguard- duplicate quote</fullName>
+                <default>false</default>
+                <label>Vanguard- duplicate quote</label>
+            </value>
+            <value>
+                <fullName>Customer- need is not conducive to modular buildings</fullName>
+                <default>false</default>
+                <label>Customer- need is not conducive to modular buildings</label>
+            </value>
+            <value>
+                <fullName>Vanguard- no fleet building to meet need</fullName>
+                <default>false</default>
+                <label>Vanguard- no fleet building to meet need</label>
+            </value>
+            <value>
+                <fullName>Vanguard- decision not to handle, territory related</fullName>
+                <default>false</default>
+                <label>Vanguard- decision not to handle, territory related</label>
+            </value>
+            <value>
+                <fullName>Vanguard- did not meet customer’s expectations</fullName>
+                <default>false</default>
+                <label>Vanguard- did not meet customer’s expectations</label>
+            </value>
+            <value>
+                <fullName>Customer- selected competitor based on credit or contractual terms</fullName>
+                <default>false</default>
+                <label>Customer- selected competitor based on credit or contractual terms</label>
+            </value>
+            <value>
+                <fullName>Customer- could not obtain regulatory approval, used building code compliance</fullName>
+                <default>false</default>
+                <label>Customer- could not obtain regulatory approval, used building code compliance</label>
+            </value>
+            <value>
+                <fullName>Vanguard - transferred to BOXX Modular rep</fullName>
+                <default>false</default>
+                <label>Vanguard - transferred to BOXX Modular rep</label>
+            </value>
+            <value>
+                <fullName>Customer- could not obtain regulatory approval, storm water management</fullName>
+                <default>false</default>
+                <label>Customer- could not obtain regulatory approval, storm water management</label>
+            </value>
+            <value>
+                <fullName>Vanguard- credit issue</fullName>
+                <default>false</default>
+                <label>Vanguard- credit issue</label>
+            </value>
+            <value>
+                <fullName>Vanguard- TX decision not to handle</fullName>
+                <default>false</default>
+                <label>Vanguard- TX decision not to handle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor_Lost_To__c</fullName>
+    <label>Competitor Lost To:</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Division_Region__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACS – Australian Camp Services</fullName>
+                <default>false</default>
+                <label>ACS – Australian Camp Services</label>
+            </value>
+            <value>
+                <fullName>Acton</fullName>
+                <default>false</default>
+                <label>Acton</label>
+            </value>
+            <value>
+                <fullName>Alberta Gold Energy &amp; Rentals</fullName>
+                <default>false</default>
+                <label>Alberta Gold Energy &amp; Rentals</label>
+            </value>
+            <value>
+                <fullName>Alito Energy</fullName>
+                <default>false</default>
+                <label>Alito Energy</label>
+            </value>
+            <value>
+                <fullName>Ally</fullName>
+                <default>false</default>
+                <label>Ally</label>
+            </value>
+            <value>
+                <fullName>APC - Australian Portable Camps</fullName>
+                <default>false</default>
+                <label>APC - Australian Portable Camps</label>
+            </value>
+            <value>
+                <fullName>APEX</fullName>
+                <default>false</default>
+                <label>APEX</label>
+            </value>
+            <value>
+                <fullName>Aramark Remote Services</fullName>
+                <default>false</default>
+                <label>Aramark Remote Services</label>
+            </value>
+            <value>
+                <fullName>Armstrong Trailer Rentals</fullName>
+                <default>false</default>
+                <label>Armstrong Trailer Rentals</label>
+            </value>
+            <value>
+                <fullName>ATCO Structures and Logistics</fullName>
+                <default>false</default>
+                <label>ATCO Structures and Logistics</label>
+            </value>
+            <value>
+                <fullName>Ausco</fullName>
+                <default>false</default>
+                <label>Ausco</label>
+            </value>
+            <value>
+                <fullName>Aussie Portables</fullName>
+                <default>false</default>
+                <label>Aussie Portables</label>
+            </value>
+            <value>
+                <fullName>Aveda Rentals</fullName>
+                <default>false</default>
+                <label>Aveda Rentals</label>
+            </value>
+            <value>
+                <fullName>Britco</fullName>
+                <default>false</default>
+                <label>Britco</label>
+            </value>
+            <value>
+                <fullName>BRT</fullName>
+                <default>false</default>
+                <label>BRT</label>
+            </value>
+            <value>
+                <fullName>Bulldog Rentals</fullName>
+                <default>false</default>
+                <label>Bulldog Rentals</label>
+            </value>
+            <value>
+                <fullName>C&amp;V Portable Trailers</fullName>
+                <default>false</default>
+                <label>C&amp;V Portable Trailers</label>
+            </value>
+            <value>
+                <fullName>Camden Hire</fullName>
+                <default>false</default>
+                <label>Camden Hire</label>
+            </value>
+            <value>
+                <fullName>Campbell Oilfield Rentals</fullName>
+                <default>false</default>
+                <label>Campbell Oilfield Rentals</label>
+            </value>
+            <value>
+                <fullName>Capex</fullName>
+                <default>false</default>
+                <label>Capex</label>
+            </value>
+            <value>
+                <fullName>Captive</fullName>
+                <default>false</default>
+                <label>Captive</label>
+            </value>
+            <value>
+                <fullName>Chandell Rentals</fullName>
+                <default>false</default>
+                <label>Chandell Rentals</label>
+            </value>
+            <value>
+                <fullName>Clean Harbors</fullName>
+                <default>false</default>
+                <label>Clean Harbors</label>
+            </value>
+            <value>
+                <fullName>Clean Harbors (BCT)</fullName>
+                <default>false</default>
+                <label>Clean Harbors (BCT)</label>
+            </value>
+            <value>
+                <fullName>Coates Hire</fullName>
+                <default>false</default>
+                <label>Coates Hire</label>
+            </value>
+            <value>
+                <fullName>Complete Portables – The Complete Group</fullName>
+                <default>false</default>
+                <label>Complete Portables – The Complete Group</label>
+            </value>
+            <value>
+                <fullName>Corab</fullName>
+                <default>false</default>
+                <label>Corab</label>
+            </value>
+            <value>
+                <fullName>Dickie Moore</fullName>
+                <default>false</default>
+                <label>Dickie Moore</label>
+            </value>
+            <value>
+                <fullName>East Coast Catering</fullName>
+                <default>false</default>
+                <label>East Coast Catering</label>
+            </value>
+            <value>
+                <fullName>Empire Camp Services</fullName>
+                <default>false</default>
+                <label>Empire Camp Services</label>
+            </value>
+            <value>
+                <fullName>ESS Compass Group</fullName>
+                <default>false</default>
+                <label>ESS Compass Group</label>
+            </value>
+            <value>
+                <fullName>Expedition Camp Services &amp; Logistics</fullName>
+                <default>false</default>
+                <label>Expedition Camp Services &amp; Logistics</label>
+            </value>
+            <value>
+                <fullName>Fleetwood</fullName>
+                <default>false</default>
+                <label>Fleetwood</label>
+            </value>
+            <value>
+                <fullName>Fraction</fullName>
+                <default>false</default>
+                <label>Fraction</label>
+            </value>
+            <value>
+                <fullName>GCS</fullName>
+                <default>false</default>
+                <label>GCS</label>
+            </value>
+            <value>
+                <fullName>GNS Industrial Trailer Services</fullName>
+                <default>false</default>
+                <label>GNS Industrial Trailer Services</label>
+            </value>
+            <value>
+                <fullName>Go Hire</fullName>
+                <default>false</default>
+                <label>Go Hire</label>
+            </value>
+            <value>
+                <fullName>Grove</fullName>
+                <default>false</default>
+                <label>Grove</label>
+            </value>
+            <value>
+                <fullName>Harpoon Energy</fullName>
+                <default>false</default>
+                <label>Harpoon Energy</label>
+            </value>
+            <value>
+                <fullName>HB Rentals</fullName>
+                <default>false</default>
+                <label>HB Rentals</label>
+            </value>
+            <value>
+                <fullName>High Line Rentals</fullName>
+                <default>false</default>
+                <label>High Line Rentals</label>
+            </value>
+            <value>
+                <fullName>HMB Leasing</fullName>
+                <default>false</default>
+                <label>HMB Leasing</label>
+            </value>
+            <value>
+                <fullName>Hoppe's</fullName>
+                <default>false</default>
+                <label>Hoppe's</label>
+            </value>
+            <value>
+                <fullName>Horizon North Logistics</fullName>
+                <default>false</default>
+                <label>Horizon North Logistics</label>
+            </value>
+            <value>
+                <fullName>Hutchinsons</fullName>
+                <default>false</default>
+                <label>Hutchinsons</label>
+            </value>
+            <value>
+                <fullName>Independent portables</fullName>
+                <default>false</default>
+                <label>Independent portables</label>
+            </value>
+            <value>
+                <fullName>Innovative</fullName>
+                <default>false</default>
+                <label>Innovative</label>
+            </value>
+            <value>
+                <fullName>Instant Offices</fullName>
+                <default>false</default>
+                <label>Instant Offices</label>
+            </value>
+            <value>
+                <fullName>Jandt Services</fullName>
+                <default>false</default>
+                <label>Jandt Services</label>
+            </value>
+            <value>
+                <fullName>Leased Portable Buildings</fullName>
+                <default>false</default>
+                <label>Leased Portable Buildings</label>
+            </value>
+            <value>
+                <fullName>LRG Catering</fullName>
+                <default>false</default>
+                <label>LRG Catering</label>
+            </value>
+            <value>
+                <fullName>MCA - Mining Camps Australia</fullName>
+                <default>false</default>
+                <label>MCA - Mining Camps Australia</label>
+            </value>
+            <value>
+                <fullName>Mi Casa Rentals</fullName>
+                <default>false</default>
+                <label>Mi Casa Rentals</label>
+            </value>
+            <value>
+                <fullName>Miller Office Trailers</fullName>
+                <default>false</default>
+                <label>Miller Office Trailers</label>
+            </value>
+            <value>
+                <fullName>Mobilease</fullName>
+                <default>false</default>
+                <label>Mobilease</label>
+            </value>
+            <value>
+                <fullName>Mobile Camps Australia</fullName>
+                <default>false</default>
+                <label>Mobile Camps Australia</label>
+            </value>
+            <value>
+                <fullName>Mobile Mini</fullName>
+                <default>false</default>
+                <label>Mobile Mini</label>
+            </value>
+            <value>
+                <fullName>Mobile Modular</fullName>
+                <default>false</default>
+                <label>Mobile Modular</label>
+            </value>
+            <value>
+                <fullName>Mobile Modular Express</fullName>
+                <default>false</default>
+                <label>Mobile Modular Express</label>
+            </value>
+            <value>
+                <fullName>ModSpace</fullName>
+                <default>false</default>
+                <label>ModSpace</label>
+            </value>
+            <value>
+                <fullName>Mountain West Camp Services Ltd</fullName>
+                <default>false</default>
+                <label>Mountain West Camp Services Ltd</label>
+            </value>
+            <value>
+                <fullName>Mustang Rentals</fullName>
+                <default>false</default>
+                <label>Mustang Rentals</label>
+            </value>
+            <value>
+                <fullName>Northern Transportables</fullName>
+                <default>false</default>
+                <label>Northern Transportables</label>
+            </value>
+            <value>
+                <fullName>Northgate Industries</fullName>
+                <default>false</default>
+                <label>Northgate Industries</label>
+            </value>
+            <value>
+                <fullName>Oil Patch</fullName>
+                <default>false</default>
+                <label>Oil Patch</label>
+            </value>
+            <value>
+                <fullName>Onsite Rentals</fullName>
+                <default>false</default>
+                <label>Onsite Rentals</label>
+            </value>
+            <value>
+                <fullName>Outland Camp Services</fullName>
+                <default>false</default>
+                <label>Outland Camp Services</label>
+            </value>
+            <value>
+                <fullName>Palomar</fullName>
+                <default>false</default>
+                <label>Palomar</label>
+            </value>
+            <value>
+                <fullName>Peak Energy/Clean Harbors</fullName>
+                <default>false</default>
+                <label>Peak Energy/Clean Harbors</label>
+            </value>
+            <value>
+                <fullName>Pigdon Portables</fullName>
+                <default>false</default>
+                <label>Pigdon Portables</label>
+            </value>
+            <value>
+                <fullName>Precision</fullName>
+                <default>false</default>
+                <label>Precision</label>
+            </value>
+            <value>
+                <fullName>PTI Group Inc.</fullName>
+                <default>false</default>
+                <label>PTI Group Inc.</label>
+            </value>
+            <value>
+                <fullName>R/T Rentals</fullName>
+                <default>false</default>
+                <label>R/T Rentals</label>
+            </value>
+            <value>
+                <fullName>RCM</fullName>
+                <default>false</default>
+                <label>RCM</label>
+            </value>
+            <value>
+                <fullName>Redneck Oilfield Services</fullName>
+                <default>false</default>
+                <label>Redneck Oilfield Services</label>
+            </value>
+            <value>
+                <fullName>Retracom</fullName>
+                <default>false</default>
+                <label>Retracom</label>
+            </value>
+            <value>
+                <fullName>Rockwater</fullName>
+                <default>false</default>
+                <label>Rockwater</label>
+            </value>
+            <value>
+                <fullName>Royal Camp Services</fullName>
+                <default>false</default>
+                <label>Royal Camp Services</label>
+            </value>
+            <value>
+                <fullName>Satellite Shelters</fullName>
+                <default>false</default>
+                <label>Satellite Shelters</label>
+            </value>
+            <value>
+                <fullName>Savage Oilfield</fullName>
+                <default>false</default>
+                <label>Savage Oilfield</label>
+            </value>
+            <value>
+                <fullName>Shed Up</fullName>
+                <default>false</default>
+                <label>Shed Up</label>
+            </value>
+            <value>
+                <fullName>Sodexho</fullName>
+                <default>false</default>
+                <label>Sodexho</label>
+            </value>
+            <value>
+                <fullName>Spotless</fullName>
+                <default>false</default>
+                <label>Spotless</label>
+            </value>
+            <value>
+                <fullName>Spur Oilfield</fullName>
+                <default>false</default>
+                <label>Spur Oilfield</label>
+            </value>
+            <value>
+                <fullName>Stallion</fullName>
+                <default>false</default>
+                <label>Stallion</label>
+            </value>
+            <value>
+                <fullName>Strad Energy</fullName>
+                <default>false</default>
+                <label>Strad Energy</label>
+            </value>
+            <value>
+                <fullName>Sustainable Modular</fullName>
+                <default>false</default>
+                <label>Sustainable Modular</label>
+            </value>
+            <value>
+                <fullName>Target Rentals</fullName>
+                <default>false</default>
+                <label>Target Rentals</label>
+            </value>
+            <value>
+                <fullName>Titan Rentals</fullName>
+                <default>false</default>
+                <label>Titan Rentals</label>
+            </value>
+            <value>
+                <fullName>Total Oilfield/Total Energy</fullName>
+                <default>false</default>
+                <label>Total Oilfield/Total Energy</label>
+            </value>
+            <value>
+                <fullName>TPZ Rentals</fullName>
+                <default>false</default>
+                <label>TPZ Rentals</label>
+            </value>
+            <value>
+                <fullName>Western Camp Services</fullName>
+                <default>false</default>
+                <label>Western Camp Services</label>
+            </value>
+            <value>
+                <fullName>Wild West Rentals</fullName>
+                <default>false</default>
+                <label>Wild West Rentals</label>
+            </value>
+            <value>
+                <fullName>William Scotsman</fullName>
+                <default>false</default>
+                <label>William Scotsman</label>
+            </value>
+            <value>
+                <fullName>Winalta Inc. Oilfield Rentals</fullName>
+                <default>false</default>
+                <label>Winalta Inc. Oilfield Rentals</label>
+            </value>
+            <value>
+                <fullName>Zedcor Oilfield Rentals</fullName>
+                <default>false</default>
+                <label>Zedcor Oilfield Rentals</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>MSS East</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Armstrong Trailer Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS East</controllingFieldValue>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>ATCO Structures and Logistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS East</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Dickie Moore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS East</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>HMB Leasing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS East</controllingFieldValue>
+            <valueName>Miller Office Trailers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS East</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Mobilease</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS East</controllingFieldValue>
+            <controllingFieldValue>MSS US MP</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Mobile Mini</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS East</controllingFieldValue>
+            <controllingFieldValue>MSS US MP</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>ModSpace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS East</controllingFieldValue>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>William Scotsman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>ACS – Australian Camp Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>APC - Australian Portable Camps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Ausco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Aussie Portables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Camden Hire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Coates Hire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Complete Portables – The Complete Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>ESS Compass Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Fleetwood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>GCS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Go Hire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Grove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Hutchinsons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Independent portables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Instant Offices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Leased Portable Buildings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>MCA - Mining Camps Australia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Mobile Camps Australia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Northern Transportables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Onsite Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Pigdon Portables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Retracom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Shed Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Sodexho</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Spotless</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US MP</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Acton</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US MP</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Mobile Modular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US MP</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Mobile Modular Express</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US MP</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Palomar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US MP</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Satellite Shelters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MSS US MP</controllingFieldValue>
+            <controllingFieldValue>MSS US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Sustainable Modular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Aramark Remote Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Clean Harbors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>East Coast Catering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Empire Camp Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Expedition Camp Services &amp; Logistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>GNS Industrial Trailer Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Horizon North Logistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>LRG Catering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Mountain West Camp Services Ltd</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Northgate Industries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Outland Camp Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>PTI Group Inc.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>RCM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Royal Camp Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Camps Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Western Camp Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Alberta Gold Energy &amp; Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>APEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Aveda Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Bulldog Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>C&amp;V Portable Trailers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Campbell Oilfield Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Captive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Chandell Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Fraction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Harpoon Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>High Line Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Mi Casa Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Mustang Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Peak Energy/Clean Harbors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Precision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>R/T Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Redneck Oilfield Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Savage Oilfield</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Spur Oilfield</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Strad Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Target Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Titan Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Total Oilfield/Total Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>TPZ Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Wild West Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Winalta Inc. Oilfield Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES Canada</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Zedcor Oilfield Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Alito Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Ally</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Capex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Corab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>HB Rentals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Hoppe's</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Jandt Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Oil Patch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ES US</controllingFieldValue>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Stallion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Britco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>BRT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Clean Harbors (BCT)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Innovative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logistics</controllingFieldValue>
+            <valueName>Rockwater</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

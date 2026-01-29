@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISR__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check box if user is an Inside Sales Rep</description>
+    <inlineHelpText>Check box if user is an Inside Sales Rep</inlineHelpText>
+    <label>ISR</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

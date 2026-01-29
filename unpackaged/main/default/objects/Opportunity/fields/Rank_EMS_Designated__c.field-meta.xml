@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rank_EMS_Designated__c</fullName>
+    <inlineHelpText>This field is for the EMS to designate the Opportunity priority Rank based on the criteria defined in the associated process documents</inlineHelpText>
+    <label>Rank - EMS Designated</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Select One</fullName>
+                <default>false</default>
+                <label>Select One</label>
+            </value>
+            <value>
+                <fullName>A - High Priority</fullName>
+                <default>false</default>
+                <label>A - High Priority</label>
+            </value>
+            <value>
+                <fullName>B - Moderate Priority</fullName>
+                <default>false</default>
+                <label>B - Moderate Priority</label>
+            </value>
+            <value>
+                <fullName>C - Low Priority</fullName>
+                <default>false</default>
+                <label>C - Low Priority</label>
+            </value>
+            <value>
+                <fullName>Requested by Rep</fullName>
+                <default>false</default>
+                <label>Requested by Rep</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

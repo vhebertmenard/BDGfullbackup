@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leads_by_Lead_Source_ConstructConnect</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Description_for_Lead_Map__c</columns>
+    <columns>Bid_Set_Meeting_Date__c</columns>
+    <columns>Bid_Submission_Date__c</columns>
+    <columns>Branch_Name__c</columns>
+    <columns>Business_Line__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>equals</operation>
+        <value>ConstructConnect</value>
+    </filters>
+    <label>Leads by Lead Source - Construct Connect</label>
+</ListView>

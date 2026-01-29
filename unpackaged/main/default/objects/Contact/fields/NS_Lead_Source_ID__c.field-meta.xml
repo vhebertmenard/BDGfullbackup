@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NS_Lead_Source_ID__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case(LeadSource,
+'360MobileOffice','1606',
+'Acquired Lists','1607',
+'Advertisement','-2',
+'Association','1608',
+'Association/Directory','1609',
+'Billboard','1610',
+'Business Journal','1611',
+'CDC News','1612',
+'Central Registry (state)','1613',
+'Cold Call','1614',
+'Conference','1615',
+'ConstructConnect','1616',
+'Corporate Accounts','1617',
+'Dealer Program','1619',
+'Direct Mailer','1620',
+'Directory Listing','1621',
+'Email Blast','1622',
+'Email Marketing','1623',
+'Event/Tradeshow','1624',
+'Existing Customer','1625',
+'Facebook','1626',
+'Getable','1627',
+'Google Alerts','1628',
+'Government Directions','1629',
+'GovernmentBids.com','1630',
+'Indigenous Relationship','1631',
+'Industrial Resources','1632',
+'KPN','1633',
+'LinkedIn','1634',
+'MBI','1635',
+'MDS','1636',
+'News Source','1637',
+'Offline Advertising','1638',
+'Online Advertising','1639',
+'Other','-3',
+'Phone Inquiry','1640',
+'RFPSchoolWatch','1642',
+'Referral','-4',
+'Repeat','1641',
+'Social Media','1643',
+'TIPS','1644',
+'Trade Show','-5',
+'Twitter','1645',
+'UMC','1646',
+'Walk-In','1647',
+'Website','-6',
+'Website - Advertisement (Print)','1648',
+'Website - Building Decals','1649',
+'Website - Email Blast','1650',
+'Website - Lead Forensics','1651',
+'Website - Referral','1652',
+'Website - Search Engine','1653',
+'Website - Social Media','1654',
+'Website - Used','1655',
+'-3'
+)</formula>
+    <label>NS Lead Source ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

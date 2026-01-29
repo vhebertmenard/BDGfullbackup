@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unqualified_Reason_Reqd</fullName>
+    <active>true</active>
+    <description>A reason is required if the lead is Unqualified.</description>
+    <errorConditionFormula>AND(
+ ISPICKVAL(Status, 'Unqualified'),
+ ISPICKVAL( Unqualified_Lead_Reason__c , ''),
+ OR(RecordType.Name = "BD Lightning",RecordType.Name = "Vanguard")
+
+)</errorConditionFormula>
+    <errorDisplayField>Unqualified_Lead_Reason__c</errorDisplayField>
+    <errorMessage>A reason is required if the lead is Unqualified.</errorMessage>
+</ValidationRule>
