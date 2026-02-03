@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Street address of Project Site. Populates Site Street on all Leads/Opportunities related to this project. --></help>
+        <label><!-- Site Street --></label>
+        <name>Site_Street__c</name>
+    </CustomFieldTranslation>

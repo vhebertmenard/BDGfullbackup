@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Agriculture</fullName>
+        <default>false</default>
+        <label>Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Clean and Renewable</fullName>
+        <default>false</default>
+        <label>Clean and Renewable</label>
+    </customValue>
+    <customValue>
+        <fullName>Coal</fullName>
+        <default>false</default>
+        <label>Coal</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial/Industrial</fullName>
+        <default>false</default>
+        <label>Commercial/Industrial</label>
+    </customValue>
+    <customValue>
+        <fullName>Defense (Naval Bases, Air Force Bases, Army Bases)</fullName>
+        <default>false</default>
+        <label>Defense (Naval Bases, Air Force Bases, Army Bases)</label>
+    </customValue>
+    <customValue>
+        <fullName>Discretionary (excl Travel Management)</fullName>
+        <default>false</default>
+        <label>Discretionary (excl Travel Management)</label>
+    </customValue>
+    <customValue>
+        <fullName>Healthcare, Emergency Response and Social Services</fullName>
+        <default>false</default>
+        <label>Healthcare, Emergency Response and Social Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Indigenous</fullName>
+        <default>false</default>
+        <label>Indigenous</label>
+    </customValue>
+    <customValue>
+        <fullName>Information and Professional Services (excl Travel Management)</fullName>
+        <default>false</default>
+        <label>Information and Professional Services (excl Travel Management)</label>
+    </customValue>
+    <customValue>
+        <fullName>Manufacturing</fullName>
+        <default>false</default>
+        <label>Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>Metals (Gold, Copper, Silver, Iron)</fullName>
+        <default>false</default>
+        <label>Metals (Gold, Copper, Silver, Iron)</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Metals (excl Coal)</fullName>
+        <default>false</default>
+        <label>Non-Metals (excl Coal)</label>
+    </customValue>
+    <customValue>
+        <fullName>Oil and Gas Downstream (Refineries/Petrochemicals)</fullName>
+        <default>false</default>
+        <label>Oil and Gas Downstream (Refineries/Petrochemicals)</label>
+    </customValue>
+    <customValue>
+        <fullName>Oil and Gas Midstream (Infrastructure, Pipelines, Facilities)</fullName>
+        <default>false</default>
+        <label>Oil and Gas Midstream (Infrastructure, Pipelines, Facilities)</label>
+    </customValue>
+    <customValue>
+        <fullName>Oil and Gas Upstream - Completions</fullName>
+        <default>false</default>
+        <label>Oil and Gas Upstream - Completions</label>
+    </customValue>
+    <customValue>
+        <fullName>Oil and Gas Upstream - Drilling</fullName>
+        <default>false</default>
+        <label>Oil and Gas Upstream - Drilling</label>
+    </customValue>
+    <customValue>
+        <fullName>Oil and Gas Upstream - Other</fullName>
+        <default>false</default>
+        <label>Oil and Gas Upstream - Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Government (excl Education, Healthcare, Indigenous)</fullName>
+        <default>false</default>
+        <label>Other Government (excl Education, Healthcare, Indigenous)</label>
+    </customValue>
+    <customValue>
+        <fullName>Private</fullName>
+        <default>false</default>
+        <label>Private</label>
+    </customValue>
+    <customValue>
+        <fullName>Public</fullName>
+        <default>false</default>
+        <label>Public</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential</fullName>
+        <default>false</default>
+        <label>Residential</label>
+    </customValue>
+    <customValue>
+        <fullName>Staples</fullName>
+        <default>false</default>
+        <label>Staples</label>
+    </customValue>
+    <customValue>
+        <fullName>Transportation and Warehousing</fullName>
+        <default>false</default>
+        <label>Transportation and Warehousing</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Management</fullName>
+        <default>false</default>
+        <label>Travel Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities</fullName>
+        <default>false</default>
+        <label>Utilities</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Selected</fullName>
+        <default>false</default>
+        <label>Not Selected</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Mining</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other Mining</label>
+    </customValue>
+    <masterLabel>Industry Segment</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

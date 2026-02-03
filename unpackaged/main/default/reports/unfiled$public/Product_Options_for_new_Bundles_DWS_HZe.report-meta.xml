@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>SBQQ__ProductOption__c.SBQQ__OptionalSKU__c</field>
+    </columns>
+    <currency>CAD</currency>
+    <filter>
+        <criteriaItems>
+            <column>SBQQ__ProductOption__c.SBQQ__ConfiguredSKU__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>BOXX East: Complex Bundle,BOXX East: Standard Bundle,BOXX East: Standard Bundle (2 Steps),BOXX Prairies: Complex Bundle,BOXX Prairies: Standard Bundle,BOXX US: Standard Bundle,Britco BOXX: Complex Bundle,Britco BOXX: Standard Bundle,MPA: Standard Bundle,MSS: Major Project Bundle</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Product Options - for new Bundles - DWS</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$SBQQ__ProductOption__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

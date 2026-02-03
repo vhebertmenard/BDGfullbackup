@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Website that was used by customer to create Lead --></help>
+        <label><!-- Website Source --></label>
+        <name>Website_Source__c</name>
+    </CustomFieldTranslation>

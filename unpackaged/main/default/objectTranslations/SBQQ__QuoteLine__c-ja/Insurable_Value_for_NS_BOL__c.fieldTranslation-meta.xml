@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- To be used for Insurable value mapping for NS BOL --></help>
+        <label><!-- Insurable Value for NS BOL --></label>
+        <name>Insurable_Value_for_NS_BOL__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,5 @@
+The opportunity that you submitted for cancellation has been rejected, please look over the rejection comments and make any required changes.
+Opportunity Name:  {!Opportunity.Name}
+Account Name: {!Opportunity.Account}
+Link to Opportunity: {!Opportunity.Link}
+Rejection comments: {!ApprovalRequest.Comments}

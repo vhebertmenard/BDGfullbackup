@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Name of Indigenous Partnership for Handover sync --></help>
+        <label><!-- Indigenous Partnership Name --></label>
+        <name>Indigenous_Partnership_Name__c</name>
+    </CustomFieldTranslation>

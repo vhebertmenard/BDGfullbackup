@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Populated by price rule from Net Total when Product Sub Frequency is Daily and line is not Optional --></help>
+        <label><!-- Daily Amount Calc --></label>
+        <name>Daily_Amount_Calc__c</name>
+    </CustomFieldTranslation>

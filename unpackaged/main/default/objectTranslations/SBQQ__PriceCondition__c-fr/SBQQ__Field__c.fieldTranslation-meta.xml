@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Sélectionnez le champ qui doit contenir la valeur que vous saisissez dans le champ Valeur.</help>
+        <label><!-- Field --></label>
+        <name>SBQQ__Field__c</name>
+        <picklistValues>
+            <masterLabel>Branch__c</masterLabel>
+            <translation><!-- Branch__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building_Modification_Cost__c</masterLabel>
+            <translation><!-- Building_Modification_Cost__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building_Payment_L__c</masterLabel>
+            <translation><!-- Building_Payment_L__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPEX_Total__c</masterLabel>
+            <translation><!-- CAPEX_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost_Override__c</masterLabel>
+            <translation><!-- Cost_Override__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost_Type__c</masterLabel>
+            <translation><!-- Cost_Type__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CurrencyIsoCode</masterLabel>
+            <translation><!-- CurrencyIsoCode --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DWS_Building_Sell__c</masterLabel>
+            <translation><!-- DWS_Building_Sell__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DWS_File_Last_Sync__c</masterLabel>
+            <translation><!-- DWS_File_Last_Sync__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External_Quote_Line__c</masterLabel>
+            <translation><!-- External_Quote_Line__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French_Quote__c</masterLabel>
+            <translation><!-- French_Quote__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Has_Refurbishments__c</masterLabel>
+            <translation><!-- Has_Refurbishments__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Cost_Override__c</masterLabel>
+            <translation><!-- New_Cost_Override__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Infleet_ROA_1__c</masterLabel>
+            <translation><!-- New_Infleet_ROA_1__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Infleet_ROA_2__c</masterLabel>
+            <translation><!-- New_Infleet_ROA_2__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Infleet_ROA_3__c</masterLabel>
+            <translation><!-- New_Infleet_ROA_3__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Infleet_ROA_4__c</masterLabel>
+            <translation><!-- New_Infleet_ROA_4__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Infleet_ROA_5__c</masterLabel>
+            <translation><!-- New_Infleet_ROA_5__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Code</masterLabel>
+            <translation>Code produit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Code__c</masterLabel>
+            <translation><!-- Product_Code__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Family_Product_Name__c</masterLabel>
+            <translation><!-- Product_Family_Product_Name__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Subscription_Frequency__c</masterLabel>
+            <translation><!-- Product_Subscription_Frequency__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Transaction_Category__c</masterLabel>
+            <translation><!-- Product_Transaction_Category__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Type_Test__c</masterLabel>
+            <translation><!-- Product_Type_Test__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote_Updated_Time__c</masterLabel>
+            <translation><!-- Quote_Updated_Time__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RecordTypeId</masterLabel>
+            <translation><!-- RecordTypeId --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Record_Type_Name__c</masterLabel>
+            <translation><!-- Record_Type_Name__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Region__c</masterLabel>
+            <translation><!-- Region__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Required_By_Product_Family__c</masterLabel>
+            <translation><!-- Required_By_Product_Family__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Required_By_Product__c</masterLabel>
+            <translation><!-- Required_By_Product__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Bundled__c</masterLabel>
+            <translation><!-- SBQQ__Bundled__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Hidden__c</masterLabel>
+            <translation><!-- SBQQ__Hidden__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__OptionLevel__c</masterLabel>
+            <translation><!-- SBQQ__OptionLevel__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__OptionType__c</masterLabel>
+            <translation><!-- SBQQ__OptionType__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__PricingMethod__c</masterLabel>
+            <translation><!-- SBQQ__PricingMethod__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__ProductFamily__c</masterLabel>
+            <translation><!-- SBQQ__ProductFamily__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__ProductName__c</masterLabel>
+            <translation><!-- SBQQ__ProductName__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Quantity__c</masterLabel>
+            <translation><!-- SBQQ__Quantity__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__QuoteLineVisibility__c</masterLabel>
+            <translation><!-- SBQQ__QuoteLineVisibility__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__UnitCost__c</masterLabel>
+            <translation><!-- SBQQ__UnitCost__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shell_Count__c</masterLabel>
+            <translation><!-- Shell_Count__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shell__c</masterLabel>
+            <translation><!-- Shell__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subleased__c</masterLabel>
+            <translation><!-- Subleased__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To_be_entered_into_pipeline_Backend__c</masterLabel>
+            <translation><!-- To_be_entered_into_pipeline_Backend__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To_be_entered_into_pipeline_Upfront__c</masterLabel>
+            <translation><!-- To_be_entered_into_pipeline_Upfront__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To_be_entered_into_pipeline__c</masterLabel>
+            <translation><!-- To_be_entered_into_pipeline__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trans_Category__c</masterLabel>
+            <translation><!-- Trans_Category__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction_Location__c</masterLabel>
+            <translation><!-- Transaction_Location__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction_Type__c</masterLabel>
+            <translation><!-- Transaction_Type__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Price__c</masterLabel>
+            <translation><!-- Unit_Price__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Text_Text__c</masterLabel>
+            <translation><!-- Unit_Text_Text__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Text__c</masterLabel>
+            <translation><!-- Unit_Text__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit__c</masterLabel>
+            <translation><!-- Unit__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAPS_Sale__c</masterLabel>
+            <translation><!-- VAPS_Sale__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanguard_Quote__c</masterLabel>
+            <translation><!-- Vanguard_Quote__c --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

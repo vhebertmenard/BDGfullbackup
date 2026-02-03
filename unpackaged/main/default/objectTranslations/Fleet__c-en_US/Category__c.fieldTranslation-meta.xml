@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Assembly</masterLabel>
+            <translation><!-- Assembly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Plex</masterLabel>
+            <translation><!-- BOXX Plex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blast Resistant</masterLabel>
+            <translation><!-- Blast Resistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulldog</masterLabel>
+            <translation><!-- Bulldog --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Classroom</masterLabel>
+            <translation><!-- Classroom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Combo Tank</masterLabel>
+            <translation><!-- Combo Tank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Event Trailer</masterLabel>
+            <translation><!-- Community Event Trailer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Container</masterLabel>
+            <translation><!-- Container --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corridor/Breezeway</masterLabel>
+            <translation><!-- Corridor/Breezeway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daycare</masterLabel>
+            <translation><!-- Daycare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer</masterLabel>
+            <translation><!-- Designer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive Thru</masterLabel>
+            <translation><!-- Drive Thru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Aid</masterLabel>
+            <translation><!-- First Aid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flex</masterLabel>
+            <translation><!-- Flex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guardhouse</masterLabel>
+            <translation><!-- Guardhouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Steel</masterLabel>
+            <translation><!-- Industrial Steel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiosk</masterLabel>
+            <translation><!-- Kiosk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lavatory</masterLabel>
+            <translation><!-- Lavatory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lockeroom</masterLabel>
+            <translation><!-- Lockeroom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunchroom</masterLabel>
+            <translation><!-- Lunchroom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation><!-- Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office</masterLabel>
+            <translation><!-- Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail &amp; Drive Thru</masterLabel>
+            <translation><!-- Retail &amp; Drive Thru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sewage</masterLabel>
+            <translation><!-- Sewage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SmartSpace</masterLabel>
+            <translation><!-- SmartSpace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staff Quarters</masterLabel>
+            <translation><!-- Staff Quarters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Storage</masterLabel>
+            <translation><!-- Storage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water</masterLabel>
+            <translation><!-- Water --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

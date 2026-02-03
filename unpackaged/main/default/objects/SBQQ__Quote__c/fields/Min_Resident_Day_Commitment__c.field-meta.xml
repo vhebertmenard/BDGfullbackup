@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Min_Resident_Day_Commitment__c</fullName>
+    <description>Minimum number of guaranteed resident day stays</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Minimum number of guaranteed resident day stays. Enter 0 if not applicable.</inlineHelpText>
+    <label>Min. Resident Day Commitment</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

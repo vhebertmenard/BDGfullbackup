@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_Close_Date</fullName>
+    <active>true</active>
+    <description>Requires user to update close date to accurate date upon award/loss. Retire with LEX implementation.</description>
+    <errorConditionFormula>AND(
+$User.Username &lt;&gt;'rgali@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'ithelpdesk@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'salesforcedatamigration@blackdiamondgroup.com',
+RecordType.Name &lt;&gt; "Vanguard",
+OR(ISPICKVAL( StageName ,'WIP'),
+ISPICKVAL( StageName ,'Awarded'),
+ISPICKVAL( StageName ,'Won'),
+ISPICKVAL( StageName ,'Lost'),
+ISPICKVAL( StageName ,'Closed Lost'),
+ISPICKVAL( StageName ,'Cancelled')),
+
+NOT(ISCHANGED( CloseDate )),
+ISCHANGED(StageName),
+CloseDate &lt;&gt; TODAY(),
+   RecordType.Name &lt;&gt; "BD WFS CPQ",
+   RecordType.Name &lt;&gt; "BD MSS",
+   RecordType.Name &lt;&gt; "BD MSS Major Projects",
+   RecordType.Name &lt;&gt; "BD Energy",
+   RecordType.Name &lt;&gt; "BD Workforce",
+   RecordType.Name &lt;&gt; "BD Lodging",
+   RecordType.Name &lt;&gt; "BD Disaster")</errorConditionFormula>
+    <errorDisplayField>CloseDate</errorDisplayField>
+    <errorMessage>Update to reflect Opportunity "Lost Date" or Contract "Signed Date".</errorMessage>
+</ValidationRule>

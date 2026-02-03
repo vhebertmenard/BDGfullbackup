@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Phone read from related contact. Edit the contact to change the phone number --></help>
+        <label><!-- Contact Cell --></label>
+        <name>Contact_Cell__c</name>
+    </CustomFieldTranslation>

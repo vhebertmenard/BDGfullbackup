@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Currency version of NBV. Needed for roll-up summary filter to calculate Total NBV of Sale and Carry On and Total Fixed Asset Contract Value. --></help>
+        <label><!-- NBV (Currency) --></label>
+        <name>NBV_Currency__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The primary contact when this opportunity was first created --></help>
+        <label><!-- Last Touch Contact --></label>
+        <name>Outreach_Last_Touch_Contact__c</name>
+        <relationshipLabel><!-- Opportunities (Last Touch Contact) --></relationshipLabel>
+    </CustomFieldTranslation>

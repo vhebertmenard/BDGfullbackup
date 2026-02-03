@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Shows Replacement Value when Product is not Hidden --></help>
+        <label><!-- Replacement Value Display --></label>
+        <name>Replacement_Value_Display__c</name>
+    </CustomFieldTranslation>

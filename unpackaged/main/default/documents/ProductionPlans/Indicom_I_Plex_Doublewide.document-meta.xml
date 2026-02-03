@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Units manufactured by Indicom - not compatible with Nortex O Plex or Amtex A Plex</description>
+    <internalUseOnly>false</internalUseOnly>
+    <name>Indicom I Plex Doublewide</name>
+    <public>false</public>
+</Document>

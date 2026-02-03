@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For use on Contract Templates - Same as Contract Number on the Opportunity --></help>
+        <label><!-- Contract Number --></label>
+        <name>Contract_Number__c</name>
+    </CustomFieldTranslation>

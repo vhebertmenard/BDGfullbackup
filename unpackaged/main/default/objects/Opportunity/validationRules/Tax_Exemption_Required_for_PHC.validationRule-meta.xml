@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Exemption_Required_for_PHC</fullName>
+    <active>true</active>
+    <description>Required for Project Handover.</description>
+    <errorConditionFormula>AND(
+$User.Username &lt;&gt;'rgali@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'ithelpdesk@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'salesforcedatamigration@blackdiamondgroup.com',
+    RecordType.Name &lt;&gt; "Vanguard",
+    Is_CPQ__c = TRUE,
+    ISBLANK( TEXT( Tax_Exempt__c )),
+    TEXT(Branch_Name__r.Address_Country__c) = "United States",
+    IsWon = TRUE
+)</errorConditionFormula>
+    <errorDisplayField>Tax_Exempt__c</errorDisplayField>
+    <errorMessage>Indicate the Tax Exemption status for this Project</errorMessage>
+</ValidationRule>

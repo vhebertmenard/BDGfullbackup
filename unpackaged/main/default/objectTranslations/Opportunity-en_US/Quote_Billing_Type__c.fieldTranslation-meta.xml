@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Reads the Billing Type from the Primary Quote --></help>
+        <label><!-- Billing Type (Quote) --></label>
+        <name>Quote_Billing_Type__c</name>
+    </CustomFieldTranslation>

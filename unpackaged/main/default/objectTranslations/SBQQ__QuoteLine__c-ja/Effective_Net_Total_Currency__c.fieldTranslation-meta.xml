@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Effective Net Total can&apos;t be used in rollups as a formula, so adding text field --></help>
+        <label><!-- Effective Net Total Currency --></label>
+        <name>Effective_Net_Total_Currency__c</name>
+    </CustomFieldTranslation>

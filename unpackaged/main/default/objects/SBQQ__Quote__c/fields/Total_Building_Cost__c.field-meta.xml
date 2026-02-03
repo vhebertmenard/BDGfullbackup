@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Building_Cost__c</fullName>
+    <formula>IF( ISPICKVAL(Transaction_Type__c,'Rental'),  In_Fleet_Capped_Costs_L__c  +  New_Capped_Costs_L__c ,  In_fleet_Capped_Costs_S__c +  New_Capped_Costs_S__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Building Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

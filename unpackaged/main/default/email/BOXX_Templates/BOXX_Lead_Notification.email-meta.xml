@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification to Sales Rep for BOXX Web Lead</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BOXX_Letterhead</letterhead>
+    <name>BOXX Lead Notification</name>
+    <style>formalLetter</style>
+    <subject>BOXX Web Lead {!Lead.Company}</subject>
+    <textOnly>A new web lead for {!Lead.FirstName} {!Lead.LastName} at {!Lead.Company}
+This lead has been created in Salesforce and has been assigned to {!Lead.OwnerTitle}.
+
+
+{!Lead.FirstName} {!Lead.LastName}
+Company: {!Lead.Company}
+Product: {!Lead.Product__c}
+How we can help:
+{!Lead.Description}
+
+
+Your next steps:
+
+
+Review the Lead here.
+Contact {!Lead.FirstName} {!Lead.LastName} at {!Lead.Company}
+Update the Lead Status
+
+
+Click here to view all of your unread leads.
+https://bdgl.my.salesforce.com/00Q?fcf=00B70000005vjUd</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

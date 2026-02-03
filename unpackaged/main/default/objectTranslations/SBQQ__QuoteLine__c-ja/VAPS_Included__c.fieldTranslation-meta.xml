@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is 1 if Product family is VAPS or Carry On, Otherwise 0 --></help>
+        <label><!-- VAPS Included --></label>
+        <name>VAPS_Included__c</name>
+    </CustomFieldTranslation>

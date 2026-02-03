@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- SIC Code Description --></label>
+        <name>SIC_Code_Description__c</name>
+        <picklistValues>
+            <masterLabel>01-Agriculture/Forestry/Fishing</masterLabel>
+            <translation><!-- 01-Agriculture/Forestry/Fishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02-Veterinarians</masterLabel>
+            <translation><!-- 02-Veterinarians --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>07-Agricultural Services</masterLabel>
+            <translation><!-- 07-Agricultural Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08-Forestry</masterLabel>
+            <translation><!-- 08-Forestry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>09-Fishing Hunting &amp; Trapping</masterLabel>
+            <translation><!-- 09-Fishing Hunting &amp; Trapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10-Mining/Oil&amp;Gas Extrac/Pipeline</masterLabel>
+            <translation><!-- 10-Mining/Oil&amp;Gas Extrac/Pipeline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12-Coal Mining</masterLabel>
+            <translation><!-- 12-Coal Mining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13-Oil &amp; Gas Extraction</masterLabel>
+            <translation><!-- 13-Oil &amp; Gas Extraction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14-Mining &amp; Quarrying-Nonmetallic Minerals</masterLabel>
+            <translation><!-- 14-Mining &amp; Quarrying-Nonmetallic Minerals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15-Bldg Construction - G.C.</masterLabel>
+            <translation><!-- 15-Bldg Construction - G.C. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15A-Architects &amp; Engineers</masterLabel>
+            <translation><!-- 15A-Architects &amp; Engineers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16-Heavy Construction - Non bldg</masterLabel>
+            <translation><!-- 16-Heavy Construction - Non bldg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17-Construction - Special Trades</masterLabel>
+            <translation><!-- 17-Construction - Special Trades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20-Manufacturing</masterLabel>
+            <translation><!-- 20-Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20F-Food Processing</masterLabel>
+            <translation><!-- 20F-Food Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21-Tobacco Products Mfrs</masterLabel>
+            <translation><!-- 21-Tobacco Products Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22-Textile Mill Products Mfrs</masterLabel>
+            <translation><!-- 22-Textile Mill Products Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23-Apparel &amp; Other Finished Products-Mfrs</masterLabel>
+            <translation><!-- 23-Apparel &amp; Other Finished Products-Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24-Lumber &amp; Wood Prods Except Furntr Mfrs</masterLabel>
+            <translation><!-- 24-Lumber &amp; Wood Prods Except Furntr Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25-Furniture &amp; Fixtures Mfrs</masterLabel>
+            <translation><!-- 25-Furniture &amp; Fixtures Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26-Paper &amp; Allied Products Mfrs</masterLabel>
+            <translation><!-- 26-Paper &amp; Allied Products Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27-Printing Publishing &amp; Allied Industries</masterLabel>
+            <translation><!-- 27-Printing Publishing &amp; Allied Industries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28-Chemicals &amp; Allied Products Mfrs</masterLabel>
+            <translation><!-- 28-Chemicals &amp; Allied Products Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28C-Cannabis Mfrs</masterLabel>
+            <translation><!-- 28C-Cannabis Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29-Petroleum Refining &amp; Related Inds Mfrs</masterLabel>
+            <translation><!-- 29-Petroleum Refining &amp; Related Inds Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30-Rubber &amp; Miscellaneous Plastics Mfrs</masterLabel>
+            <translation><!-- 30-Rubber &amp; Miscellaneous Plastics Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31-Leather &amp; Leather Products Mfrs</masterLabel>
+            <translation><!-- 31-Leather &amp; Leather Products Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32-Stone Clay Glass &amp; Concrete Prods Mfrs</masterLabel>
+            <translation><!-- 32-Stone Clay Glass &amp; Concrete Prods Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>33-Primary Metal Industries Mfrs</masterLabel>
+            <translation><!-- 33-Primary Metal Industries Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>34-Fabricated Metal Products Mfrs</masterLabel>
+            <translation><!-- 34-Fabricated Metal Products Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35-Industrial &amp; Commercial Machinery Mfrs</masterLabel>
+            <translation><!-- 35-Industrial &amp; Commercial Machinery Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36-Electronic &amp; Other Electrical Equip Mfr</masterLabel>
+            <translation><!-- 36-Electronic &amp; Other Electrical Equip Mfr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>37-Transportation Equipment Mfrs</masterLabel>
+            <translation><!-- 37-Transportation Equipment Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>373-Ship and Boat Building and Repairing</masterLabel>
+            <translation><!-- 373-Ship and Boat Building and Repairing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>38-Measuring &amp; Analyzing Instruments-Mfrs</masterLabel>
+            <translation><!-- 38-Measuring &amp; Analyzing Instruments-Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>39-Miscellaneous Manufacturing Inds Mfrs</masterLabel>
+            <translation><!-- 39-Miscellaneous Manufacturing Inds Mfrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40-Transportation</masterLabel>
+            <translation><!-- 40-Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40R-Railroad Transportation</masterLabel>
+            <translation><!-- 40R-Railroad Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>41-Local/Suburban Transit &amp; Hwy Passenger</masterLabel>
+            <translation><!-- 41-Local/Suburban Transit &amp; Hwy Passenger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>42-Motor Freight Transportation/Warehouse</masterLabel>
+            <translation><!-- 42-Motor Freight Transportation/Warehouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>43-U.S. Postal Service</masterLabel>
+            <translation><!-- 43-U.S. Postal Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>44-Water Transportation</masterLabel>
+            <translation><!-- 44-Water Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>44P-Ports &amp; Port Operators</masterLabel>
+            <translation><!-- 44P-Ports &amp; Port Operators --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45-Transportation By Air</masterLabel>
+            <translation><!-- 45-Transportation By Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>46-Pipelines Except Natural Gas</masterLabel>
+            <translation><!-- 46-Pipelines Except Natural Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>47-Travel Agencies &amp; Transp Srvcs</masterLabel>
+            <translation><!-- 47-Travel Agencies &amp; Transp Srvcs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>48-Communications Services</masterLabel>
+            <translation><!-- 48-Communications Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>49-Electric,Gas,Water,SanitarySrv</masterLabel>
+            <translation><!-- 49-Electric,Gas,Water,SanitarySrv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50-Wholesale Trade</masterLabel>
+            <translation><!-- 50-Wholesale Trade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>51-Wholesale Trade-Nondurable Goods</masterLabel>
+            <translation><!-- 51-Wholesale Trade-Nondurable Goods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>52-Retail</masterLabel>
+            <translation><!-- 52-Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>53-General Merchandise Stores</masterLabel>
+            <translation><!-- 53-General Merchandise Stores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>54-Food Stores</masterLabel>
+            <translation><!-- 54-Food Stores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>55-Auto Dealers &amp; Gas Stations</masterLabel>
+            <translation><!-- 55-Auto Dealers &amp; Gas Stations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>56-Apparel &amp; Accessory Stores</masterLabel>
+            <translation><!-- 56-Apparel &amp; Accessory Stores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>57-Home Furniture &amp; Furnishings Stores</masterLabel>
+            <translation><!-- 57-Home Furniture &amp; Furnishings Stores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>58-Eating &amp; Drinking Places</masterLabel>
+            <translation><!-- 58-Eating &amp; Drinking Places --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>59-Miscellaneous Retail</masterLabel>
+            <translation><!-- 59-Miscellaneous Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60-DepositryInstit-Banks,Cr.Union</masterLabel>
+            <translation><!-- 60-DepositryInstit-Banks,Cr.Union --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>61-Non-depository Credit&amp;LoanInst</masterLabel>
+            <translation><!-- 61-Non-depository Credit&amp;LoanInst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>62-Security &amp; Commodity Brokers</masterLabel>
+            <translation><!-- 62-Security &amp; Commodity Brokers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>63-Insurance Carriers</masterLabel>
+            <translation><!-- 63-Insurance Carriers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>64-Insurance Agents &amp; Brokers</masterLabel>
+            <translation><!-- 64-Insurance Agents &amp; Brokers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>65-Real Estate</masterLabel>
+            <translation><!-- 65-Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>67-Holding &amp; Other Investment Offices</masterLabel>
+            <translation><!-- 67-Holding &amp; Other Investment Offices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70-Hotels,Camps &amp; Org'l Lodgings</masterLabel>
+            <translation><!-- 70-Hotels,Camps &amp; Org&apos;l Lodgings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>72-Personal Services</masterLabel>
+            <translation><!-- 72-Personal Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>73-Business Services</masterLabel>
+            <translation><!-- 73-Business Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75-Auto Repair, Services, Parking</masterLabel>
+            <translation><!-- 75-Auto Repair, Services, Parking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>76-Misc. Repair Services</masterLabel>
+            <translation><!-- 76-Misc. Repair Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>78-Motion Pictures</masterLabel>
+            <translation><!-- 78-Motion Pictures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>79-Amusment Parks &amp; Recreation</masterLabel>
+            <translation><!-- 79-Amusment Parks &amp; Recreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80-Health Services</masterLabel>
+            <translation><!-- 80-Health Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>801-Hospitals</masterLabel>
+            <translation><!-- 801-Hospitals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>803-Clinics</masterLabel>
+            <translation><!-- 803-Clinics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>805-Medical Offices</masterLabel>
+            <translation><!-- 805-Medical Offices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>807-Laboratories</masterLabel>
+            <translation><!-- 807-Laboratories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>809-Special Care (all other)</masterLabel>
+            <translation><!-- 809-Special Care (all other) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80B-Behavioral Health Services</masterLabel>
+            <translation><!-- 80B-Behavioral Health Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>81-Legal Services</masterLabel>
+            <translation><!-- 81-Legal Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>82B</masterLabel>
+            <translation><!-- 82B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>82B-College &amp; Universities</masterLabel>
+            <translation><!-- 82B-College &amp; Universities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>82C-Charter Schools</masterLabel>
+            <translation><!-- 82C-Charter Schools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>82H-Head Start</masterLabel>
+            <translation><!-- 82H-Head Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>82K-Daycare</masterLabel>
+            <translation><!-- 82K-Daycare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>82N-Public Schools</masterLabel>
+            <translation><!-- 82N-Public Schools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>82P-Priv/Parochial Schools</masterLabel>
+            <translation><!-- 82P-Priv/Parochial Schools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>83-Social Services</masterLabel>
+            <translation><!-- 83-Social Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>84-Museum,Galleries,Garden,Zoos</masterLabel>
+            <translation><!-- 84-Museum,Galleries,Garden,Zoos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>86-Churches,Trade Assoc.&amp; Orgs.</masterLabel>
+            <translation><!-- 86-Churches,Trade Assoc.&amp; Orgs. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>87-Eng'rs,Architects, Mngmnt Srvs</masterLabel>
+            <translation><!-- 87-Eng&apos;rs,Architects, Mngmnt Srvs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>88-Private Households</masterLabel>
+            <translation><!-- 88-Private Households --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>89-Miscellaneous Services Nec</masterLabel>
+            <translation><!-- 89-Miscellaneous Services Nec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>91-Gov't- Admin Offices/Training</masterLabel>
+            <translation><!-- 91-Gov&apos;t- Admin Offices/Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>92-Govt - Corrections/Publ Safety</masterLabel>
+            <translation><!-- 92-Govt - Corrections/Publ Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>93-Gov't - Civilian Agencies</masterLabel>
+            <translation><!-- 93-Gov&apos;t - Civilian Agencies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>94-Gov't - Administration-Human Resource Programs</masterLabel>
+            <translation><!-- 94-Gov&apos;t - Administration-Human Resource Programs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9451-Gov't-VA Hospitals</masterLabel>
+            <translation><!-- 9451-Gov&apos;t-VA Hospitals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>95-Gov't - Housing - Barracks</masterLabel>
+            <translation><!-- 95-Gov&apos;t - Housing - Barracks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>96-Gov't - Administration Of Economic Programs</masterLabel>
+            <translation><!-- 96-Gov&apos;t - Administration Of Economic Programs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>97-Gov't - Homeland Security</masterLabel>
+            <translation><!-- 97-Gov&apos;t - Homeland Security --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

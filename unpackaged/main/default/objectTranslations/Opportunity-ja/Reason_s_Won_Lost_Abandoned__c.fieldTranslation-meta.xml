@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason(s) Won/Lost/Abandoned --></label>
+        <name>Reason_s_Won_Lost_Abandoned__c</name>
+        <picklistValues>
+            <masterLabel>Delivery Date</masterLabel>
+            <translation><!-- Delivery Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relationship</masterLabel>
+            <translation><!-- Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specs</masterLabel>
+            <translation><!-- Specs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tear Down</masterLabel>
+            <translation><!-- Tear Down --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

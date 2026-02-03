@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates which approval flow to run for missing List Price or discounted List Price --></help>
+        <label><!-- Approval Flow: Disc/No List Price --></label>
+        <name>Approval_Flow_Disc_No_List_Price__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Replacement_Cost_is_blank</fullName>
+    <active>false</active>
+    <description>If the Product is a custom complex, and the replacement cost is blank, warn the user to enter it.</description>
+    <errorConditionFormula>AND(  SBQQ__ProductFamily__c &lt;&gt; 'VAPS',$User.Username &lt;&gt;'rgali@blackdiamondgroup.com',$User.Username &lt;&gt;'djimenez@boxxmodular.com',Shell__c = TRUE,  ISBLANK( Replacement_Value__c ),  Transaction_Type__c = "Rental")</errorConditionFormula>
+    <errorDisplayField>Replacement_Value_Override__c</errorDisplayField>
+    <errorMessage>A complex 'Shell' you've configured has no 'Replacement Value'. Open the quote line drawer for the 'Shell' to set the Replacement Value Override.</errorMessage>
+</ValidationRule>

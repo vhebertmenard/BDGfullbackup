@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select if account is a top 10 customer or prospect --></help>
+        <label><!-- Top 10 --></label>
+        <name>Top_10__c</name>
+        <picklistValues>
+            <masterLabel>Top 10 Customer</masterLabel>
+            <translation><!-- Top 10 Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top 10 Prospect</masterLabel>
+            <translation><!-- Top 10 Prospect --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

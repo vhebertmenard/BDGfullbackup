@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Logo__c</fullName>
+    <description>Visible Logo for this partnership</description>
+    <externalId>false</externalId>
+    <formula>IF( Logo_URL__c ="", null, IMAGE( Logo_URL__c ,Name, -200,200))</formula>
+    <inlineHelpText>Visible Logo for this partnership</inlineHelpText>
+    <label>Logo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Segment_Details__c</fullName>
+    <description>Used to manage Industry and Industry Segment picklists</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Details to clarify Industry and/or Industry Segment.</inlineHelpText>
+    <label>Industry Details - Site Owner</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

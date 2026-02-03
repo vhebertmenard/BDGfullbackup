@@ -1,0 +1,56 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Re-enrollment for {!Account.Name}]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">DATE</p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">{!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}</p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">{!Contact.Company_Name__c}</p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">{!Contact.MailingAddress}</p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Dear {!Contact.Salutation} {!Contact.LastName}:</p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Times New Roman">
+
+<br></font></p><p style="margin: 0in 0in 0pt;"><font face="Arial, sans-serif"><span style="font-size: 12pt;">MPA
+Systems has received payment for your institution’s re-enrollment into our
+Disaster Recovery Facilities Program for the period of </span></font><span style="color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 12pt;"><b>STARTDATE</b> </span><font face="Arial, sans-serif"><span style="font-size: 12pt;">to <b>ENDDATE</b></span><span style="font-size: 12pt;">. We appreciate the trust that you have
+placed in our company.</span></font><span style="color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 12pt;">&nbsp; </span><font face="Arial, sans-serif"><span style="font-size: 12pt;">Disasters can
+occur at any time and, should you face a disaster, be assured that we will
+respond immediately. </span></font></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Times New Roman">
+
+<font face="Times New Roman">
+
+<br></font></font></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0in 0in 0pt;"><span style="font-family: &quot;Arial&quot;,sans-serif; mso-bidi-font-size: 12.0pt;">As
+always, your continued satisfaction is essential to MPA.<span style="mso-spacerun: yes;">&nbsp; </span>If you should have any questions or comments
+regarding the Disaster Recovery Facilities Program or our building sales or
+lease programs, please do not hesitate to call.<span style="mso-spacerun: yes;">&nbsp;
+</span>Also, if you should you ever need to make changes or seek additional
+services, we are happy to discuss your needs and to provide program options
+that are best suited for your institution’s security.</span></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Times New Roman">
+
+<br></font></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0in 0in 0pt;"><span style="font-family: &quot;Arial&quot;,sans-serif; mso-bidi-font-size: 12.0pt;"></span></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family: &quot;Arial&quot;,sans-serif; mso-bidi-font-size: 12.0pt;">We
+wish you continued success and thank you for re-enrolling in our Disaster
+Recovery Facilities Program.</span></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Times New Roman">
+
+<br></font></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0in 0in 0pt;"><span style="font-family: &quot;Arial&quot;,sans-serif; mso-bidi-font-size: 12.0pt;">Sincerely,</span></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Times New Roman">
+
+<br></font></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Times New Roman">
+
+<br></font></p><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt;"></p><span style="color: rgb(13, 13, 13); font-size: 8pt;"><p style="margin: 0in 0in 0pt;"></p><font face="Calibri"><p style="margin: 0in 0in 0pt;"><strong>MPA Systems, LLC</strong><font color="#000000" face="Times New Roman" size="3">
+
+</font></p><p style="margin: 0in 0in 0pt;"><b><span style="color: rgb(13, 13, 13); font-size: 8pt;">A Boxx
+Modular Co.</span></b></p><p style="margin: 0in 0in 0pt;"><font color="#000000" face="Times New Roman" size="3">
+
+</font></p></font><p style="margin: 0in 0in 0pt;"></p></span><p style="margin: 0in 0in 0pt;"></p><p style="margin: 0in 0in 0pt;"><b><span style="color: rgb(13, 13, 13); font-size: 8pt;"><font face="Calibri">Toll Free
+888-233-1584</font></span></b></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt;"><span style="color: black; font-size: 8pt;"><font face="Calibri">T:&nbsp;
+972-492-4040 |&nbsp; C: 214-622-3982&nbsp; &nbsp;F: 469-568-2134</font></span></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 12pt;"><span style="color: black; font-size: 8pt;"><font face="Calibri">3475 High River Road, Fort Worth, TX&nbsp; 76155</font></span></p><font face="Times New Roman">
+
+</font>]]></td>
+</tr>
+</table>

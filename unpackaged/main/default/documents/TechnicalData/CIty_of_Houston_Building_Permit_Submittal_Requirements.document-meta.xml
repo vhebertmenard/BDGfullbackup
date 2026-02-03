@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This document was issued by the City of Houston Public Works dept to outline in detail the requirements for a building permit submittal.</description>
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>Houston Building Permit</keywords>
+    <name>CIty of Houston Building Permit Submittal Requirements</name>
+    <public>false</public>
+</Document>

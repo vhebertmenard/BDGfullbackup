@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Committed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to indicate this Quote is for a Committed term/amount.</description>
+    <inlineHelpText>Indicates this Quote is for a Committed term/amount.</inlineHelpText>
+    <label>Committed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

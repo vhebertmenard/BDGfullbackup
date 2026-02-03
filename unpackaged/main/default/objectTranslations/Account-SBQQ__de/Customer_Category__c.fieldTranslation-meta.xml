@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Customer Category --></label>
+        <name>Customer_Category__c</name>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intercompany</masterLabel>
+            <translation><!-- Intercompany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intra-Group</masterLabel>
+            <translation><!-- Intra-Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party Partnership</masterLabel>
+            <translation><!-- Third Party Partnership --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

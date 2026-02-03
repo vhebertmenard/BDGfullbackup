@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>Carry On</masterLabel>
+            <translation><!-- Carry On --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster</masterLabel>
+            <translation><!-- Disaster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lodging</masterLabel>
+            <translation><!-- Lodging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations</masterLabel>
+            <translation><!-- Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental Cost</masterLabel>
+            <translation><!-- Rental Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental/Sale</masterLabel>
+            <translation><!-- Rental/Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sublease</masterLabel>
+            <translation><!-- Sublease --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

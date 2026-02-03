@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monthly_Building_Payment_4__c</fullName>
+    <formula>IF(
+AND(Infleet_ROA_4__c&gt;0,
+Target_New_ROA_4__c&gt;0,
+Override_New_ROA_4__c&gt;0),Infleet_List_Prices_4__c +  New_List_Prices_4__c + VAPS_Final_Monthly_Payment__c + PPF_Final_Monthly_Payment__c,null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Monthly Building Payment 4</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

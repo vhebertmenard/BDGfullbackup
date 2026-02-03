@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Royalties Due To --></label>
+        <name>Royalties_Due_To__c</name>
+        <picklistValues>
+            <masterLabel>Alexander First Nations</masterLabel>
+            <translation><!-- Alexander First Nations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aseniwuche Winewak Nation</masterLabel>
+            <translation><!-- Aseniwuche Winewak Nation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beaver Lake Cree Nation Nehiya</masterLabel>
+            <translation><!-- Beaver Lake Cree Nation Nehiya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheam</masterLabel>
+            <translation><!-- Cheam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coast Tsimshian Enterprises</masterLabel>
+            <translation><!-- Coast Tsimshian Enterprises --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duncan’s First Nation</masterLabel>
+            <translation><!-- Duncan’s First Nation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elk Valley Metis Resources Ltd</masterLabel>
+            <translation><!-- Elk Valley Metis Resources Ltd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gitxaala Enterprises LP</masterLabel>
+            <translation><!-- Gitxaala Enterprises LP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infinity Metis Corporation</masterLabel>
+            <translation><!-- Infinity Metis Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K'omoks First Nation</masterLabel>
+            <translation><!-- K&apos;omoks First Nation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LBIN Ventures LP</masterLabel>
+            <translation><!-- LBIN Ventures LP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lheidli T'enneh</masterLabel>
+            <translation><!-- Lheidli T&apos;enneh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississauga Credit Bus. LP</masterLabel>
+            <translation><!-- Mississauga Credit Bus. LP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O’Chiese</masterLabel>
+            <translation><!-- O’Chiese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPAL General Constructors</masterLabel>
+            <translation><!-- SPAL General Constructors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saulteau First Nations</masterLabel>
+            <translation><!-- Saulteau First Nations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seyem Qwantlen Business Group</masterLabel>
+            <translation><!-- Seyem Qwantlen Business Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tahltan Nation Development Co.</masterLabel>
+            <translation><!-- Tahltan Nation Development Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Moberly First Nation</masterLabel>
+            <translation><!-- West Moberly First Nation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whitecap Dakota First Nation</masterLabel>
+            <translation><!-- Whitecap Dakota First Nation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yinka Dene Economic Dev LP</masterLabel>
+            <translation><!-- Yinka Dene Economic Dev LP --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

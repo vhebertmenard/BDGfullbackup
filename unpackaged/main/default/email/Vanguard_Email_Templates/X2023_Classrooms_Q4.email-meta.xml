@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2023 - Classrooms Q4</name>
+    <style>none</style>
+    <subject>Modular classroom building for {!Account.Name}</subject>
+    <textOnly>Hi! Are you thinking you might need to lease or purchase a modular
+classroom building next year?
+
+BOXX Modular is hear to help you proactively plan so you don&apos;t have to
+worry about space.
+
+You can view our standard floor plans through these links or we can build
+you a custom building to suit your schools needs.
+
+CLASSROOMS | https://www.boxxmodular.com/classrooms/
+LABORATORIES &amp; RESTROOMS | https://www.boxxmodular.com/specialty/
+
+To connect with us for more information:
+
+&gt; Reply to this email
+&gt; Request a quote on our website | https://www.boxxmodular.com/quote-request/
+&gt; Call 877-966-7839 to speak with one of our local experts
+
+We are here to help!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

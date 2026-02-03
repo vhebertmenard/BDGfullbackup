@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Name of company that won this job, external to Black Diamond. --></help>
+        <label><!-- Competitor Lost To --></label>
+        <name>Competitor_LostTo__c</name>
+        <relationshipLabel><!-- Opportunities Lost to this Competitor --></relationshipLabel>
+    </CustomFieldTranslation>

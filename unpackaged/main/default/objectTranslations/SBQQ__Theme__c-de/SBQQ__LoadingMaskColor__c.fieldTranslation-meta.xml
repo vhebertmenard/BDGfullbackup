@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Farbe für "Maske wird geladen" beim Navigieren zu einer neuen Seite</help>
+        <label><!-- Loading Mask Color --></label>
+        <name>SBQQ__LoadingMaskColor__c</name>
+    </CustomFieldTranslation>

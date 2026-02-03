@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Opportunity Source --></label>
+        <name>Opportunity_Source__c</name>
+        <picklistValues>
+            <masterLabel>360 MobileOffice</masterLabel>
+            <translation><!-- 360 MobileOffice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Association Events</masterLabel>
+            <translation><!-- Association Events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BDC</masterLabel>
+            <translation><!-- BDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BuyBoard</masterLabel>
+            <translation><!-- BuyBoard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conferences</masterLabel>
+            <translation><!-- Conferences --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dodge Reports</masterLabel>
+            <translation><!-- Dodge Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing Relationship</masterLabel>
+            <translation><!-- Existing Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federal Business Opportunities</masterLabel>
+            <translation><!-- Federal Business Opportunities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Nation Partnership</masterLabel>
+            <translation><!-- First Nation Partnership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSA</masterLabel>
+            <translation><!-- GSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grapevine e-bid</masterLabel>
+            <translation><!-- Grapevine e-bid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Telephone Request</masterLabel>
+            <translation><!-- Inbound Telephone Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet Search</masterLabel>
+            <translation><!-- Internet Search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LinkedIn</masterLabel>
+            <translation><!-- LinkedIn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merx</masterLabel>
+            <translation><!-- Merx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEICO (Navy Elect Com Online)</masterLabel>
+            <translation><!-- NEICO (Navy Elect Com Online) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Relationship</masterLabel>
+            <translation><!-- New Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newspaper</masterLabel>
+            <translation><!-- Newspaper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PlantMiner</masterLabel>
+            <translation><!-- PlantMiner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reed Construction Data</masterLabel>
+            <translation><!-- Reed Construction Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation><!-- Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TXMAS</masterLabel>
+            <translation><!-- TXMAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telephone cold call</masterLabel>
+            <translation><!-- Telephone cold call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Shows</masterLabel>
+            <translation><!-- Trade Shows --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website Request</masterLabel>
+            <translation><!-- Website Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iSqFt</masterLabel>
+            <translation><!-- iSqFt --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

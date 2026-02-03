@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Australia</fullName>
+        <default>false</default>
+        <label>Australia</label>
+    </customValue>
+    <customValue>
+        <fullName>MSS East</fullName>
+        <default>false</default>
+        <label>MSS East</label>
+    </customValue>
+    <customValue>
+        <fullName>MSS Prairies</fullName>
+        <default>false</default>
+        <label>MSS Prairies</label>
+    </customValue>
+    <customValue>
+        <fullName>MSS US</fullName>
+        <default>false</default>
+        <label>MSS US</label>
+    </customValue>
+    <customValue>
+        <fullName>MSS US MP</fullName>
+        <default>false</default>
+        <label>MSS US MP</label>
+    </customValue>
+    <customValue>
+        <fullName>MSS US Vanguard</fullName>
+        <default>false</default>
+        <label>MSS US Vanguard</label>
+    </customValue>
+    <customValue>
+        <fullName>MSS Pacific</fullName>
+        <default>false</default>
+        <label>MSS Pacific</label>
+    </customValue>
+    <customValue>
+        <fullName>Camps Canada</fullName>
+        <default>false</default>
+        <label>Camps Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>Camps US</fullName>
+        <default>false</default>
+        <label>Camps US</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate</fullName>
+        <default>false</default>
+        <label>Corporate</label>
+    </customValue>
+    <customValue>
+        <fullName>ES Canada</fullName>
+        <default>false</default>
+        <label>ES Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>ES US</fullName>
+        <default>false</default>
+        <label>ES US</label>
+    </customValue>
+    <customValue>
+        <fullName>MPA</fullName>
+        <default>false</default>
+        <label>MPA</label>
+    </customValue>
+    <customValue>
+        <fullName>MSS US East</fullName>
+        <default>false</default>
+        <label>MSS US East</label>
+    </customValue>
+    <customValue>
+        <fullName>MSS US Southwest</fullName>
+        <default>false</default>
+        <label>MSS US Southwest</label>
+    </customValue>
+    <customValue>
+        <fullName>MSS Canada East</fullName>
+        <default>false</default>
+        <label>MSS Canada East</label>
+    </customValue>
+    <customValue>
+        <fullName>MSS Canada West</fullName>
+        <default>false</default>
+        <label>MSS Canada West</label>
+    </customValue>
+    <customValue>
+        <fullName>BOXX Pacific</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BOXX Pacific</label>
+    </customValue>
+    <customValue>
+        <fullName>BOXX West Major Projects</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BOXX West Major Projects</label>
+    </customValue>
+    <customValue>
+        <fullName>BOXX West</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BOXX West</label>
+    </customValue>
+    <customValue>
+        <fullName>LodgeLink</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LodgeLink</label>
+    </customValue>
+    <customValue>
+        <fullName>BOXX Canada West Major Projects</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BOXX Canada West Major Projects</label>
+    </customValue>
+    <customValue>
+        <fullName>BOXX Canada West</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BOXX Canada West</label>
+    </customValue>
+    <customValue>
+        <fullName>BOXX Canada East</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BOXX Canada East</label>
+    </customValue>
+    <customValue>
+        <fullName>MSS Canada</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MSS Canada</label>
+    </customValue>
+    <description>Black Diamond Departments</description>
+    <masterLabel>Departments</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

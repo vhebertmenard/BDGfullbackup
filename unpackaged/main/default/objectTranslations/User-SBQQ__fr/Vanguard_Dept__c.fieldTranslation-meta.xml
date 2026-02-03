@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Vanguard Dept --></label>
+        <name>Vanguard_Dept__c</name>
+        <picklistValues>
+            <masterLabel>20050</masterLabel>
+            <translation><!-- 20050 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20100</masterLabel>
+            <translation><!-- 20100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20222</masterLabel>
+            <translation><!-- 20222 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20300</masterLabel>
+            <translation><!-- 20300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30925</masterLabel>
+            <translation><!-- 30925 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30950</masterLabel>
+            <translation><!-- 30950 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30975</masterLabel>
+            <translation><!-- 30975 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40125</masterLabel>
+            <translation><!-- 40125 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40600</masterLabel>
+            <translation><!-- 40600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40675</masterLabel>
+            <translation><!-- 40675 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40685</masterLabel>
+            <translation><!-- 40685 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40800</masterLabel>
+            <translation><!-- 40800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40850</masterLabel>
+            <translation><!-- 40850 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>55000</masterLabel>
+            <translation><!-- 55000 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Infleet_ROA_3__c</fullName>
+    <formula>IF( Shell__c,
+  IF(SBQQ__ProductFamily__c = 'Upfronts', SBQQ__Quote__r.Upfront_Markup_3__c ,
+    IF( SBQQ__ProductFamily__c = 'Backend', SBQQ__Quote__r.Backend_Markup_3__c ,
+      IF(New_Unit_Involved__c ,
+   IF(ISBLANK( SBQQ__Quote__r.Override_New_ROA_3__c),
+      CASE(   SBQQ__Quote__r.Term_3__c  ,
+1,0.552,
+2,0.54,
+3,0.528,
+4,0.516,
+5,0.504,
+6,0.492,
+7,0.48,
+8,0.468,
+9,0.456,
+10,0.444,
+11,0.432,
+12,0.42,
+13,0.408,
+14,0.396,
+15,0.384,
+16,0.372,
+17,0.36,
+18,0.348,
+19,0.336,
+20,0.324,
+21,0.312,
+22,0.3,
+23,0.288,
+24,0.276,
+25,0.274083333333333,
+26,0.272166666666667,
+27,0.27025,
+28,0.268333333333333,
+29,0.266416666666667,
+30,0.2645,
+31,0.262583333333333,
+32,0.260666666666666,
+33,0.25875,
+34,0.256833333333333,
+35,0.254916666666666,
+36,0.264,
+37,0.263,
+38,0.262,
+39,0.261,
+40,0.26,
+41,0.259,
+42,0.258,
+43,0.257,
+44,0.256,
+45,0.255,
+46,0.254,
+47,0.253,
+48,0.252,
+49,0.251,
+50,0.25,
+51,0.249,
+52,0.248,
+53,0.247,
+54,0.246,
+55,0.245,
+56,0.244,
+57,0.243,
+58,0.242,
+59,0.241,
+60,0.24,
+0
+),SBQQ__Quote__r.Override_New_ROA_3__c),
+ SBQQ__Quote__r.Infleet_ROA_3__c 
+))),NULL
+)</formula>
+    <label>ROA 3 New/Infleet/Markup 3</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

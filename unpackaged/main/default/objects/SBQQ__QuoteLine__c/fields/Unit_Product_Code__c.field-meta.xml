@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Product_Code__c</fullName>
+    <description>Returns the product code of the selected unit</description>
+    <externalId>false</externalId>
+    <formula>Unit__r.Product_Code__c</formula>
+    <label>Unit Product Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

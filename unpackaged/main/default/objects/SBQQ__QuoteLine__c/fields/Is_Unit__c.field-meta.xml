@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Unit__c</fullName>
+    <formula>AND( NOT( SBQQ__Product__r.Shell__c ) ,  SBQQ__Product__r.IsActive ,  OR(SBQQ__ProductFamily__c = 'Complex',SBQQ__ProductFamily__c = 'Single Offices',SBQQ__ProductFamily__c = 'Mobile Offices',SBQQ__ProductFamily__c = 'Assembly Complex',SBQQ__ProductFamily__c = 'Classroom Complex',SBQQ__ProductFamily__c = 'Daycare Complex',SBQQ__ProductFamily__c = 'Lavatory Complex',SBQQ__ProductFamily__c = 'Medical Complex',SBQQ__ProductFamily__c = 'Office Complexes'))</formula>
+    <label>Is Unit</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

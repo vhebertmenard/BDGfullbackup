@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Branch Code --></label>
+        <name>Branch_Code__c</name>
+        <picklistValues>
+            <masterLabel>AUBR</masterLabel>
+            <translation><!-- AUBR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUPE</masterLabel>
+            <translation><!-- AUPE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUSY</masterLabel>
+            <translation><!-- AUSY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUTV</masterLabel>
+            <translation><!-- AUTV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BBDA</masterLabel>
+            <translation><!-- BBDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Charl</masterLabel>
+            <translation><!-- BOXX Charl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BWIMB</masterLabel>
+            <translation><!-- BWIMB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXAU</masterLabel>
+            <translation><!-- BXAU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXBK</masterLabel>
+            <translation><!-- BXBK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXCA</masterLabel>
+            <translation><!-- BXCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXCL</masterLabel>
+            <translation><!-- BXCL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXDFW</masterLabel>
+            <translation><!-- BXDFW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXED</masterLabel>
+            <translation><!-- BXED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXFJ</masterLabel>
+            <translation><!-- BXFJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXFN</masterLabel>
+            <translation><!-- BXFN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXHO</masterLabel>
+            <translation><!-- BXHO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXHS</masterLabel>
+            <translation><!-- BXHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXKE</masterLabel>
+            <translation><!-- BXKE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXLA</masterLabel>
+            <translation><!-- BXLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXLW</masterLabel>
+            <translation><!-- BXLW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXME</masterLabel>
+            <translation><!-- BXME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXMP</masterLabel>
+            <translation><!-- BXMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXMT</masterLabel>
+            <translation><!-- BXMT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXNN</masterLabel>
+            <translation><!-- BXNN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXOC</masterLabel>
+            <translation><!-- BXOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXOT</masterLabel>
+            <translation><!-- BXOT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXPA</masterLabel>
+            <translation><!-- BXPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXPG</masterLabel>
+            <translation><!-- BXPG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXPH</masterLabel>
+            <translation><!-- BXPH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXRD</masterLabel>
+            <translation><!-- BXRD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXSC</masterLabel>
+            <translation><!-- BXSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXSK</masterLabel>
+            <translation><!-- BXSK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXTB</masterLabel>
+            <translation><!-- BXTB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXTE</masterLabel>
+            <translation><!-- BXTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BXVA</masterLabel>
+            <translation><!-- BXVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CP</masterLabel>
+            <translation><!-- CP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPEA</masterLabel>
+            <translation><!-- CPEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPFN</masterLabel>
+            <translation><!-- CPFN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES</masterLabel>
+            <translation><!-- ES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESCO</masterLabel>
+            <translation><!-- ESCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESEN</masterLabel>
+            <translation><!-- ESEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESFJ</masterLabel>
+            <translation><!-- ESFJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESFN</masterLabel>
+            <translation><!-- ESFN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESGP</masterLabel>
+            <translation><!-- ESGP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESND</masterLabel>
+            <translation><!-- ESND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESSK</masterLabel>
+            <translation><!-- ESSK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESTX</masterLabel>
+            <translation><!-- ESTX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HO</masterLabel>
+            <translation><!-- HO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGCL</masterLabel>
+            <translation><!-- LGCL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGCW</masterLabel>
+            <translation><!-- LGCW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGEC</masterLabel>
+            <translation><!-- LGEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGED</masterLabel>
+            <translation><!-- LGED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGEK</masterLabel>
+            <translation><!-- LGEK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGEM</masterLabel>
+            <translation><!-- LGEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGEO</masterLabel>
+            <translation><!-- LGEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGFN</masterLabel>
+            <translation><!-- LGFN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGKL</masterLabel>
+            <translation><!-- LGKL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGLL</masterLabel>
+            <translation><!-- LGLL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGNL</masterLabel>
+            <translation><!-- LGNL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGPR</masterLabel>
+            <translation><!-- LGPR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGPS</masterLabel>
+            <translation><!-- LGPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGQL</masterLabel>
+            <translation><!-- LGQL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGSC</masterLabel>
+            <translation><!-- LGSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGSG</masterLabel>
+            <translation><!-- LGSG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MPCA</masterLabel>
+            <translation><!-- MPCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MPFL</masterLabel>
+            <translation><!-- MPFL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MPTX</masterLabel>
+            <translation><!-- MPTX --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

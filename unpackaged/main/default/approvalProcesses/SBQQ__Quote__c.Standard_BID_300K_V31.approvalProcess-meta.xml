@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>SBQQ__Account__c</field>
+        <field>SBQQ__Opportunity2__c</field>
+        <field>SBQQ__NetAmount__c</field>
+        <field>T_C__c</field>
+        <field>SBQQ__SalesRep__c</field>
+        <field>CAPEX_Required__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Approver_I__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Approve if under $50K
+Send to Level I if over $50k</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.SBQQ__NetAmount__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;CAD 50,000&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>ApproveRecord</ifCriteriaNotMet>
+        <label>Branch Manager - Rental STD &lt;$300K</label>
+        <name>Branch_Manager_Rental_Standard_BID_50K</name>
+    </approvalStep>
+    <description>12
+Bid Sets/Revenue Contracts - Standard BD Terms and Conditions
+Bid &lt; $300K
+Rental
+No CAPEX
+Level I Approvals needed</description>
+    <emailTemplate>Approval_Process/Quote_Approval_Required</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 AND (2 OR 3) AND 4 AND 5</booleanFilter>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.SBQQ__NetAmount__c</field>
+            <operation>lessThan</operation>
+            <value>&quot;CAD 300,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.T_C__c</field>
+            <operation>equals</operation>
+            <value>Standard</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.T_C__c</field>
+            <operation>equals</operation>
+            <value>MSSA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.Transaction_Type__c</field>
+            <operation>equals</operation>
+            <value>Rental</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.CAPEX_Required__c</field>
+            <operation>equals</operation>
+            <value>No</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Quote_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Send_email_notification_of_Approval</name>
+            <type>Alert</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Change_to_Denied</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Send_email_notification_of_Rejection</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Pending_Approval</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Rental STD &lt;$300K V3.1</label>
+    <processOrder>1</processOrder>
+    <recallActions>
+        <action>
+            <name>Change_status_to_Draft</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

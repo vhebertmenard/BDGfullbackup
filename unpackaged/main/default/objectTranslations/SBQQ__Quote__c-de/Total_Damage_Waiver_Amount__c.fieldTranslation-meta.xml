@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Monthly Damage Waiver x Term --></help>
+        <label><!-- Total Damage Waiver Amount --></label>
+        <name>Total_Damage_Waiver_Amount__c</name>
+    </CustomFieldTranslation>

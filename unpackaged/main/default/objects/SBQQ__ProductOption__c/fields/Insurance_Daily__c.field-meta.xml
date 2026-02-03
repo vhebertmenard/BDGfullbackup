@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance_Daily__c</fullName>
+    <description>Reads the daily insurance amount from the Parent Product only if the Configured SKU is Insurance_Daily - for use in Price Rules in CPQ</description>
+    <formula>IF(  SBQQ__ProductCode__c = "Insurance_Daily",  SBQQ__ConfiguredSKU__r.Insurance_Daily__c , NULL)</formula>
+    <inlineHelpText>Reads the daily insurance amount from the Parent Product only if the Configured SKU is Insurance_Daily - for use in Price Rules in CPQ</inlineHelpText>
+    <label>Insurance Daily</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

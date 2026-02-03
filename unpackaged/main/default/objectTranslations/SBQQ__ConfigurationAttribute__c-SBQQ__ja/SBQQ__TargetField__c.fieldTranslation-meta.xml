@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Specify field on Product Option that will hold this attribute&apos;s value. --></help>
+        <label>対象項目</label>
+        <name>SBQQ__TargetField__c</name>
+        <picklistValues>
+            <masterLabel>Category__c</masterLabel>
+            <translation><!-- Category__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complex_Dimensions__c</masterLabel>
+            <translation><!-- Complex_Dimensions__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount (%)</masterLabel>
+            <translation><!-- Discount (%) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount (Amt)</masterLabel>
+            <translation><!-- Discount (Amt) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number_of_Units__c</masterLabel>
+            <translation><!-- Number_of_Units__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Structure_Type__c</masterLabel>
+            <translation><!-- Structure_Type__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Price</masterLabel>
+            <translation><!-- Unit Price --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

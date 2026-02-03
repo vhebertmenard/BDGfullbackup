@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NS_Division_ID__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case( Division_Region__c ,
+
+'00 - Corporate','1',
+'20 - Modular Space Solutions','2',
+'Australia','6',
+'Camps Canada','8',
+'Corporate','10',
+'ES Canada','9',
+'MPA','12',
+'MSS Canada West','2',
+'MSS Canada East','2',
+'MSS US East','2',
+'MSS US Southwest','2',
+''
+)</formula>
+    <label>NS Division ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

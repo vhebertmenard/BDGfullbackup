@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Credit Approved By --></label>
+        <name>Credit_Approved_By__c</name>
+        <picklistValues>
+            <masterLabel>Ed Haggerty</masterLabel>
+            <translation><!-- Ed Haggerty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jade Ward</masterLabel>
+            <translation><!-- Jade Ward --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jody Werner</masterLabel>
+            <translation><!-- Jody Werner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mark Meyers</masterLabel>
+            <translation><!-- Mark Meyers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peter Eberle</masterLabel>
+            <translation><!-- Peter Eberle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stephanie Holmes</masterLabel>
+            <translation><!-- Stephanie Holmes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ted Redmond</masterLabel>
+            <translation><!-- Ted Redmond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toby LaBrie</masterLabel>
+            <translation><!-- Toby LaBrie --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

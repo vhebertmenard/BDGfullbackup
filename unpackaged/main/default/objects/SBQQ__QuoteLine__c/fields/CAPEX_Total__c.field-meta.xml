@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAPEX_Total__c</fullName>
+    <description>If the Cost Type of this quote line is CAPEX - New Build or CAPEX - Refurb, Calculates the total amount of CAPEX (Unit Cost * Quantity) for this Quote Line.</description>
+    <formula>SBQQ__Quantity__c *  
+CASE( Cost_Type__c , 
+     "CAPEX - New Build",  SBQQ__UnitCost__c, 
+     "CAPEX - Refurb", SBQQ__UnitCost__c,  
+     NULL)</formula>
+    <inlineHelpText>If the Cost Type of this quote line is CAPEX - New Build or CAPEX - Refurb, Calculates the total amount of CAPEX (Unit Cost * Quantity) for this Quote Line.</inlineHelpText>
+    <label>CAPEX Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

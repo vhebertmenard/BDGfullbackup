@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- CPQ Price Rules will write the name of the rule into this field when they run --></help>
+        <label><!-- CPQ Last Rule --></label>
+        <name>CPQ_Last_Rule__c</name>
+    </CustomFieldTranslation>

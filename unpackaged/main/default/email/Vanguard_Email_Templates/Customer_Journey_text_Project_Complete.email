@@ -1,0 +1,35 @@
+Hello {!Contact.FirstName},
+
+Congratulations on your modular building space from BOXX Modular. We hope your new space is everything you expect and that is serves you well.
+
+
+For reference, your order number is: {!Opportunity.Contract_Number__c}
+
+
+If at any time you have questions about your modular building or need service, please feel free to contact your representative or just send a reply to this email.
+
+Sales & Service
+Sales Manager: {!Opportunity.OwnerFullName}
+Toll Free: (877) 966-7839
+Phone: {!Opportunity.OwnerPhone}
+Email: {!Opportunity.OwnerEmail}
+
+
+Would you like to share feedback about your experience? Just click one of the rating links below which will automatically register your feedback and notify us how we are doing. You can also send a reply to this email to provide more detailed feedback to me directly.
+
+
+Excellent > https://www.boxxmodular.com/about-boxx/excellent-experience-rating/
+Good > https://www.boxxmodular.com/about-boxx/good-experience-rating/
+Poor > https://www.boxxmodular.com/about-boxx/poor-experience-rating/
+
+
+Thank you for partnering with BOXX Modular!  Please let me know if there is anything we can do to improve our services or to make anything easier for you.  We are here to help!
+
+Kind Regards,
+
+Mark Meyers
+Vice President, Marketing Services
+BOXX Modular, Inc.
+
+877-966-7839
+BOXXModular.com

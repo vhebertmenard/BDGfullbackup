@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <block>
+        <blockInfo>
+            <blockId>B1</blockId>
+            <joinTable>ForecastingQuota</joinTable>
+        </blockInfo>
+        <columns>
+            <aggregateTypes>Sum</aggregateTypes>
+            <field>ForecastingQuota$QuotaAmount</field>
+        </columns>
+        <columns>
+            <field>ForecastingQuota$StartDate</field>
+        </columns>
+        <currency>CAD</currency>
+        <format>Summary</format>
+        <name>Forecasts &amp; Quotas block 1</name>
+        <params>
+            <name>co</name>
+            <value>1</value>
+        </params>
+        <reportType>Forecasts_Quotas__c</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <sortColumn>ForecastingQuota$QuotaAmount</sortColumn>
+        <sortOrder>Asc</sortOrder>
+        <timeFrameFilter>
+            <dateColumn>ForecastingQuota$StartDate</dateColumn>
+            <interval>INTERVAL_CURFY</interval>
+        </timeFrameFilter>
+    </block>
+    <blockInfo>
+        <blockId xsi:nil="true"/>
+        <joinTable>ForecastingQuota</joinTable>
+    </blockInfo>
+    <description>What is the total quota for each Sales Rep?</description>
+    <format>MultiBlock</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ForecastingQuota$Owner</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>WFS Quotas</name>
+    <reportType>Forecasts_Quotas__c</reportType>
+    <showDetails>true</showDetails>
+</Report>

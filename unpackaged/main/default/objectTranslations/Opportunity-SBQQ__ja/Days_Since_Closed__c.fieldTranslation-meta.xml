@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Today - Close Date on Opp --></help>
+        <label><!-- Days Since Closed --></label>
+        <name>Days_Since_Closed__c</name>
+    </CustomFieldTranslation>

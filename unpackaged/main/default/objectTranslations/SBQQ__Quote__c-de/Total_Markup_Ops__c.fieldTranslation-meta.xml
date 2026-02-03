@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- [Net Total - Total Cost / Total Cost] for all Operations quote lines. --></help>
+        <label><!-- Total Markup % Ops --></label>
+        <name>Total_Markup_Ops__c</name>
+    </CustomFieldTranslation>

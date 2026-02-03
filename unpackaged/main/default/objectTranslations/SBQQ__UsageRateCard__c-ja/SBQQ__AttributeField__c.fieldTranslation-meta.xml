@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>ドキュメントの出力および請求中に選択した項目によるグループ利用レート</help>
+        <label><!-- Attribute Field --></label>
+        <name>SBQQ__AttributeField__c</name>
+        <picklistValues>
+            <masterLabel>UsagePriceMethod__c</masterLabel>
+            <translation>UsagePriceMethod__c</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

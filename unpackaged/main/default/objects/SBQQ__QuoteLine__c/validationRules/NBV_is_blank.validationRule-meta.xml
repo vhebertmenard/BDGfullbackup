@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NBV_is_blank</fullName>
+    <active>true</active>
+    <description>When a 'Unit' has no NBV or $0 NBV, warn the user to enter NBV Overrride.</description>
+    <errorConditionFormula>AND($User.Username &lt;&gt;'rgali@blackdiamondgroup.com', OR( Unit_Text__c  = "Duplicate", Product_Code__c = "UNIT", Product_Code__c = "UNIT-COMPLEX", Product_Code__c = "UNIT-A", Product_Code__c = "UNIT-B", Product_Code__c = "UNIT-C"), NOT( Unit_Text__c = "New Unit" ), OR( ISBLANK( NBV__c ), NBV__c = 0 ),  Trans_Category__c = "Sale" )</errorConditionFormula>
+    <errorDisplayField>NBV_Override__c</errorDisplayField>
+    <errorMessage>One or more units has no 'NBV'. Open the quote line drawer for each 'Unit' to set the 'NBV Override'.</errorMessage>
+</ValidationRule>

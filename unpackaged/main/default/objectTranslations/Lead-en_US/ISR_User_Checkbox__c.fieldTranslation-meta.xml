@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is ISR User? --></help>
+        <label><!-- ISR User Checkbox --></label>
+        <name>ISR_User_Checkbox__c</name>
+    </CustomFieldTranslation>

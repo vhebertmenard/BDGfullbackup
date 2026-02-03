@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Effektive Menge, die zum Berechnen der Gesamtwerte verwendet wird. Ist mit der Menge identisch, es sei denn, für das Produkt gilt ein Zonenpreis, eine Rabattregelung vom Typ "Durchschnitt" oder ein bestehendes Abonnement.</help>
+        <label><!-- Effective Quantity --></label>
+        <name>SBQQ__EffectiveQuantity__c</name>
+    </CustomFieldTranslation>

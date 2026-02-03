@@ -1,0 +1,5 @@
+<apex:page standardcontroller="Account">
+  <center><font size="10">To add an account to the system, please follow the <a href="https://bdgl.sharepoint.com/sites/Playbook/SitePages/ProcessDocsStages.aspx?stage=1%20-%20Sales" target="_blank">lead creation and conversion process</a>. <p>
+  Any questions can be directed to the <a href="mailto:ITSupport@blackdiamondgroup.com">IT Service Desk</a> or contact your 
+  <a href="https://bdgl.sharepoint.com/IT/Pages/SalesForce.aspx" target="_blank">Salesforce SuperUser</a></p></font></center>
+</apex:page>

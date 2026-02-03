@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>A_Sale_Unit_is_Blank</fullName>
+    <active>true</active>
+    <description>If a Unit is selected for Sale, prevent save where "Unit" is blank</description>
+    <errorConditionFormula>AND($User.Username &lt;&gt;'rgali@blackdiamondgroup.com', Trans_Category__c  = "Sale", NOT(OR(SBQQ__ProductFamily__c = 'Customization', SBQQ__ProductFamily__c = 'IPS', SBQQ__ProductFamily__c = 'DWS') ) , NOT( Product_Code__c = 'New Manufactured Unit - Sale'), ISBLANK( Unit__c ))</errorConditionFormula>
+    <errorDisplayField>Unit__c</errorDisplayField>
+    <errorMessage>Unit products must have a value selected in the 'Unit' field.</errorMessage>
+</ValidationRule>

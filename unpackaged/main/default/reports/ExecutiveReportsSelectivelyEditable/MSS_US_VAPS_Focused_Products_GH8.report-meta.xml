@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_25659873</developerName>
+        <masterLabel>VAPS Group</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__ProductName__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>2-Drawer File Cabinet</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>4-Drawer File Cabinet</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>6&apos; Table</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>8&apos; Table</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bar Fridge</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bookcase</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bookcase (36x72)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Chair</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Desk</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Desk and Pedestal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Desk with swivel chair</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Table</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Table 6&apos;</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Table 8&apos;</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Folding Table</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Stackable Chair</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Roller Chair</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Conference Chairs</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Conference Table</sourceValue>
+            </sourceValues>
+            <value>Furniture</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Steps &amp; landings</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ADA Ramp</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Aluminum Steps</sourceValue>
+            </sourceValues>
+            <value>Outer Products</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Security Bars/Screens</sourceValue>
+            </sourceValues>
+            <value>Security Bars</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Insurance</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Insurance Daily</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MISC Insurance</sourceValue>
+            </sourceValues>
+            <value>SPP</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Basic Kitchen Package</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Basic Seating Package</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Office Package</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Conference Room Package</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Office Furniture Package</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kitchen Package</sourceValue>
+            </sourceValues>
+            <value>Packages</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>OSHA Step Awning</sourceValue>
+            </sourceValues>
+            <value>OSHA</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__NetTotal__c</column>
+        </chartSummaries>
+        <chartType>HorizontalBarStacked</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>Opportunity$Sales_Rep_Name__c</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <secondaryGroupingColumn>BucketField_25659873</secondaryGroupingColumn>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <title>VAPS Focused Products</title>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__ProductName__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__Description__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__NetTotal__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__ProductFamily__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$Monthly_Amount__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$StageName</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__Quantity__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity.SBQQ__Quotes2__r$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Account</field>
+    </columns>
+    <columns>
+        <field>Opportunity$LastModifiedDate</field>
+    </columns>
+    <columns>
+        <field>Opportunity.SBQQ__Quotes2__r$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Opportunity$CloseDate</field>
+    </columns>
+    <columns>
+        <field>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$Transaction_Type__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Owner.BDG_Department__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Owner.BDG_Branch__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>US VAPs, Focused products for 2024</description>
+    <filter>
+        <booleanFilter>1 AND (2 OR 3 OR 6) AND 4 AND 5 AND 7 AND 8</booleanFilter>
+        <criteriaItems>
+            <column>Opportunity$Owner.BDG_Division__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Modular Solutions</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__Description__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Protection Plan</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__Description__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>OSHA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__Product__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Dismantle,Install</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$Division_Region__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>MPA,MSS East,MSS US,MSS US East,MSS US MP,MSS US Southwest,MSS US Vanguard</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__ProductFamily__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>VAPS,Carry On</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__ProductName__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__ProductFamily__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Transportation</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Year</dateGranularity>
+        <field>Opportunity$Estimated_First_Revenue__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <aggregateType>Sum</aggregateType>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_25659873</field>
+        <sortByName>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__NetTotal__c</sortByName>
+        <sortOrder>Desc</sortOrder>
+        <sortType>Aggregate</sortType>
+    </groupingsDown>
+    <groupingsDown>
+        <aggregateType>Sum</aggregateType>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity$Sales_Rep_Name__c</field>
+        <sortByName>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__NetTotal__c</sortByName>
+        <sortOrder>Desc</sortOrder>
+        <sortType>Aggregate</sortType>
+    </groupingsDown>
+    <name>MSS - US VAPS - Focused Products</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_without_Quotes_with_Quote_Lines__c</reportType>
+    <roleHierarchyFilter>CEO</roleHierarchyFilter>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Opportunity.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__NetTotal__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <interval>INTERVAL_PREVCURFY</interval>
+    </timeFrameFilter>
+</Report>

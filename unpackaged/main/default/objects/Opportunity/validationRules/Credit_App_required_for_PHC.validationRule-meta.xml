@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_App_required_for_PHC</fullName>
+    <active>true</active>
+    <description>Required for Project Handover.</description>
+    <errorConditionFormula>AND(
+$User.Username &lt;&gt;'rgali@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'ithelpdesk@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'salesforcedatamigration@blackdiamondgroup.com',
+   RecordType.Name &lt;&gt; "Vanguard",
+   Is_CPQ__c = TRUE,
+   IsWon = TRUE,
+   ISBLANK( TEXT(Credit_App_Obtained__c ))
+)</errorConditionFormula>
+    <errorDisplayField>Credit_App_Obtained__c</errorDisplayField>
+    <errorMessage>Indicate whether a Credit Application has been obtained from a new/existing Account.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Project_Costs__c</fullName>
+    <formula>IF(OR(Cost_of_Delivery_and_Return__c&gt;0, Cost_of_Installation_and_Dismantle__c &gt;0,Total_Building_Cost__c &gt;0),
+    Cost_of_Delivery_and_Return__c+Cost_of_Installation_and_Dismantle__c+Total_Building_Cost__c ,
+    IF(ISPICKVAL( Transaction_Type__c,'Rental'),  
+        Total_Building_Cost__c + Upfront_Project_Costs_L__c +  Backend_Teardown_Costs_L__c , 
+        Total_Building_Cost__c +  Upfront_Project_Costs_S__c + Total_Change_Order_Cost__c 
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Project Costs</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

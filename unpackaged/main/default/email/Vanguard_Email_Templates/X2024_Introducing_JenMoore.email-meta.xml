@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2024 - Introducing JenMoore</name>
+    <style>none</style>
+    <subject>Introducing Your New Contact For {!Account.Name}</subject>
+    <textOnly>Hi! We&apos;re excited to introduce Jen Moore as your new dedicated point of contact for all your mobile modular office needs. Jen&apos;s expertise will ensure you receive exceptional communication, service, and support in fulfillment of your modular space needs.
+
+
+Visit our website to explore our complete selection of mobile offices:
+--&gt; View mobile offices
+https://www.boxxmodular.com/offices/mobile/
+
+
+Jen is looking forward to connecting with you! For your convenience, here is her contact information:
+
+Jen Moore
+jamoore@boxxmodular.com
+(984) 365-1011
+
+If you need more space now, or are considering modular solutions for the future, reach out to discuss some options.
+
+We are here to help!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

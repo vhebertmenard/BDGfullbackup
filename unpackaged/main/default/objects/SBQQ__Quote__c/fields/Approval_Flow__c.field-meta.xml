@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Flow__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup relationship between Quote and Approval Flow</description>
+    <inlineHelpText>Lookup relationship between Quote and Approval Flow to allow population of Approval Flow: Description</inlineHelpText>
+    <label>Approval Flow</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>Approval_Flow__c.Related_Object__c</field>
+            <operation>equals</operation>
+            <value>Quote</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Approval_Flow__c</referenceTo>
+    <relationshipLabel>Quotes</relationshipLabel>
+    <relationshipName>Quotes</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

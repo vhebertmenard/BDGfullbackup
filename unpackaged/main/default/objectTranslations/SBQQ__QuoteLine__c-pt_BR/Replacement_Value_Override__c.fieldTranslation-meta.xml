@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used for Complex items to show let the sales rep overwrite the replacement value --></help>
+        <label><!-- Replacement Value Override --></label>
+        <name>Replacement_Value_Override__c</name>
+    </CustomFieldTranslation>

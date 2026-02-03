@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_CAPEX_Approval_amount</fullName>
+    <active>true</active>
+    <description>If the quote lines contain any CAPEX amount (rolled up to the CAPEX - TotalTotal) prompt the user to enter a CAPEX amount to be approved</description>
+    <errorConditionFormula>AND( 
+   ISBLANK( New_CAPEX_Value_Required__c ), 
+   CAPEX_Total__c &gt;0
+)</errorConditionFormula>
+    <errorDisplayField>New_CAPEX_Value_Required__c</errorDisplayField>
+    <errorMessage>This quote has an amount of CAPEX but no amount has been entered in the CAPEX Approval Amount.  If no CAPEX needs approval, enter $0.</errorMessage>
+</ValidationRule>

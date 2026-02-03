@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Nachschlageabfrage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Nachschlageabfragen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Nachschlageabfrage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Nachschlageabfragen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Nachschlageabfrage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Nachschlageabfragen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Nachschlageabfrage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Nachschlageabfragen</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Lookup Query Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Lookup Information --></label>
+            <section>Lookup Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nummer der Nachschlageabfrage</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Das Testen von Konfigurationsattributen wird nur für Nachschlageabfragen unterstützt, die mit Produktregeln verknüpft sind.</errorMessage>
+        <name>SBQQ__Configuration_Attribute_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Weisen Sie ein Nachschlageobjekt für die Produktregel zu, bevor Sie eine Nachschlageabfrage erstellen.</errorMessage>
+        <name>SBQQ__LookupObjectMustExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>"Getesteter Wert" muss bei "Übereinstimmungstyp = Statischer Wert" angegeben werden. "Getestetes Objekt" und "Getestetes Feld" müssen bei "Übereinstimmungstyp = Feldwert" festgelegt werden."Getestetes Konfigurationsattribut" muss angegeben werden, wenn "Übereinstimmungstyp = Konfigurationsattribut" ist.</errorMessage>
+        <name>SBQQ__Match_Type_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

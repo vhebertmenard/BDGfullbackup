@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Reads the name of the Vendor chosen on the Primary Quote as the Transportation Vendor --></help>
+        <label><!-- Transportation Vendor (Quote) --></label>
+        <name>Transportation_Vendor_Quote__c</name>
+    </CustomFieldTranslation>

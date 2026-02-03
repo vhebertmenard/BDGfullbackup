@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payback__c</fullName>
+    <description>Number of months to payback (Cost divided by monthly amount = # of months)</description>
+    <externalId>false</externalId>
+    <formula>IF(Monthly_Amount__c = 0, NULL, CASE(Trans_Category__c, 
+     "Rental", Total_Cost__c ,
+     "Carry On", Total_Cost__c  ,
+ 0) / Monthly_Amount__c)</formula>
+    <inlineHelpText>Number of months to payback (Cost divided by monthly amount = # of months)</inlineHelpText>
+    <label>Payback (Months)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

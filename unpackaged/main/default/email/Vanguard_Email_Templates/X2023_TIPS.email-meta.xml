@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2023 - TIPS</name>
+    <style>none</style>
+    <subject>Modular building bid for {!Account.Name}</subject>
+    <textOnly>Hi! Did you know that you can rent and purchase modular buildings through TIPS USA (The Interlocal Purchasing System), including classrooms and offices?
+
+Your organization is already a member of TIPS USA, so bidding out a modular building project can be a thing of the past for you! TIPS USA is a national cooperative that has already done the bidding legwork.
+
+
+How can you learn more about using your TIPS USA membership to get building space fast?
+
+﻿ ﻿&gt; Reply to this email
+﻿ ﻿&gt; Request A Quote (https://www.boxxmodular.com/quote-request)
+﻿ ﻿&gt; Call 877-966-7839 to speak with your local expert
+
+
+BOXX Modular is a multi-contract TIPS USA awarded vendor for both Permanent Modular Buildings (contract #200902) and Portable Modular Buildings (contract #21020201 &amp; 21020202).
+
+https://www.tips-usa.com/vendorProfile.cfm?RecordID=51E09B5D3C458F2F374955901EB339B9
+
+
+What sort of modular buildings does BOXX Modular offer?
+
+﻿ ﻿&gt; Modular Classroom Buildings (https://www.boxxmodular.com/classrooms/)
+﻿ ﻿&gt; Modular Office Buildings (https://www.boxxmodular.com/offices/)
+﻿ ﻿&gt; Custom Modular Buildings (https://www.boxxmodular.com/specialty/)
+
+
+About TIPS USA...(https://www.tips-usa.com/)
+
+﻿ ﻿&gt; TIPS USA contracts are awarded by Region 9 ESC&apos;s board members, a public agency in Texas commissioned by the Texas state legislature and governed by seven board members which are elected by local school board members.
+
+﻿ ﻿&gt; Vendors, including BOXX Modular, are vetted through a strict competitive procurement process.
+
+﻿ ﻿&gt; The bidding statute is Chapter 44031 of the Texas Education Code.
+
+
+We are here to help you get the space you need as quickly and easily as possible!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

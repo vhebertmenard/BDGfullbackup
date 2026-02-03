@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Net total of quote lines where Transaction Category = Return, excl Optional. --></help>
+        <label><!-- Net Total Return --></label>
+        <name>Net_Total_Return__c</name>
+    </CustomFieldTranslation>

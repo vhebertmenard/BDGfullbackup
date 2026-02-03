@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NS_Fee_Type_ID__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(SBQQ__ProductName__c ,
+	'Change Order: Installation','18',
+	'Change Order: Transportation','19',
+	'Change Order: Return Transportation','128',
+	'Change Order: Dismantle','127',
+	'Return Transportation','121',
+	'Dismantle','122',
+	IF(Required_By_Product__c = 'Change Order: VAPS','17',
+		IF(OR(SBQQ__RequiredBy__r.Trans_Category__c='Installation',
+			SBQQ__RequiredBy__r.Trans_Category__c='Delivery',
+			SBQQ__RequiredBy__r.Trans_Category__c='VAPS',
+			AND(NOT(ISBLANK(Unit__c)),SBQQ__RequiredBy__r.Trans_Category__c='Sale')),SBQQ__RequiredBy__r.Fee_Type_ID__c,''
+		)
+	)
+	
+)</formula>
+    <label>NS Fee Type ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAFE_Amount_Exceeds_Balance</fullName>
+    <active>true</active>
+    <errorConditionFormula>Allocated_BAFE__c &gt;  BAFE__r.BAFE_Balance__c</errorConditionFormula>
+    <errorDisplayField>Allocated_BAFE__c</errorDisplayField>
+    <errorMessage>BAFE Amount exceeds remaining BAFE Balance</errorMessage>
+</ValidationRule>

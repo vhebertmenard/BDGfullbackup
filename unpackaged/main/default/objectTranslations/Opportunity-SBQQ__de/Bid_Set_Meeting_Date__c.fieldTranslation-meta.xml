@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If a Bidset meeting is required, enter the date that is has been booked. If a subsequent Bid Set meeting is required, enter the new date --></help>
+        <label><!-- Bid Set Meeting Date --></label>
+        <name>Bid_Set_Meeting_Date__c</name>
+    </CustomFieldTranslation>

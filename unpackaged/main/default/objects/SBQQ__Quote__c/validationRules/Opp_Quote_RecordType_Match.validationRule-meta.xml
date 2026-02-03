@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opp_Quote_RecordType_Match</fullName>
+    <active>true</active>
+    <description>Ensure Opportunities match Quotes for record type</description>
+    <errorConditionFormula>AND(
+OR(
+AND(
+   SBQQ__Opportunity2__r.RecordType.Name &lt;&gt; "BD MSS",
+   SBQQ__Opportunity2__r.RecordType.Name &lt;&gt; "BD Modular",
+   SBQQ__Opportunity2__r.RecordType.Name &lt;&gt; "BD MSS Major Projects",
+   RecordType.Name = "BD Modular"
+),
+AND(
+    SBQQ__Opportunity2__r.RecordType.Name &lt;&gt; "BD Energy",
+   SBQQ__Opportunity2__r.RecordType.Name &lt;&gt; "BD ES CPQ",
+   RecordType.Name = "BD Energy" 
+),
+AND(
+   SBQQ__Opportunity2__r.RecordType.Name &lt;&gt; "BD Workforce",
+   RecordType.Name = "BD Workforce"
+),
+AND(
+   SBQQ__Opportunity2__r.RecordType.Name &lt;&gt; "BD Lodging",
+   RecordType.Name = "BD Lodging"
+),
+AND(
+   SBQQ__Opportunity2__r.RecordType.Name &lt;&gt; "BD Disaster",
+   RecordType.Name = "BD Disaster"
+)),
+ $User.Username &lt;&gt; 'rgali@blackdiamondgroup.com')</errorConditionFormula>
+    <errorMessage>Change Quote or Opportunity so that they have matching Record Types, e.g. "BD Modular".</errorMessage>
+</ValidationRule>

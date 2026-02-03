@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Auto-Response email to customer for leads generated from Britco website</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Britco Auto-Response HTML</name>
+    <style>none</style>
+    <subject>Thank you for contacting Britco</subject>
+    <textOnly>Hi {!Lead.FirstName},
+
+Thanks for contacting Britco. We’ll review your inquiry and one of our sales reps will get back to you shortly.
+
+If you have any questions, call us at toll free at 1-800-527-4826.
+
+Take care,
+The Britco Team
+1-800-527-4826
+Britco.com
+
+Details we&apos;ve received from you:
+
+Name: {!Lead.FirstName} {!Lead.LastName}
+Organization: {!Lead.Company}
+Phone: {!Lead.Phone}
+Email: {!Lead.Email}
+Notes: {!Lead.Description}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

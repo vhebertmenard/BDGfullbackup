@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of Active Locations related to this account --></help>
+        <label><!-- # of Active Locations --></label>
+        <name>Number_of_Active_Locations__c</name>
+    </CustomFieldTranslation>

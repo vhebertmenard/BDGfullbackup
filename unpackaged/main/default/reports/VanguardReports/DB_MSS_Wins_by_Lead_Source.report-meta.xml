@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_14362677</developerName>
+        <masterLabel>Lead Source Consolidated</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity$LeadSource</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Website</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Lead Forensics</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Used</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Social Media</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Search Engine</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Building Decals</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Referral</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Advertisement (Print)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Email Blast</sourceValue>
+            </sourceValues>
+            <value>Website</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Existing Customer</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Repeat</sourceValue>
+            </sourceValues>
+            <value>Existing Customer</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Phone Inquiry</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cold Call</sourceValue>
+            </sourceValues>
+            <value>Phone Inquiry</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Email Marketing</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Email Blast</sourceValue>
+            </sourceValues>
+            <value>Email Marketing</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Event/Tradeshow</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Trade Show</sourceValue>
+            </sourceValues>
+            <value>Event/Tradeshow</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>KPN</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TIPS</sourceValue>
+            </sourceValues>
+            <value>Cooperative</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Opportunity$LeadSource</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Lead_Source_Detail__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Owner.BDG_Branch__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Owner.Username</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Account</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Amount.CONVERT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Amount</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>CDF1</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Quote_Number_of_Floors__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$StageName</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Contract_Number__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Parent_Industry__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Industry_Segment__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$SAP_Project_Number__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Term_Length__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Transaction_Type__c</field>
+    </columns>
+    <currency>USD</currency>
+    <customDetailFormulas>
+        <calculatedFormula>IF(Opportunity.Owner.Country=&quot;United States&quot;, Opportunity.Actual_Contract_Value__c*1.32, Opportunity.Actual_Contract_Value__c)</calculatedFormula>
+        <dataType>Double</dataType>
+        <description>CAD - Contract Value</description>
+        <developerName>CDF1</developerName>
+        <label>CV - CAD</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity$Owner.BDG_Branch__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>BOXX Atlanta,BOXX Banks Dallas,BOXX Calgary,BOXX Edmonton,BOXX Fort Worth,BOXX Houston,BOXX Kelowna,BOXX Langley,BOXX Nanaimo,BOXX Ottawa,BOXX Prince George,BOXX Saskatchewan,BOXX Stoney Creek,BOXX Vanguard,Major Projects California,BOXX Charlotte,BOXX Marietta,BOXX Raleigh,BOXX Schiavi,BOXX Major Projects,BOXX Dallas,BOXX MPA,BOXX Toronto East,MSS Canada East,MSS Canada West</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$New_Contract_or_Renewal__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Renewal</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$StageName</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Won,WIP,Closed Won,Completed.,Completed</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_14362677</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>DB - MSS Wins by Lead Source</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_Users__c</reportType>
+    <roleHierarchyFilter>CEO</roleHierarchyFilter>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

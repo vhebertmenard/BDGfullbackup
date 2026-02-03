@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_50877412</developerName>
+        <masterLabel>Business Region</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>User.BDG_Branch__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>BOXX Atlanta</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Banks Dallas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Fort Worth</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Houston</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Major Projects California</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Charlotte</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Marietta</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Raleigh</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Schiavi</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Dallas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX MPA</sourceValue>
+            </sourceValues>
+            <value>MSS US</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>BOXX Calgary</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Edmonton</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Saskatchewan</sourceValue>
+            </sourceValues>
+            <value>MSS Prairies</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>BOXX Kelowna</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Langley</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Nanaimo</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Prince George</sourceValue>
+            </sourceValues>
+            <value>MSS Pacific</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>BOXX Ottawa</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Stoney Creek</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS Canada East</sourceValue>
+            </sourceValues>
+            <value>MSS Canada East</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Head Office</sourceValue>
+            </sourceValues>
+            <value>MSS Canada</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>User.BDG_Branch__c</field>
+    </columns>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>LEAD_SOURCE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Other_Reason__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Reason_s_Won_Lost_Cancelled__c</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Closed Lost Opps</description>
+    <filter>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Closed Lost,Lost,Cancelled</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.BDG_Division__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Energy Services,International,Workforce Solutions</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_50877412</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>WFS - Reason for Lost Opps by Region</name>
+    <params>
+        <name>open</name>
+        <value>closed</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <endDate>2024-12-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2020-01-01</startDate>
+    </timeFrameFilter>
+</Report>

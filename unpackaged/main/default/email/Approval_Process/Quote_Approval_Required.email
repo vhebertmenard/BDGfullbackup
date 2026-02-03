@@ -1,0 +1,20 @@
+QUOTE {!SBQQ__Quote__c.Name} REQUIRES YOUR REVIEW / APPROVAL:
+Account: {!SBQQ__Quote__c.SBQQ__BillingName__c}
+Opportunity: {!SBQQ__Quote__c.SBQQ__Opportunity2__c}
+Quote: {!SBQQ__Quote__c.Link}
+
+Sales Rep: {!SBQQ__Quote__c.SBQQ__SalesRep__c}
+Branch: {!SBQQ__Quote__c.Branch__c}
+Comments: {!ApprovalRequest.Comments}
+
+Type: {!SBQQ__Quote__c.Transaction_Type__c} - {!SBQQ__Quote__c.Transaction_Type_Detail__c}
+Total: {!SBQQ__Quote__c.SBQQ__NetAmount__c}
+Monthly: {!SBQQ__Quote__c.Total_Monthly_Amount__c}
+# of Units: {!SBQQ__Quote__c.Total_Number_of_Units__c}
+
+CAPEX Approval: {!SBQQ__Quote__c.New_CAPEX_Value_Required__c}
+T&C's: {!SBQQ__Quote__c.T_C__c}
+
+
+Thanks!
+Requested by: {!Approval_Requesting_User.Name}

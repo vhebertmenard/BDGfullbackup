@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingTypeSource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <forecastingSourceDefinition>FSD_Opportunity871236963395365</forecastingSourceDefinition>
+    <forecastingType>Profit_Production_New_Contracts</forecastingType>
+    <isProtected>false</isProtected>
+    <masterLabel>FTS_Profit_Production_New_Contracts7syOL0000000085YAA052783082027595</masterLabel>
+    <sourceGroup>1</sourceGroup>
+</ForecastingTypeSource>

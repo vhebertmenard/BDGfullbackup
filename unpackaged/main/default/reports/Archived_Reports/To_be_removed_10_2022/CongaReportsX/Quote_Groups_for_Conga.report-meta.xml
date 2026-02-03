@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>SBQQ__Quote__c.SBQQ__LineItemGroups__r$SBQQ__Number__c</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c$Name</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c.SBQQ__LineItemGroups__r$Name</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c.SBQQ__LineItemGroups__r$SBQQ__NetTotal__c</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c.SBQQ__LineItemGroups__r$SBQQ__ListTotal__c</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c.SBQQ__LineItemGroups__r$SBQQ__Description__c</field>
+    </columns>
+    <currency>CAD</currency>
+    <description>Group Name</description>
+    <filter>
+        <criteriaItems>
+            <column>SBQQ__Quote__c$Id</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Quote Groups for Conga</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>SB_Quotes_and_Quote_Groups__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>SBQQ__Quote__c.SBQQ__LineItemGroups__r$SBQQ__Number__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>SBQQ__Quote__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

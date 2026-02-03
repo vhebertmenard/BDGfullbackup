@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Account</field>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>Division_Region__c</field>
+        <field>StageName</field>
+        <field>Estimated_Contract_Value__c</field>
+        <field>Term__c</field>
+        <field>Term_Length__c</field>
+        <field>Description</field>
+        <field>Reason_s_Won_Lost_Cancelled__c</field>
+        <field>Other_Reason__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>lcarignan@blackdiamondgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>BOXX US Oklahoma and Lewisville</description>
+        <entryCriteria>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Opportunity.Branch_Name_Text__c</field>
+                <operation>equals</operation>
+                <value>BOXX Lewisville,BOXX Oklahoma</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Branch__c</field>
+                <operation>equals</operation>
+                <value>BOXX Lewisville,BOXX Oklahoma</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Notify BOXX US Approver</label>
+        <name>Notify_BOXX_US_Approver</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>ghalstead@mpasystems.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>MPA</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Opportunity.Division_Region__c</field>
+                <operation>equals</operation>
+                <value>MPA</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Notify MPA Approver</label>
+        <name>Notify_MPA_Approver</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>rsmith@boxxmodular.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>BOXX US Major Projects &amp; BOXX Houston</description>
+        <entryCriteria>
+            <booleanFilter>1 OR 2 OR 3</booleanFilter>
+            <criteriaItems>
+                <field>Opportunity.Division_Region__c</field>
+                <operation>equals</operation>
+                <value>BOXX US MP</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Branch__c</field>
+                <operation>equals</operation>
+                <value>BOXX Houston</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Branch_Name_Text__c</field>
+                <operation>equals</operation>
+                <value>BOXX Houston</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Notify BOXX US MP Approver</label>
+        <name>Notify_BOXX_US_MP</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>jskoreyko@blackdiamondgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Opportunity.Division_Region__c</field>
+                <operation>equals</operation>
+                <value>Camps Canada</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Notify Camps Approver</label>
+        <name>Notify_Camps_Approver</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>bkucherawy@boxxmodular.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Calgary, Fort Nelson and Saskatchewan approvals</description>
+        <entryCriteria>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Opportunity.Branch_Name_Text__c</field>
+                <operation>equals</operation>
+                <value>BOXX Calgary,BOXX Fort Nelson,BOXX Saskatchewan</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Branch__c</field>
+                <operation>equals</operation>
+                <value>BOXX Calgary,BOXX Fort Nelson,BOXX Saskatchewan</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Notify BOXX West Calgary &amp; Ft Nelson &amp; Sask</label>
+        <name>Notify_BOXX_West_Calgary</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>mwozimirsky@boxxmodular.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Edmonton approvals</description>
+        <entryCriteria>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Opportunity.Branch_Name_Text__c</field>
+                <operation>equals</operation>
+                <value>BOXX Edmonton</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Branch__c</field>
+                <operation>equals</operation>
+                <value>BOXX Edmonton</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Notify BOXX West Edmonton</label>
+        <name>Notify_BOXX_West_Edmonton</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>jbroadhead@boxxmodular.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Approval of cancellations in BOXX Langley</description>
+        <entryCriteria>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Opportunity.Branch_Name_Text__c</field>
+                <operation>equals</operation>
+                <value>BOXX Langley</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Branch__c</field>
+                <operation>equals</operation>
+                <value>BOXX Langley</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Notify BOXX Langley</label>
+        <name>Notify_BOXX_Langley</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>chutchings@boxxmodular.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Stoney Creek approver</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Opportunity.Branch__c</field>
+                <operation>equals</operation>
+                <value>BOXX Stoney Creek</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Notify BOXX East SC Approver</label>
+        <name>Notify_BOXX_East_Approver</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>bkucherawy@boxxmodular.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Notify BOXX East Ottawa and Ajax Approver</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Opportunity.Branch__c</field>
+                <operation>equals</operation>
+                <value>BOXX Ottawa,BOXX Toronto East</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Notify BOXX East Ottawa &amp; Ajax Approver</label>
+        <name>Notify_BOXX_East</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>mklukus@blackdiamondgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Opportunity.Division_Region__c</field>
+                <operation>equals</operation>
+                <value>ES Canada,ES US</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Notify Energy Services Approver</label>
+        <name>Notify_Energy_Services_Approver</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>aharvey@blackdiamondgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Opportunity.Division_Region__c</field>
+                <operation>contains</operation>
+                <value>AUS</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Notify Australia Approver</label>
+        <name>Notify_Australia_Approver</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>sperley@blackdiamondgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Routing for anything not captured in previous steps</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Opportunity.Division_Region__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+        </entryCriteria>
+        <label>No Division Branch</label>
+        <name>No_Division_Branch</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <emailTemplate>Approval_Process/Cancelled_Opportunity_Approval_Required</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Opportunity.Reason_s_Won_Lost_Cancelled__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Opportunity_Cancelled</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>uncheck_the_box</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Cancelled_Opportunity_Rejected</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>uncheck_the_box</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>In_Cancellation_process</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Approval for Cancelled Opp V4</label>
+    <nextAutomatedApprover>
+        <useApproverFieldOfRecordOwner>false</useApproverFieldOfRecordOwner>
+        <userHierarchyField>Manager</userHierarchyField>
+    </nextAutomatedApprover>
+    <processOrder>1</processOrder>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

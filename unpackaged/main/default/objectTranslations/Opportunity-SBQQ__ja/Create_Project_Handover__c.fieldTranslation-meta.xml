@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used by integration to trigger creation of the Project Handover Checklist on Fleet Central --></help>
+        <label><!-- Create Project Handover --></label>
+        <name>Create_Project_Handover__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Total Non-Rental Cost --></label>
+        <name>Total_Cost_of_Non_Rental__c</name>
+    </CustomFieldTranslation>

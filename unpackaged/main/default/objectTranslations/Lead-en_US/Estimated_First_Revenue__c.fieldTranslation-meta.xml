@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Estimated Start Date/First Revenue Date --></help>
+        <label><!-- Estimated First Revenue --></label>
+        <name>Estimated_First_Revenue__c</name>
+    </CustomFieldTranslation>

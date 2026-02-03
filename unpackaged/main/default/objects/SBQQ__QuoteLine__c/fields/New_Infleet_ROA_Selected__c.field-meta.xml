@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Infleet_ROA_Selected__c</fullName>
+    <formula>IF( Shell__c ,
+     IF(OR(Infleet_Unit_Involved__c , New_Unit_Involved__c), 
+       CASE(SBQQ__Quote__r.To_be_entered_into_pipeline__c ,
+            'Term 1', New_Infleet_ROA_1__c ,
+            'Term 2', New_Infleet_ROA_2__c,
+            'Term 3', New_Infleet_ROA_3__c,
+            'Term 4', New_Infleet_ROA_4__c,
+            'Term 5', New_Infleet_ROA_5__c,
+            NULL
+      ), 
+        IF(SBQQ__ProductFamily__c = 'Upfronts',  
+             CASE( SBQQ__Quote__r.To_be_entered_into_pipeline_Upfront__c ,
+               'Option 1',  SBQQ__Quote__r.Upfront_Markup__c  ,
+               'Option 2',  SBQQ__Quote__r.Upfront_Markup_2__c ,
+               'Option 3',  SBQQ__Quote__r.Upfront_Markup_3__c ,
+               'Option 4',  SBQQ__Quote__r.Upfront_Markup_4__c ,
+               'Option 5',  SBQQ__Quote__r.Upfront_Markup_5__c ,
+               NULL
+           ),
+            IF( SBQQ__ProductFamily__c = 'Backend',  
+                 CASE( SBQQ__Quote__r.To_be_entered_into_pipeline_Backend__c  ,
+               'Option 1',  SBQQ__Quote__r.Backend_Markup__c   ,
+               'Option 2',  SBQQ__Quote__r.Backend_Markup_2__c  ,
+               'Option 3',  SBQQ__Quote__r.Backend_Markup_3__c ,
+               'Option 4',  SBQQ__Quote__r.Backend_Markup_4__c ,
+               'Option 5',  SBQQ__Quote__r.Backend_Markup_5__c ,
+               NULL
+           )  ,NULL)  
+            )
+       ),NULL
+)</formula>
+    <label>ROA New/Infleet/Markup Selected</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Probability * Profit Production --></help>
+        <label><!-- Weighted Profit Production --></label>
+        <name>Weighted_Profit_Production__c</name>
+    </CustomFieldTranslation>

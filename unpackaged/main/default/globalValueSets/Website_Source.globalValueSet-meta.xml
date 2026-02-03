@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AUS Website</fullName>
+        <default>false</default>
+        <label>AUS Website</label>
+    </customValue>
+    <customValue>
+        <fullName>BOXXCA Website</fullName>
+        <default>false</default>
+        <label>BOXXCA Website</label>
+    </customValue>
+    <customValue>
+        <fullName>BOXXUS Website</fullName>
+        <default>false</default>
+        <label>BOXXUS Website</label>
+    </customValue>
+    <customValue>
+        <fullName>Britco Website</fullName>
+        <default>false</default>
+        <label>Britco Website</label>
+    </customValue>
+    <customValue>
+        <fullName>Camps Website</fullName>
+        <default>false</default>
+        <label>Camps Website</label>
+    </customValue>
+    <customValue>
+        <fullName>ESCA Website</fullName>
+        <default>false</default>
+        <label>ESCA Website</label>
+    </customValue>
+    <customValue>
+        <fullName>ESUS Website</fullName>
+        <default>false</default>
+        <label>ESUS Website</label>
+    </customValue>
+    <customValue>
+        <fullName>MPA Website</fullName>
+        <default>false</default>
+        <label>MPA Website</label>
+    </customValue>
+    <customValue>
+        <fullName>WFS Camps</fullName>
+        <default>false</default>
+        <label>WFS Camps</label>
+    </customValue>
+    <customValue>
+        <fullName>Vanguard</fullName>
+        <default>false</default>
+        <label>Vanguard</label>
+    </customValue>
+    <description>Website used by customer</description>
+    <masterLabel>Website Source</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,6 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable"
+                access="global">
+
+    <c:fleetSelector />
+
+</aura:component>

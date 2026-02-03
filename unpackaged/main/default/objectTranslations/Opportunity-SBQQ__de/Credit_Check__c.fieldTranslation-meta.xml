@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Credit Check --></label>
+        <name>Credit_Check__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualify Client</masterLabel>
+            <translation><!-- Qualify Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Researching Current Limit</masterLabel>
+            <translation><!-- Researching Current Limit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Within Existing Limit</masterLabel>
+            <translation><!-- Within Existing Limit --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

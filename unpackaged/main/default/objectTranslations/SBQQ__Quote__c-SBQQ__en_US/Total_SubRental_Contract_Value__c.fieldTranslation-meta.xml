@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Net Total of all Quote Lines where the Transaction Category is &quot;Sub Rental&quot;
+Excluding Optional Items --></help>
+        <label><!-- Total Sublease Contract Value --></label>
+        <name>Total_SubRental_Contract_Value__c</name>
+    </CustomFieldTranslation>

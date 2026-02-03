@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingFilterCondition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <colName>00N70000003W48C</colName>
+    <fieldName>Division_Region__c</fieldName>
+    <forecastingFilter>FF_Profit_Production0hlOL00000000ODYAY282789020263848</forecastingFilter>
+    <forecastingSourceDefinition>7syOL0000000085</forecastingSourceDefinition>
+    <isProtected>false</isProtected>
+    <masterLabel>FFC_Profit_Production0r0OL00000000BJYAY266086657747599</masterLabel>
+    <operation>equals</operation>
+    <sortOrder>1</sortOrder>
+    <value>MSS Canada East,MSS US Southwest,MSS US East,MSS US,MSS US Vanguard,MSS Canada,MSS Canada West,MSS East,MSS US MP,MSS Pacific,MSS Prairies,MPA</value>
+</ForecastingFilterCondition>

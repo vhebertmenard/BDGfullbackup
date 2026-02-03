@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Identifies the area of the Product, Industry, Business, etc. for this Sales Region --></help>
+        <label><!-- Business Line --></label>
+        <name>Business_Line__c</name>
+    </CustomFieldTranslation>

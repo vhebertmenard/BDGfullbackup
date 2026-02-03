@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Association/Directory</fullName>
+        <default>false</default>
+        <label>Association/Directory</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conference</fullName>
+        <default>false</default>
+        <label>Conference</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Marketing</fullName>
+        <default>false</default>
+        <label>Email Marketing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Event/Tradeshow</fullName>
+        <default>false</default>
+        <label>Event/Tradeshow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Customer</fullName>
+        <default>false</default>
+        <label>Existing Customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Indigenous Relationship</fullName>
+        <default>false</default>
+        <label>Indigenous Relationship</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Offline Advertising</fullName>
+        <default>false</default>
+        <label>Offline Advertising</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Online Advertising</fullName>
+        <default>false</default>
+        <label>Online Advertising</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Phone Inquiry</fullName>
+        <default>false</default>
+        <label>Phone Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral</fullName>
+        <default>false</default>
+        <label>Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>Social Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Walk-In</fullName>
+        <default>false</default>
+        <label>Walk-In</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website</fullName>
+        <default>false</default>
+        <label>Website</label>
+    </standardValue>
+    <standardValue>
+        <fullName>360MobileOffice</fullName>
+        <default>false</default>
+        <label>360MobileOffice</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Repeat</fullName>
+        <default>false</default>
+        <label>Repeat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website - Lead Forensics</fullName>
+        <default>false</default>
+        <label>Website - Lead Forensics</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cold Call</fullName>
+        <default>false</default>
+        <label>Cold Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Government Directions</fullName>
+        <default>false</default>
+        <label>Government Directions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Central Registry (state)</fullName>
+        <default>false</default>
+        <label>Central Registry (state)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Google Alerts</fullName>
+        <default>false</default>
+        <label>Google Alerts</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Acquired Lists</fullName>
+        <default>false</default>
+        <label>Acquired Lists</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Show</fullName>
+        <default>false</default>
+        <label>Trade Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct Mailer</fullName>
+        <default>false</default>
+        <label>Direct Mailer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LinkedIn</fullName>
+        <default>false</default>
+        <label>LinkedIn</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Advertisement</fullName>
+        <default>false</default>
+        <label>Advertisement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website - Used</fullName>
+        <default>false</default>
+        <label>Website - Used</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Journal</fullName>
+        <default>false</default>
+        <label>Business Journal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dealer Program</fullName>
+        <default>false</default>
+        <label>Dealer Program</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MBI</fullName>
+        <default>false</default>
+        <label>MBI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Blast</fullName>
+        <default>false</default>
+        <label>Email Blast</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CDC News</fullName>
+        <default>false</default>
+        <label>CDC News</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Billboard</fullName>
+        <default>false</default>
+        <label>Billboard</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Craig&apos;s List</fullName>
+        <default>false</default>
+        <label>Craig&apos;s List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Industrial Resources</fullName>
+        <default>false</default>
+        <label>Industrial Resources</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Association</fullName>
+        <default>false</default>
+        <label>Association</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Directory Listing</fullName>
+        <default>false</default>
+        <label>Directory Listing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>News Source</fullName>
+        <default>false</default>
+        <label>News Source</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Twitter</fullName>
+        <default>false</default>
+        <label>Twitter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MDS</fullName>
+        <default>false</default>
+        <label>MDS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Facebook</fullName>
+        <default>false</default>
+        <label>Facebook</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GovernmentBids.com</fullName>
+        <default>false</default>
+        <label>GovernmentBids.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>UMC</fullName>
+        <default>false</default>
+        <label>UMC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>KPN</fullName>
+        <default>false</default>
+        <label>KPN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RFPSchoolWatch</fullName>
+        <default>false</default>
+        <label>RFPSchoolWatch</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website - Social Media</fullName>
+        <default>false</default>
+        <label>Website - Social Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website - Search Engine</fullName>
+        <default>false</default>
+        <label>Website - Search Engine</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website - Building Decals</fullName>
+        <default>false</default>
+        <label>Website - Building Decals</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website - Referral</fullName>
+        <default>false</default>
+        <label>Website - Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website - Advertisement (Print)</fullName>
+        <default>false</default>
+        <label>Website - Advertisement (Print)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website - Email Blast</fullName>
+        <default>false</default>
+        <label>Website - Email Blast</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TIPS</fullName>
+        <default>false</default>
+        <label>TIPS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Corporate Accounts</fullName>
+        <default>false</default>
+        <label>Corporate Accounts</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ConstructConnect</fullName>
+        <default>false</default>
+        <label>ConstructConnect</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Getable</fullName>
+        <default>false</default>
+        <label>Getable</label>
+    </standardValue>
+</StandardValueSet>

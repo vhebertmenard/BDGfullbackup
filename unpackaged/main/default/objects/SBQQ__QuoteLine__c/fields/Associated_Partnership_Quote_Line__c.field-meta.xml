@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Associated_Partnership_Quote_Line__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Associated Partnership Quote Line</label>
+    <referenceTo>SBQQ__QuoteLine__c</referenceTo>
+    <relationshipLabel>Quote Lines (Partnership Quote Line)</relationshipLabel>
+    <relationshipName>PartnershipQuoteLine</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

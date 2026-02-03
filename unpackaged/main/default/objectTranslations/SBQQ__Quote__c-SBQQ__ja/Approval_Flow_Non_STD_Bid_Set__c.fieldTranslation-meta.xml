@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates which approval flow to run for Non-Standard bids, except T&amp;C Type &quot;Gov&apos;t/Design Build&quot; and T&amp;C clauses (see CAPEX/T&amp;Cs) --></help>
+        <label><!-- Approval Flow: Non-STD Bid Set --></label>
+        <name>Approval_Flow_Non_STD_Bid_Set__c</name>
+    </CustomFieldTranslation>

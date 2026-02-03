@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2024 - Classroom - AR - CC-01404</name>
+    <style>none</style>
+    <subject>Affordable Modular Classroom Building for {!Account.Name}</subject>
+    <textOnly>Hello! Looking for efficient classroom solution to accommodate a growing student population?
+
+BOXX Modular currently has a pre-owned 8,704 sq. ft. modular classroom building available with 8 individual classrooms and 9 restrooms! This building is ready to be delivered for rent or sale to support your expanding educational needs.
+
+View the building details --&gt; 136&apos; x 64&apos; Used Modular Classroom Building
+https://www.boxxmodular.com/used-modular/cc-01404/
+
+Visit our website today to explore our complete selection of modular solutions and our team will help you find the perfect fit for your needs.
+
+--&gt; View used building inventory
+https://www.boxxmodular.com/used-modular/
+
+--&gt; View modular classrooms
+https://www.boxxmodular.com/classrooms/
+
+
+To connect with us for more information:
+
+--&gt; Reply to this email
+
+--&gt; Request a quote on our website
+https://www.boxxmodular.com/quote-request/
+
+--&gt; Call 877-966-7839 to speak with one of our local experts
+
+We are here to help!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

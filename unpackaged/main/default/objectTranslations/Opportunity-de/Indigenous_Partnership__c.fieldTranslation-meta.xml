@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Type to lookup the name of the partnership.  If no partnership is involved, type and select &quot;None&quot;. --></help>
+        <label><!-- Indigenous Partnership --></label>
+        <name>Indigenous_Partnership__c</name>
+        <relationshipLabel><!-- Opportunities involving this Partnership --></relationshipLabel>
+    </CustomFieldTranslation>

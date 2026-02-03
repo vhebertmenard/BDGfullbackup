@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Aboriginal Partnership --></label>
+        <name>Aboriginal_Partnership__c</name>
+        <picklistValues>
+            <masterLabel>Alexander</masterLabel>
+            <translation><!-- Alexander --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cygnus</masterLabel>
+            <translation><!-- Cygnus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dene</masterLabel>
+            <translation><!-- Dene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KOMO - K'omoks First Nation</masterLabel>
+            <translation><!-- KOMO - K&apos;omoks First Nation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAX	- Lax Kw'alaams Band</masterLabel>
+            <translation><!-- LAX	- Lax Kw&apos;alaams Band --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LHEI - Lheidi T'enneh</masterLabel>
+            <translation><!-- LHEI - Lheidi T&apos;enneh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nehiyawak</masterLabel>
+            <translation><!-- Nehiyawak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAUL - Saulteau First Nations</masterLabel>
+            <translation><!-- SAUL - Saulteau First Nations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEYE - Seyem Qwantlen Business Group (Kwantlen First Nation)</masterLabel>
+            <translation><!-- SEYE - Seyem Qwantlen Business Group (Kwantlen First Nation) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TERO Tier 1</masterLabel>
+            <translation><!-- TERO Tier 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TSLE - SPAL General Constructors (Tsleil-Waututh Nation)</masterLabel>
+            <translation><!-- TSLE - SPAL General Constructors (Tsleil-Waututh Nation) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tulu</masterLabel>
+            <translation><!-- Tulu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whitecap</masterLabel>
+            <translation><!-- Whitecap --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

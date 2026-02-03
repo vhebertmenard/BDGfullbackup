@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GM Engineering Approver --></label>
+        <name>Engineering_Approver__c</name>
+        <relationshipLabel><!-- Quotes (GM Engineering Approver) --></relationshipLabel>
+    </CustomFieldTranslation>

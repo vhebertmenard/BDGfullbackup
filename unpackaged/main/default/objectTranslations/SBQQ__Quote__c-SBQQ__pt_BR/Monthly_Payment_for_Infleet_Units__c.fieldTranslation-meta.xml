@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Monthly Payment for Infleet Units --></label>
+        <name>Monthly_Payment_for_Infleet_Units__c</name>
+    </CustomFieldTranslation>

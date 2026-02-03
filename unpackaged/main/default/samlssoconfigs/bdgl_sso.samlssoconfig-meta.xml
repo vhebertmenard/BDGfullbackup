@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>http://fs.blackdiamondgroup.com/adfs/services/trust</issuer>
+    <loginUrl>https://fs.blackdiamondgroup.com/adfs/ls/</loginUrl>
+    <logoutUrl>https://bdgl.sharepoint.com/</logoutUrl>
+    <name>fs.blackdiamondgroup.com</name>
+    <oauthTokenEndpoint>https://bdgl--fullcopy.sandbox.my.salesforce.com/services/oauth2/token?so=00DAw000005Iykn</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>0</requestSignatureMethod>
+    <requestSigningCertId>0P1OL000000052v</requestSigningCertId>
+    <salesforceLoginUrl>https://bdgl--fullcopy.sandbox.my.salesforce.com?so=00DAw000005Iykn</salesforceLoginUrl>
+    <samlEntityId>https://bdgl.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>true</useConfigRequestMethod>
+    <useSameDigestAlgoForSigning>false</useSameDigestAlgoForSigning>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIC7DCCAdSgAwIBAgIQM+HPupzTpZlPLfo22eew4TANBgkqhkiG9w0BAQsFADAyMTAwLgYDVQQDEydBREZTIFNpZ25pbmcgLSBmcy5ibGFja2RpYW1vbmRncm91cC5jb20wHhcNMTkwODIyMTQwNzUwWhcNMjQwODIyMTQwNzUwWjAyMTAwLgYDVQQDEydBREZTIFNpZ25pbmcgLSBmcy5ibGFja2RpYW1vbmRncm91cC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDrn0uSra/0NAGnnpXLmF00MfIwEUpDNOEKRLIU8fxfmOTyb2V1rx8HMiTWG+BTXhLpscCynbt/FnXv/81c12g7Ei/VLLsjsRUH2XYSIOiKq0kU+Pzk4v3PlALhSv5Xz8wpts8zfrQXjvDhBst86Wb1VocqLcYsrF/ugjs4/69PObJ1BoWNv/0tauaZdS32+1LYxhd036Sjk7x0lzI8AzBv0lisLvvuwWPRQlC8xD1btBdFAsZBO7g3Y4Jd8GwT9WBNcvxo6Msf6ftJ7A+QvWDpMOvJhy1jC9EC0HIud7g9yl0r5uUpRz3gYRY/pfcATEORok9T9oU4zGRlFTjuVg6PAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAMthiMUGiMzwE0HaQGTEKqlklKkROp1nOWtRqe9BLZV2iviuDTdX6gvlsQCL4zepgIU9CetG9co8DSROJ9JZwC/40X3hgLdx//8EnLz+VNy9AQ3O0+/6FlINYqkj+hHULT7mqrLlpOYls67cqifC8ZJH/Hu50YKNHPl1mGyDmj9qNjxM2/ndivw0X2aNJF05LtfPZ3741a6gVkdXByhXLLE8SernPaRp2MPAr5zgFPw5kj0XLn1LpvwO2GIPhswHQ2Ra/2FjIJty8ymDU7Schp8JkGmys0HWpLNRWZWBVmoUm1gAGTW6wMXpfpacywj3Ze7Ya+IiPJHSJJEx1jIT+/A=</validationCert>
+</SamlSsoConfig>

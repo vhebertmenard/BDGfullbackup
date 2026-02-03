@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If the Cost Type of this quote line is CAPEX - New Build or CAPEX - Refurb, Calculates the total amount of CAPEX (Unit Cost * Quantity) for this Quote Line. --></help>
+        <label><!-- CAPEX Total --></label>
+        <name>CAPEX_Total__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2023 - Singlewides (GA)</name>
+    <style>none</style>
+    <subject>Portable Construction office for {!Account.Name}</subject>
+    <textOnly>Hi! Do you need a portable construction office for an upcoming project?
+
+We have a variety of high quality affordable inventory ready to go when you
+are ready to start your project.
+
+12&apos; x 56&apos; | 670 sq. ft. - two offices, a meeting area, and a restroom
+12&apos; x 46&apos; | 550 sq. ft. - one office, a meeting area, and a restroom
+10&apos; x 36&apos; | 330 sq. ft. - one office, a meeting area, and a restroom
+
+Get more information...
+
+﻿    ﻿&gt; Request A Quote on our website (https://www.boxxmodular.com/quote-request)
+﻿    ﻿&gt; Reply to this email
+﻿    ﻿&gt; Call your local expert directly at 770-503-1011
+
+Looking for a larger office building? We can help. Choose what you need
+from a variety of standard office complex options (https://www.boxxmodular.com/offices/).
+
+Get your office ready for operation with our Building Add-ons, including
+furniture, steps, awnings, and more (https://www.boxxmodular.com/add-ons/).
+
+Our desire is to help you be successful with your projects. We are here to
+help!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

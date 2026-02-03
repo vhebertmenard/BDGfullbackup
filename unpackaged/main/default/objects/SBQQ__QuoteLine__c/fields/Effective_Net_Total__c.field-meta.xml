@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Effective_Net_Total__c</fullName>
+    <description>Shows Net Total for Sale and Carry On lines not "bundled" and "bundled"</description>
+    <formula>IF( Transaction_Type_Text__c &lt;&gt; "Sale", 0,
+ IF(Shell__c = TRUE, 0,
+  IF(OR(Unit_Text_Text__c = "New Unit", Unit_Text_Text__c = "New Carry On"), 0,
+   IF( NBV_Currency__c &lt;= 0, 0,
+    IF( SBQQ__ProductFamily__c = "Customization", 0,
+     IF(OR (SBQQ__OptionLevel__c &lt;1, Trans_Category__c = "Carry On"), SBQQ__NetTotal__c ,  
+      SBQQ__RequiredBy__r.Markup_Effective_Percent__c * Total_Cost__c  + Total_Cost__c))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Shows Net Total for Sale and Carry On lines not "bundled" and "bundled"</inlineHelpText>
+    <label>Effective Net Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Third_Party_Partnership__c</fullName>
+    <formula>IF(OR(ISNULL( JV_Partnership_Account__c ),ISBLANK( JV_Partnership_Account__c )),FALSE,TRUE)</formula>
+    <label>Third Party Partnership</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

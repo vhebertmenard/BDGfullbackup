@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Manufacture_Sale_for_Item_Mapping__c</fullName>
+    <formula>AND( ISPICKVAL(Transaction_Type_Detail__c ,'New Fleet Sale') ,OR(SBQQ__Opportunity2__r.Customer_Category_for_Item_Map__c = 'External',SBQQ__Opportunity2__r.Customer_Category_for_Item_Map__c = 'Third Party Partnership'))</formula>
+    <label>New Manufacture - Sale for Item Mapping</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

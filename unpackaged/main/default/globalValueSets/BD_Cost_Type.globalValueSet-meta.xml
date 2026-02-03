@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Chargeable</fullName>
+        <default>false</default>
+        <label>Chargeable</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Chargeable</fullName>
+        <default>false</default>
+        <label>Non-Chargeable</label>
+    </customValue>
+    <customValue>
+        <fullName>CAPEX - New Build</fullName>
+        <default>false</default>
+        <label>CAPEX - New Build</label>
+    </customValue>
+    <customValue>
+        <fullName>CAPEX - Refurb</fullName>
+        <default>false</default>
+        <label>CAPEX - Refurb</label>
+    </customValue>
+    <description>Types of Costs used on the Quote Lines</description>
+    <masterLabel>BD Cost Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

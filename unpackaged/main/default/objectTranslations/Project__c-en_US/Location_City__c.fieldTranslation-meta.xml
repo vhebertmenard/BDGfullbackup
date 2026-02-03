@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- City where the Project Site is located. Populates Site City on all Leads/Opportunities related to this project. --></help>
+        <label><!-- Site City --></label>
+        <name>Location_City__c</name>
+    </CustomFieldTranslation>

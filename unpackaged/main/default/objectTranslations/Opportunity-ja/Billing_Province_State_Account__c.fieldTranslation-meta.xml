@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Billing State/Province from Account for Outreach --></help>
+        <label><!-- Billing Province/State - Account --></label>
+        <name>Billing_Province_State_Account__c</name>
+    </CustomFieldTranslation>

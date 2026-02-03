@@ -1,0 +1,7 @@
+Account: {!Opportunity.Account_Name_Text__c}</br>
+Opportunity: {!Opportunity.Account_Name_Text__c}</br>
+Branch: {!Opportunity.Branch_Name_Text__c}</p>
+
+Sales Rep: {!Opportunity.Sales_Rep_Name__c}</br>
+Contract Value: {!Opportunity.Contract_Value__c} | {!Opportunity.Actual_Contract_Value__c}</br>
+Link to the Opportunity: {!Opportunity.Link}

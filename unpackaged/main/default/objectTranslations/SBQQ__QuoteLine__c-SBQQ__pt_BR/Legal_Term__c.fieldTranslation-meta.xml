@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Legal Terms of categories for use on the Contract documents --></help>
+        <label><!-- Legal Terminology --></label>
+        <name>Legal_Term__c</name>
+    </CustomFieldTranslation>

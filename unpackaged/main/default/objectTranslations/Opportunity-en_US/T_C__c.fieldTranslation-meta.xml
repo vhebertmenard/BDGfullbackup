@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For definitions of Standard and Non-Standard terms &amp; conditions, see Black Diamond&apos;s Authority Matrix --></help>
+        <label><!-- T&amp;C&apos;s --></label>
+        <name>T_C__c</name>
+        <picklistValues>
+            <masterLabel>MSSA</masterLabel>
+            <translation><!-- MSSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Standard - Commercial</masterLabel>
+            <translation><!-- Non-Standard - Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Standard - Legal</masterLabel>
+            <translation><!-- Non-Standard - Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard - Black Diamond</masterLabel>
+            <translation><!-- Standard - Black Diamond --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

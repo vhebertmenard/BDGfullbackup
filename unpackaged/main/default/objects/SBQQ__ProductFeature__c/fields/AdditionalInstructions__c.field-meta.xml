@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdditionalInstructions__c</fullName>
+    <description>Provides a text field that shows up in the feature UI in the configurator
+Knowledge Article Number	000270683</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Provides a text field that shows up in the feature UI in the configurator</inlineHelpText>
+    <label>Additional Instructions</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

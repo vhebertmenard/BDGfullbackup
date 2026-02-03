@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Salesforce Billing でこの利用レートカードの利用レートをどのように請求するのかを選択します。[範囲] は 1 つのレートを請求し、[スラブ] は該当するすべての利用レートを請求します。</help>
+        <label><!-- Type --></label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Range</masterLabel>
+            <translation>範囲</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slab</masterLabel>
+            <translation>スラブ</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Interlocal Purchasing System --></help>
+        <label><!-- TIPS --></label>
+        <name>TIPS__c</name>
+    </CustomFieldTranslation>

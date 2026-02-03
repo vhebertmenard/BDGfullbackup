@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__UsageRateCard__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>The usage rate card associated with this order product</inlineHelpText>
+    <label>Usage Rate Card</label>
+    <referenceTo>SBQQ__UsageRateCard__c</referenceTo>
+    <relationshipLabel>Usage Rate Card Assignments</relationshipLabel>
+    <relationshipName>UsageRateCardAssignments</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

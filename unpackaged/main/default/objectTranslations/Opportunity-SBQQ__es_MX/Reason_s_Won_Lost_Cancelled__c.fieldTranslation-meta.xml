@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason(s) Won/Lost /Cancelled --></label>
+        <name>Reason_s_Won_Lost_Cancelled__c</name>
+        <picklistValues>
+            <masterLabel>Client Not Awarded</masterLabel>
+            <translation><!-- Client Not Awarded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Relationship</masterLabel>
+            <translation><!-- Client Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Unresponsive</masterLabel>
+            <translation><!-- Client Unresponsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor Relationship</masterLabel>
+            <translation><!-- Competitor Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fleet Availability</masterLabel>
+            <translation><!-- Fleet Availability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow up/ Clean Up</masterLabel>
+            <translation><!-- Follow up/ Clean Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-fleet Availability</masterLabel>
+            <translation><!-- Non-fleet Availability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Cancelled</masterLabel>
+            <translation><!-- Project Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projects on Hold</masterLabel>
+            <translation><!-- Projects on Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Logistics</masterLabel>
+            <translation><!-- Site Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Logistics</masterLabel>
+            <translation><!-- Supply Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdraw: Contract Terms</masterLabel>
+            <translation><!-- Withdraw: Contract Terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdraw: Excessive Submittals Required</masterLabel>
+            <translation><!-- Withdraw: Excessive Submittals Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdraw: Liquidated Damages Unacceptable</masterLabel>
+            <translation><!-- Withdraw: Liquidated Damages Unacceptable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdraw: Price Hold Too Long</masterLabel>
+            <translation><!-- Withdraw: Price Hold Too Long --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdraw: Risk Exposure</masterLabel>
+            <translation><!-- Withdraw: Risk Exposure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdraw: Timeline</masterLabel>
+            <translation><!-- Withdraw: Timeline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdraw: Too Many Resources Needed</masterLabel>
+            <translation><!-- Withdraw: Too Many Resources Needed --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

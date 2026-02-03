@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total the cost of all quote lines where the trans category is Sale --></help>
+        <label><!-- Total Cost of Sale Units --></label>
+        <name>Total_Cost_of_Sale_Units__c</name>
+    </CustomFieldTranslation>

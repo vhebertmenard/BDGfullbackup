@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Fleet_Factor_Selected__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( To_be_entered_into_pipeline__c ,
+'Term 1',IF(ISBLANK(Override_New_Factor_1__c),Target_New_Factor__c,Override_New_Factor_1__c),
+'Term 2',IF(ISBLANK(Override_New_Factor_2__c),Target_New_Factor_2__c,Override_New_Factor_2__c),
+'Term 3',IF(ISBLANK(Override_New_Factor_3__c),Target_New_Factor_3__c,Override_New_Factor_3__c),
+'Term 4',IF(ISBLANK(Override_New_Factor_4__c),Target_New_Factor_4__c,Override_New_Factor_4__c),
+'Term 5',IF(ISBLANK(Override_New_Factor_5__c),Target_New_Factor_5__c,Override_New_Factor_5__c),
+0
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>New Fleet Factor Selected</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>8</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

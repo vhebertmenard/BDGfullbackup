@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Tamanho da imagem de segundo plano do cabeçalho da página (clique no ícone para informações adicionais)</help>
+        <label><!-- Header Background Image Size --></label>
+        <name>SBQQ__HeaderBackgroundImageSize__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>MPA Systems</name>
+    <queueMembers>
+        <users>
+            <user>druhl@mpasystems.com</user>
+            <user>dstrong@mpasystems.com</user>
+            <user>ghalstead@mpasystems.com</user>
+            <user>llee@blackdiamondgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select the field you want updated when the conditions are met. --></help>
+        <label>Zielfeld</label>
+        <name>SBQQ__Field__c</name>
+        <picklistValues>
+            <masterLabel>A_La_Carte_Backend_Net_Total__c</masterLabel>
+            <translation><!-- A_La_Carte_Backend_Net_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A_La_Carte_Delivery_Net_Total__c</masterLabel>
+            <translation><!-- A_La_Carte_Delivery_Net_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A_La_Carte_GC_Net_Total__c</masterLabel>
+            <translation><!-- A_La_Carte_GC_Net_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A_La_Carte_Install_Net_Total__c</masterLabel>
+            <translation><!-- A_La_Carte_Install_Net_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A_La_Carte_ME_Net_Total__c</masterLabel>
+            <translation><!-- A_La_Carte_ME_Net_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A_La_Carte_Site_Work_Net_Total__c</masterLabel>
+            <translation><!-- A_La_Carte_Site_Work_Net_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A_la_carte_Operations_Cost__c</masterLabel>
+            <translation><!-- A_la_carte_Operations_Cost__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A_la_carte_Operations_Net_Total__c</masterLabel>
+            <translation><!-- A_la_carte_Operations_Net_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backend_Markup_Selected__c</masterLabel>
+            <translation><!-- Backend_Markup_Selected__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backend_Net_Total__c</masterLabel>
+            <translation><!-- Backend_Net_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backend_Products_Cost__c</masterLabel>
+            <translation><!-- Backend_Products_Cost__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backend_TD_Mark_up_L__c</masterLabel>
+            <translation><!-- Backend_TD_Mark_up_L__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backend_Teardown_Costs_L__c</masterLabel>
+            <translation><!-- Backend_Teardown_Costs_L__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billable_Days_Quote__c</masterLabel>
+            <translation><!-- Billable_Days_Quote__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building_Mark_up_S__c</masterLabel>
+            <translation><!-- Building_Mark_up_S__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building_Payment_L__c</masterLabel>
+            <translation><!-- Building_Payment_L__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building_Selling_Price_2__c</masterLabel>
+            <translation><!-- Building_Selling_Price_2__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building_Selling_Price_3__c</masterLabel>
+            <translation><!-- Building_Selling_Price_3__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building_Selling_Price_4__c</masterLabel>
+            <translation><!-- Building_Selling_Price_4__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building_Selling_Price_5__c</masterLabel>
+            <translation><!-- Building_Selling_Price_5__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building_Selling_Price__c</masterLabel>
+            <translation><!-- Building_Selling_Price__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bundled_Backend_Costs__c</masterLabel>
+            <translation><!-- Bundled_Backend_Costs__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bundled_Backend_Net_Totals__c</masterLabel>
+            <translation><!-- Bundled_Backend_Net_Totals__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bundled_Upfront_Costs__c</masterLabel>
+            <translation><!-- Bundled_Upfront_Costs__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bundled_Upfront_Net_Totals__c</masterLabel>
+            <translation><!-- Bundled_Upfront_Net_Totals__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPEX_New_Build_Total__c</masterLabel>
+            <translation><!-- CAPEX_New_Build_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPEX_Refurb_Total__c</masterLabel>
+            <translation><!-- CAPEX_Refurb_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPEX_Total__c</masterLabel>
+            <translation><!-- CAPEX_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPQ_Last_Rule__c</masterLabel>
+            <translation><!-- CPQ_Last_Rule__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camp_Operations_Contract_Value__c</masterLabel>
+            <translation><!-- Camp_Operations_Contract_Value__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camp_Operations_Total_Cost__c</masterLabel>
+            <translation><!-- Camp_Operations_Total_Cost__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capitalized_Transportation__c</masterLabel>
+            <translation><!-- Capitalized_Transportation__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category__c</masterLabel>
+            <translation><!-- Category__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complex_Length__c</masterLabel>
+            <translation><!-- Complex_Length__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complex_Width__c</masterLabel>
+            <translation><!-- Complex_Width__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost_Type__c</masterLabel>
+            <translation><!-- Cost_Type__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost_of_Delivery_and_Return__c</masterLabel>
+            <translation><!-- Cost_of_Delivery_and_Return__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost_of_Installation_and_Dismantle__c</masterLabel>
+            <translation><!-- Cost_of_Installation_and_Dismantle__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily_Amount_Calc__c</masterLabel>
+            <translation><!-- Daily_Amount_Calc__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily_Rate__c</masterLabel>
+            <translation><!-- Daily_Rate__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery_Costs_L__c</masterLabel>
+            <translation><!-- Delivery_Costs_L__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Description_for_Conga__c</masterLabel>
+            <translation><!-- Description_for_Conga__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount (%)</masterLabel>
+            <translation><!-- Discount (%) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount (Amt)</masterLabel>
+            <translation><!-- Discount (Amt) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Effective_Net_Total_Currency__c</masterLabel>
+            <translation><!-- Effective_Net_Total_Currency__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fee_Type_ID__c</masterLabel>
+            <translation><!-- Fee_Type_ID__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final_Infleet_List_Price__c</masterLabel>
+            <translation><!-- Final_Infleet_List_Price__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final_Infleet_Selling_Price__c</masterLabel>
+            <translation><!-- Final_Infleet_Selling_Price__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final_New_Unit_List_Price__c</masterLabel>
+            <translation><!-- Final_New_Unit_List_Price__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final_New_Unit_Selling_Price__c</masterLabel>
+            <translation><!-- Final_New_Unit_Selling_Price__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final_Selling_Price__c</masterLabel>
+            <translation><!-- Final_Selling_Price__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frame_Type__c</masterLabel>
+            <translation><!-- Frame_Type__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Has_Refurbishments__c</masterLabel>
+            <translation><!-- Has_Refurbishments__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In_Fleet_Capped_Costs_L__c</masterLabel>
+            <translation><!-- In_Fleet_Capped_Costs_L__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In_fleet_Building_Factor_L__c</masterLabel>
+            <translation><!-- In_fleet_Building_Factor_L__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In_fleet_Capped_Costs_S__c</masterLabel>
+            <translation><!-- In_fleet_Capped_Costs_S__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infleet_List_Prices_1__c</masterLabel>
+            <translation><!-- Infleet_List_Prices_1__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infleet_List_Prices_2__c</masterLabel>
+            <translation><!-- Infleet_List_Prices_2__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infleet_List_Prices_3__c</masterLabel>
+            <translation><!-- Infleet_List_Prices_3__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infleet_List_Prices_4__c</masterLabel>
+            <translation><!-- Infleet_List_Prices_4__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infleet_List_Prices_5__c</masterLabel>
+            <translation><!-- Infleet_List_Prices_5__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infleet_Selling_Price_1__c</masterLabel>
+            <translation><!-- Infleet_Selling_Price_1__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infleet_Selling_Price_2__c</masterLabel>
+            <translation><!-- Infleet_Selling_Price_2__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infleet_Selling_Price_3__c</masterLabel>
+            <translation><!-- Infleet_Selling_Price_3__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infleet_Selling_Price_4__c</masterLabel>
+            <translation><!-- Infleet_Selling_Price_4__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infleet_Selling_Price_5__c</masterLabel>
+            <translation><!-- Infleet_Selling_Price_5__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infleet_Unit_Involved__c</masterLabel>
+            <translation><!-- Infleet_Unit_Involved__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List_Unit_Price_Option_1__c</masterLabel>
+            <translation><!-- List_Unit_Price_Option_1__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List_Unit_Price_Option_2__c</masterLabel>
+            <translation><!-- List_Unit_Price_Option_2__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List_Unit_Price_Option_3__c</masterLabel>
+            <translation><!-- List_Unit_Price_Option_3__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List_Unit_Price_Option_4__c</masterLabel>
+            <translation><!-- List_Unit_Price_Option_4__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List_Unit_Price_Option_5__c</masterLabel>
+            <translation><!-- List_Unit_Price_Option_5__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Markup (%)</masterLabel>
+            <translation><!-- Markup (%) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Markup (Amt)</masterLabel>
+            <translation><!-- Markup (Amt) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly_Amount_Calc__c</masterLabel>
+            <translation><!-- Monthly_Amount_Calc__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly_Payment_for_Infleet_Units__c</masterLabel>
+            <translation><!-- Monthly_Payment_for_Infleet_Units__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly_Payment_for_New_Units__c</masterLabel>
+            <translation><!-- Monthly_Payment_for_New_Units__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NBV_Currency__c</masterLabel>
+            <translation><!-- NBV_Currency__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Backend__c</masterLabel>
+            <translation><!-- Net_Total_Backend__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Camp_Ops__c</masterLabel>
+            <translation><!-- Net_Total_Camp_Ops__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Delivery__c</masterLabel>
+            <translation><!-- Net_Total_Delivery__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Disaster__c</masterLabel>
+            <translation><!-- Net_Total_Disaster__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Dismantle__c</masterLabel>
+            <translation><!-- Net_Total_Dismantle__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Install__c</masterLabel>
+            <translation><!-- Net_Total_Install__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Lodging__c</masterLabel>
+            <translation><!-- Net_Total_Lodging__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Return__c</masterLabel>
+            <translation><!-- Net_Total_Return__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Sublease__c</masterLabel>
+            <translation><!-- Net_Total_Sublease__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Upfront_Delivery__c</masterLabel>
+            <translation><!-- Net_Total_Upfront_Delivery__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Upfront_GC__c</masterLabel>
+            <translation><!-- Net_Total_Upfront_GC__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Upfront_Install__c</masterLabel>
+            <translation><!-- Net_Total_Upfront_Install__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Upfront_ME__c</masterLabel>
+            <translation><!-- Net_Total_Upfront_ME__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_Upfront_Site_Work__c</masterLabel>
+            <translation><!-- Net_Total_Upfront_Site_Work__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Unit_Price_Option_2__c</masterLabel>
+            <translation><!-- Net_Unit_Price_Option_2__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Unit_Price_Option_3__c</masterLabel>
+            <translation><!-- Net_Unit_Price_Option_3__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Unit_Price_Option_4__c</masterLabel>
+            <translation><!-- Net_Unit_Price_Option_4__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Unit_Price_Option_5__c</masterLabel>
+            <translation><!-- Net_Unit_Price_Option_5__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Building_Factor_L__c</masterLabel>
+            <translation><!-- New_Building_Factor_L__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_CAPEX_Value_Required__c</masterLabel>
+            <translation><!-- New_CAPEX_Value_Required__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Capped_Costs_L__c</masterLabel>
+            <translation><!-- New_Capped_Costs_L__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Capped_Costs_S__c</masterLabel>
+            <translation><!-- New_Capped_Costs_S__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Infleet_Factor__c</masterLabel>
+            <translation><!-- New_Infleet_Factor__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_List_Prices_1__c</masterLabel>
+            <translation><!-- New_List_Prices_1__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_List_Prices_2__c</masterLabel>
+            <translation><!-- New_List_Prices_2__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_List_Prices_3__c</masterLabel>
+            <translation><!-- New_List_Prices_3__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_List_Prices_4__c</masterLabel>
+            <translation><!-- New_List_Prices_4__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_List_Prices_5__c</masterLabel>
+            <translation><!-- New_List_Prices_5__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Unit_Involved__c</masterLabel>
+            <translation><!-- New_Unit_Involved__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Unit_Selling_Price_1__c</masterLabel>
+            <translation><!-- New_Unit_Selling_Price_1__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Unit_Selling_Price_2__c</masterLabel>
+            <translation><!-- New_Unit_Selling_Price_2__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Unit_Selling_Price_3__c</masterLabel>
+            <translation><!-- New_Unit_Selling_Price_3__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Unit_Selling_Price_4__c</masterLabel>
+            <translation><!-- New_Unit_Selling_Price_4__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New_Unit_Selling_Price_5__c</masterLabel>
+            <translation><!-- New_Unit_Selling_Price_5__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PPF_Final_Monthly_Payment__c</masterLabel>
+            <translation><!-- PPF_Final_Monthly_Payment__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price_Lookup_Check__c</masterLabel>
+            <translation><!-- Price_Lookup_Check__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price_Rule_Testing__c</masterLabel>
+            <translation><!-- Price_Rule_Testing__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Code_Price_Rule__c</masterLabel>
+            <translation><!-- Product_Code_Price_Rule__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Description_French__c</masterLabel>
+            <translation><!-- Product_Description_French__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Option_Group__c</masterLabel>
+            <translation><!-- Product_Option_Group__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Option_Legth__c</masterLabel>
+            <translation><!-- Product_Option_Legth__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Option_Width__c</masterLabel>
+            <translation><!-- Product_Option_Width__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Subscription_Frequency__c</masterLabel>
+            <translation><!-- Product_Subscription_Frequency__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Type__c</masterLabel>
+            <translation><!-- Product_Type__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quoted_Term_Months__c</masterLabel>
+            <translation><!-- Quoted_Term_Months__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM_Required_Amount__c</masterLabel>
+            <translation><!-- RM_Required_Amount__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refurbishment_L__c</masterLabel>
+            <translation><!-- Refurbishment_L__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refurbishment_S__c</masterLabel>
+            <translation><!-- Refurbishment_S__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocate_Total__c</masterLabel>
+            <translation><!-- Relocate_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replacement_Value_Calc__c</masterLabel>
+            <translation><!-- Replacement_Value_Calc__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Required_By_Product_Price_Rule__c</masterLabel>
+            <translation><!-- Required_By_Product_Price_Rule__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retrofit_Total__c</masterLabel>
+            <translation><!-- Retrofit_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__CostEditable__c</masterLabel>
+            <translation><!-- SBQQ__CostEditable__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Description__c</masterLabel>
+            <translation><!-- SBQQ__Description__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Hidden__c</masterLabel>
+            <translation><!-- SBQQ__Hidden__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__ListPrice__c</masterLabel>
+            <translation><!-- SBQQ__ListPrice__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__MarkupRate__c</masterLabel>
+            <translation><!-- SBQQ__MarkupRate__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__NetPrice__c</masterLabel>
+            <translation><!-- SBQQ__NetPrice__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__NonDiscountable__c</masterLabel>
+            <translation><!-- SBQQ__NonDiscountable__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__PricingMethod__c</masterLabel>
+            <translation><!-- SBQQ__PricingMethod__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__SubscriptionPricing__c</masterLabel>
+            <translation><!-- SBQQ__SubscriptionPricing__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__SubscriptionTerm__c</masterLabel>
+            <translation><!-- SBQQ__SubscriptionTerm__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__UnitCost__c</masterLabel>
+            <translation><!-- SBQQ__UnitCost__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sublease_Monthly_Payment__c</masterLabel>
+            <translation><!-- Sublease_Monthly_Payment__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sublease_Multiplier__c</masterLabel>
+            <translation><!-- Sublease_Multiplier__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription_Term_Quote__c</masterLabel>
+            <translation><!-- Subscription_Term_Quote__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test_Net_Total__c</masterLabel>
+            <translation><!-- Test_Net_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Change_Order_VAPS__c</masterLabel>
+            <translation><!-- Total_Change_Order_VAPS__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Cost_Camp_Ops__c</masterLabel>
+            <translation><!-- Total_Cost_Camp_Ops__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Cost_Delivery__c</masterLabel>
+            <translation><!-- Total_Cost_Delivery__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Cost_Dismantle__c</masterLabel>
+            <translation><!-- Total_Cost_Dismantle__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Cost_Install__c</masterLabel>
+            <translation><!-- Total_Cost_Install__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Cost_Rental_Cost__c</masterLabel>
+            <translation><!-- Total_Cost_Rental_Cost__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Cost_Return__c</masterLabel>
+            <translation><!-- Total_Cost_Return__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Cost_Sublease__c</masterLabel>
+            <translation><!-- Total_Cost_Sublease__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Quote_Line_Net_Total_Sale__c</masterLabel>
+            <translation><!-- Total_Quote_Line_Net_Total_Sale__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Quote_Line_Replacement_Costs_Sale__c</masterLabel>
+            <translation><!-- Total_Quote_Line_Replacement_Costs_Sale__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Quote_Sq_Ft__c</masterLabel>
+            <translation><!-- Total_Quote_Sq_Ft__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_VAPS_Cost_Sale__c</masterLabel>
+            <translation><!-- Total_VAPS_Cost_Sale__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trans_Category__c</masterLabel>
+            <translation><!-- Trans_Category__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction_Type_Text__c</masterLabel>
+            <translation><!-- Transaction_Type_Text__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type__c</masterLabel>
+            <translation><!-- Type__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Price</masterLabel>
+            <translation><!-- Unit Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Cost_ES__c</masterLabel>
+            <translation><!-- Unit_Cost_ES__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Price__c</masterLabel>
+            <translation><!-- Unit_Price__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Text_Text__c</masterLabel>
+            <translation><!-- Unit_Text_Text__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront_Mark_up_L__c</masterLabel>
+            <translation><!-- Upfront_Mark_up_L__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront_Markup_1__c</masterLabel>
+            <translation><!-- Upfront_Markup_1__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront_Markup_S__c</masterLabel>
+            <translation><!-- Upfront_Markup_S__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront_Net_Total__c</masterLabel>
+            <translation><!-- Upfront_Net_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront_Products_Costs__c</masterLabel>
+            <translation><!-- Upfront_Products_Costs__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront_Project_Costs_L__c</masterLabel>
+            <translation><!-- Upfront_Project_Costs_L__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront_Project_Costs_S__c</masterLabel>
+            <translation><!-- Upfront_Project_Costs_S__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront_Selling_Price_1__c</masterLabel>
+            <translation><!-- Upfront_Selling_Price_1__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront_Selling_Price_2__c</masterLabel>
+            <translation><!-- Upfront_Selling_Price_2__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront_Selling_Price_3__c</masterLabel>
+            <translation><!-- Upfront_Selling_Price_3__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront_Selling_Price_4__c</masterLabel>
+            <translation><!-- Upfront_Selling_Price_4__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront_Selling_Price_5__c</masterLabel>
+            <translation><!-- Upfront_Selling_Price_5__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAPS_Final_Monthly_Payment__c</masterLabel>
+            <translation><!-- VAPS_Final_Monthly_Payment__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAPS_Selling_Price__c</masterLabel>
+            <translation><!-- VAPS_Selling_Price__c --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

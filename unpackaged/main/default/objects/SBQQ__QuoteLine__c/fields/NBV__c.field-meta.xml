@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NBV__c</fullName>
+    <description>Net Book Value of the unit selected for this quote line</description>
+    <formula>IF( NBV_Override__c &gt; 0, NBV_Override__c , Unit__r.NBV__c )</formula>
+    <inlineHelpText>Net Book Value of the unit selected for this quote line</inlineHelpText>
+    <label>NBV</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

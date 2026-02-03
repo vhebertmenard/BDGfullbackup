@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Bei "Übereinstimmungstyp = Feldwert" wählen Sie ein getestetes Objekt und ein getestetes Feld aus. Ist "Übereinstimmungstyp = Statischer Wert" festgelegt, geben Sie einen Wert in das Feld "Getesteter Wert" ein. Ist "Übereinstimmungstyp = Konfigurationsattribut" festgelegt, geben Sie ein Konfigurationsattribut an.</help>
+        <label><!-- Match Type --></label>
+        <name>SBQQ__MatchType__c</name>
+        <picklistValues>
+            <masterLabel>Field Value</masterLabel>
+            <translation>Feldwert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Static Value</masterLabel>
+            <translation>Statischer Wert</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

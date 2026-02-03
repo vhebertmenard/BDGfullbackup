@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Primary reason Opportunity was Lost --></help>
+        <label><!-- Loss Reason --></label>
+        <name>Loss_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Bad Data (incl Duplicate)</masterLabel>
+            <translation><!-- Bad Data (incl Duplicate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Not Awarded</masterLabel>
+            <translation><!-- Client Not Awarded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- could not obtain funding</masterLabel>
+            <translation><!-- Customer- could not obtain funding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- could not obtain land</masterLabel>
+            <translation><!-- Customer- could not obtain land --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- could not obtain regulatory approval, land development</masterLabel>
+            <translation><!-- Customer- could not obtain regulatory approval, land development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- could not obtain regulatory approval, storm water management</masterLabel>
+            <translation><!-- Customer- could not obtain regulatory approval, storm water management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- could not obtain regulatory approval, used building code compliance</masterLabel>
+            <translation><!-- Customer- could not obtain regulatory approval, used building code compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- could not obtain regulatory approval, zoning</masterLabel>
+            <translation><!-- Customer- could not obtain regulatory approval, zoning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- did not win job</masterLabel>
+            <translation><!-- Customer- did not win job --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- did nothing</masterLabel>
+            <translation><!-- Customer- did nothing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- lost for other reasons</masterLabel>
+            <translation><!-- Customer- lost for other reasons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- need is not conducive to modular buildings</masterLabel>
+            <translation><!-- Customer- need is not conducive to modular buildings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- project delayed indefinitely</masterLabel>
+            <translation><!-- Customer- project delayed indefinitely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- selected alternate construction</masterLabel>
+            <translation><!-- Customer- selected alternate construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- selected competitor based on credit or contractual terms</masterLabel>
+            <translation><!-- Customer- selected competitor based on credit or contractual terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- selected competitor on delivery schedule</masterLabel>
+            <translation><!-- Customer- selected competitor on delivery schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- selected competitor on price</masterLabel>
+            <translation><!-- Customer- selected competitor on price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- selected competitor on spec</masterLabel>
+            <translation><!-- Customer- selected competitor on spec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- unresponsive</masterLabel>
+            <translation><!-- Customer- unresponsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- used existing space</masterLabel>
+            <translation><!-- Customer- used existing space --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer- would not provide reason</masterLabel>
+            <translation><!-- Customer- would not provide reason --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indigenous Partnership</masterLabel>
+            <translation><!-- Indigenous Partnership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response</masterLabel>
+            <translation><!-- No Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Availability</masterLabel>
+            <translation><!-- Product Availability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Cancelled</masterLabel>
+            <translation><!-- Project Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relationship</masterLabel>
+            <translation><!-- Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timing</masterLabel>
+            <translation><!-- Timing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanguard - transferred to BOXX Modular rep</masterLabel>
+            <translation><!-- Vanguard - transferred to BOXX Modular rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanguard- TX decision not to handle</masterLabel>
+            <translation><!-- Vanguard- TX decision not to handle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanguard- available building did not meet need</masterLabel>
+            <translation><!-- Vanguard- available building did not meet need --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanguard- contract issues</masterLabel>
+            <translation><!-- Vanguard- contract issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanguard- credit issue</masterLabel>
+            <translation><!-- Vanguard- credit issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanguard- decision not to handle, territory related</masterLabel>
+            <translation><!-- Vanguard- decision not to handle, territory related --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanguard- declined to submit proposal</masterLabel>
+            <translation><!-- Vanguard- declined to submit proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanguard- did not meet customer schedule</masterLabel>
+            <translation><!-- Vanguard- did not meet customer schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanguard- did not meet customer’s expectations</masterLabel>
+            <translation><!-- Vanguard- did not meet customer’s expectations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanguard- duplicate quote</masterLabel>
+            <translation><!-- Vanguard- duplicate quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanguard- no fleet building to meet need</masterLabel>
+            <translation><!-- Vanguard- no fleet building to meet need --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

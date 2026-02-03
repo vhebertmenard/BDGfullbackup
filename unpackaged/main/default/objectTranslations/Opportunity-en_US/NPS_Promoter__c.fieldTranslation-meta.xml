@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If Survey response is 4 or 5 --></help>
+        <label><!-- NPS Promoter --></label>
+        <name>NPS_Promoter__c</name>
+    </CustomFieldTranslation>

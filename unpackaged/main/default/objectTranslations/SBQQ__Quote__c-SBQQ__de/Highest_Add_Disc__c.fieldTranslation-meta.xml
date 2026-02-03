@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Highest entered discount. &gt;$0 requires Approver I. --></help>
+        <label><!-- Highest Additional Disc --></label>
+        <name>Highest_Add_Disc__c</name>
+    </CustomFieldTranslation>

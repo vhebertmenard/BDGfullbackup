@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Approved_By__c</fullName>
+    <label>Credit Approved By</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mark Meyers</fullName>
+                <default>false</default>
+                <label>Mark Meyers</label>
+            </value>
+            <value>
+                <fullName>Jody Werner</fullName>
+                <default>false</default>
+                <label>Jody Werner</label>
+            </value>
+            <value>
+                <fullName>Stephanie Holmes</fullName>
+                <default>false</default>
+                <label>Stephanie Holmes</label>
+            </value>
+            <value>
+                <fullName>Ted Redmond</fullName>
+                <default>false</default>
+                <label>Ted Redmond</label>
+            </value>
+            <value>
+                <fullName>Ed Haggerty</fullName>
+                <default>false</default>
+                <label>Ed Haggerty</label>
+            </value>
+            <value>
+                <fullName>Peter Eberle</fullName>
+                <default>false</default>
+                <label>Peter Eberle</label>
+            </value>
+            <value>
+                <fullName>Jade Ward</fullName>
+                <default>false</default>
+                <label>Jade Ward</label>
+            </value>
+            <value>
+                <fullName>Toby LaBrie</fullName>
+                <default>false</default>
+                <label>Toby LaBrie</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

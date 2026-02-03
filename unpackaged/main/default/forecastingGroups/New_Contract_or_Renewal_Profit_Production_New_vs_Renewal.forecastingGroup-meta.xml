@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>New_Contract_or_Renewal_Profit_Production_New_vs_Renewal</developerName>
+    <forecastingGroupItems>
+        <displayPosition>0</displayPosition>
+        <sourceApiValue>New Contract</sourceApiValue>
+    </forecastingGroupItems>
+    <forecastingGroupItems>
+        <displayPosition>1</displayPosition>
+        <sourceApiValue>Renewal</sourceApiValue>
+    </forecastingGroupItems>
+    <groupField>New_Contract_or_Renewal__c</groupField>
+    <masterLabel>New Contract or Renewal Profit Production New vs Renewal</masterLabel>
+    <sourceObject>Opportunity</sourceObject>
+</ForecastingGroup>

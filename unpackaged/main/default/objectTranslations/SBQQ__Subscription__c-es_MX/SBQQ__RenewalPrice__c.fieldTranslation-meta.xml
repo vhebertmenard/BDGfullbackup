@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Ingrese un precio de renovación para invalidar el cálculo predeterminado. Invalida el cálculo del precio de renovación predeterminado en base al campo Precios de renovación de la cuenta.</help>
+        <label><!-- Renewal Price --></label>
+        <name>SBQQ__RenewalPrice__c</name>
+    </CustomFieldTranslation>

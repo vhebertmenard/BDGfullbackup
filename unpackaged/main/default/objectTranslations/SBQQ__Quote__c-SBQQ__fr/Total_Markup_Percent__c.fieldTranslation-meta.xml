@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total Markup of all Cost based items (Sale, Subrental, Operations, Carry On Sale) --></help>
+        <label><!-- Total Markup % --></label>
+        <name>Total_Markup_Percent__c</name>
+    </CustomFieldTranslation>

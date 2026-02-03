@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Building Use --></label>
+        <name>Building_Use__c</name>
+        <picklistValues>
+            <masterLabel>Assembly</masterLabel>
+            <translation><!-- Assembly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bunk House</masterLabel>
+            <translation><!-- Bunk House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Classroom</masterLabel>
+            <translation><!-- Classroom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corridor</masterLabel>
+            <translation><!-- Corridor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daycare</masterLabel>
+            <translation><!-- Daycare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dormitory</masterLabel>
+            <translation><!-- Dormitory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotel</masterLabel>
+            <translation><!-- Hotel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laboratory</masterLabel>
+            <translation><!-- Laboratory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Library</masterLabel>
+            <translation><!-- Library --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locker Room</masterLabel>
+            <translation><!-- Locker Room --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation><!-- Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mercantile</masterLabel>
+            <translation><!-- Mercantile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office</masterLabel>
+            <translation><!-- Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scale House</masterLabel>
+            <translation><!-- Scale House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toilet Trailer</masterLabel>
+            <translation><!-- Toilet Trailer --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

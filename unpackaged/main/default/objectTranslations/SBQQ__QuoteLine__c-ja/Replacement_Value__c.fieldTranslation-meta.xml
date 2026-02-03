@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Reads the Insurable Value from the related Product instead of the SAP replacement value
+If Replacement Value Override is set, use that instead --></help>
+        <label><!-- Replacement Value --></label>
+        <name>Replacement_Value__c</name>
+    </CustomFieldTranslation>

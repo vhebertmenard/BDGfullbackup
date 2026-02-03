@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Effective Net Total of Sale and Carry On lines where &quot;New Unit&quot; and &quot;New Carry On&quot; are not selected and NBV&gt;$0 --></help>
+        <label><!-- Total Fixed Asset Sale Contract Value --></label>
+        <name>Total_Fixed_Asset_Sale_Contract_Value__c</name>
+    </CustomFieldTranslation>

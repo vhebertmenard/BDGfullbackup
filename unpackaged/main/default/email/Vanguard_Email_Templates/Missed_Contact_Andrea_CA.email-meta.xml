@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>To be used by Andrea for Canada Leads</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Missed Contact - Andrea - CA</name>
+    <style>none</style>
+    <subject>Your Quote Request | BOXX Modular</subject>
+    <textOnly>Hello {!Lead.Name},
+
+Your modular building quote request for {!Lead.Company}, {!Lead.Address} is very important to our team at BOXX Modular. Unfortunately, I have not yet had the pleasure of connecting with you over the phone; and that likely is because you are very busy.
+
+- Is there a particular time of day that would work best for me to contact you?
+- Is {!Lead.Phone} the best phone number for me to reach you?
+
+If you could please let me know as I would be happy to schedule a time that is convenient for you, to connect.
+
+We rent furniture, steps, and decks so you can get up-and-running quickly when you move into your building.  You may want to browse some of the options available . We are happy to provide custom quantities and options when needed. https://www.boxxmodular.ca/add-ons/
+
+Thank you for your interest in BOXX Modular, I look forward to speaking with you soon!
+
+We are here to help!
+
+Andrea Regimbal
+Marketing Coordinator
+BOXX Modular
+Phone: 437-360-7126
+https://www.boxxmodular.ca/</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

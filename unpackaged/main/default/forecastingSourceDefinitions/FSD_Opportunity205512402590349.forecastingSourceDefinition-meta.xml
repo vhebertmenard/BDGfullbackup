@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingSourceDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <categoryField>Opportunity.ForecastCategoryName</categoryField>
+    <dateField>Opportunity.CloseDate</dateField>
+    <familyField>Opportunity.New_Contract_or_Renewal__c</familyField>
+    <isProtected>false</isProtected>
+    <masterLabel>FSD_Opportunity205512402590349</masterLabel>
+    <measureField>Opportunity.Profit_Production__c</measureField>
+    <sourceObject>Opportunity</sourceObject>
+    <userField>Opportunity.OwnerId</userField>
+</ForecastingSourceDefinition>

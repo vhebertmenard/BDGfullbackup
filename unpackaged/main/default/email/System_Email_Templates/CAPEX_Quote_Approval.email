@@ -1,0 +1,11 @@
+<html>
+Account Name: {!SBQQ__Quote__c.SBQQ__Account__c}<br />
+Opportunity Name: {!SBQQ__Quote__c.SBQQ__Opportunity2__c}<br />
+Contract #: {!SBQQ__Quote__c.Contract_Number__c}<br />
+<br />
+CAPEX Approval Amount: {!SBQQ__Quote__c.New_CAPEX_Value_Required__c}<br />
+CAPEX Total: {!SBQQ__Quote__c.CAPEX_Total__c}<br />
+Contract Value: {!SBQQ__Quote__c.SBQQ__NetAmount__c}<br />
+<br />
+Quote: <a href="https://bdgl.lightning.force.com/lightning/r/SBQQ__Quote__c/{!SBQQ__Quote__c.Id}/view">{!SBQQ__Quote__c.Name}</a>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How long the mobile office will be needed, used primarily for 360 mobile office web leads. --></help>
+        <label><!-- Length of Time Needed --></label>
+        <name>Length_of_Time_Needed__c</name>
+        <picklistValues>
+            <masterLabel>12 months or more</masterLabel>
+            <translation><!-- 12 months or more --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 to 12 months</masterLabel>
+            <translation><!-- 6 to 12 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASAP</masterLabel>
+            <translation><!-- ASAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I plan on purchasing the mobile office</masterLabel>
+            <translation><!-- I plan on purchasing the mobile office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In one to three months</masterLabel>
+            <translation><!-- In one to three months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In three to six months</masterLabel>
+            <translation><!-- In three to six months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Less than 6 months</masterLabel>
+            <translation><!-- Less than 6 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More than six months</masterLabel>
+            <translation><!-- More than six months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan on Purchasing</masterLabel>
+            <translation><!-- Plan on Purchasing --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

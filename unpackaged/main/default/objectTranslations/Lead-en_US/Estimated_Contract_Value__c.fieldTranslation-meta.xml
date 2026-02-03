@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Estimated value of potential Opportunity --></help>
+        <label><!-- Estimate Contract Value --></label>
+        <name>Estimated_Contract_Value__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Street address of the site where the job will take place. Auto-filled from Project Source, when selected. --></help>
+        <label><!-- Site Street --></label>
+        <name>Project_Location_Address__c</name>
+    </CustomFieldTranslation>

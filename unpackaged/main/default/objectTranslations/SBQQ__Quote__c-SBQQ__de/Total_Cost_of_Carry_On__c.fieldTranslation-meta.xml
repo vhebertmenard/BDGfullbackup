@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total the cost of all quote lines where the trans category is Carry On for Sale (excl Rentals and Optional) --></help>
+        <label><!-- Total Cost of Carry On Sale --></label>
+        <name>Total_Cost_of_Carry_On__c</name>
+    </CustomFieldTranslation>

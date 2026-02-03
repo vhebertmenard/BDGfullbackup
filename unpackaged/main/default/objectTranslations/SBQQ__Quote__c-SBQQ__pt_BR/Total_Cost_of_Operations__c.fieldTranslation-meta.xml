@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total cost of Installation,  Dismantle, Delivery and Return line items --></help>
+        <label><!-- Total Cost of Operations --></label>
+        <name>Total_Cost_of_Operations__c</name>
+    </CustomFieldTranslation>

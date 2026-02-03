@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <picklistValues>
+            <masterLabel>Additional Services</masterLabel>
+            <translation><!-- Additional Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breezeways</masterLabel>
+            <translation><!-- Breezeways --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build. Own. Operate. Villages</masterLabel>
+            <translation><!-- Build. Own. Operate. Villages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulldog Secure Offices</masterLabel>
+            <translation><!-- Bulldog Secure Offices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Containers</masterLabel>
+            <translation><!-- Containers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Buildings</masterLabel>
+            <translation><!-- Custom Buildings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer Offices</masterLabel>
+            <translation><!-- Designer Offices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster Recovery</masterLabel>
+            <translation><!-- Disaster Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Offices</masterLabel>
+            <translation><!-- Field Offices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Aid Buildings</masterLabel>
+            <translation><!-- First Aid Buildings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiosks</masterLabel>
+            <translation><!-- Kiosks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Offices</masterLabel>
+            <translation><!-- Mobile Offices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modular Classrooms</masterLabel>
+            <translation><!-- Modular Classrooms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-unit Complexes</masterLabel>
+            <translation><!-- Multi-unit Complexes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not sure</masterLabel>
+            <translation><!-- Not sure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office Complexes</masterLabel>
+            <translation><!-- Office Complexes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plug &amp; Stay Camps</masterLabel>
+            <translation><!-- Plug &amp; Stay Camps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rapid Deployment Camps</masterLabel>
+            <translation><!-- Rapid Deployment Camps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales/Leasing</masterLabel>
+            <translation><!-- Sales/Leasing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Buildings</masterLabel>
+            <translation><!-- Single Buildings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skidded Field Offices</masterLabel>
+            <translation><!-- Skidded Field Offices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional Camps</masterLabel>
+            <translation><!-- Traditional Camps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Used Fleet</masterLabel>
+            <translation><!-- Used Fleet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washroom Buildings</masterLabel>
+            <translation><!-- Washroom Buildings --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

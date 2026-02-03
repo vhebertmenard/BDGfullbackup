@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_NBV_of_Sale_and_Carry_On__c</fullName>
+    <description>NBV of Sale and Carry On lines that are do not have "New Unit" or "New Carry On" selected in Unit No</description>
+    <inlineHelpText>NBV of Sale and Carry On lines that are not "New Unit" or "New Carry On"</inlineHelpText>
+    <label>Total NBV of Sale and Carry On</label>
+    <summarizedField>SBQQ__QuoteLine__c.NBV_Currency__c</summarizedField>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.Trans_Category__c</field>
+        <operation>equals</operation>
+        <value>Sale, Carry On</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.Shell__c</field>
+        <operation>notEqual</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.Unit_Text_Text__c</field>
+        <operation>notEqual</operation>
+        <value>New Unit, New Carry On</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.Transaction_Type_Text__c</field>
+        <operation>equals</operation>
+        <value>Sale</value>
+    </summaryFilterItems>
+    <summaryForeignKey>SBQQ__QuoteLine__c.SBQQ__Quote__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

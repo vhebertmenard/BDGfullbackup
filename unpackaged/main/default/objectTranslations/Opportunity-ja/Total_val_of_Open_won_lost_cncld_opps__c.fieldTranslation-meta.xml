@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Total $ val of Open/won/lost/cncld opps --></label>
+        <name>Total_val_of_Open_won_lost_cncld_opps__c</name>
+    </CustomFieldTranslation>

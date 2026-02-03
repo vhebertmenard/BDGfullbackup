@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>MBI published this information on the depreciation of modular buildings for use by customers in determining, for tax purposes, the relocatability of modular buildings.</description>
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>Depreciation</keywords>
+    <name>Depreciation of Modular Buildings</name>
+    <public>false</public>
+</Document>

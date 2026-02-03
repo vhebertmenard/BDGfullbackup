@@ -1,0 +1,41 @@
+Thanks, {!Lead.FirstName}! 
+
+
+We're are very glad you have reached out to BOXX Modular for a modular building quote.  We will be connecting with you shortly.  
+
+
+If you would like to change or add to the information you submitted, just let us know by replying to this email. Here is what we have received so far: 
+
+
+{!Lead.Occupants__c} 
+{!Lead.Name} 
+{!Lead.Company} 
+{!Lead.Title} 
+{!Lead.Street} 
+{!Lead.City}, {!Lead.State} {!Lead.PostalCode} 
+{!Lead.Phone} 
+{!Lead.Email} 
+{!Lead.Building_Size__c} 
+{!Lead.Building_Use__c} 
+{!Lead.Unit_Number__c} 
+{!Lead.Description} 
+
+
+To save you time, here are types of buildings we do not provide at this time. 
+
+- Private residences 
+- Apartments, hotels, or multifamily housing 
+- Buildings with interior ceiling heights exceeding 8.0' 
+- Pre-engineered steel buildings (ie: warehouses, pole barns, etc.) 
+- 8' and 10' wide construction site trailers (we do provide larger construction site buildings) 
+
+
+Thanks again, {!Lead.FirstName}. Looking forward to helping you get the quote you need. 
+
+
+Mark Meyers
+Vice President, Marketing Services
+BOXX Modular 
+
+877-438-8627
+www.boxxmodular.com

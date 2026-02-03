@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- 3rd Party Partnership Quote Line Group --></label>
+        <name>X3rd_Party_Partnership_Quote_Line_Group__c</name>
+        <relationshipLabel><!-- Quote Line Groups (3rd Party Partnership Quote Line Group) --></relationshipLabel>
+    </CustomFieldTranslation>

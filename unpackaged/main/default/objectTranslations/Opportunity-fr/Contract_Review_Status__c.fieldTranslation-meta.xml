@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Pertains to contract review by Vanguard&apos;s contracts department. --></help>
+        <label><!-- Contract Review Status --></label>
+        <name>Contract_Review_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None Required</masterLabel>
+            <translation><!-- None Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select One</masterLabel>
+            <translation><!-- Select One --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

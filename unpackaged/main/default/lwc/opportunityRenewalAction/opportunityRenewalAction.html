@@ -1,0 +1,103 @@
+<template>
+    <lightning-quick-action-panel header="Renew Opportunity">
+        <div style="overflow:visible; position:relative;">
+            <div
+                class="slds-p-around_medium slds-grid slds-grid_vertical slds-gutters_small"
+                style="background:#fff; border:1px solid #e5e5ea; border-radius:16px; box-shadow:0 6px 20px rgba(0,0,0,0.06);">
+
+                <!-- Chips -->
+                <div class="slds-m-bottom_small" style="display:flex; gap:8px; flex-wrap:wrap;">
+                    <span if:true={closeDate}
+                          style="font-size:12px; padding:4px 8px; border-radius:999px; background:#f4f6f9; border:1px solid #e1e4ea;">
+                        Close Date: {closeDate}
+                    </span>
+                    <span if:true={subscriptionTerm}
+                          style="font-size:12px; padding:4px 8px; border-radius:999px; background:#f4f6f9; border:1px solid #e1e4ea;">
+                        Term: {subscriptionTerm} mo
+                    </span>
+                    <span if:true={copyFiles}
+                          style="font-size:12px; padding:4px 8px; border-radius:999px; background:#f4f6f9; border:1px solid #e1e4ea;">
+                        Copy Files: On
+                    </span>
+                </div>
+
+                <!-- Fields -->
+                <div class="slds-grid slds-wrap" style="gap:12px;">
+                    <!-- Native date to avoid clipping -->
+                    <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-2">
+                        <div class="slds-form-element">
+                            <label class="slds-form-element__label" for="closeDateInput">New Close Date</label>
+                            <div class="slds-form-element__control">
+                                <input
+                                    id="closeDateInput"
+                                    name="closeDate"
+                                    type="date"
+                                    value={closeDate}
+                                    class="slds-input"
+                                    style="height:40px; border-radius:10px; transition:box-shadow .12s ease, transform .06s ease;"
+                                    oninput={handleNativeDateChange}
+                                    onfocus={bump}
+                                    onblur={unbump}
+                                />
+                            </div>
+                            <div style="font-size:11px; color:#6b7280; margin-top:4px;">
+                                Pick your target Close Date for the renewal Opportunity
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-2">
+                        <lightning-input
+                            type="number"
+                            name="subscriptionTerm"
+                            label="Subscription Term (months)"
+                            value={subscriptionTerm}
+                            min="1"
+                            message-when-bad-input="Enter a positive number"
+                            onchange={handleInputChange}>
+                        </lightning-input>
+                        <div style="font-size:11px; color:#6b7280; margin-top:4px;">
+                            Sets <em>Subscription Term</em> on the new primary Quote
+                        </div>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-1" style="margin-top:8px;">
+                        <lightning-input
+                            type="checkbox"
+                            name="copyFiles"
+                            label="Copy Files from original Opportunity & Quote"
+                            checked={copyFiles}
+                            onchange={handleInputChange}>
+                        </lightning-input>
+                    </div>
+                </div>
+
+                <!-- Action bar (Reset + Create only) -->
+                <div class="slds-m-top_medium slds-grid slds-grid_align-end" style="gap:8px;">
+                    <lightning-button
+                        variant="destructive-text"
+                        label="Reset"
+                        onclick={handleReset}>
+                    </lightning-button>
+
+                    <lightning-button
+                        variant="brand"
+                        label="Create Renewal"
+                        onclick={handleCreate}
+                        disabled={loading}
+                        style="transform:translateZ(0); transition:transform .08s ease, box-shadow .12s ease; border-radius:999px;">
+                    </lightning-button>
+                </div>
+
+                <template if:true={loading}>
+                    <div class="slds-p-around_small">
+                        <lightning-spinner alternative-text="Working" size="small"></lightning-spinner>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- Footer intentionally empty -->
+        <div slot="footer"></div>
+    </lightning-quick-action-panel>
+</template>

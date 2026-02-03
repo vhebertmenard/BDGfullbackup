@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used by Price Rule to populate Billable Days (SBQQ__Quote__r.Days_in_Month__c) --></help>
+        <label><!-- Billable Days Quote --></label>
+        <name>Billable_Days_Quote__c</name>
+    </CustomFieldTranslation>

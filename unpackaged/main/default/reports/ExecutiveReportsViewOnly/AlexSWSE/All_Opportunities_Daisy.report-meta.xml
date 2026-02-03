@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.SAP_Project_Number__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Contract_Number__c</field>
+    </columns>
+    <columns>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Estimated_Delivery_Date__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Estimated_First_Revenue__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Branch_Name__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>My Teams Opportunities</description>
+    <filter>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Proposal Delivered,Proposal In Progress,WIP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FULL_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>David Currier,Daniel Moore,Jan Buescher,Gary Maynard,John Hale,Susan Greenberg,Matthew Crockett,Jim Crosby,Kemp Norman,Steve Earnheart,Mike Lodes,Robin Cummings,Jerry Schultz,Kyle Landwehr,Lee Burchfield,Justin McQueary,Rob Gebhard,Tina Phillips,John Patrick,Bill Simpson,Jane Collins,Jack DiBenedetto,Alex Nguyen</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <name>All Opportunities- Daisy</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total of Monthly Amount Calc on Quote Lines after Discount (Discounted List Price)
+Excluding Optional Items --></help>
+        <label><!-- Rental Rate (Monthly) --></label>
+        <name>Total_Monthly_Amount__c</name>
+    </CustomFieldTranslation>

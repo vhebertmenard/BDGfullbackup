@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For ES, the number of Days a rental is committed to a project. For Camps, the min. number of Days a rental will be billed on a project. For Lodging, the number of Resident Days we are offering at a given price. --></help>
+        <label><!-- Commitment Term (Days) --></label>
+        <name>Commitment_Term_Days__c</name>
+    </CustomFieldTranslation>

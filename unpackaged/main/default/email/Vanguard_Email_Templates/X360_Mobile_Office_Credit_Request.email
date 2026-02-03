@@ -1,0 +1,12 @@
+{!Lead.Name} at {!Lead.Company}
+
+{!Lead.Name}
+{!Lead.Company}
+{!Lead.Email}
+{!Lead.Phone}
+{!Lead.State}
+{!Lead.PostalCode}
+
+{!Lead.Description}
+
+360MobileOffice Lead ID: {!Lead.X360mobileoffice_Request_ID__c}

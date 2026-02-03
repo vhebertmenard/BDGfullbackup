@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Operations Required --></label>
+        <name>Operations_Required__c</name>
+        <picklistValues>
+            <masterLabel>Dismantle</masterLabel>
+            <translation><!-- Dismantle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Transportation</masterLabel>
+            <translation><!-- Initial Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation</masterLabel>
+            <translation><!-- Installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return Transportation</masterLabel>
+            <translation><!-- Return Transportation --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

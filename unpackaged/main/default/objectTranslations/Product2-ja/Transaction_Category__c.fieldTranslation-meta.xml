@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Transaction Category --></label>
+        <name>Transaction_Category__c</name>
+        <picklistValues>
+            <masterLabel>Backend</masterLabel>
+            <translation><!-- Backend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camp Operations</masterLabel>
+            <translation><!-- Camp Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capital Lease</masterLabel>
+            <translation><!-- Capital Lease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carry On</masterLabel>
+            <translation><!-- Carry On --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Order</masterLabel>
+            <translation><!-- Change Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chargeback</masterLabel>
+            <translation><!-- Chargeback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery</masterLabel>
+            <translation><!-- Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster</masterLabel>
+            <translation><!-- Disaster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dismantle</masterLabel>
+            <translation><!-- Dismantle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation</masterLabel>
+            <translation><!-- Installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lodging</masterLabel>
+            <translation><!-- Lodging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous</masterLabel>
+            <translation><!-- Miscellaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refurbishment</masterLabel>
+            <translation><!-- Refurbishment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental Cost</masterLabel>
+            <translation><!-- Rental Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental/Sale</masterLabel>
+            <translation><!-- Rental/Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return</masterLabel>
+            <translation><!-- Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub Rental</masterLabel>
+            <translation><!-- Sub Rental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub Rental - Consumable</masterLabel>
+            <translation><!-- Sub Rental - Consumable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfronts</masterLabel>
+            <translation><!-- Upfronts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfronts New</masterLabel>
+            <translation><!-- Upfronts New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAPS</masterLabel>
+            <translation><!-- VAPS --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

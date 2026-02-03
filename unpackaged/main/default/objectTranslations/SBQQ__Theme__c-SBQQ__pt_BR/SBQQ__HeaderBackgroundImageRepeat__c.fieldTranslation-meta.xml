@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sets if/how page header background image should be repeated (Click the icon for additional information) --></help>
+        <label>Rep. da imag. de seg. plano do cabeçalho</label>
+        <name>SBQQ__HeaderBackgroundImageRepeat__c</name>
+        <picklistValues>
+            <masterLabel>inherit</masterLabel>
+            <translation><!-- inherit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>initial</masterLabel>
+            <translation><!-- initial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>no-repeat</masterLabel>
+            <translation><!-- no-repeat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>repeat</masterLabel>
+            <translation><!-- repeat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>repeat-x</masterLabel>
+            <translation><!-- repeat-x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>repeat-y</masterLabel>
+            <translation><!-- repeat-y --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

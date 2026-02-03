@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Margin amount (Sale price less the unit cost) divided by the Sale price --></help>
+        <label><!-- Margin % --></label>
+        <name>Margin_Percent__c</name>
+    </CustomFieldTranslation>

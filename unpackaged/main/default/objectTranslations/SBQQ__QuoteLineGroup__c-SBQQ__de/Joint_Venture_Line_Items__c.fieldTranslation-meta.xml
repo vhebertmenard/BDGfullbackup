@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- 3rd Party Partnership Line Items --></label>
+        <name>Joint_Venture_Line_Items__c</name>
+    </CustomFieldTranslation>

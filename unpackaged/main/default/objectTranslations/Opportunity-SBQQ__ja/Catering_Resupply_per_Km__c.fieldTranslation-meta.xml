@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Staff Change / Grocery Resupply per KM --></help>
+        <label><!-- Catering - Resupply (per Km) --></label>
+        <name>Catering_Resupply_per_Km__c</name>
+    </CustomFieldTranslation>

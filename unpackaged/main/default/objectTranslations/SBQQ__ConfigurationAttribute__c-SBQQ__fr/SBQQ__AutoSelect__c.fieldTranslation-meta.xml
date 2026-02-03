@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Set the value of this attribute when adding a product using the value in the product&apos;s matching field. --></help>
+        <label>Sélectionner automatiquement</label>
+        <name>SBQQ__AutoSelect__c</name>
+    </CustomFieldTranslation>

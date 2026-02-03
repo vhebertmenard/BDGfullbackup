@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MSS_Gulf_Coast_East_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>MSS - Gulf Coast East</label>
+    <queue>MSS_Gulf_Coast_East</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

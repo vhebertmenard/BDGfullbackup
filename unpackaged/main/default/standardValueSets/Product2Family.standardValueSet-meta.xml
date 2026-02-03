@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Ablutions/Toilets</fullName>
+        <default>false</default>
+        <label>Ablutions/Toilets</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Accommodations</fullName>
+        <default>false</default>
+        <label>Accommodations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bank Building</fullName>
+        <default>false</default>
+        <label>Bank Building</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Berms</fullName>
+        <default>false</default>
+        <label>Berms</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bins</fullName>
+        <default>false</default>
+        <label>Bins</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Blast Resistant</fullName>
+        <default>false</default>
+        <label>Blast Resistant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bundles</fullName>
+        <default>false</default>
+        <label>Bundles</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Camp Operations</fullName>
+        <default>false</default>
+        <label>Camp Operations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Carry On</fullName>
+        <default>false</default>
+        <label>Carry On</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Catering</fullName>
+        <default>false</default>
+        <label>Catering</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Classrooms</fullName>
+        <default>false</default>
+        <label>Classrooms</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Communications</fullName>
+        <default>false</default>
+        <label>Communications</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Complex</fullName>
+        <default>false</default>
+        <label>Complex</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Containers</fullName>
+        <default>false</default>
+        <label>Containers</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Corridors</fullName>
+        <default>false</default>
+        <label>Corridors</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customization</fullName>
+        <default>false</default>
+        <label>Customization</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Designer Offices</fullName>
+        <default>false</default>
+        <label>Designer Offices</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Disaster</fullName>
+        <default>false</default>
+        <label>Disaster</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dismantle</fullName>
+        <default>false</default>
+        <label>Dismantle</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dorms</fullName>
+        <default>false</default>
+        <label>Dorms</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Field Offices</fullName>
+        <default>false</default>
+        <label>Field Offices</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Generators</fullName>
+        <default>false</default>
+        <label>Generators</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Installation</fullName>
+        <default>false</default>
+        <label>Installation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IPS</fullName>
+        <default>false</default>
+        <label>IPS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Kiosks</fullName>
+        <default>false</default>
+        <label>Kiosks</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Kitchens</fullName>
+        <default>false</default>
+        <label>Kitchens</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lavatories</fullName>
+        <default>false</default>
+        <label>Lavatories</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Light Towers</fullName>
+        <default>false</default>
+        <label>Light Towers</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lodging</fullName>
+        <default>false</default>
+        <label>Lodging</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manifolds</fullName>
+        <default>false</default>
+        <label>Manifolds</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Matting</fullName>
+        <default>false</default>
+        <label>Matting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Miscellaneous</fullName>
+        <default>false</default>
+        <label>Miscellaneous</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mobile Offices</fullName>
+        <default>false</default>
+        <label>Mobile Offices</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mudrooms</fullName>
+        <default>false</default>
+        <label>Mudrooms</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Office Complexes</fullName>
+        <default>false</default>
+        <label>Office Complexes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Offices</fullName>
+        <default>false</default>
+        <label>Offices</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Operations</fullName>
+        <default>false</default>
+        <label>Operations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Per Use</fullName>
+        <default>false</default>
+        <label>Per Use</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pumps</fullName>
+        <default>false</default>
+        <label>Pumps</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Recs</fullName>
+        <default>false</default>
+        <label>Recs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Refurb Units</fullName>
+        <default>false</default>
+        <label>Refurb Units</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Service Techs</fullName>
+        <default>false</default>
+        <label>Service Techs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sewer</fullName>
+        <default>false</default>
+        <label>Sewer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Single Offices</fullName>
+        <default>false</default>
+        <label>Single Offices</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Site Services</fullName>
+        <default>false</default>
+        <label>Site Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Skidded</fullName>
+        <default>false</default>
+        <label>Skidded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Skidded Field Offices</fullName>
+        <default>false</default>
+        <label>Skidded Field Offices</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Staff Quarters / Wellsites</fullName>
+        <default>false</default>
+        <label>Staff Quarters / Wellsites</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sublease</fullName>
+        <default>false</default>
+        <label>Sublease</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sublease - Consumable</fullName>
+        <default>false</default>
+        <label>Sublease - Consumable</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sublease - Monthly</fullName>
+        <default>false</default>
+        <label>Sublease - Monthly</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tanks</fullName>
+        <default>false</default>
+        <label>Tanks</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+        <label>Transportation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Walkways</fullName>
+        <default>false</default>
+        <label>Walkways</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wellsites</fullName>
+        <default>false</default>
+        <label>Wellsites</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wheeled</fullName>
+        <default>false</default>
+        <label>Wheeled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DWS</fullName>
+        <default>false</default>
+        <label>DWS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Assembly Complex</fullName>
+        <default>false</default>
+        <label>Assembly Complex</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Classroom Complex</fullName>
+        <default>false</default>
+        <label>Classroom Complex</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Daycare Complex</fullName>
+        <default>false</default>
+        <label>Daycare Complex</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lavatory Complex</fullName>
+        <default>false</default>
+        <label>Lavatory Complex</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Complex</fullName>
+        <default>false</default>
+        <label>Medical Complex</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Change Order</fullName>
+        <default>false</default>
+        <label>Change Order</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VAPS</fullName>
+        <default>false</default>
+        <label>VAPS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Teardown</fullName>
+        <default>false</default>
+        <label>Teardown</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Install</fullName>
+        <default>false</default>
+        <label>Install</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Refurb Checklist</fullName>
+        <default>false</default>
+        <label>Refurb Checklist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Upfronts</fullName>
+        <default>false</default>
+        <label>Upfronts</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mechanical/ Electrical</fullName>
+        <default>false</default>
+        <label>Mechanical/ Electrical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Site Work</fullName>
+        <default>false</default>
+        <label>Site Work</label>
+    </standardValue>
+    <standardValue>
+        <fullName>General Conditions</fullName>
+        <default>false</default>
+        <label>General Conditions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Backend</fullName>
+        <default>false</default>
+        <label>Backend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Delivery</fullName>
+        <default>false</default>
+        <label>Delivery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Refurbishments</fullName>
+        <default>false</default>
+        <label>Refurbishments</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Operations New</fullName>
+        <default>false</default>
+        <label>Operations New</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Install New</fullName>
+        <default>false</default>
+        <label>Install New</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transportation New</fullName>
+        <default>false</default>
+        <label>Transportation New</label>
+    </standardValue>
+</StandardValueSet>

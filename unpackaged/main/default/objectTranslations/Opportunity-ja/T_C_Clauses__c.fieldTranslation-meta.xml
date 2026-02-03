@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Non-Standard Legal terms and conditions clauses that trigger approval flows --></help>
+        <label><!-- T&amp;C Clauses --></label>
+        <name>T_C_Clauses__c</name>
+        <picklistValues>
+            <masterLabel>With liquidated damages</masterLabel>
+            <translation><!-- With liquidated damages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Without indemnification for BD</masterLabel>
+            <translation><!-- Without indemnification for BD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Without liability cap</masterLabel>
+            <translation><!-- Without liability cap --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

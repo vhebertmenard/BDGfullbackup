@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Displays &quot;Optional&quot; text if the Optional checkbox is selected --></help>
+        <label><!-- Optional Text --></label>
+        <name>Optional_Text__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Complex Dimensions --></label>
+        <name>Complex_Dimensions__c</name>
+        <picklistValues>
+            <masterLabel>108x68</masterLabel>
+            <translation><!-- 108x68 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>110x64</masterLabel>
+            <translation><!-- 110x64 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>112x60</masterLabel>
+            <translation><!-- 112x60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>120x64</masterLabel>
+            <translation><!-- 120x64 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>124x64</masterLabel>
+            <translation><!-- 124x64 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

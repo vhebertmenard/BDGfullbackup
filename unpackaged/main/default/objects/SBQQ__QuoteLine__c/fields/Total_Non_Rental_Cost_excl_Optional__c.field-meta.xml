@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Non_Rental_Cost_excl_Optional__c</fullName>
+    <formula>IF ( SBQQ__Optional__c = TRUE, 0,
+IF( TEXT(SBQQ__PricingMethod__c) = "Cost", SBQQ__UnitCost__c * SBQQ__Quantity__c *
+CASE(Trans_Category__c,
+"Sub Rental", Sublease_Multiplier__c,
+"Sale", IF( SBQQ__Bundled__c = FALSE, 1, 0) ,
+"Rental", 0 ,
+"Rental Cost", 0, 1), 0))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Non-Rental Cost excl Optional</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

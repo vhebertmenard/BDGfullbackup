@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sub Type --></label>
+        <name>Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alarms/Security &amp; Fire</masterLabel>
+            <translation><!-- Alarms/Security &amp; Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brick</masterLabel>
+            <translation><!-- Brick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cabinets</masterLabel>
+            <translation><!-- Cabinets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carpenters</masterLabel>
+            <translation><!-- Carpenters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carpet and Tile</masterLabel>
+            <translation><!-- Carpet and Tile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceiling</masterLabel>
+            <translation><!-- Ceiling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charter School</masterLabel>
+            <translation><!-- Charter School --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child Care</masterLabel>
+            <translation><!-- Child Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Churches</masterLabel>
+            <translation><!-- Churches --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colleges and Universities</masterLabel>
+            <translation><!-- Colleges and Universities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concrete</masterLabel>
+            <translation><!-- Concrete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contractors</masterLabel>
+            <translation><!-- Contractors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decks and Ramps</masterLabel>
+            <translation><!-- Decks and Ramps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defense Contractors</masterLabel>
+            <translation><!-- Defense Contractors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dumpsters</masterLabel>
+            <translation><!-- Dumpsters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical</masterLabel>
+            <translation><!-- Electrical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elevators</masterLabel>
+            <translation><!-- Elevators --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation><!-- Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Factory</masterLabel>
+            <translation><!-- Factory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Contractors</masterLabel>
+            <translation><!-- General Contractors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Govt City</masterLabel>
+            <translation><!-- Govt City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Govt County/Parish</masterLabel>
+            <translation><!-- Govt County/Parish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Govt Federal</masterLabel>
+            <translation><!-- Govt Federal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Govt State</masterLabel>
+            <translation><!-- Govt State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gutters</masterLabel>
+            <translation><!-- Gutters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HVAC</masterLabel>
+            <translation><!-- HVAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Builder</masterLabel>
+            <translation><!-- Home Builder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital</masterLabel>
+            <translation><!-- Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT Wiring</masterLabel>
+            <translation><!-- IT Wiring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land Developer</masterLabel>
+            <translation><!-- Land Developer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation><!-- Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil Service Company</masterLabel>
+            <translation><!-- Oil Service Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil and Gas</masterLabel>
+            <translation><!-- Oil and Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Painters</masterLabel>
+            <translation><!-- Painters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plants and Refineries</masterLabel>
+            <translation><!-- Plants and Refineries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plumbing</masterLabel>
+            <translation><!-- Plumbing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private School</masterLabel>
+            <translation><!-- Private School --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Schools</masterLabel>
+            <translation><!-- Public Schools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roofing</masterLabel>
+            <translation><!-- Roofing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Set up</masterLabel>
+            <translation><!-- Set up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup</masterLabel>
+            <translation><!-- Setup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheet rock</masterLabel>
+            <translation><!-- Sheet rock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signs</masterLabel>
+            <translation><!-- Signs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stucco</masterLabel>
+            <translation><!-- Stucco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suppliers</masterLabel>
+            <translation><!-- Suppliers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trucking</masterLabel>
+            <translation><!-- Trucking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water District</masterLabel>
+            <translation><!-- Water District --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

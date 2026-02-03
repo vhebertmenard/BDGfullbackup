@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Estimated Delivery Date from Opp --></help>
+        <label><!-- Opp Estimated Delivery Date --></label>
+        <name>Opp_Estimated_Delivery_Date__c</name>
+    </CustomFieldTranslation>

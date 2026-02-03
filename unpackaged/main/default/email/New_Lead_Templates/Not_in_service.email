@@ -1,0 +1,19 @@
+<messaging:emailTemplate subject="Thank you for your interest {!recipient.Name}" recipientType="Lead" RelatedToType="Lead">
+<messaging:htmlEmailBody >
+
+<p>{!recipient.Name},</p>
+
+<p>Thank you for your interest in our modular space solutions. Unfortunately, <apex:repeat var="Brand" value="{!recipient.Brand_Name__r}"> {!Brand.Name}</apex:repeat> is not currently conducting business in your area. If this should change in the future, we will let you know. </p>
+
+<p>You may find www.Modular.org to be a useful resource to find a modular dealer that serves your area. </p>
+
+<p>Have a great day!</p>
+
+<p><apex:repeat var="ISRep" value="{!recipient.Sales_Region_ID__r.Inside_Sales_Rep__r}">{!ISRep.Name}</apex:repeat><br/>
+Inside Sales Representative<br/>
+<apex:repeat var="Brand" value="{!recipient.Brand_Name__r}">{!Brand.Name}</apex:repeat><br/>
+<apex:repeat var="ISRep" value="{!recipient.Sales_Region_ID__r.Inside_Sales_Rep__r}">{!ISRep.Phone}</apex:repeat><apex:repeat var="Brand" value="{!recipient.Brand_Name__r}"><br/>
+<img src="{!Brand.Logo__c}" alt="{!Brand.Name}" style="width:100%; max-width:180px;" /></apex:repeat></p>
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

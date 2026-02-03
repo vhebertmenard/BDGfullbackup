@@ -1,0 +1,16 @@
+<p>A new {!Lead.LeadSource} Lead for {!Lead.FirstName} {!Lead.LastName} at {!Lead.Company} has been created
+<a href="{!Lead.Link}">Link to Lead </a></p>
+
+<p>This lead has been created in Salesforce and has been assigned to you.</p>
+
+<p>{!Lead.FirstName} {!Lead.LastName}<br/>
+{!Lead.Company}<br/>
+{!Lead.Email}<br/>
+{!Lead.Phone}<br/>
+{!Lead.State}<br/>
+{!Lead.Opportunity_Postal_Code__c}<br/>
+{!Lead.Unit_Number__c}<br/>
+{!Lead.Description}<br/>
+{!Lead.Language__c}<br/>
+{!Lead.X360mobileoffice_Request_ID__c}<br/>
+</p>

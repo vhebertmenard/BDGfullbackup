@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Building Mark-up (S) --></label>
+        <name>Building_Mark_up_S__c</name>
+    </CustomFieldTranslation>

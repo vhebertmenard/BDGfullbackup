@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Help_Info__c</fullName>
+    <description>Show detailed info for Configurator</description>
+    <inlineHelpText>Show detailed info for Configurator</inlineHelpText>
+    <label>Help Info</label>
+    <length>500</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

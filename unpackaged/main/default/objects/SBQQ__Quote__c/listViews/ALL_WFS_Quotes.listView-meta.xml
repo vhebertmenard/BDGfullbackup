@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ALL_WFS_Quotes</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Branch__c</field>
+        <operation>equals</operation>
+        <value>AUS Brisbane,AUS Melbourne,AUS Perth,AUS Sydney,Camps East,Camps US,Camps West,ES Colorado,ES Estevan,ES Fort St John,ES Grande Prairie,ES North Dakota,ES Texas</value>
+    </filters>
+    <label>ALL WFS Quotes</label>
+</ListView>

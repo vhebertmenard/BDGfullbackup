@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Well site name. Used by Energy Services only. A unique Opportunity is needed for each site. --></help>
+        <label><!-- Well --></label>
+        <name>Well__c</name>
+    </CustomFieldTranslation>

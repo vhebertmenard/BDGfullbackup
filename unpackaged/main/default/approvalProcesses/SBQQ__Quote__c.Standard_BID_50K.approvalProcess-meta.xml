@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>SBQQ__Account__c</field>
+        <field>SBQQ__Opportunity2__c</field>
+        <field>SBQQ__NetAmount__c</field>
+        <field>T_C__c</field>
+        <field>SBQQ__SalesRep__c</field>
+        <field>CAPEX_Required__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>cmack@blackdiamondgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Approve if under $50K</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.T_C__c</field>
+                <operation>equals</operation>
+                <value>Non-Standard - Legal</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>ApproveRecord</ifCriteriaNotMet>
+        <label>Approve - Rental STD &lt;$50K</label>
+        <name>Approve_Rental_Standard_BID_50K</name>
+    </approvalStep>
+    <description>Bid Sets/Revenue Contracts &lt;$50K 
+Criteria: Rental Bid &lt; $50K, Standard T&amp;C&apos;s, No CAPEX, Not ES US, Not AUS
+Level J</description>
+    <emailTemplate>Approval_Process/Quote_Approval_Required</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 AND (2 OR 3) AND 4 AND 5 AND 6 AND 7</booleanFilter>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.SBQQ__NetAmount__c</field>
+            <operation>lessThan</operation>
+            <value>&quot;CAD 50,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.T_C__c</field>
+            <operation>equals</operation>
+            <value>Standard</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.T_C__c</field>
+            <operation>equals</operation>
+            <value>MSSA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.Transaction_Type__c</field>
+            <operation>equals</operation>
+            <value>Rental</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.CAPEX_Required__c</field>
+            <operation>equals</operation>
+            <value>No</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.Region__c</field>
+            <operation>notEqual</operation>
+            <value>ES US</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.Region__c</field>
+            <operation>notEqual</operation>
+            <value>Australia</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Quote_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Send_email_notification_of_Approval</name>
+            <type>Alert</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Change_to_Denied</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Send_email_notification_of_Rejection</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Pending_Approval</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>12 Rental STD &lt;$50K</label>
+    <processOrder>1</processOrder>
+    <recallActions>
+        <action>
+            <name>Change_status_to_Draft</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

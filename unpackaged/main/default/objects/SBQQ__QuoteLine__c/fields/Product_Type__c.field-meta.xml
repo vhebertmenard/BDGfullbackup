@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Type__c</fullName>
+    <description>Using Process builder to pull product type from Product.  If it is Sale/Rental, look to the Quote/Quote Group transaction type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Using Process builder to pull product type from Product.  If it is Sale/Rental, look to the Quote/Quote Group transaction type</inlineHelpText>
+    <label>Product Type</label>
+    <length>30</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

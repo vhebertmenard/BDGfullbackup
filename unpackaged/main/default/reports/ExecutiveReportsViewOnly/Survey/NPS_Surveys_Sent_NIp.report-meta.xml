@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>emailaction_lys__EmailActionInteraction__c$Name</field>
+    </columns>
+    <columns>
+        <field>emailaction_lys__EmailActionInteraction__c$emailaction_lys__EmailAction__c</field>
+    </columns>
+    <columns>
+        <field>emailaction_lys__EmailActionInteraction__c$emailaction_lys__Contact__c</field>
+    </columns>
+    <columns>
+        <field>emailaction_lys__EmailActionInteraction__c$Contract__c</field>
+    </columns>
+    <columns>
+        <field>emailaction_lys__EmailActionInteraction__c$Opportunity__c</field>
+    </columns>
+    <columns>
+        <field>emailaction_lys__EmailActionInteraction__c$Opportunity__c.Owner.BDG_Branch__c</field>
+    </columns>
+    <columns>
+        <field>emailaction_lys__EmailActionInteraction__c$Opportunity__c.Owner.BDG_Department__c</field>
+    </columns>
+    <columns>
+        <field>emailaction_lys__EmailActionInteraction__c$Opportunity__c.Estimated_First_Revenue__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>emailaction_lys__EmailActionInteraction__c$emailaction_lys__EmailAction__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>NPS Survey</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <field>emailaction_lys__EmailActionInteraction__c$CreatedDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>NPS Surveys Sent</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Interactions_with_Opportunities_with_Contracts__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>emailaction_lys__EmailActionInteraction__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

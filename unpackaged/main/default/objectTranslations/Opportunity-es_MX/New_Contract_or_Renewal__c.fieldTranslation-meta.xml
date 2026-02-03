@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicate whether or not this Opportunity is a renewal. --></help>
+        <label><!-- New Contract or Renewal --></label>
+        <name>New_Contract_or_Renewal__c</name>
+        <picklistValues>
+            <masterLabel>New Contract</masterLabel>
+            <translation><!-- New Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

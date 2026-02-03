@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Potential Joint Bid Opportunity --></label>
+        <name>Potential_Joint_Bid_Opportunity__c</name>
+        <picklistValues>
+            <masterLabel>BOXX East - Canada</masterLabel>
+            <translation><!-- BOXX East - Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX US</masterLabel>
+            <translation><!-- BOXX US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX West - Canada</masterLabel>
+            <translation><!-- BOXX West - Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camps Canada</masterLabel>
+            <translation><!-- Camps Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES Canada</masterLabel>
+            <translation><!-- ES Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES US</masterLabel>
+            <translation><!-- ES US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logistics</masterLabel>
+            <translation><!-- Logistics --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

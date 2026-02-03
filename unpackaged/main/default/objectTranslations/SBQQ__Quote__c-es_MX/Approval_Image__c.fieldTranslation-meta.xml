@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Displays an image if the Quote is approved --></help>
+        <label><!-- Approval Image --></label>
+        <name>Approval_Image__c</name>
+    </CustomFieldTranslation>

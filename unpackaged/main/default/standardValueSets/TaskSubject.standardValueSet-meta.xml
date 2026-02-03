@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cold Call</fullName>
+        <default>false</default>
+        <label>Cold Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Delayed</fullName>
+        <default>false</default>
+        <label>Delayed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Update</fullName>
+        <default>false</default>
+        <label>Update</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Left Voicemail</fullName>
+        <default>false</default>
+        <label>Left Voicemail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Face-to-Face Site Visit</fullName>
+        <default>false</default>
+        <label>Face-to-Face Site Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent Quote</fullName>
+        <default>false</default>
+        <label>Sent Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent Contract</fullName>
+        <default>false</default>
+        <label>Sent Contract</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gave Budgetary</fullName>
+        <default>false</default>
+        <label>Gave Budgetary</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Development Call</fullName>
+        <default>false</default>
+        <label>Business Development Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent Brochure</fullName>
+        <default>false</default>
+        <label>Sent Brochure</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LiveChat</fullName>
+        <default>false</default>
+        <label>LiveChat</label>
+    </standardValue>
+</StandardValueSet>

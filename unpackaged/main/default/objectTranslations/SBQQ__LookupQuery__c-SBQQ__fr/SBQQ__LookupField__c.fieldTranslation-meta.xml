@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- API Name of the custom field used in the query. --></help>
+        <label>Champ de référence</label>
+        <name>SBQQ__LookupField__c</name>
+        <picklistValues>
+            <masterLabel>Branch__c</masterLabel>
+            <translation><!-- Branch__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category__c</masterLabel>
+            <translation><!-- Category__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complex_Dimensions__c</masterLabel>
+            <translation><!-- Complex_Dimensions__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complex_Length__c</masterLabel>
+            <translation><!-- Complex_Length__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complex_Width__c</masterLabel>
+            <translation><!-- Complex_Width__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CurrencyIsoCode</masterLabel>
+            <translation><!-- CurrencyIsoCode --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maximum_Term__c</masterLabel>
+            <translation><!-- Maximum_Term__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milestone_Format__c</masterLabel>
+            <translation><!-- Milestone_Format__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimum_Term__c</masterLabel>
+            <translation><!-- Minimum_Term__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modular_Transactional__c</masterLabel>
+            <translation><!-- Modular_Transactional__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProductCode</masterLabel>
+            <translation><!-- ProductCode --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Code__c</masterLabel>
+            <translation><!-- Product_Code__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Category__c</masterLabel>
+            <translation><!-- SBQQ__Category__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__RequiredBy__c</masterLabel>
+            <translation><!-- SBQQ__RequiredBy__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Structure_Type__c</masterLabel>
+            <translation><!-- Structure_Type__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction_Category__c</masterLabel>
+            <translation><!-- Transaction_Category__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction_Type_Detail__c</masterLabel>
+            <translation><!-- Transaction_Type_Detail__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction_Type__c</masterLabel>
+            <translation><!-- Transaction_Type__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Serial_Number__c</masterLabel>
+            <translation><!-- Unit_Serial_Number__c --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

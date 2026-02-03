@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingFilterCondition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <colName>00N70000003W48R</colName>
+    <fieldName>New_Contract_or_Renewal__c</fieldName>
+    <forecastingFilter>FF_Profit_Production_New_Contracts0hlOL00000000UfYAI803363852088579</forecastingFilter>
+    <forecastingSourceDefinition>7syOL0000000085</forecastingSourceDefinition>
+    <isProtected>false</isProtected>
+    <masterLabel>FFC_Profit_Production_New_Contracts0r0OL000000009hYAA139303093548159</masterLabel>
+    <operation>equals</operation>
+    <sortOrder>1</sortOrder>
+    <value>New Contract</value>
+</ForecastingFilterCondition>

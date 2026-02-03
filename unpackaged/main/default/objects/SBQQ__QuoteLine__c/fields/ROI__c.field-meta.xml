@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROI__c</fullName>
+    <description>Annualized return on investment.  Monthly amount x 12 months / Original Capital Cost</description>
+    <formula>IF(OR(
+      BLANKVALUE(SBQQ__UnitCost__c, 0) = 0,
+      BLANKVALUE(Monthly_Amount__c, 0) = 0), NULL,
+IF(OR(Trans_Category__c = "Rental", Trans_Category__c = "Carry On"), Monthly_Amount__c * 12 / Total_Cost__c / 100,
+NULL))</formula>
+    <inlineHelpText>Annualized return on investment.  Monthly amount x 12 months / Original Capital Cost</inlineHelpText>
+    <label>ROI</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

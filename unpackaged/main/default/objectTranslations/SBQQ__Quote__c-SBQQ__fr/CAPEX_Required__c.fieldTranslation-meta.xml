@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Reads the value of New CAPEX Value required and returns Yes if the value is greater than $0 --></help>
+        <label><!-- CAPEX Required? --></label>
+        <name>CAPEX_Required__c</name>
+    </CustomFieldTranslation>

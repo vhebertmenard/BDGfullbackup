@@ -1,0 +1,16 @@
+<html>
+<body>
+<p>Hello {!Lead.Name},</p>
+<p>You submitted a request to receive a modular building quote, but unfortunately we haven't been able to connect with you about space for {!Lead.Company} in {!Lead.State}, {!Lead.PostalCode}.</p>
+
+<p>We want to help you get the space you need, so our local representative is going to reach out to you once more. {!Lead.OwnerFullName} ({!Lead.OwnerEmail} | {!Lead.OwnerPhone}) is looking forward to providing you with the modular information you requested.</p>
+
+<p>We understand you are busy so if there is a particular date and time that works best for a call, simply reply to this email and let us know.</p>
+
+<p>Sincerely,</p>
+
+Andrea Regimbal<br/>
+Marketing Coordinator<br/>
+BOXX Modular<br/>
+Phone: 437-360-7126<br/>
+<a href="www.boxxmodular.com">www.boxxmodular.com</a>

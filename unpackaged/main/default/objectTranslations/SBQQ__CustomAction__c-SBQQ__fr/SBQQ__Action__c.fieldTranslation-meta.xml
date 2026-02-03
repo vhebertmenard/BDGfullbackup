@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Action that this custom action performs. --></help>
+        <label>Action</label>
+        <name>SBQQ__Action__c</name>
+        <picklistValues>
+            <masterLabel>Add Favorites</masterLabel>
+            <translation><!-- Add Favorites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Group</masterLabel>
+            <translation><!-- Add Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Products</masterLabel>
+            <translation><!-- Add Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Solution Group</masterLabel>
+            <translation><!-- Add Solution Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add To Favorites</masterLabel>
+            <translation><!-- Add To Favorites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calculate</masterLabel>
+            <translation><!-- Calculate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation><!-- Cancel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clone Group</masterLabel>
+            <translation><!-- Clone Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clone Line</masterLabel>
+            <translation><!-- Clone Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CreateThirdPartyPartnership</masterLabel>
+            <translation><!-- CreateThirdPartyPartnership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete Group</masterLabel>
+            <translation><!-- Delete Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete Line</masterLabel>
+            <translation><!-- Delete Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete Lines</masterLabel>
+            <translation><!-- Delete Lines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desegment Line</masterLabel>
+            <translation><!-- Desegment Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optional: All</masterLabel>
+            <translation><!-- Optional: All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optional: None</masterLabel>
+            <translation><!-- Optional: None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quick Save</masterLabel>
+            <translation><!-- Quick Save --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconfigure Line</masterLabel>
+            <translation><!-- Reconfigure Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove From Favorites</masterLabel>
+            <translation><!-- Remove From Favorites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew Subscriptions</masterLabel>
+            <translation><!-- Renew Subscriptions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resegment Line</masterLabel>
+            <translation><!-- Resegment Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reset Discounts</masterLabel>
+            <translation><!-- Reset Discounts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Save</masterLabel>
+            <translation><!-- Save --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ungroup</masterLabel>
+            <translation><!-- Ungroup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Assets</masterLabel>
+            <translation><!-- Upgrade Assets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>View Discount Schedule</masterLabel>
+            <translation><!-- View Discount Schedule --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

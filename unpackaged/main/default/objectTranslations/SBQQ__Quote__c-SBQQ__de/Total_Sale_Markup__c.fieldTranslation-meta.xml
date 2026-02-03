@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total Markup of Sale items divided by the Total Cost of Sale Items --></help>
+        <label><!-- Total Sale Markup % --></label>
+        <name>Total_Sale_Markup__c</name>
+    </CustomFieldTranslation>

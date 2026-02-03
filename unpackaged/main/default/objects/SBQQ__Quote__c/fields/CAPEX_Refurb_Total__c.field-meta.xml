@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAPEX_Refurb_Total__c</fullName>
+    <description>Total cost of quote lines where Cost Type = Refurb. Populate by Price Rule &amp; Summary Variable.</description>
+    <inlineHelpText>Total amount of Refurb CAPEX on this quote.</inlineHelpText>
+    <label>CAPEX - Refurb Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

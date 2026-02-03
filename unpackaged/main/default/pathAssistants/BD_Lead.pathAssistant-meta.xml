@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>BD  Lead</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Title</fieldNames>
+        <fieldNames>Phone</fieldNames>
+        <fieldNames>Industry</fieldNames>
+        <fieldNames>Industry_Segment__c</fieldNames>
+        <fieldNames>Industry_Details__c</fieldNames>
+        <info>&lt;p&gt;&lt;b&gt;Learn about and contact your new lead quickly. Gather as much contact information as you can.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: HelveticaNeue; font-size: 9.75pt;&quot;&gt;Get your lead’s email address, phone number, and title so that you can include your lead in future campaigns.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: HelveticaNeue; font-size: 9.75pt;&quot;&gt;Email your lead first, and immediately follow up with a phone call.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Stage Completion Criteria: You have attempted to contact your Lead.&lt;/b&gt;&lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 9.75pt; font-family: HelveticaNeue;&quot;&gt;Congratulations! &lt;/b&gt;&lt;span style=&quot;font-size: 11pt; font-family: Calibri;&quot;&gt;Now it’s time to convert the lead record to an opportunity.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Qualified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Status</fieldNames>
+        <fieldNames>Unqualified_Lead_Reason__c</fieldNames>
+        <fieldNames>Description</fieldNames>
+        <info>&lt;p&gt;&lt;b&gt;If your lead has neither the interest nor the authority to purchase from you, mark the lead Unqualified. &lt;/b&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;Don’t waste time on unqualified leads.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 9.75pt; font-family: HelveticaNeue;&quot;&gt;Learn about the lead source before you spend time selling them a product they&amp;#39;re not ready for.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 9.75pt; font-family: HelveticaNeue;&quot;&gt;Understand your lead&amp;#39;s level of decision making authority and solution requirements.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 9.75pt; font-family: HelveticaNeue;&quot;&gt;Determine whether your lead is likely to buy from you.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span style=&quot;font-size: 9.75pt; font-family: HelveticaNeue;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 9.75pt; font-family: HelveticaNeue;&quot;&gt;Stage Completion Criteria: Your lead has interest and authority to purchase from you.&lt;/b&gt;&lt;/p&gt;</info>
+        <picklistValueName>Unqualified</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>BD_Lightning</recordTypeName>
+</PathAssistant>

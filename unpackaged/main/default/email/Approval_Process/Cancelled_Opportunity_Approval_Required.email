@@ -1,0 +1,11 @@
+The following sales opportunity has been marked as cancelled, please validate that this opportunity is in fact cancelled and grant approval.
+
+Account Name: {!Opportunity.Account}
+Opportunity Name: {!Opportunity.Name}
+
+Opportunity Stage: {!Opportunity.StageName}
+Opportunity Owner: {!Opportunity.OwnerFullName}
+Opportunity Link: {!Opportunity.Link}
+
+Reason for Cancel: {!Opportunity.Reason_s_Won_Lost_Cancelled__c}
+Reason Details: {!Opportunity.Other_Reason__c}

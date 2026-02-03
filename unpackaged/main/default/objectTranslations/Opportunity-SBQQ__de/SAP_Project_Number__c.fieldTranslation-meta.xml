@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Once the Opportunity is Won, an SAP Project Number will be created. Enter here as a reference. --></help>
+        <label><!-- SAP Project # --></label>
+        <name>SAP_Project_Number__c</name>
+    </CustomFieldTranslation>

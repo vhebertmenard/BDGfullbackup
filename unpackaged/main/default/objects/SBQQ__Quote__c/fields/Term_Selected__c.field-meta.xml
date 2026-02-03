@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Term_Selected__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( To_be_entered_into_pipeline__c ,
+'Term 1', Term_1__c, 
+'Term 2', Term_2__c,
+'Term 3', Term_3__c,
+'Term 4', Term_4__c,
+Term_5__c
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Term Selected</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

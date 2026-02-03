@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification of Lead from MPA Website</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>MPA_Letterhead</letterhead>
+    <name>MPA Lead Notification</name>
+    <style>formalLetter</style>
+    <subject>MPA Web Lead {!Lead.Company}</subject>
+    <textOnly>A new MPA Web Lead for {!Lead.FirstName} {!Lead.LastName} at {!Lead.Company} has been created in Salesforce and has been assigned to !Lead.OwnerTitle}.
+
+{!Lead.FirstName} {!Lead.LastName}
+Company: {!Lead.Company}
+Product: {!Lead.Product__c}
+How we can help:
+{!Lead.Description}
+
+Your next steps:
+
+Review the Lead here: {!Lead.Link}
+Change the Lead Owner
+Contact {!Lead.FirstName} {!Lead.LastName} at {!Lead.Company}
+Update the Lead Status
+
+
+MPA Systems, LLC
+A Boxx Modular Co.
+Toll Free 888-233-1584
+T: 940-458-2600 |  C: 940-391-4662   F: 940-458-2700
+3475 High River Road, Fort Worth, TX  76155</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

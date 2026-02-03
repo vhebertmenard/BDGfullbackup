@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Send notification email to quote owner when Quote is approved</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Quote Approved</name>
+    <style>none</style>
+    <subject>Quote Approved -  {!SBQQ__Quote__c.Name} for {!SBQQ__Quote__c.SBQQ__BillingName__c} - {!SBQQ__Quote__c.SBQQ__Opportunity2__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

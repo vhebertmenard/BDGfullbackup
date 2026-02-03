@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Has customer provided proof of General Liability coverage at required amount? For an outline of Insurance requirements, refer to your contract&apos;s T&amp;Cs. --></help>
+        <label><!-- General Liability Proof? --></label>
+        <name>Proof_of_General_Liability_Obtained__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

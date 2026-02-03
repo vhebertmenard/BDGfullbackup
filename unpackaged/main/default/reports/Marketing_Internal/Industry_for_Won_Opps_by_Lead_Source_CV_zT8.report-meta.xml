@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_75519689</developerName>
+        <masterLabel>Lead Sources - Website</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>LEAD_SOURCE</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Website</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Lead Forensics</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Used</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Social Media</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Search Engine</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Building Decals</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Referral</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Advertisement (Print)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Email Blast</sourceValue>
+            </sourceValues>
+            <value>Website</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>FISCAL_QUARTER</field>
+    </columns>
+    <columns>
+        <field>PROBABILITY</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Profit_Production_Primary_Quote__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Industry_Segment__c</field>
+    </columns>
+    <columns>
+        <field>LEAD_SOURCE</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>User.BDG_Division__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Modular Solutions</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Parent_Industry__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_75519689</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Industry for Won Opps by Lead Source CV</name>
+    <params>
+        <name>open</name>
+        <value>closedwon</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity@Opportunity.SBQQ__PrimaryQuote__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

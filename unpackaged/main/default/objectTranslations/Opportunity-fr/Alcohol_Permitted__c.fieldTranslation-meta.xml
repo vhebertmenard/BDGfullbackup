@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Alcohol Permitted --></label>
+        <name>Alcohol_Permitted__c</name>
+        <picklistValues>
+            <masterLabel>Dry Camp</masterLabel>
+            <translation><!-- Dry Camp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moist Camp</masterLabel>
+            <translation><!-- Moist Camp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wet Camp</masterLabel>
+            <translation><!-- Wet Camp --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

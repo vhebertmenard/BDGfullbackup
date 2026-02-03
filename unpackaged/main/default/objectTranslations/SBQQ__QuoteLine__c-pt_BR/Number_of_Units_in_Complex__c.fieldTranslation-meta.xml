@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Number of Units in Complex --></label>
+        <name>Number_of_Units_in_Complex__c</name>
+    </CustomFieldTranslation>

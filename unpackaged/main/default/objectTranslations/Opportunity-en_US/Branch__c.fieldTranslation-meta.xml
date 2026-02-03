@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Branch --></label>
+        <name>Branch__c</name>
+        <picklistValues>
+            <masterLabel>AUS Brisbane</masterLabel>
+            <translation><!-- AUS Brisbane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUS Perth</masterLabel>
+            <translation><!-- AUS Perth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUS Sydney</masterLabel>
+            <translation><!-- AUS Sydney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUS Townsville</masterLabel>
+            <translation><!-- AUS Townsville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Atlanta</masterLabel>
+            <translation><!-- BOXX Atlanta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Austin</masterLabel>
+            <translation><!-- BOXX Austin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Banks Dallas</masterLabel>
+            <translation><!-- BOXX Banks Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Calgary</masterLabel>
+            <translation><!-- BOXX Calgary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Charlotte</masterLabel>
+            <translation><!-- BOXX Charlotte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Dallas</masterLabel>
+            <translation><!-- BOXX Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Edmonton</masterLabel>
+            <translation><!-- BOXX Edmonton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Fort Worth</masterLabel>
+            <translation><!-- BOXX Fort Worth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Houston</masterLabel>
+            <translation><!-- BOXX Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Kelowna</masterLabel>
+            <translation><!-- BOXX Kelowna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Langley</masterLabel>
+            <translation><!-- BOXX Langley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Lewisville</masterLabel>
+            <translation><!-- BOXX Lewisville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX MPA</masterLabel>
+            <translation><!-- BOXX MPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Major Projects</masterLabel>
+            <translation><!-- BOXX Major Projects --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Marietta</masterLabel>
+            <translation><!-- BOXX Marietta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Moncton</masterLabel>
+            <translation><!-- BOXX Moncton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Nanaimo</masterLabel>
+            <translation><!-- BOXX Nanaimo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Oklahoma</masterLabel>
+            <translation><!-- BOXX Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Ottawa</masterLabel>
+            <translation><!-- BOXX Ottawa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Phoenix</masterLabel>
+            <translation><!-- BOXX Phoenix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Prince George</masterLabel>
+            <translation><!-- BOXX Prince George --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Raleigh</masterLabel>
+            <translation><!-- BOXX Raleigh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Regina</masterLabel>
+            <translation><!-- BOXX Regina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Saskatchewan</masterLabel>
+            <translation><!-- BOXX Saskatchewan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Schiavi</masterLabel>
+            <translation><!-- BOXX Schiavi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Stoney Creek</masterLabel>
+            <translation><!-- BOXX Stoney Creek --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Toronto East</masterLabel>
+            <translation><!-- BOXX Toronto East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX Winnipeg</masterLabel>
+            <translation><!-- BOXX Winnipeg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camps Eastern</masterLabel>
+            <translation><!-- Camps Eastern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camps Pacific</masterLabel>
+            <translation><!-- Camps Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camps Prairies</masterLabel>
+            <translation><!-- Camps Prairies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES Colorado</masterLabel>
+            <translation><!-- ES Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES Edson</masterLabel>
+            <translation><!-- ES Edson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES Fort Nelson</masterLabel>
+            <translation><!-- ES Fort Nelson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES Fort St. John</masterLabel>
+            <translation><!-- ES Fort St. John --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES Grande Prairie</masterLabel>
+            <translation><!-- ES Grande Prairie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES North Dakota</masterLabel>
+            <translation><!-- ES North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES Saskatchewan</masterLabel>
+            <translation><!-- ES Saskatchewan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES Texas</masterLabel>
+            <translation><!-- ES Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head Office</masterLabel>
+            <translation><!-- Head Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Camp Desk</masterLabel>
+            <translation><!-- LG Camp Desk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Conklin Lodge</masterLabel>
+            <translation><!-- LG Conklin Lodge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Edmonton</masterLabel>
+            <translation><!-- LG Edmonton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Enbridge Ops</masterLabel>
+            <translation><!-- LG Enbridge Ops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Encana Maintenance</masterLabel>
+            <translation><!-- LG Encana Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG K1A Lodge</masterLabel>
+            <translation><!-- LG K1A Lodge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Kinosis Lodge</masterLabel>
+            <translation><!-- LG Kinosis Lodge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Kirby Lake Lodge</masterLabel>
+            <translation><!-- LG Kirby Lake Lodge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Liard Lodge</masterLabel>
+            <translation><!-- LG Liard Lodge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Nexen Cottonwood</masterLabel>
+            <translation><!-- LG Nexen Cottonwood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Quintette Lodge</masterLabel>
+            <translation><!-- LG Quintette Lodge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Resthaven Lodge</masterLabel>
+            <translation><!-- LG Resthaven Lodge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Saleski Grand Rapids Lodge</masterLabel>
+            <translation><!-- LG Saleski Grand Rapids Lodge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Saturn Lodge</masterLabel>
+            <translation><!-- LG Saturn Lodge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Spectra Ops</masterLabel>
+            <translation><!-- LG Spectra Ops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LG Sunday Creek Lodge</masterLabel>
+            <translation><!-- LG Sunday Creek Lodge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Projects California</masterLabel>
+            <translation><!-- Major Projects California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Projects Texas</masterLabel>
+            <translation><!-- Major Projects Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>​​BOXX CL Martin</masterLabel>
+            <translation><!-- ​​BOXX CL Martin --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

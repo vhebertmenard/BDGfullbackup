@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If lead arrived in French or if lead prefers communication in French, check this box. --></help>
+        <label><!-- French Language - to be deleted --></label>
+        <name>French_Language__c</name>
+    </CustomFieldTranslation>

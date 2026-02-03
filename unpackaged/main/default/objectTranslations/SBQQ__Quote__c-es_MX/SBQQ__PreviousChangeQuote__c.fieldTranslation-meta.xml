@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>La versión anterior de los Presupuestos repetidos por corrección.</help>
+        <label><!-- Previous Re-Quotes --></label>
+        <name>SBQQ__PreviousChangeQuote__c</name>
+        <relationshipLabel><!-- Quotes (Amend Re-Quotes) --></relationshipLabel>
+    </CustomFieldTranslation>

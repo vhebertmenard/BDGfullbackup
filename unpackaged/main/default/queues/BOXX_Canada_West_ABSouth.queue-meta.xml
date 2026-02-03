@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>BOXX Canada West - ABSouth</name>
+    <queueMembers>
+        <users>
+            <user>amardell@boxxmodular.com</user>
+            <user>cneufeld@boxxmodular.com</user>
+            <user>csnyder@boxxmodular.com</user>
+            <user>llee@blackdiamondgroup.com</user>
+            <user>nborissova@blackdiamondgroup.com</user>
+            <user>tkwan@boxxmodular.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

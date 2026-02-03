@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>true</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>Vanguard_ABOXXModularCompany_logo_0</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>Vanguard_A-BOXX-Modular-Company_logo 07.28.2021.png</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

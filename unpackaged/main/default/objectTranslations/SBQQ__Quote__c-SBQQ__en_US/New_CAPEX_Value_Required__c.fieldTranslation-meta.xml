@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Amount of Capital Expenditure required for this quote that has not already been approved.  Will be sent to parent Opportunity --></help>
+        <label><!-- CAPEX Approval Amount --></label>
+        <name>New_CAPEX_Value_Required__c</name>
+    </CustomFieldTranslation>

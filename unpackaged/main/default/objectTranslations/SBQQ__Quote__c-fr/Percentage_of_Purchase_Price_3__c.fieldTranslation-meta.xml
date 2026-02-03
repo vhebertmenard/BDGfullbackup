@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- % of Purchase Price 3 --></label>
+        <name>Percentage_of_Purchase_Price_3__c</name>
+    </CustomFieldTranslation>

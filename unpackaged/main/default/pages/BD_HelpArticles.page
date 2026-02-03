@@ -1,0 +1,50 @@
+<apex:page Controller="SearchInVFController" lightningStyleSheets="true" >
+
+    <div style="margin: 10px 0 10px 0;">
+        <div style="float:right; margin:5px 0 0 0;">
+            <a href="https://bdgl.sharepoint.com/sites/support/SitePages/Salesforce-Support.aspx" target="_blank">
+                <span class="slds-icon_container slds-icon-utility-help_doc_ext" >
+                    <svg aria-hidden="true" class="slds-icon" style="height: 20px; width: 20px;">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/utility-sprite/svg/symbols.svg#help_doc_ext')}"></use>
+                    </svg>
+                </span>
+            </a>
+        </div>    
+    </div>    
+
+    <h1 style="font-size: 16pt; font-weight: 400; color: black; margin: -10px 0 10px 0 !important">{!topicName} Help Articles</h1>
+    
+    <apex:outputPanel rendered="{!IF(defaultArticles.size != 0, true, false)}">
+        <apex:dataList value="{!defaultArticles}" var="a" style="list-style-type: none; margin: 0px; line-height: 175%;" >
+            <a href="{!a.URL__c}" target="_blank" style="padding: 4px 0 4px 0;">{!a.Name}</a>
+        </apex:dataList>
+    </apex:outputPanel>
+
+    <apex:outputPanel rendered="{!IF(defaultArticles.size == 0, true, false)}">No articles found.</apex:outputPanel>
+
+<!--
+    <h1 style="font-size: 16pt; font-weight: 400; color: black; margin: 10px 0 10px 0 !important">Search Help Articles</h1>
+
+    <apex:form >
+        <apex:inputText value="{!searchKey}" style="margin: 0px;" tabindex="-1">
+            <apex:actionSupport event="onblur" action="{!search}" rendered="false"/>
+        </apex:inputText>
+        <apex:commandButton value="Search" action="{!search}" tabindex="-1"/>
+        <apex:commandButton value="Clear" action="{!clear}" tabindex="-1"/><br/><br/>
+
+         <apex:outputPanel rendered="{!IF(searchArticles.size != 0, true, false)}">
+             <apex:dataList value="{!searchArticles}" var="a" style="list-style-type: none; margin: 0px; line-height: 175%;" >
+                 <a href="{!a.URL__c}" target="_blank" style="padding: 4px 0 4px 0;">{!a.Name}</a>
+             </apex:dataList>
+         </apex:outputPanel>
+         <apex:outputPanel rendered="{!IF(searchArticles.size == 0, true, false)}">No articles found.<br/>Please try a different search term.</apex:outputPanel>
+    </apex:form>
+-->
+
+<div>
+    <div style="position: absolute; bottom: 0; border-top: 1px solid rgb(221, 219, 218); width: 95%; padding: 5px 0 0 0">
+            <a href="https://bdgl.sharepoint.com/sites/support/SitePages/Salesforce-Support.aspx" target="_blank">More Articles...</a>
+    </div>
+</div>
+
+</apex:page>

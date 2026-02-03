@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Azure Active Directory Distribution Group for users that want to be notified in addition to the Lead Owner and Inside Sales Rep --></help>
+        <label><!-- AD Distribution Group --></label>
+        <name>AD_Distribution_Group__c</name>
+    </CustomFieldTranslation>

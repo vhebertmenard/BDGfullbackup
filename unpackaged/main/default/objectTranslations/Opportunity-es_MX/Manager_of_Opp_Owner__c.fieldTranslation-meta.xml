@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Manager of Opportunity Owner --></help>
+        <label><!-- Manager of Opp Owner --></label>
+        <name>Manager_of_Opp_Owner__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdditionalDiscountUnit__c</fullName>
+    <description>The AdditionalDiscountUnit field allows admins to control the unit of an Additional Discount entered on a Quote Line. This AdditionalDiscountUnit picklist field supports Percent, Amount, Unit Override, and Total Override picklist values. Admins can include or exclude picklist values which will directly impact how users are allowed to discount quote lines using the Additional Disc field (SBQQ__AdditionalDiscount__c) in the quote line editor.</description>
+    <inlineHelpText>The AdditionalDiscountUnit field allows admins to control the unit of an Additional Discount entered on a Quote Line. This AdditionalDiscountUnit picklist field supports Percent, Amount, Unit Override, and Total Override picklist values. Admins can includ</inlineHelpText>
+    <label>Additional Discount Units</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Percent</fullName>
+                <default>false</default>
+                <label>Percent</label>
+            </value>
+            <value>
+                <fullName>Amount</fullName>
+                <default>false</default>
+                <label>Amount</label>
+            </value>
+            <value>
+                <fullName>Total Override</fullName>
+                <default>false</default>
+                <label>Total Override</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

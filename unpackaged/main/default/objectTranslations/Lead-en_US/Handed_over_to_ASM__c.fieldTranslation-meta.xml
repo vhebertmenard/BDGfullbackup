@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- EMS has handed over this Lead to the ASM for further follow-up --></help>
+        <label><!-- Handed over to ASM --></label>
+        <name>Handed_over_to_ASM__c</name>
+    </CustomFieldTranslation>

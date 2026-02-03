@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Nombre de API del campo para devolver desde la fila que coincide con la condición.</help>
+        <label><!-- Source Lookup Field --></label>
+        <name>SBQQ__SourceLookupField__c</name>
+        <picklistValues>
+            <masterLabel>Cost__c</masterLabel>
+            <translation><!-- Cost__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Description</masterLabel>
+            <translation><!-- Description --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External_Rental_Rate__c</masterLabel>
+            <translation><!-- External_Rental_Rate__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurable_Value__c</masterLabel>
+            <translation><!-- Insurable_Value__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance_Monthly__c</masterLabel>
+            <translation><!-- Insurance_Monthly__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly_Price__c</masterLabel>
+            <translation><!-- Monthly_Price__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NBV__c</masterLabel>
+            <translation><!-- NBV__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NS_Fee_Type_ID__c</masterLabel>
+            <translation><!-- NS_Fee_Type_ID__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negative_Insurable_Values__c</masterLabel>
+            <translation><!-- Negative_Insurable_Values__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replacement_Value__c</masterLabel>
+            <translation><!-- Replacement_Value__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__Value__c</masterLabel>
+            <translation>SBQQ__Value__c</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

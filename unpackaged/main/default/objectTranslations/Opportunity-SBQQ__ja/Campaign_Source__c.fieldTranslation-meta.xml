@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Black Diamond internal business development initiative, often region based, e.g. US Gulf Coast. --></help>
+        <label><!-- Campaign Source --></label>
+        <name>Campaign_Source__c</name>
+        <relationshipLabel><!-- Opportunities (Campaign Source) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Source__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Used to populate Primary Campaign Source</description>
+    <inlineHelpText>Black Diamond internal business development initiative, often region based, e.g. US Gulf Coast.</inlineHelpText>
+    <label>Campaign Source</label>
+    <referenceTo>Campaign</referenceTo>
+    <relationshipLabel>Opportunities (Campaign Source)</relationshipLabel>
+    <relationshipName>Opportunities2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

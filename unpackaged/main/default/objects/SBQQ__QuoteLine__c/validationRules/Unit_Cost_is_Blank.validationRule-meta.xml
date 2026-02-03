@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Cost_is_Blank</fullName>
+    <active>false</active>
+    <description>If Unit Price is entered, warn if Unit Cost is blank</description>
+    <errorConditionFormula>AND($User.Username &lt;&gt;'rgali@blackdiamondgroup.com', Unit_Price__c &gt; 0,  OR(ISNULL(SBQQ__UnitCost__c),SBQQ__UnitCost__c == 0), TEXT( SBQQ__PricingMethod__c ) = "Cost", SBQQ__Quote__r.Quote_Name__c != 'Q-68756')</errorConditionFormula>
+    <errorDisplayField>SBQQ__UnitCost__c</errorDisplayField>
+    <errorMessage>You have entered a Unit Price without a Unit Cost. Enter Unit Cost.</errorMessage>
+</ValidationRule>

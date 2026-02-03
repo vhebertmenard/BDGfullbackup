@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Count of all the Sale units included in this quote --></help>
+        <label><!-- # of Sale Units --></label>
+        <name>Number_of_Sale_Units__c</name>
+    </CustomFieldTranslation>

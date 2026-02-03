@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fleet_Central_Project_Link__c</fullName>
+    <description>Generates URL for Fleet Central Project</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(SBQQ__Opportunity2__r.Fleet_Central_Contract_Number__c),
+
+IF( SBQQ__Opportunity2__r.Create_Project__c = TRUE, HYPERLINK("https://bdgl.sharepoint.com/sites/fc/Pages/ProjectLauncher.aspx?BDGLContract=" &amp; SBQQ__Opportunity2__r.Contract_Number__c , "Fleet Central Project", "_blank"), HYPERLINK("https://bdgl.sharepoint.com/sites/fc/Pages/Projects.aspx", "Fleet Central Project", "_blank")),
+
+IF( SBQQ__Opportunity2__r.Create_Project__c = TRUE, HYPERLINK("https://bdgl.sharepoint.com/sites/fc/Pages/ProjectLauncher.aspx?BDGLContract=" &amp; SBQQ__Opportunity2__r.Fleet_Central_Contract_Number__c , "Fleet Central Project", "_blank"), HYPERLINK("https://bdgl.sharepoint.com/sites/fc/Pages/Projects.aspx", "Fleet Central Project", "_blank"))
+
+)</formula>
+    <inlineHelpText>Link to Fleet Central Project for this Quote</inlineHelpText>
+    <label>Fleet Central Project</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

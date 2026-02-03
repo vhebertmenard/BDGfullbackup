@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2024 - Classroom - CC-01404 &amp; CC-01422 &amp; CC-0105</name>
+    <style>none</style>
+    <subject>Affordable Modular Classroom Building for {!Account.Name}</subject>
+    <textOnly>Hello! Looking for efficient classroom solution to accommodate a growing student population?
+
+BOXX Modular currently has three pre-owned modular classroom buildings available, each offering 8 individual classrooms and accessible restrooms!  These buildings are ready to be delivered for rent or sale to support your expanding educational needs.
+
+View the buildings details:
+
+--&gt; 144&apos; x 64&apos; Used Modular Classroom Building
+https://www.boxxmodular.com/used-modular/cc-01422/
+
+--&gt; 136&apos; x 64&apos; Used Modular Classroom Building
+https://www.boxxmodular.com/used-modular/cc-01404/
+
+--&gt; 124&apos; x 64&apos; Used Modular Classroom Building
+https://www.boxxmodular.com/used-modular/cc-01405/
+
+Visit our website today to explore our complete selection of modular solutions and our team will help you find the perfect fit for your needs.
+
+--&gt; View used building inventory
+https://www.boxxmodular.com/used-modular/
+
+--&gt; View modular classrooms
+https://www.boxxmodular.com/classrooms/
+
+To connect with us for more information:
+
+--&gt; Reply to this email
+
+--&gt; Request a quote on our website
+https://www.boxxmodular.com/quote-request/
+
+--&gt; Call 877-966-7839 to speak with one of our local experts
+
+We are here to help!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

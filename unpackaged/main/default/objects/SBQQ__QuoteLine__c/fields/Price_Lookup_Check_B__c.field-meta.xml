@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_Lookup_Check_B__c</fullName>
+    <description>Price Lookup Check contains nulls. Price Lookup Check B copies Price Lookup Check and populates nulls as zeros</description>
+    <formula>(IF(ISBLANK( Price_Lookup_Check__c ), 0, Price_Lookup_Check__c ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Copy of Price Lookup Check where null is converted to 0</inlineHelpText>
+    <label>Price Lookup Check B</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

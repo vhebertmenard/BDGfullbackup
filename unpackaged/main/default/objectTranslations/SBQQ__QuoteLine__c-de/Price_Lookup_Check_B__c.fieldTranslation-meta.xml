@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Copy of Price Lookup Check where null is converted to 0 --></help>
+        <label><!-- Price Lookup Check B --></label>
+        <name>Price_Lookup_Check_B__c</name>
+    </CustomFieldTranslation>

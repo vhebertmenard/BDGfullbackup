@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_New_Factor__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(  Term_1__c ,
+1,0.046,
+2,0.045,
+3,0.044,
+4,0.043,
+5,0.042,
+6,0.041,
+7,0.04,
+8,0.039,
+9,0.038,
+10,0.037,
+11,0.036,
+12,0.035,
+13,0.034,
+14,0.033,
+15,0.032,
+16,0.031,
+17,0.03,
+18,0.029,
+19,0.028,
+20,0.027,
+21,0.026,
+22,0.025,
+23,0.024,
+24,0.023,
+25,0.02284,
+26,0.022681,
+27,0.022521,
+28,0.022361,
+29,0.022201,
+30,0.022042,
+31,0.021882,
+32,0.021722,
+33,0.021563,
+34,0.021403,
+35,0.021243,
+36,0.022,
+37,0.021917,
+38,0.021833,
+39,0.02175,
+40,0.021667,
+41,0.021583,
+42,0.0215,
+43,0.021417,
+44,0.02133,
+45,0.02125,
+46,0.021167,
+47,0.021083,
+48,0.021,
+49,0.020917,
+50,0.020833,
+51,0.02075,
+52,0.020667,
+53,0.020583,
+54,0.0205,
+55,0.020417,
+56,0.020333,
+57,0.02025,
+58,0.020167,
+59,0.020083,
+60,0.02,
+0
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Target New Factor</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>9</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

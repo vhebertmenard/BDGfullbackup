@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- IG/IC Accounting Contact --></label>
+        <name>IG_IC_Accounting_Contact__c</name>
+        <relationshipLabel><!-- Accounts (IG/IC Accounting Contact) --></relationshipLabel>
+    </CustomFieldTranslation>

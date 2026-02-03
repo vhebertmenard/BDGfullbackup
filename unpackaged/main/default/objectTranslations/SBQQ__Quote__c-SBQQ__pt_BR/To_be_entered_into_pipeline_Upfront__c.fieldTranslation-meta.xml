@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- To be entered into pipeline - Upfront --></label>
+        <name>To_be_entered_into_pipeline_Upfront__c</name>
+        <picklistValues>
+            <masterLabel>Option 1</masterLabel>
+            <translation><!-- Option 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option 2</masterLabel>
+            <translation><!-- Option 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option 3</masterLabel>
+            <translation><!-- Option 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option 4</masterLabel>
+            <translation><!-- Option 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option 5</masterLabel>
+            <translation><!-- Option 5 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

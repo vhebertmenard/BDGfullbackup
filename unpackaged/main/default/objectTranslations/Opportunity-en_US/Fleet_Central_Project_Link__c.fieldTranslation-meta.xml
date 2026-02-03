@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Link to Fleet Central Project for this Opportunity --></help>
+        <label><!-- Fleet Central Project --></label>
+        <name>Fleet_Central_Project_Link__c</name>
+    </CustomFieldTranslation>

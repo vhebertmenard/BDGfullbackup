@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Set the next date to contact the customer --></help>
+        <label><!-- Followup Date --></label>
+        <name>Followup_Date__c</name>
+    </CustomFieldTranslation>

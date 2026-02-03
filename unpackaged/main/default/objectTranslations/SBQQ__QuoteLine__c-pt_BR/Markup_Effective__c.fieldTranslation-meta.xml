@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Calculate the $ markup value using the Markup Amount or the Markup % rate --></help>
+        <label><!-- Markup Effective --></label>
+        <name>Markup_Effective__c</name>
+    </CustomFieldTranslation>

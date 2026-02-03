@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approved Lead Process</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Approved</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Cold Called</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Converted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Quick Quote</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

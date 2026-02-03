@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Label__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Label displayed for this action in the UI.</description>
+    <inlineHelpText>Label displayed for this action in the UI.</inlineHelpText>
+    <label>Label</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Add Products</fullName>
+                <default>true</default>
+                <label>Add Products</label>
+            </value>
+            <value>
+                <fullName>Add Favorites</fullName>
+                <default>false</default>
+                <label>Add Favorites</label>
+            </value>
+            <value>
+                <fullName>Renew Subscriptions</fullName>
+                <default>false</default>
+                <label>Renew Subscriptions</label>
+            </value>
+            <value>
+                <fullName>Upgrade Assets</fullName>
+                <default>false</default>
+                <label>Upgrade Assets</label>
+            </value>
+            <value>
+                <fullName>Save</fullName>
+                <default>false</default>
+                <label>Save</label>
+            </value>
+            <value>
+                <fullName>Quick Save</fullName>
+                <default>false</default>
+                <label>Quick Save</label>
+            </value>
+            <value>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+                <label>Cancel</label>
+            </value>
+            <value>
+                <fullName>Reset Discounts</fullName>
+                <default>false</default>
+                <label>Reset Discounts</label>
+            </value>
+            <value>
+                <fullName>Optional: All</fullName>
+                <default>false</default>
+                <label>Optional: All</label>
+            </value>
+            <value>
+                <fullName>Optional: None</fullName>
+                <default>false</default>
+                <label>Optional: None</label>
+            </value>
+            <value>
+                <fullName>Calculate</fullName>
+                <default>false</default>
+                <label>Calculate</label>
+            </value>
+            <value>
+                <fullName>Delete Lines</fullName>
+                <default>false</default>
+                <label>Delete Lines</label>
+            </value>
+            <value>
+                <fullName>Add Group</fullName>
+                <default>false</default>
+                <label>Add Group</label>
+            </value>
+            <value>
+                <fullName>Ungroup</fullName>
+                <default>false</default>
+                <label>Ungroup</label>
+            </value>
+            <value>
+                <fullName>Add Solution Group</fullName>
+                <default>false</default>
+                <label>Add Solution Group</label>
+            </value>
+            <value>
+                <fullName>Clone Group</fullName>
+                <default>false</default>
+                <label>Clone Group</label>
+            </value>
+            <value>
+                <fullName>Delete Group</fullName>
+                <default>false</default>
+                <label>Delete Group</label>
+            </value>
+            <value>
+                <fullName>Add To Favorites</fullName>
+                <default>false</default>
+                <label>Add To Favorites</label>
+            </value>
+            <value>
+                <fullName>Remove From Favorites</fullName>
+                <default>false</default>
+                <label>Remove From Favorites</label>
+            </value>
+            <value>
+                <fullName>Delete Line</fullName>
+                <default>false</default>
+                <label>Delete Line</label>
+            </value>
+            <value>
+                <fullName>Clone Line</fullName>
+                <default>false</default>
+                <label>Clone Line</label>
+            </value>
+            <value>
+                <fullName>Reconfigure Line</fullName>
+                <default>false</default>
+                <label>Reconfigure Line</label>
+            </value>
+            <value>
+                <fullName>Desegment Line</fullName>
+                <default>false</default>
+                <label>Desegment Line</label>
+            </value>
+            <value>
+                <fullName>Resegment Line</fullName>
+                <default>false</default>
+                <label>Resegment Line</label>
+            </value>
+            <value>
+                <fullName>View Discount Schedule</fullName>
+                <default>false</default>
+                <label>View Discount Schedule</label>
+            </value>
+            <value>
+                <fullName>Upfront/Backend Markups</fullName>
+                <default>false</default>
+                <label>Upfront/Backend Markups</label>
+            </value>
+            <value>
+                <fullName>Lease/Sale Analysis</fullName>
+                <default>false</default>
+                <label>Lease/Sale Analysis</label>
+            </value>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <label>Test</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

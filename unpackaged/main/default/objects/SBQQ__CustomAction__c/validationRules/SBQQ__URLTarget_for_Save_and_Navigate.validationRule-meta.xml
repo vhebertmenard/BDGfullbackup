@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__URLTarget_for_Save_and_Navigate</fullName>
+    <active>false</active>
+    <description>URL target needs to be Replace Page for Custom Action "Save and Navigate"</description>
+    <errorConditionFormula>ISPICKVAL(SBQQ__Action__c, "Save and Navigate") &amp;&amp; NOT( ISPICKVAL( SBQQ__URLTarget__c , "Replace Page") )</errorConditionFormula>
+    <errorDisplayField>SBQQ__URLTarget__c</errorDisplayField>
+    <errorMessage>URL target needs to be Replace Page for Custom Action "Save and Navigate"</errorMessage>
+</ValidationRule>

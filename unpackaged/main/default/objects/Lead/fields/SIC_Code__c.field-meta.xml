@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIC_Code__c</fullName>
+    <label>SIC Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Industry_Segment__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>SIC_Code</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <controllingFieldValue>Private</controllingFieldValue>
+            <valueName>82B-College &amp; Universities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>82C-Charter Schools</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>82H-Head Start</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public</controllingFieldValue>
+            <valueName>82N-Public Schools</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <controllingFieldValue>Commercial/Industrial</controllingFieldValue>
+            <valueName>15-Bldg Construction - G.C.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Staples</controllingFieldValue>
+            <valueName>54-Food Stores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Warehousing</controllingFieldValue>
+            <valueName>40-Transportation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Warehousing</controllingFieldValue>
+            <valueName>40R-Railroad Transportation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Warehousing</controllingFieldValue>
+            <valueName>41-Local/Suburban Transit &amp; Hwy Passenger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Warehousing</controllingFieldValue>
+            <valueName>42-Motor Freight Transportation/Warehouse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Warehousing</controllingFieldValue>
+            <valueName>44P-Ports &amp; Port Operators</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Warehousing</controllingFieldValue>
+            <valueName>44-Water Transportation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Warehousing</controllingFieldValue>
+            <valueName>45-Transportation By Air</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Warehousing</controllingFieldValue>
+            <valueName>55-Auto Dealers &amp; Gas Stations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Warehousing</controllingFieldValue>
+            <valueName>70-Hotels,Camps &amp; Org'l Lodgings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Warehousing</controllingFieldValue>
+            <valueName>75-Auto Repair, Services, Parking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Travel Management</controllingFieldValue>
+            <valueName>47-Travel Agencies &amp; Transp Srvcs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities</controllingFieldValue>
+            <valueName>48-Communications Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities</controllingFieldValue>
+            <valueName>49-Electric,Gas,Water,SanitarySrv</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>20-Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>20F-Food Processing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>21-Tobacco Products Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>22-Textile Mill Products Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>23-Apparel &amp; Other Finished Products-Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>24-Lumber &amp; Wood Prods Except Furntr Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>25-Furniture &amp; Fixtures Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>26-Paper &amp; Allied Products Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>27-Printing Publishing &amp; Allied Industries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>28-Chemicals &amp; Allied Products Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>28C-Cannabis Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>30-Rubber &amp; Miscellaneous Plastics Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>31-Leather &amp; Leather Products Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>32-Stone Clay Glass &amp; Concrete Prods Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <controllingFieldValue>Clean and Renewable</controllingFieldValue>
+            <valueName>35-Industrial &amp; Commercial Machinery Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>36-Electronic &amp; Other Electrical Equip Mfr</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>37-Transportation Equipment Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>373-Ship and Boat Building and Repairing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>38-Measuring &amp; Analyzing Instruments-Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>39-Miscellaneous Manufacturing Inds Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metals (Gold, Copper, Silver, Iron)</controllingFieldValue>
+            <valueName>33-Primary Metal Industries Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metals (Gold, Copper, Silver, Iron)</controllingFieldValue>
+            <valueName>34-Fabricated Metal Products Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Metals (excl Coal)</controllingFieldValue>
+            <valueName>14-Mining &amp; Quarrying-Nonmetallic Minerals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oil and Gas Downstream (Refineries/Petrochemicals)</controllingFieldValue>
+            <valueName>10-Mining/Oil&amp;Gas Extrac/Pipeline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oil and Gas Downstream (Refineries/Petrochemicals)</controllingFieldValue>
+            <valueName>29-Petroleum Refining &amp; Related Inds Mfrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oil and Gas Midstream (Infrastructure, Pipelines, Facilities)</controllingFieldValue>
+            <valueName>46-Pipelines Except Natural Gas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oil and Gas Upstream - Completions</controllingFieldValue>
+            <controllingFieldValue>Oil and Gas Upstream - Drilling</controllingFieldValue>
+            <controllingFieldValue>Oil and Gas Upstream - Other</controllingFieldValue>
+            <valueName>13-Oil &amp; Gas Extraction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>76-Misc. Repair Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>86-Churches,Trade Assoc.&amp; Orgs.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>88-Private Households</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>89-Miscellaneous Services Nec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Government (excl Education, Healthcare, Indigenous)</controllingFieldValue>
+            <valueName>43-U.S. Postal Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Government (excl Education, Healthcare, Indigenous)</controllingFieldValue>
+            <valueName>91-Gov't- Admin Offices/Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Government (excl Education, Healthcare, Indigenous)</controllingFieldValue>
+            <valueName>92-Govt - Corrections/Publ Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Government (excl Education, Healthcare, Indigenous)</controllingFieldValue>
+            <valueName>93-Gov't - Civilian Agencies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Government (excl Education, Healthcare, Indigenous)</controllingFieldValue>
+            <controllingFieldValue>Indigenous</controllingFieldValue>
+            <valueName>96-Gov't - Administration Of Economic Programs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Government (excl Education, Healthcare, Indigenous)</controllingFieldValue>
+            <valueName>97-Gov't - Homeland Security</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>01-Agriculture/Forestry/Fishing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>07-Agricultural Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>08-Forestry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>09-Fishing Hunting &amp; Trapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Coal</controllingFieldValue>
+            <valueName>12-Coal Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Industrial</controllingFieldValue>
+            <valueName>15A-Architects &amp; Engineers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Industrial</controllingFieldValue>
+            <valueName>16-Heavy Construction - Non bldg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Industrial</controllingFieldValue>
+            <valueName>17-Construction - Special Trades</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial/Industrial</controllingFieldValue>
+            <valueName>82K-Daycare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defense (Naval Bases, Air Force Bases, Army Bases)</controllingFieldValue>
+            <valueName>95-Gov't - Housing - Barracks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discretionary (excl Travel Management)</controllingFieldValue>
+            <valueName>50-Wholesale Trade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discretionary (excl Travel Management)</controllingFieldValue>
+            <valueName>51-Wholesale Trade-Nondurable Goods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discretionary (excl Travel Management)</controllingFieldValue>
+            <valueName>52-Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discretionary (excl Travel Management)</controllingFieldValue>
+            <valueName>53-General Merchandise Stores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discretionary (excl Travel Management)</controllingFieldValue>
+            <valueName>56-Apparel &amp; Accessory Stores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discretionary (excl Travel Management)</controllingFieldValue>
+            <valueName>57-Home Furniture &amp; Furnishings Stores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discretionary (excl Travel Management)</controllingFieldValue>
+            <valueName>58-Eating &amp; Drinking Places</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discretionary (excl Travel Management)</controllingFieldValue>
+            <valueName>59-Miscellaneous Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discretionary (excl Travel Management)</controllingFieldValue>
+            <valueName>72-Personal Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discretionary (excl Travel Management)</controllingFieldValue>
+            <valueName>78-Motion Pictures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discretionary (excl Travel Management)</controllingFieldValue>
+            <valueName>79-Amusment Parks &amp; Recreation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discretionary (excl Travel Management)</controllingFieldValue>
+            <valueName>84-Museum,Galleries,Garden,Zoos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare, Emergency Response and Social Services</controllingFieldValue>
+            <valueName>02-Veterinarians</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare, Emergency Response and Social Services</controllingFieldValue>
+            <valueName>801-Hospitals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare, Emergency Response and Social Services</controllingFieldValue>
+            <valueName>803-Clinics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare, Emergency Response and Social Services</controllingFieldValue>
+            <valueName>805-Medical Offices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare, Emergency Response and Social Services</controllingFieldValue>
+            <valueName>807-Laboratories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare, Emergency Response and Social Services</controllingFieldValue>
+            <valueName>809-Special Care (all other)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare, Emergency Response and Social Services</controllingFieldValue>
+            <valueName>80B-Behavioral Health Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare, Emergency Response and Social Services</controllingFieldValue>
+            <valueName>80-Health Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare, Emergency Response and Social Services</controllingFieldValue>
+            <valueName>83-Social Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare, Emergency Response and Social Services</controllingFieldValue>
+            <valueName>9451-Gov't-VA Hospitals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare, Emergency Response and Social Services</controllingFieldValue>
+            <valueName>94-Gov't - Administration-Human Resource Programs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information and Professional Services (excl Travel Management)</controllingFieldValue>
+            <valueName>60-DepositryInstit-Banks,Cr.Union</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information and Professional Services (excl Travel Management)</controllingFieldValue>
+            <valueName>61-Non-depository Credit&amp;LoanInst</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information and Professional Services (excl Travel Management)</controllingFieldValue>
+            <valueName>62-Security &amp; Commodity Brokers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information and Professional Services (excl Travel Management)</controllingFieldValue>
+            <valueName>63-Insurance Carriers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information and Professional Services (excl Travel Management)</controllingFieldValue>
+            <valueName>64-Insurance Agents &amp; Brokers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information and Professional Services (excl Travel Management)</controllingFieldValue>
+            <valueName>65-Real Estate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information and Professional Services (excl Travel Management)</controllingFieldValue>
+            <valueName>67-Holding &amp; Other Investment Offices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information and Professional Services (excl Travel Management)</controllingFieldValue>
+            <valueName>73-Business Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information and Professional Services (excl Travel Management)</controllingFieldValue>
+            <valueName>81-Legal Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information and Professional Services (excl Travel Management)</controllingFieldValue>
+            <valueName>87-Eng'rs,Architects, Mngmnt Srvs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Private</controllingFieldValue>
+            <valueName>82P-Priv/Parochial Schools</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

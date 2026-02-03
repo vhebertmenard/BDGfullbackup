@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>CAPEX_Notifications</fullName>
+        <description>CAPEX Notifications</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>chiebert@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>djimenez@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>nsasaki@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rnorman@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sholmes@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>shopkins@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Email_Templates/CAPEX_Opportunity_Changed_to_PD</template>
+    </alerts>
+    <alerts>
+        <fullName>Cancelled_Opportunity_Rejected</fullName>
+        <description>Cancelled Opportunity Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Approval_Process/Cancelled_Lead_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Accounting</fullName>
+        <ccEmails>jledoux@blackdiamondgroup.com</ccEmails>
+        <ccEmails>nsasaki@blackdiamondgroup.com</ccEmails>
+        <ccEmails>rgali@blackdiamondgroup.com</ccEmails>
+        <ccEmails>jcurrier@boxxmodular.com</ccEmails>
+        <description>Email Accounting</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>cneufeld@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>lpyke@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tcleland@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>torourke@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tredmond@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Email_Templates/Big_Opportunity_Awarded</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Accounting_MSS</fullName>
+        <ccEmails>jprice@blackdiamondgroup.com</ccEmails>
+        <ccEmails>dlowe@blackdiamondgroup.com</ccEmails>
+        <description>Email Accounting - MSS</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>bbieganski@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>bkucherawy@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>cneufeld@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jwerner@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>lpyke@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mmeyers@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>nsasaki@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rgali@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tredmond@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Email_Templates/Big_Opportunity_Awarded</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Accounting_WFS</fullName>
+        <description>Email Accounting - WFS</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>aharvey@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dirving@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jledoux@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mharris@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mridley@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rgali@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>torourke@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Email_Templates/Big_Opportunity_Awarded</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Executives</fullName>
+        <description>Email Executives</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>mridley@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>pmelanson@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rgali@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tcleland@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>thaynes@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tredmond@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Email_Templates/Big_Opportunity_Created</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Opportunity_Owner</fullName>
+        <description>Email Opportunity Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Email_Templates/Estimated_First_Revenue_Expired</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Owner</fullName>
+        <description>Email Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Email_Templates/Renewal_Reminder</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_AD_Group_on_New_Oppty</fullName>
+        <description>When an Opportunity is created from a Lead, this email is sent to the AD Distribution Group</description>
+        <protected>false</protected>
+        <recipients>
+            <field>AD_Distribution_Group__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>New_Lead_Templates/New_Opportunity_Email_Template_Automatic</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_to_Jody_on_Vanguard_Opportunity_Creation</fullName>
+        <description>Send Email to ASM and Jody on Vanguard Opportunity Creation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>AD_Distribution_Group__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>jwerner@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>New_Lead_Templates/New_Opportunity_Email_Template_Automatic</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Awarded_Date</fullName>
+        <field>Bid_to_Award__c</field>
+        <formula>TODAY()</formula>
+        <name>Awarded Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Bid_Submitted_Date</fullName>
+        <field>Bid_to_Award__c</field>
+        <formula>Today()</formula>
+        <name>Bid Submitted Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculate_Opportunity_Amount</fullName>
+        <field>Amount</field>
+        <formula>Lease_Revenue__c +  Sale_Revenue__c</formula>
+        <name>Calculate Opportunity Amount</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculated_Probability</fullName>
+        <field>Calculated_Probability__c</field>
+        <formula>Probability * 
+(VALUE(TEXT(Odds_of_BD_Winning__c))/100) * 
+IF(ISBLANK(TEXT(Odds_of_Customer_Winning__c)), 1, (VALUE(TEXT(Odds_of_Customer_Winning__c))/100))</formula>
+        <name>Calculated Probability</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_to_Bid_Submittal</fullName>
+        <field>Date_Change__c</field>
+        <formula>NOW()</formula>
+        <name>Change to Bid Submittal</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>In_Cancellation_process</fullName>
+        <field>Submitted_For_Cancellation__c</field>
+        <literalValue>1</literalValue>
+        <name>In Cancellation process</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Opportunity_Cancelled</fullName>
+        <field>StageName</field>
+        <literalValue>Cancelled</literalValue>
+        <name>Opportunity Cancelled</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Save_Date_BilledChecked</fullName>
+        <field>Billed_Check_Date__c</field>
+        <formula>today()</formula>
+        <name>Save Date BilledChecked</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Account_Type_Customer</fullName>
+        <field>Type</field>
+        <literalValue>Customer</literalValue>
+        <name>Set Account Type Customer</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>AccountId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Opportunity_Branch</fullName>
+        <field>Vanguard_Branch__c</field>
+        <formula>CASE ( Vanguard_Department_Code__c,
+"10000","Corporate",
+"20050","Schiavi",
+"20100","Lancaster",
+"20222","Corporate Major Projects",
+"20300","Boston",
+"30925","Houston",
+"30950","Dallas",
+"30975","San Antonio",
+"40125","Tampa",
+"40600","Atlanta",
+"40685","Mobile",
+"40800","Charlotte",
+"40850","Raleigh",
+"40675","New Orleans",
+"55000","Mid West",
+""
+)</formula>
+        <name>Set Opportunity Branch</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Proposal_Delivered</fullName>
+        <field>StageName</field>
+        <literalValue>Proposal Delivered</literalValue>
+        <name>Set Proposal Delivered</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Proposal_Requested_Date</fullName>
+        <field>Proposal_Request_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Set Proposal Requested Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Stage_Equals_Cancelled</fullName>
+        <description>The approval process will be triggered once the opportunity stage is set to 'Cancelled'</description>
+        <field>StageName</field>
+        <literalValue>Cancelled</literalValue>
+        <name>Stage Equals Cancelled</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Calculated_Probability</fullName>
+        <field>Calculated_Probability__c</field>
+        <formula>CASE(StageName,
+'WIP',1,
+'Awarded - w/ term &amp; contract',1,
+'Awarded - w/o term &amp; contract',1,
+'Completed.',1,
+'Lost',0,
+'Cancelled',0,
+Calculated_Probability__c)</formula>
+        <name>Update Calculated Probability</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Probability</fullName>
+        <field>Probability</field>
+        <formula>(CASE( Odds_of_BD_Winning__c , "10", 10, "20", 20, "25", 25, "30", 30, "33", 33, "40", 40, "50", 50, "60", 60, "70", 70, "80", 80, "90", 90, "100", 100, 0)/100) *  (CASE( Odds_of_Customer_Winning__c , "10", 10, "20", 20, "25", 25, "30", 30, "33", 33, "40", 40, "50", 50, "60", 60, "70", 70, "80", 80, "90", 90, "100", 100, 0)/100)</formula>
+        <name>Update Probability</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>uncheck_the_box</fullName>
+        <field>Submitted_For_Cancellation__c</field>
+        <literalValue>0</literalValue>
+        <name>uncheck the box</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_the_date</fullName>
+        <field>CloseDate</field>
+        <formula>NOW()</formula>
+        <name>update the date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Awarded Date</fullName>
+        <actions>
+            <name>Awarded_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>WIP,Awarded,Completed.</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Bid Submission Date</fullName>
+        <actions>
+            <name>Bid_Submitted_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Bid Submittal</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Opportunity Amount - Vanguard</fullName>
+        <actions>
+            <name>Calculate_Opportunity_Amount</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Lease_Revenue__c</field>
+            <operation>greaterThan</operation>
+            <value>CAD 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Sale_Revenue__c</field>
+            <operation>greaterThan</operation>
+            <value>CAD 0</value>
+        </criteriaItems>
+        <description>Set the Amount = Sale Revenue + Lease Revenue.  Most deals will be one or the other, but it is possible to have a deal with Lease and Sale Revenue.</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change to Bid Submittal</fullName>
+        <actions>
+            <name>Change_to_Bid_Submittal</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(        RecordType.DeveloperName  &lt;&gt; "Vanguard",       OR(           ISCHANGED( StageName )            &amp;&amp;            ISPICKVAL( StageName, "Bid Submittal")        ) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Large Opportunity Awarded</fullName>
+        <actions>
+            <name>Email_Accounting</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.Actual_Contract_Value__c</field>
+            <operation>greaterThan</operation>
+            <value>"CAD 1,000,000"</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.IsClosed</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.IsWon</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <description>Opportunities over $1,000,000</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Large Opportunity Created</fullName>
+        <actions>
+            <name>Email_Executives</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Amount</field>
+            <operation>greaterThan</operation>
+            <value>"CAD 10,000,000"</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>New Opportunity - Email to AD Group</fullName>
+        <actions>
+            <name>Email_to_AD_Group_on_New_Oppty</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.AD_Distribution_Group__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>When a new Opportunity is created from a lead, an Email is sent to the AD Distribution Group</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity Probability</fullName>
+        <actions>
+            <name>Update_Probability</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Account_Name_Text__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <description>Update Probability field</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Renewal Reminder</fullName>
+        <active>true</active>
+        <formula>AND(     !ISBLANK(Reminder_for_Renewal__c),      RecordType.DeveloperName &lt;&gt; "Vanguard" )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Email_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Opportunity.Reminder_for_Renewal__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Sales Follow Up Task</fullName>
+        <actions>
+            <name>Sales_Follow_Up</name>
+            <type>Task</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Awarded,Completed.</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Save Date BilledChecked - Vanguard</fullName>
+        <actions>
+            <name>Save_Date_BilledChecked</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Billed__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <description>Save the date the Billed box was checked</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Account Type Customer - Vanguard</fullName>
+        <actions>
+            <name>Set_Account_Type_Customer</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Won,Closed Won</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <description>Set Account Type to Customer when Opportunity is Closed/Won.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Opportunity Branch - Vanguard</fullName>
+        <actions>
+            <name>Set_Opportunity_Branch</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Name</field>
+            <operation>notEqual</operation>
+            <value>!@#$%^&amp;*</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Proposal Delivered - Vanguard</fullName>
+        <actions>
+            <name>Set_Proposal_Delivered</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Proposal_Submit_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <description>Set the Stage to Proposal Delivered when the Proposal Submit Date is entered.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Proposal Requested Date - Vanguard</fullName>
+        <actions>
+            <name>Set_Proposal_Requested_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Proposal_Request_Date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Proposal In Progress</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <description>Set Proposal Requested Date equal today when Stage =”Proposal In Progress” and if Proposal Requested Date is blank.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Space Rental Revenue Expiry</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Space Rentals</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.IsClosed</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Email_Opportunity_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Opportunity.Estimated_First_Revenue__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>US Space Rental Revenue Expiry</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Space Rentals</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>contains</operation>
+            <value>Bid Preparation,Bid Submittal,Negotiation,WIP</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Email_Opportunity_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Opportunity.Estimated_First_Revenue__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Vanguard Opportunity Creation</fullName>
+        <actions>
+            <name>Send_Email_to_Jody_on_Vanguard_Opportunity_Creation</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.CreatedDate</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <description>Upon Vanguard Lead Conversion to Opportunity, send an Email to Jody</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Sales_Follow_Up</fullName>
+        <assignedToType>owner</assignedToType>
+        <dueDateOffset>7</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Sales Follow Up</subject>
+    </tasks>
+</Workflow>

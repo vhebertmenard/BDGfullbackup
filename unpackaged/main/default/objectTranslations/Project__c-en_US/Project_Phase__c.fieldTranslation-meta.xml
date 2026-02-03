@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Phase in a Project&apos;s lifecycle --></help>
+        <label><!-- Project Phase --></label>
+        <name>Project_Phase__c</name>
+        <picklistValues>
+            <masterLabel>Contract Awarded</masterLabel>
+            <translation><!-- Contract Awarded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FERC</masterLabel>
+            <translation><!-- FERC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FID</masterLabel>
+            <translation><!-- FID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feasibility</masterLabel>
+            <translation><!-- Feasibility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Sanctioned</masterLabel>
+            <translation><!-- Project Sanctioned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tenders Issued</masterLabel>
+            <translation><!-- Tenders Issued --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

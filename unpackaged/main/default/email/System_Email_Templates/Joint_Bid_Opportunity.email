@@ -1,0 +1,5 @@
+A sales opportunity in {!Opportunity.Branch__c} has been identified as a potential joint bid/additional sales opportunity for the following regions.
+
+        {!Opportunity.Potential_Joint_Bid_Opportunity__c}
+
+Please contact the respective sales manager for further information on this opportunity.

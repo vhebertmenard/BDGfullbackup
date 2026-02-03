@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>General Manager, Construction Services</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>General Manager, Construction Services</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>General_Manager_Integration_and_Projects</parentRole>
+</Role>

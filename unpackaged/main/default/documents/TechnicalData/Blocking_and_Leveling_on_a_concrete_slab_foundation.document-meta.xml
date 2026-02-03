@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Office building  for Boehringer is typical of one installed on a slab foundation and these drawings typify the blocking and anchoring needed on this type of poured-in-place concrete slab foundation.</description>
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>Blocking and anchoring</keywords>
+    <name>Blocking and Leveling on a concrete slab foundation</name>
+    <public>false</public>
+</Document>

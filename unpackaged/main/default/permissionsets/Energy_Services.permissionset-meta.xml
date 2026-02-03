@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Energy Services</label>
+    <recordTypeVisibilities>
+        <recordType>Opportunity.BD_ES_CPQ</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>SBQQ__Quote__c.BD_ES</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

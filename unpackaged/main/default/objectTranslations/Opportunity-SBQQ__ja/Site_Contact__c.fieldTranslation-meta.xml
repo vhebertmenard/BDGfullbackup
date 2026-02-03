@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Customer contact who will handle site logistics for this job. --></help>
+        <label><!-- Site Contact --></label>
+        <name>Site_Contact__c</name>
+        <relationshipLabel><!-- Opportunities (Site Contact) --></relationshipLabel>
+    </CustomFieldTranslation>

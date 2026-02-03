@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Commitment Type --></label>
+        <name>Commitment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Contract w/ min</masterLabel>
+            <translation><!-- Contract w/ min --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract w/o min</masterLabel>
+            <translation><!-- Contract w/o min --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

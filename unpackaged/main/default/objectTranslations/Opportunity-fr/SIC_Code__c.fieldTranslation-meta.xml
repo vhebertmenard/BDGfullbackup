@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- SIC Code selected based on Segment --></help>
+        <label><!-- SIC Code --></label>
+        <name>SIC_Code__c</name>
+    </CustomFieldTranslation>

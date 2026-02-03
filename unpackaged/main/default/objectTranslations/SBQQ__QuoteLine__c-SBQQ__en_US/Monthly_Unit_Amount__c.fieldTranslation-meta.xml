@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Monthly Amount per unit (Monthly amount divided by Quantity) --></help>
+        <label><!-- Monthly Unit Amount --></label>
+        <name>Monthly_Unit_Amount__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_Type__c</fullName>
+    <description>What type of Cost is this Quote ine?  Default to Chargeable, Could be Expense or CAPEX</description>
+    <label>Cost Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>BD_Cost_Type</valueSetName>
+    </valueSet>
+</CustomField>

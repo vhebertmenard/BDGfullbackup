@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c.SBQQ__Opportunity2__c</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c.SBQQ__Account__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>SBQQ__Quote__c.Number_Rental_of_Units__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>SBQQ__Quote__c.Number_of_Sale_Units__c</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c.Bid_Submit_Date__c</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c.Opp_Estimated_Delivery_Date__c</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c.Opp_Estimated_First_Revenue__c</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c.SBQQ__Notes__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>My Quotes Created last 90 Days</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>SBQQ__Quote__c.SBQQ__Status__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>My Quotes Created Last 90 Days</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$SBQQ__Quote__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_LAST90</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Email__c</fullName>
+    <description>Lead Email</description>
+    <externalId>false</externalId>
+    <formula>LeadName__r.Email</formula>
+    <inlineHelpText>Lead Email</inlineHelpText>
+    <label>Lead Email</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Opp Customer Winning Odds --></label>
+        <name>Opp_Customer_Winning_Odds__c</name>
+    </CustomFieldTranslation>

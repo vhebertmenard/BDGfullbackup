@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>RowCount/PARENTGROUPVAL(RowCount, GRAND_SUMMARY)</calculatedFormula>
+        <datatype>percent</datatype>
+        <description>% of total</description>
+        <developerName>FORMULA1</developerName>
+        <downGroupingContext>BucketField_43489723</downGroupingContext>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>% of Total</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_43489723</developerName>
+        <masterLabel>Selected Stages</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Lead$ConvertedOpportunity.StageName</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Qualified</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Proposal Delivered</sourceValue>
+            </sourceValues>
+            <value>Proposal Delivered</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Won</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>WIP</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Closed Won</sourceValue>
+            </sourceValues>
+            <value>Closed Won</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Qualification</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Initial Inquiry (RFI/Pre-Qual)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Proposal In Progress</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Proposal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Quote Prep</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>RFQ / RFP</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bid Preparation</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bid Submittal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Quote Sent</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Negotiation/Review</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Create Contract</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Contract Approved</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Contract Sent</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Awarded</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Completed.</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Completed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Closed Lost</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lost</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cancelled</sourceValue>
+            </sourceValues>
+            <value>Other Ones</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>FORMULA1</column>
+        </chartSummaries>
+        <chartType>LineGrouped</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>Lead$CreatedDate</groupingColumn>
+        <legendPosition>Bottom</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <secondaryGroupingColumn>BucketField_43489723</secondaryGroupingColumn>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>Lead$Name</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedOpportunity</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Lead$IsConverted</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedOpportunity.StageName</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedAccount</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedOpportunity.Opportunity_Co_Owner__c</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedContact</field>
+    </columns>
+    <columns>
+        <field>Lead$Owner</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedOpportunity.Owner.BDG_Branch__c</field>
+    </columns>
+    <columns>
+        <field>Lead$LeadSource</field>
+    </columns>
+    <columns>
+        <field>Lead$Lead_Source_Detail__c</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedOpportunity.Owner.BDG_Division__c</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedOpportunity.Division__c</field>
+    </columns>
+    <columns>
+        <field>Lead$Division__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>MSS Conversion trend, Lead, Converted, PD, Won</description>
+    <filter>
+        <criteriaItems>
+            <column>Lead$Division__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Corporate,MSS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Lead$ConvertedOpportunity.StageName</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Closed Lost,Closed Won,Proposal Delivered,Proposal In Progress,Qualified,WIP,Won</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Lead$IsConverted</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>Lead$CreatedDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_43489723</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <name>MSS Conversion Trends - Leads to Opps</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Leads_and_Converted_Opportunitites__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Lead$CreatedDate</dateColumn>
+        <interval>INTERVAL_PREVCURFY</interval>
+    </timeFrameFilter>
+</Report>

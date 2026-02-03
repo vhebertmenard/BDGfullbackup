@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used for opportunities where the responsibility is split between 2 sales reps --></help>
+        <label><!-- Opportunity Co-Owner --></label>
+        <name>Opportunity_Co_Owner__c</name>
+        <relationshipLabel><!-- Opportunities (Opportunity Co-Owner) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warehouse_Override</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT( $User.Can_Override_Warehouse__c ), OR(ISCHANGED(warehouse_override__c), ISCHANGED(Warehouse__c )))</errorConditionFormula>
+    <errorDisplayField>warehouse_override__c</errorDisplayField>
+    <errorMessage>You do not have permission to override warehouse</errorMessage>
+</ValidationRule>

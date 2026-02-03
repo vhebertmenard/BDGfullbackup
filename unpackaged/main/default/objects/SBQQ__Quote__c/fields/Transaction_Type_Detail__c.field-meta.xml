@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transaction_Type_Detail__c</fullName>
+    <description>Used to populate reporting.</description>
+    <inlineHelpText>Specify details about the Quote Type. Used to populate reporting. If Quote contains New and Fleet, choose Fleet.</inlineHelpText>
+    <label>Transaction Type Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Transaction_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Existing Fleet Rental</fullName>
+                <default>false</default>
+                <label>Fleet Rental</label>
+            </value>
+            <value>
+                <fullName>New Fleet Rental</fullName>
+                <default>false</default>
+                <label>New Rental</label>
+            </value>
+            <value>
+                <fullName>Existing Fleet Sale</fullName>
+                <default>false</default>
+                <label>Fleet Sale</label>
+            </value>
+            <value>
+                <fullName>New Fleet Sale</fullName>
+                <default>false</default>
+                <label>New Sale</label>
+            </value>
+            <value>
+                <fullName>Standard</fullName>
+                <default>false</default>
+                <label>Standard</label>
+            </value>
+            <value>
+                <fullName>Pay All</fullName>
+                <default>false</default>
+                <label>Pay All</label>
+            </value>
+            <value>
+                <fullName>Pay at TOD</fullName>
+                <default>false</default>
+                <label>Pay at TOD</label>
+            </value>
+            <value>
+                <fullName>Lodging</fullName>
+                <default>false</default>
+                <label>Lodging</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <valueName>Existing Fleet Sale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <valueName>New Fleet Sale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental</controllingFieldValue>
+            <valueName>Existing Fleet Rental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental</controllingFieldValue>
+            <valueName>New Fleet Rental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disaster</controllingFieldValue>
+            <valueName>Standard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disaster</controllingFieldValue>
+            <valueName>Pay All</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disaster</controllingFieldValue>
+            <valueName>Pay at TOD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lodging</controllingFieldValue>
+            <valueName>Lodging</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

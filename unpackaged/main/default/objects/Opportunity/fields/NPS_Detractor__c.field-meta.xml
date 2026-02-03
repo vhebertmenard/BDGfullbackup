@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NPS_Detractor__c</fullName>
+    <description>If survey response is 1 or 2</description>
+    <externalId>false</externalId>
+    <formula>IF(OR(NPS_Score__c = 2,NPS_Score__c = 1),1, 0)</formula>
+    <inlineHelpText>If survey response is 1 or 2</inlineHelpText>
+    <label>NPS Detractor</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

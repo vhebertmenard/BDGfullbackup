@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How many and what type of BD product(s) would be needed for this project? --></help>
+        <label><!-- Product Quantity/Type --></label>
+        <name>Product_Quantity_Type__c</name>
+    </CustomFieldTranslation>

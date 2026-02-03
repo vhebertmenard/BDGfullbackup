@@ -1,0 +1,11 @@
+<messaging:emailTemplate subject="A new opportunity for {!relatedTo.Account.Name} has been created" recipientType="Contact" relatedToType="Opportunity">
+<messaging:htmlEmailBody >
+<p>A new Opportunity for {!relatedTo.Account.Name}  has been Converted.</p>
+
+<p><apex:outputLink value="https://bdgl.lightning.force.com/lightning/r/Opportunity/{!relatedTo.id}">{!relatedTo.Name}</apex:outputLink></p>
+
+Description:
+<p>{!relatedTo.Description}</p>
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

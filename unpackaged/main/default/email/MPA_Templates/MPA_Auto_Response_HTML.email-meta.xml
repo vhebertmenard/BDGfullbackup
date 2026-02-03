@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Website Response to Customer for MPA Lead</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>MPA Auto-Response HTML</name>
+    <style>none</style>
+    <subject>Thank you for contacting MPA Systems</subject>
+    <textOnly>Hi {!Lead.FirstName},
+
+Thanks for contacting MPA Systems. We’ll review your inquiry and one of our sales reps will get back to you shortly.
+
+If you have any questions, call us toll free at 1-888-233-1584.
+
+Take care,
+MPA Systems
+1-888-233-1584
+MPASystems.com
+
+Details we&apos;ve received from you:
+
+Name: {!Lead.FirstName} {!Lead.LastName}
+Organization: {!Lead.Company}
+Phone: {!Lead.Phone}
+Email: {!Lead.Email}
+Notes: {!Lead.Description}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style>
+        body { 
+          display: block;
+          margin: 50px;
+        }
+         
+        body:focus { 
+          outline: none;
+        }
+        </style>
+        </head>
+        <body>
+            <center><table width=550>
+                <tr><td><img src="https://www.blackdiamondgroup.com/website/media/Black-Diamond-Group/Salesforce-Conga-logo-BOXX.png" width=185>
+
+                <tr><td><hr style="color:#990033; background-color:#990033; height:5px; border:none;"></td></tr>
+                    
+                    <tr><td><font style="font-family:arial;">Hi {!Lead.FirstName},<br><br>
+            Thanks for contacting BOXX Modular. We’ll review your inquiry and one of our sales reps will get back to you shortly.<br>
+            <br>            
+            If you have any questions, call us toll free at 1-800-527-4826.<br>
+            <br>
+            Take care,<br>
+            BOXX Modular<br>
+            1-877-966-7839<br>
+            <a href="http://BOXXmodular.com">BOXXmodular.com</a><br><br>
+            
+            Details we've received from you:<br>
+            <ul><li>Name: {!Lead.FirstName} {!Lead.LastName}</li>
+                <li>Organization: {!Lead.Company}</li>
+                <li>Phone: {!Lead.Phone}</li>  
+                <li>Email: {!Lead.Email}</li>
+                <li>Notes: {!Lead.Description}</li></ul>
+            </font>
+</td></tr>
+        </table></center>
+        </body>
+
+</html>

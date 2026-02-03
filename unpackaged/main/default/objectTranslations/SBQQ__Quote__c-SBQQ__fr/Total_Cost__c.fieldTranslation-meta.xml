@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total Cost of Non-Rental quote lines, i.e. Sale (except bundled), Carry On Sale, Ops and Sublease. --></help>
+        <label><!-- Total Non-Rental Cost --></label>
+        <name>Total_Cost__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lowest_List_Price__c</fullName>
+    <description>Lowest List Price of Rental and Carry On Quote Lines. No List Price or $0 requires Approver I.</description>
+    <inlineHelpText>Lowest List Price of Rental and Carry On Quote Lines. No List Price or $0 requires Approver I.</inlineHelpText>
+    <label>Lowest List Price</label>
+    <summarizedField>SBQQ__QuoteLine__c.Price_Lookup_Check_B__c</summarizedField>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.Trans_Category__c</field>
+        <operation>equals</operation>
+        <value>Rental, Carry On</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.SBQQ__Bundled__c</field>
+        <operation>notEqual</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>SBQQ__QuoteLine__c.SBQQ__Quote__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

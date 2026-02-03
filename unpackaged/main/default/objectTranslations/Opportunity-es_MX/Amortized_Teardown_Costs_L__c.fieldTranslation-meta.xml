@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Amortized Teardown Costs (L) --></label>
+        <name>Amortized_Teardown_Costs_L__c</name>
+    </CustomFieldTranslation>

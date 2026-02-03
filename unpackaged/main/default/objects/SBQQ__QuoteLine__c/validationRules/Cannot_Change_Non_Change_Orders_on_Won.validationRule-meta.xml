@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Change_Non_Change_Orders_on_Won</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+    $User.Username &lt;&gt;'rgali@blackdiamondgroup.com.fullcopy',
+      SBQQ__Quote__r.Quote_Locked__c = TRUE,
+       SBQQ__Quote__r.SBQQ__Primary__c = TRUE, 
+      NOT(SBQQ__ProductFamily__c ='Change Order'),
+      NOT( Required_By_Product_Family__c ='Change Order'),
+      NOT(Product_Type__c ='Carry On'),
+       OR(
+        NOT(CONTAINS(SBQQ__ProductFamily__c, 'Carry On')),
+        NOT(CONTAINS(SBQQ__ProductName__c, 'Carry On'))),
+        OR(
+           ISCHANGED(SBQQ__Description__c),
+           ISCHANGED(SBQQ__Quantity__c
+          )
+       )
+)</errorConditionFormula>
+    <errorMessage>Changes cannot be made to the Original Quote Lines once they have been approved. Please add corresponding Change Order Lines to reflect any changes.</errorMessage>
+</ValidationRule>

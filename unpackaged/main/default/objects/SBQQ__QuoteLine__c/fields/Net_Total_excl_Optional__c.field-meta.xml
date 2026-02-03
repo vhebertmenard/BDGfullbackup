@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Net_Total_excl_Optional__c</fullName>
+    <description>Net Total of quote line unless Optional, then = $0</description>
+    <formula>IF(  SBQQ__Optional__c = TRUE, 0,  SBQQ__NetTotal__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Net Total of quote line unless Optional, then = $0</inlineHelpText>
+    <label>Net Total excl Optional</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

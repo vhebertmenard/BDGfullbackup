@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The usage rate card associated with this order product --></help>
+        <label>利用レートカード</label>
+        <name>SBQQ__UsageRateCard__c</name>
+        <relationshipLabel>利用レートカードの割り当て</relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This model can be expanded up to 12 units installed side by side to form larger complex.</description>
+    <internalUseOnly>false</internalUseOnly>
+    <name>Classroom Nortex 44&apos; x 72&apos;</name>
+    <public>false</public>
+</Document>

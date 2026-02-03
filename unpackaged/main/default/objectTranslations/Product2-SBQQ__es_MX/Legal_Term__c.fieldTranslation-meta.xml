@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Legal Terms of categories for use on the Contract documents --></help>
+        <label><!-- Legal Terminology --></label>
+        <name>Legal_Term__c</name>
+        <picklistValues>
+            <masterLabel>Ancillary Equipment</masterLabel>
+            <translation><!-- Ancillary Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carry-On Options</masterLabel>
+            <translation><!-- Carry-On Options --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dismantle Services</masterLabel>
+            <translation><!-- Dismantle Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation Services</masterLabel>
+            <translation><!-- Installation Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Waiver</masterLabel>
+            <translation><!-- Insurance Waiver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Plan</masterLabel>
+            <translation><!-- Maintenance Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Module</masterLabel>
+            <translation><!-- Module --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation Services</masterLabel>
+            <translation><!-- Transportation Services --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,29 @@
+<messaging:emailTemplate subject="Thank you for your interest"  recipientType="Lead" RelatedToType="Lead">
+
+<messaging:htmlEmailBody >
+<p>Thanks, {!recipient.FirstName}, for your interest in BOXX Modular</p>
+
+<p>We appreciate you reaching out to BOXX Modular for a quote. Please know that we have received your inquiry and will get back to you shortly. </p>
+
+<p>The details we received from you are outlined below. If you have any changes or additional information, you can reply to this email or give us a call. </p>
+<p>{!recipient.Name}<br/>
+{!recipient.Email}<br/>
+{!recipient.Phone}<br/>
+{!IF(recipient.Opportunity_Postal_Code__c != "", recipient.Opportunity_Postal_Code__c, "")}<br/>
+{!IF(recipient.Description != "", recipient.Description , "")}<br/>
+</p>
+
+<p>Thanks again, {!recipient.FirstName}. We look forward to helping you get the quote you need for your project. </p>
+
+<p>
+Mark Meyers,<br/>
+General Manager, Marketing Services<br/>
+BOXX Modular
+<br/>
+877-438-8627<br/>
+Boxxmodular.com<br/>
+</p>
+
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

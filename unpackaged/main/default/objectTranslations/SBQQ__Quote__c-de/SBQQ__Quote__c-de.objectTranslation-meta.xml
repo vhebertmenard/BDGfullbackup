@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Angebot</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Angebote</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Angebot</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Angebote</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Angebots</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Angebote</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Angebot</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Angeboten</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- Lease Analysis --></label>
+        <name>Lease_Analysis</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Calculating Fields --></label>
+        <name>SBQQ__CalculatingFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Line Editor --></label>
+        <name>SBQQ__LineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Non-Current Quote Locked Fields --></label>
+        <name>SBQQ__NonCurrentQuoteLockedFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Sale Analysis --></label>
+        <name>Sale_Analysis</name>
+    </fieldSets>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>BD Disaster</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flow Formulas --></label>
+            <section>Flow Formulas</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Notes Information --></label>
+            <section>Notes Information</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Summary Information --></label>
+            <section>Summary Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD Energy</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- CAPEX, R&amp;M, Retrofits, and Relocates --></label>
+            <section>CAPEX, R&amp;M, Retrofits, and Relocates</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flow Formulas --></label>
+            <section>Flow Formulas</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Notes Information --></label>
+            <section>Notes Information</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Summary Information --></label>
+            <section>Summary Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD Lodging</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flow Formulas --></label>
+            <section>Flow Formulas</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Notes Information --></label>
+            <section>Notes Information</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Summary Information --></label>
+            <section>Summary Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD Modular</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Bidsheet Information --></label>
+            <section>Bidsheet Information</section>
+        </sections>
+        <sections>
+            <label><!-- CAPEX, R&amp;M, Retrofits, and Relocates --></label>
+            <section>CAPEX, R&amp;M, Retrofits, and Relocates</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flow Formulas --></label>
+            <section>Flow Formulas</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Notes Information --></label>
+            <section>Notes Information</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Summary Information --></label>
+            <section>Summary Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD Workforce</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- CAPEX, R&amp;M, Retrofits, and Relocates --></label>
+            <section>CAPEX, R&amp;M, Retrofits, and Relocates</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flow Formulas --></label>
+            <section>Flow Formulas</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Notes Information --></label>
+            <section>Notes Information</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Summary Information --></label>
+            <section>Summary Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout</layout>
+        <sections>
+            <label>Zusatztext</label>
+            <section>Additional Text</section>
+        </sections>
+        <sections>
+            <label>Adressinformationen</label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Rabattinformationen</label>
+            <section>Discount Information</section>
+        </sections>
+        <sections>
+            <label>Angebotsoptionen</label>
+            <section>Quote Options</section>
+        </sections>
+        <sections>
+            <label>Neuberechnung</label>
+            <section>Recalculating</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout-AUS-CPQ v1.0</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Details --></label>
+            <section>Approval Details</section>
+        </sections>
+        <sections>
+            <label><!-- Approver Details --></label>
+            <section>Approver Details</section>
+        </sections>
+        <sections>
+            <label><!-- CAPEX, R&amp;M, Retrofits and Relocates --></label>
+            <section>CAPEX, R&amp;M, Retrofits and Relocates</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Summary Information --></label>
+            <section>Summary Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout-CPQ v3.1</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Details --></label>
+            <section>Approval Details</section>
+        </sections>
+        <sections>
+            <label><!-- Approver Details --></label>
+            <section>Approver Details</section>
+        </sections>
+        <sections>
+            <label><!-- CAPEX, R&amp;M, Retrofits, and Relocates --></label>
+            <section>CAPEX, R&amp;M, Retrofits, and Relocates</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Summary Information --></label>
+            <section>Summary Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout-ES-CPQ v1.0</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Details --></label>
+            <section>Approval Details</section>
+        </sections>
+        <sections>
+            <label><!-- Approver Details --></label>
+            <section>Approver Details</section>
+        </sections>
+        <sections>
+            <label><!-- CAPEX, R&amp;M, Retrofits and Relocates --></label>
+            <section>CAPEX, R&amp;M, Retrofits and Relocates</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Summary Information --></label>
+            <section>Summary Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vanguard</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- CAPEX, R&amp;M, Retrofits, and Relocates --></label>
+            <section>CAPEX, R&amp;M, Retrofits, and Relocates</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DWS Information --></label>
+            <section>DWS Information</section>
+        </sections>
+        <sections>
+            <label><!-- Flow Formulas --></label>
+            <section>Flow Formulas</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Notes Information --></label>
+            <section>Notes Information</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Summary Information --></label>
+            <section>Summary Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Angebotsnummer</nameFieldLabel>
+    <quickActions>
+        <label><!-- Need Help? --></label>
+        <name>Need_Help</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Order --></label>
+        <name>SBQQ__CreateOrderLightning</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Quote --></label>
+        <name>Update_Quote_for_Opp</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Australia CPQ Quote --></description>
+        <label><!-- AUS --></label>
+        <name>AUS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Disaster --></description>
+        <label><!-- BD Disaster --></label>
+        <name>BD_DR</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Energy Services --></description>
+        <label><!-- BD Energy --></label>
+        <name>BD_ES</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Lodging --></description>
+        <label><!-- BD Lodging --></label>
+        <name>BD_LG</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Modular Solutions --></description>
+        <label><!-- BD Modular --></label>
+        <name>BD_MS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Workforce Solutions --></description>
+        <label><!-- BD Workforce --></label>
+        <name>BD_WF</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BOXX --></label>
+        <name>BOXX</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Energy Services --></label>
+        <name>ES</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Vanguard --></label>
+        <name>Vanguard</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Allocated BAFE is required when BAFE is selected --></errorMessage>
+        <name>Allocated_BAFE_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- BAFE Amount exceeds remaining BAFE Balance --></errorMessage>
+        <name>BAFE_Amount_Exceeds_Balance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Check Large Opportunity box on the Quote, if Net Amount is over $1M; otherwise correct quote lines to reflect correct total. --></errorMessage>
+        <name>Large_Opportunity_Confirmation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Change Quote or Opportunity so that they have matching Record Types, e.g. &quot;BD Modular&quot;. --></errorMessage>
+        <name>Opp_Quote_RecordType_Match</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This quote has an amount of CAPEX but no amount has been entered in the CAPEX Approval Amount.  If no CAPEX needs approval, enter $0. --></errorMessage>
+        <name>Require_CAPEX_Approval_amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Commitment Term (Days) --></errorMessage>
+        <name>Require_Commitment_Term</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the Subscription Term (in # of months) --></errorMessage>
+        <name>Require_Term</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the Transaction Type and Transaction Type Detail --></errorMessage>
+        <name>Require_a_transaction_type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The End Date must come after the Start Date. --></errorMessage>
+        <name>SBQQ__End_Date_Before_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- First Segment Term End Date must fall between Quote Start Date and Quote End Date --></errorMessage>
+        <name>SBQQ__Invalid_First_Segment_Term_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The subscription term must be a positive number. --></errorMessage>
+        <name>SBQQ__Invalid_Subscription_Term</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to override warehouse --></errorMessage>
+        <name>Warehouse_Override</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Test --></label>
+        <name>Conga_Test</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Documents --></label>
+        <name>Create_Documents</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Do_No_Click --></label>
+        <name>Do_No_Click</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Fleet_Central --></label>
+        <name>Open_Fleet_Central</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Project_on_Fleet_Central --></label>
+        <name>Open_Project_on_Fleet_Central</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Quote_Line_Report --></label>
+        <name>Quote_Line_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CalculateQuote --></label>
+        <name>SBQQ__CalculateQuote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CloneWithRelated --></label>
+        <name>SBQQ__CloneWithRelated</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CloneWithRelatedClassic --></label>
+        <name>SBQQ__CloneWithRelatedClassic</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateOrderFromQuote --></label>
+        <name>SBQQ__CreateOrderFromQuote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EditLines --></label>
+        <name>SBQQ__EditLines</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GenerateDocument --></label>
+        <name>SBQQ__GenerateDocument</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ImportLines --></label>
+        <name>SBQQ__ImportLines</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- IncludeDocument --></label>
+        <name>SBQQ__IncludeDocument</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ModifyQuoteTerms --></label>
+        <name>SBQQ__ModifyQuoteTerms</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PreviewDocument --></label>
+        <name>SBQQ__PreviewDocument</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RefreshMultiplePrices --></label>
+        <name>SBQQ__RefreshMultiplePrices</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RefreshPrices --></label>
+        <name>SBQQ__RefreshPrices</name>
+    </webLinks>
+</CustomObjectTranslation>

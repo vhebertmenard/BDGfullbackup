@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to the Inside Sales Rep &amp; Assigned Sales Rep on new Lead – automatic</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Inside Sales Rep &amp; Assigned Sales Rep on new Lead – automatic</name>
+    <style>none</style>
+    <subject>New {!Lead.LeadSource} Lead has been created {!Lead.X360mobileoffice_Request_ID__c}</subject>
+    <textOnly>A new {!Lead.LeadSource} Lead for {!Lead.FirstName} {!Lead.LastName} at {!Lead.Company} has been created Link to Lead
+
+This lead has been created in Salesforce and has been assigned to you.
+
+{!Lead.FirstName} {!Lead.LastName}
+{!Lead.Company}
+{!Lead.Email}
+{!Lead.Phone}
+{!Lead.State}
+{!Lead.Opportunity_Postal_Code__c}
+{!Lead.Unit_Number__c}
+{!Lead.Description}
+{!Lead.Language__c}
+{!Lead.X360mobileoffice_Request_ID__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

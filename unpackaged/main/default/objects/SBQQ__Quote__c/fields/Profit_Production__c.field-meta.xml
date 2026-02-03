@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profit_Production__c</fullName>
+    <description>(Rental Rate (Monthly) * Subscription Term * 0.8) + Total Margin Amount</description>
+    <externalId>false</externalId>
+    <formula>(Total_Monthly_Amount__c *  SBQQ__SubscriptionTerm__c *0.8) +  Total_Margin_Amount__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>(Rental Rate (Monthly) * Subscription Term * 0.8) + Total Margin Amount</inlineHelpText>
+    <label>Profit Production</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

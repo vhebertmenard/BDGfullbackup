@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Home_Record_Page_Updated</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#990033</headerColor>
+        <logo>Icon_CMYK</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Mobile optimized lightning app. Personalize this app on desktop with your favourite tabs, and then use on Mobile!</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>BD Sales Mobile</label>
+    <navType>Standard</navType>
+    <tabs>Today</tabs>
+    <tabs>Performance</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>SBQQ__Quote__c</tabs>
+    <tabs>Project__c</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>Transactions__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>BD_Sales_Mobile_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>BD Lead Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Information --></label>
+            <section>Opportunity Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD Lead Layout Outreach</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Engagement Panel --></label>
+            <section>Engagement Panel</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Information --></label>
+            <section>Opportunity Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Methods of Contact --></label>
+            <section>Methods of Contact</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Layout - No Approval</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Methods of Contact --></label>
+            <section>Methods of Contact</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Information --></label>
+            <section>Opportunity Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vanguard</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Information --></label>
+            <section>Lead Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information Colum Span2 --></label>
+            <section>System Information Colum Span2</section>
+        </sections>
+        <sections>
+            <label><!-- Web to Lead Information --></label>
+            <section>Web to Lead Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Approved Lead --></label>
+        <name>Approved_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Lead Record for BD Lightning --></description>
+        <label><!-- BD Lightning --></label>
+        <name>BD_Lightning</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Lead --></label>
+        <name>Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Vanguard --></label>
+        <name>Vanguard</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- A reason is required if the lead is dead. --></errorMessage>
+        <name>Dead_Lead_Reason_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The first name is required. --></errorMessage>
+        <name>First_Name_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter Job Title, Industry and Company Phone. --></errorMessage>
+        <name>IndustryTitlePhone_Reqd_Convert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Describe &quot;Other&quot; Industry and Industry Segment. --></errorMessage>
+        <name>Industry_Details_Reqd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Describe &quot;Other&quot; Lead Source. --></errorMessage>
+        <name>Lead_Source_Detail_Reqd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A reason is required if the lead is Unqualified. --></errorMessage>
+        <name>Unqualified_Reason_Reqd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Zip code exceeds allowed # of characters --></errorMessage>
+        <name>Zip_Code_limit_length</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Country must be United States, Canada, or Australia. --></errorMessage>
+        <name>country_name</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert --></label>
+        <name>Convert</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

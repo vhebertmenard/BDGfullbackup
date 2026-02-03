@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- # of Active Contract/Contracts --></label>
+        <name>No_of_Active_Contract_Contracts__c</name>
+    </CustomFieldTranslation>

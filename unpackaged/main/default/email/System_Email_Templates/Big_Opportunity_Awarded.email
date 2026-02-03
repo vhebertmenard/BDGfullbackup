@@ -1,0 +1,5 @@
+A sales opportunity within {!Opportunity.Branch__c} for {!Opportunity.Amount} in contractual value for {!Opportunity.Account} has been awarded.  
+Please contact {!Opportunity.OwnerFullName} for any questions you may have.
+
+The Opportunity details can be found here: {!Opportunity.Link}
+Opportunity Name: {!Opportunity.Name}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used to conditionally set the field set used by the Quote Line Editor (The fields that are displayed to the sales rep when completing the quote) --></help>
+        <label><!-- Edit Lines Field Set Name --></label>
+        <name>EditLinesFieldSetName__c</name>
+    </CustomFieldTranslation>

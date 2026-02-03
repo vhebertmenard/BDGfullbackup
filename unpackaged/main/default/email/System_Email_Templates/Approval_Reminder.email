@@ -1,0 +1,7 @@
+Hello {!SBQQ__Quote__c.OwnerFirstName},</br>
+</br>
+</br>
+Your Quote <a href="https://bdgl.lightning.force.com/lightning/r/SBQQ__Quote__c/{!SBQQ__Quote__c.Id}/view">{!SBQQ__Quote__c.Name}</a> is pending approval. Please follow-up with the approver.</br>
+</br>
+</br>
+Thanks

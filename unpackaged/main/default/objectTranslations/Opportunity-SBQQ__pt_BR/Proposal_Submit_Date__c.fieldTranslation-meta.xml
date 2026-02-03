@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Date the formal Proposal is sent to the customer. The Stage will change to Proposal Delivered when Proposal Submit Date is entered and saved. --></help>
+        <label><!-- Proposal Submit Date --></label>
+        <name>Proposal_Submit_Date__c</name>
+    </CustomFieldTranslation>

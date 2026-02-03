@@ -1,0 +1,100 @@
+<template>
+    <div class="full-size-container">
+        <!-- Header -->
+        <header class="slds-p-around_small header-with-filter">
+            <div class="slds-grid slds-wrap slds-gutters slds-align_absolute-center">
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_2-of-3">
+                    <h2 class="slds-text-heading_medium">Available / WIP Fleet Units</h2>
+                    <div class="slds-text-body_small slds-m-top_xx-small">
+                        Loaded {loadedCount} of {totalCount}
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Body -->
+        <div class="slds-p-around_medium full-width-content">
+            <template if:true={isLoading}>
+                <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+            </template>
+
+            <!-- Filters -->
+            <div class="slds-grid slds-wrap slds-gutters slds-p-bottom_medium full-width-grid">
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-p-bottom_small">
+                    <lightning-combobox
+                        name="warehouseFilter"
+                        label="Warehouse"
+                        value={selectedWarehouse}
+                        options={warehouseOptions}
+                        onchange={handleWarehouseChange}
+                    ></lightning-combobox>
+                </div>
+
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-p-bottom_small">
+                    <lightning-combobox
+                        name="sndLocationFilter"
+                        label="SND Location"
+                        value={selectedSndLocation}
+                        options={sndLocationOptions}
+                        onchange={handleSndLocationChange}
+                    ></lightning-combobox>
+                </div>
+
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-p-bottom_small">
+                    <lightning-combobox
+                        name="widthFilter"
+                        label="Asset Width"
+                        value={selectedWidth}
+                        options={widthOptions}
+                        onchange={handleWidthChange}
+                    ></lightning-combobox>
+                </div>
+
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-p-bottom_small">
+                    <lightning-combobox
+                        name="lengthFilter"
+                        label="Asset Length"
+                        value={selectedLength}
+                        options={lengthOptions}
+                        onchange={handleLengthChange}
+                    ></lightning-combobox>
+                </div>
+
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-p-bottom_small">
+                    <lightning-combobox
+                        name="categoryFilter"
+                        label="Asset Category"
+                        value={selectedCategory}
+                        options={categoryOptions}
+                        onchange={handleCategoryChange}
+                    ></lightning-combobox>
+                </div>
+
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-p-bottom_small">
+                    <lightning-combobox
+                        name="wipFilter"
+                        label="WIP Asset"
+                        value={selectedWipFilter}
+                        options={wipFilterOptions}
+                        onchange={handleWipFilterChange}
+                        class="wip-filter-dropdown"
+                    ></lightning-combobox>
+                </div>
+            </div>
+
+            <!-- Table -->
+            <div class="table-container">
+                <lightning-datatable
+                    key-field="Id"
+                    data={rows}
+                    columns={columns}
+                    max-row-selection="0"
+                    enable-infinite-loading
+                    load-more-offset="50"
+                    onloadmore={handleLoadMore}
+                    is-loading={isTableLoading}
+                ></lightning-datatable>
+            </div>
+        </div>
+    </div>
+</template>

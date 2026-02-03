@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Monthly Insurance rate is 0.17% of the Insurable value --></help>
+        <label><!-- Insurance Monthly --></label>
+        <name>Insurance_Monthly__c</name>
+    </CustomFieldTranslation>

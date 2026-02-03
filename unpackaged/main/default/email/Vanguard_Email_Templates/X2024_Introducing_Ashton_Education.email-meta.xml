@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2024 - Introducing Ashton Education</name>
+    <style>none</style>
+    <subject>Introducing Your New Contact For {!Account.Name}</subject>
+    <textOnly>Hi! We are excited to announce Ashton House as your new dedicated point of contact for all your commercial modular space needs. Ashton is highly experienced and has successfully completed many modular projects. Her expertise will ensure you receive exceptional communication, service, and support in fulfillment of your modular space needs.
+
+
+Here are some of the types of space Ashton can assist you with:
+
+Classrooms
+https://www.boxxmodular.com/classrooms/
+Administrative Offices
+https://www.boxxmodular.com/offices/
+Labs
+https://www.boxxmodular.com/specialty/labs/
+
+
+Ashton is looking forward to connecting with you! For your convenience, here is her contact information:
+
+Ashton House
+ahouse@boxxmodular.com
+469-424-7063
+
+
+If you need more space now, or are considering modular solutions for the future, reach out to discuss some options.
+
+We are here to help!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

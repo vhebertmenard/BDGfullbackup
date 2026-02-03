@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_33276058</developerName>
+        <masterLabel>Product Group</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>PRODUCT_NAME</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Table 6&apos;</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Table 8&apos;</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Office Furniture Package</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kitchen Package</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Desk</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Desk and Pedestal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Desk with swivel chair</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>6&apos; Table</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>8&apos; Table</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bookcase</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bookcase (36x72)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Basic Seating Package</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Basic Kitchen Package</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Conference Room Package</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Conference Table</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Roller Chair</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Stackable Chair</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Folding Table</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Planning Table</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Mobile Plan Table</sourceValue>
+            </sourceValues>
+            <value>Furniture</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Steps &amp; landings</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Stairs &amp; Entrances</sourceValue>
+            </sourceValues>
+            <value>Steps</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Security Bars/Screens</sourceValue>
+            </sourceValues>
+            <value>Security Bars</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ADA Ramp</sourceValue>
+            </sourceValues>
+            <value>Ramps</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Insurance</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MISC Insurance</sourceValue>
+            </sourceValues>
+            <value>Structure Protection Plan</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>UNIT_PRICE</column>
+        </chartSummaries>
+        <chartType>HorizontalBarStacked</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>Opportunity.Sales_Rep__c</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <secondaryGroupingColumn>BucketField_33276058</secondaryGroupingColumn>
+        <showAxisLabels>false</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>UNIT_PRICE</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>FAMILY</field>
+    </columns>
+    <columns>
+        <field>PRODUCT_DESCRIPTION</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>SUBTOTAL</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>TOTAL_PRICE</field>
+    </columns>
+    <columns>
+        <field>FK_$SBQQ__Quote__c.Opp_Estimated_First_Revenue__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Contract_Start_Date__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Estimated_First_Revenue__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Contract_End_Date__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>YTD Revenue for Doug/Jody for VAPS, Carry On &amp; Structure Protection Plan</description>
+    <filter>
+        <booleanFilter>((1 AND 3) OR 2) AND 4 AND 5 AND 6</booleanFilter>
+        <criteriaItems>
+            <column>PRODUCT_DESCRIPTION</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Structure Protection Plan</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FAMILY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Carry On,VAPS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FAMILY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Miscellaneous</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Sales_Rep__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Doug Foster,Nathan Taylor,Bailey Hatch,Cheree Balsley,James Howard</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Contract_End_Date__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>12/31/2022</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Estimated_First_Revenue__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>lessOrEqual</operator>
+            <value>TODAY</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Sales_Rep__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_33276058</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>PRODUCT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Copy of VAPS/Carry On, SPP Revenue CY 23</name>
+    <params>
+        <name>open</name>
+        <value>closedwon</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityProduct@Opportunity.SBQQ__PrimaryQuote__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_PREVFY</interval>
+    </timeFrameFilter>
+</Report>

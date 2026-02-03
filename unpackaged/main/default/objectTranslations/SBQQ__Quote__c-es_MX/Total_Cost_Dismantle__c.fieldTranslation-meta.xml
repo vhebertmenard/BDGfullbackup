@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total cost of quote lines where Transaction Category = Dismantle, excl Optional. --></help>
+        <label><!-- Total Cost Dismantle --></label>
+        <name>Total_Cost_Dismantle__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is the number of units/floors in this product. In most all cases this will be 1 for our Units product --></help>
+        <label><!-- # of Floors --></label>
+        <name>Number_of_Floors__c</name>
+    </CustomFieldTranslation>

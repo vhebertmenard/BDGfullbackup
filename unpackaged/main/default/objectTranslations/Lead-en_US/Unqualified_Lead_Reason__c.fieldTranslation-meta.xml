@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicate why this Lead has become Unqualified. --></help>
+        <label><!-- Unqualified Reason --></label>
+        <name>Unqualified_Lead_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Bad Data (incl Duplicate)</masterLabel>
+            <translation><!-- Bad Data (incl Duplicate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad contact information</masterLabel>
+            <translation><!-- Bad contact information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Decision</masterLabel>
+            <translation><!-- Business Decision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit-360mobileoffice</masterLabel>
+            <translation><!-- Credit-360mobileoffice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daycare</masterLabel>
+            <translation><!-- Daycare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never any potential for a deal</masterLabel>
+            <translation><!-- Never any potential for a deal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Interest</masterLabel>
+            <translation><!-- No Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Potential</masterLabel>
+            <translation><!-- No Potential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response</masterLabel>
+            <translation><!-- No Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Inquiries</masterLabel>
+            <translation><!-- Other Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Cancelled</masterLabel>
+            <translation><!-- Project Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reputation</masterLabel>
+            <translation><!-- Reputation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worship Assembly Space</masterLabel>
+            <translation><!-- Worship Assembly Space --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

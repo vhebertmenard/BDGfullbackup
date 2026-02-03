@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- When an Opportunity is in approvals for cancellation, this box will be checked. --></help>
+        <label><!-- Submitted For Cancellation --></label>
+        <name>Submitted_For_Cancellation__c</name>
+    </CustomFieldTranslation>

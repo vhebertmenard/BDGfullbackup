@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Fax read from related contact. Edit the contact to change the fax number --></help>
+        <label><!-- Contact Fax --></label>
+        <name>Contact_Fax__c</name>
+    </CustomFieldTranslation>

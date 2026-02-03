@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Prospecting Email for MPA Leads</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>MPA_Letterhead</letterhead>
+    <name>MPA Lead Letter</name>
+    <style>formalLetter</style>
+    <subject>MPA Systems offers an excellent Disaster Recovery Program</subject>
+    <textOnly>MPA System offers an excellent Disaster Recovery Program for those times when a disaster strikes, such as a fire, flood, tornado or hurricane and you are unable to serve your customers.
+
+Hi {!Lead.FirstName},
+
+If you are a member of our Disaster Recovery Program, MPA Systems will provide you with a 14’x70’ modular financial building which includes the following:
+
+· Furniture (desks, chairs, filing cabinets, tables and credenzas)
+
+· Telephone system (8 multi-line phones)
+
+· Cameras and alarms
+
+· Teller stations with under counter steel pedestals
+
+· Two ADA compliant restrooms
+
+· Enclosed offices (1 or 2)
+
+· One dual head night depository unit
+
+· One receiving safe
+
+· Building wired for computers CAT5
+
+· Heating/AC 5 ton unit
+
+· Drive-up window with bullet resistant glass with deal drawer
+
+· Free use of building up to 6 months
+
+In addition to our standard Disaster Recovery Program, we also offer a Connectivity Package which provides you with voice and data transmission capabilities while your normal communication lines are restored.
+
+I will gladly provide you with a quote!
+
+Looking forward to hearing from you soon –
+
+David Strong
+
+Disaster Recovery Sales Representative
+MPA Systems, a business unit of BOXX Modular
+D: 469.568.2137 | C: 214.622.3982
+Toll Free: 1.888.233.1584
+3475 High River Rd
+Fort Worth, TX 76155
+
+Visit our new website at www.MPASystems.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

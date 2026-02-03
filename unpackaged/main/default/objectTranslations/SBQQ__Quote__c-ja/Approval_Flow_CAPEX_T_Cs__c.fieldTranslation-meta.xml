@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates which approval flow to run for CAPEX and T&amp;C Types, and T&amp;C clauses --></help>
+        <label><!-- Approval Flow: CAPEX/T&amp;Cs --></label>
+        <name>Approval_Flow_CAPEX_T_Cs__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Term length from the primary quote --></help>
+        <label><!-- Term Length (Quote) --></label>
+        <name>Quote_Term_Length__c</name>
+    </CustomFieldTranslation>

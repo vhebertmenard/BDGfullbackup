@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Last Contact - Andrea</name>
+    <style>none</style>
+    <subject>Your modular building quote request | {!Lead.Company}</subject>
+    <textOnly>Hello {!Lead.Name},
+
+You submitted a request to receive a modular building quote, but unfortunately we haven&apos;t been able to connect with you about space for {!Lead.Company} in {!Lead.State}, {!Lead.PostalCode}.
+
+We want to help you get the space you need, so our local representative is going to reach out to you once more. {!Lead.OwnerFullName} ({!Lead.OwnerEmail} | {!Lead.OwnerPhone}) is looking forward to providing you with the modular information you requested.
+
+We understand you are busy so if there is a particular date and time that works best for a call, simply reply to this email and let us know.
+
+Sincerely,
+
+Andrea Regimbal
+Marketing Coordinator
+BOXX Modular
+Phone: 437-360-7126
+www.boxxmodular.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

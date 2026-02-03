@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Directly reads the Product Type from the parent Product - No Translation --></help>
+        <label><!-- Product Type Test --></label>
+        <name>Product_Type_Test__c</name>
+    </CustomFieldTranslation>

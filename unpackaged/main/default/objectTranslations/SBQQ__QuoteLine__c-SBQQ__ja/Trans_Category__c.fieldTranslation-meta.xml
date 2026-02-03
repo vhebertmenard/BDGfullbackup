@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Transaction Category read from the product on the quote line.  If the quote line is Sale/Rental then the Transaction Category is read from the Transaction Type of the Quote Line --></help>
+        <label><!-- Trans Category --></label>
+        <name>Trans_Category__c</name>
+    </CustomFieldTranslation>

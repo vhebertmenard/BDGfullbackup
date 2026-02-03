@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>To be used by Vanguard</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Missed Contact - Andrea</name>
+    <style>none</style>
+    <subject>Your Quote Request | BOXX Modular</subject>
+    <textOnly>Hello {!Lead.Name},
+
+Your modular building quote request for {!Lead.Company}, {!Lead.Address} is very important to us.
+
+Unfortunately, I have not yet had the pleasure of connecting with you over the phone; and that likely is because you are very busy.
+
+- Is there a particular time of day that would work best for me to contact you?
+- Is {!Lead.Phone} the best phone number for me to reach you?
+
+If you could please let me know as it would be my pleasure to schedule a time that is suitable for us to connect.
+
+Thank you for your interest in BOXX Modular, I look forward to speaking with you soon!
+
+Have a great day!
+
+Andrea Regimbal
+Marketing Coordinator
+BOXX Modular
+Phone: 437-360-7126
+www.boxxmodular.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

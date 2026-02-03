@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PageNumberText__c</fullName>
+    <defaultValue>"Page {0} of {1}"</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Declares the text description of the page number.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Declare the text description of the page number. "{0}" independently represents the current page. "{1}" is dependent of "{0}" and it represents the total pages with page numbers. Defaults to "Page {0} of {1}" if the field is blank.</inlineHelpText>
+    <label>Page Number Text</label>
+    <length>50</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

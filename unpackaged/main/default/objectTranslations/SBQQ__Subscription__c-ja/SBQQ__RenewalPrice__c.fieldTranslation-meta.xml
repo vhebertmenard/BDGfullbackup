@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>デフォルトの計算を上書きする更新価格を入力します。取引先の更新価格設定項目に基づいてデフォルトの更新価格の計算が上書きされます。</help>
+        <label><!-- Renewal Price --></label>
+        <name>SBQQ__RenewalPrice__c</name>
+    </CustomFieldTranslation>

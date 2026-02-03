@@ -1,0 +1,65 @@
+/* Fill the utility panel / flow screen */
+.full-size-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Content area stretches and scrolls if needed */
+.full-width-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 1 1 auto;
+    overflow: auto;
+}
+
+/* Filters full width */
+.full-width-grid {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Table full width */
+.table-container {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+lightning-datatable {
+    width: 100% !important;
+}
+
+/* WIP Asset dropdown width + left alignment */
+.wip-filter-dropdown {
+    width: 240px !important;
+}
+
+lightning-combobox .slds-dropdown__item > a {
+    text-align: left !important;
+}
+
+lightning-combobox .slds-combobox__input {
+    text-align: left !important;
+}
+
+.full-size-container {
+    height: 100%;
+}
+
+.full-width-content {
+    height: 100%;
+}
+
+/* Critical: give the datatable a scrollable region so onloadmore can fire */
+.table-container {
+    height: 65vh;          /* adjust as needed */
+    overflow: auto;
+}
+
+.table-container {
+    height: calc(100vh - 260px); /* tune 260px to your header/filter area */
+    min-height: 320px;
+    overflow: auto;
+}

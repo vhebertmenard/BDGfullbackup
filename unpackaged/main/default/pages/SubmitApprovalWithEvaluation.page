@@ -1,0 +1,4 @@
+<apex:page standardController="Opportunity" extensions="SubmitApprovalWithEvaluationController" action="{!approve}" >
+{!Opportunity.Reason_s_Won_Lost_Cancelled__c}
+<apex:pageMessages ></apex:pageMessages>
+</apex:page>

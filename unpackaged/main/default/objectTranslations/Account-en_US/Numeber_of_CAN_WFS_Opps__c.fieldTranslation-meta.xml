@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- # of CAN WFS Opps --></label>
+        <name>Numeber_of_CAN_WFS_Opps__c</name>
+    </CustomFieldTranslation>

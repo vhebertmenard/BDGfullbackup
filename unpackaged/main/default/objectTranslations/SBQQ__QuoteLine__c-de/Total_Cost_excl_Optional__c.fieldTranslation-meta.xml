@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Where Quote line is NOT Optional, Unit Cost * Quantity. Where Sub Rental * Term. --></help>
+        <label><!-- Total Cost excl Optional --></label>
+        <name>Total_Cost_excl_Optional__c</name>
+    </CustomFieldTranslation>

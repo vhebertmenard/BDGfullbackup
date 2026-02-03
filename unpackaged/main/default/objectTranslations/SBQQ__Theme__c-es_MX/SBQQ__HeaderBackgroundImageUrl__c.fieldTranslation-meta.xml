@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>URL para la imagen del fondo del encabezado de páginas</help>
+        <label><!-- Header Background Image Url --></label>
+        <name>SBQQ__HeaderBackgroundImageUrl__c</name>
+    </CustomFieldTranslation>

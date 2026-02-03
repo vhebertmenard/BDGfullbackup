@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The customer account for this quote. Read from Opportunity. --></help>
+        <label>Conta</label>
+        <name>SBQQ__Account__c</name>
+        <relationshipLabel>Cotações</relationshipLabel>
+    </CustomFieldTranslation>

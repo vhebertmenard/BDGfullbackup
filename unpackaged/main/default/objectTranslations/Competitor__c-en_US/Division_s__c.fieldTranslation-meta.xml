@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- List the Black Diamond division that this company is a competitor for --></help>
+        <label><!-- Division --></label>
+        <name>Division_s__c</name>
+    </CustomFieldTranslation>

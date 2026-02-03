@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Wählen Sie diese Option aus, um SolutionGroups(TM) zu verwenden oder eigene Gruppen auf der Seite "Belegposten bearbeiten", um Kategorien und Zwischensummen für Angebotsbelegposten zu erstellen.</help>
+        <label><!-- Group Line Items --></label>
+        <name>SBQQ__LineItemsGrouped__c</name>
+    </CustomFieldTranslation>

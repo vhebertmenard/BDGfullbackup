@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Quote Submitted for Approval</name>
+    <style>none</style>
+    <subject>Quote # {!SBQQ__Quote__c.Name} for {!SBQQ__Quote__c.SBQQ__Opportunity2__c} has been submitted for Approval</subject>
+    <textOnly>Account Name: {!SBQQ__Quote__c.SBQQ__Account__c}
+Opportunity Name: {!SBQQ__Quote__c.SBQQ__Opportunity2__c}
+Contract #: {!SBQQ__Quote__c.Contract_Number__c}
+
+CAPEX Approval Amount: {!SBQQ__Quote__c.New_CAPEX_Value_Required__c}
+CAPEX Total: {!SBQQ__Quote__c.CAPEX_Total__c}
+Contract Value: {!SBQQ__Quote__c.SBQQ__NetAmount__c}
+
+Quote: {!SBQQ__Quote__c.Name}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

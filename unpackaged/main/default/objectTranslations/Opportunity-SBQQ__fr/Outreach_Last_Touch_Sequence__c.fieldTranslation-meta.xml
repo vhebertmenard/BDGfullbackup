@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The last active sequence for the first primary contact in an opportunity when the opportunity was created. --></help>
+        <label><!-- Last Touch Sequence --></label>
+        <name>Outreach_Last_Touch_Sequence__c</name>
+    </CustomFieldTranslation>

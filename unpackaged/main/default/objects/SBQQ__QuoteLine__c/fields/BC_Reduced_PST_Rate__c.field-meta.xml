@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BC_Reduced_PST_Rate__c</fullName>
+    <formula>IF( AND(SBQQ__Quote__r.SBQQ__Opportunity2__r.Customer_Category_for_Item_Map__c = 'External', OR(SBQQ__Quote__r.SBQQ__Opportunity2__r.Site_State_Province_Code__c = 'BC', ISPICKVAL(SBQQ__Quote__r.SBQQ__Opportunity2__r.Project_Location_Province__c, 'BC'))),
+	OR(	Unit__r.BC_Reduced_PST_Rate__c, 
+		SBQQ__RequiredBy__r.Related_Asset__r.BC_Reduced_PST_Rate__c, 
+		Related_Asset__r.BC_Reduced_PST_Rate__c,
+		SBQQ__RequiredBy__r.BC_PST_Override__c ,
+		BC_PST_Override__c 
+	),
+	FALSE
+)</formula>
+    <label>BC Reduced PST Rate</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

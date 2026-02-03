@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The previous version of the Amend Re-Quotes. --></help>
+        <label>以前の修正: 再見積</label>
+        <name>SBQQ__PreviousChangeQuote__c</name>
+        <relationshipLabel>見積 (修正: 再見積)</relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Count of Closed-Won Opportunities for this Account --></help>
+        <label><!-- # of Won Opportunities --></label>
+        <name>Number_of_Won_Opportunities__c</name>
+    </CustomFieldTranslation>

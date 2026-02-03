@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Additional Disc per Unit --></help>
+        <label><!-- Unit Disc --></label>
+        <name>Unit_Disc__c</name>
+    </CustomFieldTranslation>

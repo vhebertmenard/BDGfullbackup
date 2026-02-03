@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conga_Test</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Create Bid Sheet</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_520}
+&amp;Id={!SBQQ__Quote__c.Id}
+&amp;TemplateGroup={!SBQQ__Quote__c.BTG__c}
+&amp;TemplateID=0T_158EA0713364
+&amp;TNC=Bidsheet
+&amp;OneDriveVisible=1
+&amp;OFP={!SBQQ__Quote__c.CD__c}
+&amp;OFN={!SBQQ__Quote__c.QNo_CNo__c}+{Template.Label}+{!SBQQ__Quote__c.SBQQ__Opportunity2__c}
+&amp;QueryID=[BranchQ]0Q_005EA0291986,[ContactQ]0Q_008EA0431532,[OpportunityQ]0Q_007EA0290990,[PartnershipQ]0Q_006EA0896593,[NewCapTransQ]0Q_018EA0308495,[QuoteItemsQ]0Q_019EA0128682,[RentalQ]0Q_020EA0146601,[RSHiddenQ]0Q_022EA0536461,[SaleNewQ]0Q_023EA0387015,[QuoteGroupQ]0Q_025EA0645711,[SalesRepQ]0Q_026EA0248999,[DismantleQ]0Q_027EA0305486?pv0={!SBQQ__Quote__c.Id}~pv1='Dismantle',[DisasterQ]0Q_027EA0305486?pv0={!SBQQ__Quote__c.Id}~pv1='Disaster',[UnitLines]0Q_143EAA743780?pv0={!SBQQ__Quote__c.Id},[CampOpsQ]0Q_027EA0305486?pv0={!SBQQ__Quote__c.Id}~pv1='Camp Operations',[InstallationQ]0Q_038EA0379790?pv0={!SBQQ__Quote__c.Id}~pv1='Installation'~pv2='Change Order: Installation',[InsuranceQ]0Q_027EA0305486?pv0={!SBQQ__Quote__c.Id}~pv1='Insurance',[RentalCostQ]0Q_027EA0305486?pv0={!SBQQ__Quote__c.Id}~pv1='Rental Cost',[ReturnQ]0Q_027EA0305486?pv0={!SBQQ__Quote__c.Id}~pv1='Return',[SubMonthlyQ]0Q_027EA0305486?pv0={!SBQQ__Quote__c.Id}~pv1='Sub Rental',[CarryOnQ]0Q_028EA0233989?pv0={!SBQQ__Quote__c.Id}~pv1='Carry On'~pv2='Rental'~pv3='VAPS',[CarryOnSaleQ]0Q_028EA0233989?pv0={!SBQQ__Quote__c.Id}~pv1='Carry On'~pv2='Sale'~pv3='VAPS',[VAPSQ]0Q_037EA0735661?pv0={!SBQQ__Quote__c.Id}~pv1='VAPS'~pv2='Rental'~pv3='Editor Only',[VAPSSaleQ]0Q_037EA0735661?pv0={!SBQQ__Quote__c.Id}~pv1='VAPS'~pv2='Sale'~pv3='Editor Only',[DeliveryQ]0Q_029EA0239129?pv0={!SBQQ__Quote__c.Id}~pv1='Delivery'~pv2='Trans-Capital'~pv3='Change Order: Transportation',[ChangeOrderQ]0Q_036EA0956221?pv0={!SBQQ__Quote__c.Id}~pv1='Change Order',[SaleQ]0Q_029EA0239129?pv0={!SBQQ__Quote__c.Id}~pv1='Sale'~pv2='New Manufactured Unit-Sale'~pv3='Change Order: Transportation',[IPSData]0Q_032EA0497227,[IPSQuote]0Q_031EA0120704,[QuoteSummary]0Q_030EA0503905,[ChangeOrders]0Q_085EAA313332,[ChangeOrdersQLGroup]0Q_034EA0566616,[NonChangeOrders]0Q_035EA0864145,[ContractInfo]0Q_039EA0985934,[DeliveryQuoteLines]0Q_135EAA346127?pv0={!SBQQ__Quote__c.Id},[InstallQuoteLines]0Q_137EAA941258?pv0={!SBQQ__Quote__c.Id},[GCQuoteLines]0Q_140EAA987219?pv0={!SBQQ__Quote__c.Id},[MechEleQuoteLines]0Q_139EAA020767?pv0={!SBQQ__Quote__c.Id},[SiteWorkQuoteLines]0Q_138EAA321858?pv0={!SBQQ__Quote__c.Id},[RefurbQuoteLines]0Q_142EAA231931?pv0={!SBQQ__Quote__c.Id},[TeardownQuoteLines]0Q_141EAA094316?pv0={!SBQQ__Quote__c.Id},[AllBuildingLines]0Q_048EA0279730?pv0={!SBQQ__Quote__c.Id}
+&amp;SCHP=1</url>
+</WebLink>

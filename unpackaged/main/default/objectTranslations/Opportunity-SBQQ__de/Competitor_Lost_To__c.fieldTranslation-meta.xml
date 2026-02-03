@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Competitor Lost To: --></label>
+        <name>Competitor_Lost_To__c</name>
+        <picklistValues>
+            <masterLabel>ACS – Australian Camp Services</masterLabel>
+            <translation><!-- ACS – Australian Camp Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APC - Australian Portable Camps</masterLabel>
+            <translation><!-- APC - Australian Portable Camps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APEX</masterLabel>
+            <translation><!-- APEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATCO Structures and Logistics</masterLabel>
+            <translation><!-- ATCO Structures and Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acton</masterLabel>
+            <translation><!-- Acton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alberta Gold Energy &amp; Rentals</masterLabel>
+            <translation><!-- Alberta Gold Energy &amp; Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alito Energy</masterLabel>
+            <translation><!-- Alito Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ally</masterLabel>
+            <translation><!-- Ally --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aramark Remote Services</masterLabel>
+            <translation><!-- Aramark Remote Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Armstrong Trailer Rentals</masterLabel>
+            <translation><!-- Armstrong Trailer Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ausco</masterLabel>
+            <translation><!-- Ausco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aussie Portables</masterLabel>
+            <translation><!-- Aussie Portables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aveda Rentals</masterLabel>
+            <translation><!-- Aveda Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRT</masterLabel>
+            <translation><!-- BRT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Britco</masterLabel>
+            <translation><!-- Britco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulldog Rentals</masterLabel>
+            <translation><!-- Bulldog Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C&amp;V Portable Trailers</masterLabel>
+            <translation><!-- C&amp;V Portable Trailers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camden Hire</masterLabel>
+            <translation><!-- Camden Hire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campbell Oilfield Rentals</masterLabel>
+            <translation><!-- Campbell Oilfield Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capex</masterLabel>
+            <translation><!-- Capex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Captive</masterLabel>
+            <translation><!-- Captive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chandell Rentals</masterLabel>
+            <translation><!-- Chandell Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Harbors</masterLabel>
+            <translation><!-- Clean Harbors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Harbors (BCT)</masterLabel>
+            <translation><!-- Clean Harbors (BCT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coates Hire</masterLabel>
+            <translation><!-- Coates Hire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete Portables – The Complete Group</masterLabel>
+            <translation><!-- Complete Portables – The Complete Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corab</masterLabel>
+            <translation><!-- Corab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dickie Moore</masterLabel>
+            <translation><!-- Dickie Moore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESS Compass Group</masterLabel>
+            <translation><!-- ESS Compass Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Coast Catering</masterLabel>
+            <translation><!-- East Coast Catering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empire Camp Services</masterLabel>
+            <translation><!-- Empire Camp Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expedition Camp Services &amp; Logistics</masterLabel>
+            <translation><!-- Expedition Camp Services &amp; Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fleetwood</masterLabel>
+            <translation><!-- Fleetwood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fraction</masterLabel>
+            <translation><!-- Fraction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GCS</masterLabel>
+            <translation><!-- GCS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GNS Industrial Trailer Services</masterLabel>
+            <translation><!-- GNS Industrial Trailer Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Go Hire</masterLabel>
+            <translation><!-- Go Hire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grove</masterLabel>
+            <translation><!-- Grove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HB Rentals</masterLabel>
+            <translation><!-- HB Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMB Leasing</masterLabel>
+            <translation><!-- HMB Leasing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harpoon Energy</masterLabel>
+            <translation><!-- Harpoon Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Line Rentals</masterLabel>
+            <translation><!-- High Line Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hoppe's</masterLabel>
+            <translation><!-- Hoppe&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horizon North Logistics</masterLabel>
+            <translation><!-- Horizon North Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hutchinsons</masterLabel>
+            <translation><!-- Hutchinsons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Independent portables</masterLabel>
+            <translation><!-- Independent portables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovative</masterLabel>
+            <translation><!-- Innovative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instant Offices</masterLabel>
+            <translation><!-- Instant Offices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jandt Services</masterLabel>
+            <translation><!-- Jandt Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LRG Catering</masterLabel>
+            <translation><!-- LRG Catering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leased Portable Buildings</masterLabel>
+            <translation><!-- Leased Portable Buildings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCA - Mining Camps Australia</masterLabel>
+            <translation><!-- MCA - Mining Camps Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mi Casa Rentals</masterLabel>
+            <translation><!-- Mi Casa Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miller Office Trailers</masterLabel>
+            <translation><!-- Miller Office Trailers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Camps Australia</masterLabel>
+            <translation><!-- Mobile Camps Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Mini</masterLabel>
+            <translation><!-- Mobile Mini --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Modular</masterLabel>
+            <translation><!-- Mobile Modular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Modular Express</masterLabel>
+            <translation><!-- Mobile Modular Express --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobilease</masterLabel>
+            <translation><!-- Mobilease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ModSpace</masterLabel>
+            <translation><!-- ModSpace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountain West Camp Services Ltd</masterLabel>
+            <translation><!-- Mountain West Camp Services Ltd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mustang Rentals</masterLabel>
+            <translation><!-- Mustang Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Transportables</masterLabel>
+            <translation><!-- Northern Transportables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northgate Industries</masterLabel>
+            <translation><!-- Northgate Industries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil Patch</masterLabel>
+            <translation><!-- Oil Patch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onsite Rentals</masterLabel>
+            <translation><!-- Onsite Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outland Camp Services</masterLabel>
+            <translation><!-- Outland Camp Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTI Group Inc.</masterLabel>
+            <translation><!-- PTI Group Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palomar</masterLabel>
+            <translation><!-- Palomar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peak Energy/Clean Harbors</masterLabel>
+            <translation><!-- Peak Energy/Clean Harbors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pigdon Portables</masterLabel>
+            <translation><!-- Pigdon Portables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precision</masterLabel>
+            <translation><!-- Precision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R/T Rentals</masterLabel>
+            <translation><!-- R/T Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RCM</masterLabel>
+            <translation><!-- RCM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redneck Oilfield Services</masterLabel>
+            <translation><!-- Redneck Oilfield Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retracom</masterLabel>
+            <translation><!-- Retracom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rockwater</masterLabel>
+            <translation><!-- Rockwater --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Royal Camp Services</masterLabel>
+            <translation><!-- Royal Camp Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Satellite Shelters</masterLabel>
+            <translation><!-- Satellite Shelters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savage Oilfield</masterLabel>
+            <translation><!-- Savage Oilfield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shed Up</masterLabel>
+            <translation><!-- Shed Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sodexho</masterLabel>
+            <translation><!-- Sodexho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spotless</masterLabel>
+            <translation><!-- Spotless --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spur Oilfield</masterLabel>
+            <translation><!-- Spur Oilfield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stallion</masterLabel>
+            <translation><!-- Stallion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strad Energy</masterLabel>
+            <translation><!-- Strad Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainable Modular</masterLabel>
+            <translation><!-- Sustainable Modular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TPZ Rentals</masterLabel>
+            <translation><!-- TPZ Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Target Rentals</masterLabel>
+            <translation><!-- Target Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titan Rentals</masterLabel>
+            <translation><!-- Titan Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Oilfield/Total Energy</masterLabel>
+            <translation><!-- Total Oilfield/Total Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Camp Services</masterLabel>
+            <translation><!-- Western Camp Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wild West Rentals</masterLabel>
+            <translation><!-- Wild West Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>William Scotsman</masterLabel>
+            <translation><!-- William Scotsman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winalta Inc. Oilfield Rentals</masterLabel>
+            <translation><!-- Winalta Inc. Oilfield Rentals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zedcor Oilfield Rentals</masterLabel>
+            <translation><!-- Zedcor Oilfield Rentals --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

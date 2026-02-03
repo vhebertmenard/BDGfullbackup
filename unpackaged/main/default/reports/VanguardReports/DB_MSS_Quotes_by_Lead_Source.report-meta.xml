@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_14362677</developerName>
+        <masterLabel>Lead Source Consolidated</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity$LeadSource</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Website</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Lead Forensics</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Used</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Social Media</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Search Engine</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Building Decals</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Referral</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Advertisement (Print)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Email Blast</sourceValue>
+            </sourceValues>
+            <value>Website</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Existing Customer</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Repeat</sourceValue>
+            </sourceValues>
+            <value>Existing Customer</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Cold Call</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Phone Inquiry</sourceValue>
+            </sourceValues>
+            <value>Phone Inquiry</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Email Marketing</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Email Blast</sourceValue>
+            </sourceValues>
+            <value>Email Marketing</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Event/Tradeshow</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Trade Show</sourceValue>
+            </sourceValues>
+            <value>Event/Tradeshow</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>KPN</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TIPS</sourceValue>
+            </sourceValues>
+            <value>Cooperative</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_22348200</developerName>
+        <masterLabel>Stage Consolidated</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity$StageName</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Qualified</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Proposal In Progress</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Proposal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Quote Prep</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Create Quote</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Proposal Delivered</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Project Planning</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Planning</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Initial Inquiry (RFI/Pre-Qual)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Qualification</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ROM</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>RFQ / RFP</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bid Preparation</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bid Submittal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Quote Sent</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Negotiation/Review</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Negotiation</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Create Contract</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Contract Approved</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Contract Sent</sourceValue>
+            </sourceValues>
+            <value>Open</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Won</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>WIP</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Closed Won</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Awarded</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Completed.</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Completed</sourceValue>
+            </sourceValues>
+            <value>Won</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed Lost</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lost</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>No Bid</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cancelled</sourceValue>
+            </sourceValues>
+            <value>Lost</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Opportunity$LeadSource</field>
+    </columns>
+    <columns>
+        <field>Opportunity$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Owner.BDG_Branch__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Owner.Username</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Account</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Amount.CONVERT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Amount</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Quote_Number_of_Floors__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$StageName</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Contract_Number__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Parent_Industry__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Industry_Segment__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$SAP_Project_Number__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Term_Length__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Transaction_Type__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Bid_Submit_Date__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity$Owner.BDG_Branch__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>BOXX Atlanta,BOXX Banks Dallas,BOXX Calgary,BOXX Edmonton,BOXX Fort Worth,BOXX Houston,BOXX Kelowna,BOXX Langley,BOXX Nanaimo,BOXX Ottawa,BOXX Prince George,BOXX Saskatchewan,BOXX Stoney Creek,BOXX Vanguard,Head Office,Major Projects California,BOXX Charlotte,BOXX Marietta,BOXX Raleigh,BOXX Schiavi,BOXX Major Projects,BOXX Dallas,BOXX MPA,BOXX Toronto East</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$New_Contract_or_Renewal__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Renewal</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$SBQQ__PrimaryQuote__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_14362677</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_22348200</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>DB - MSS Quotes by Lead Source</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_Users__c</reportType>
+    <roleHierarchyFilter>CEO</roleHierarchyFilter>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$Bid_Submit_Date__c</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

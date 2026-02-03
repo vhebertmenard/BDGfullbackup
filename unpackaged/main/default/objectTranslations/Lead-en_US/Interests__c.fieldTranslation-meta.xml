@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Interest(s) --></label>
+        <name>Interests__c</name>
+        <picklistValues>
+            <masterLabel>Major project</masterLabel>
+            <translation><!-- Major project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modular</masterLabel>
+            <translation><!-- Modular --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

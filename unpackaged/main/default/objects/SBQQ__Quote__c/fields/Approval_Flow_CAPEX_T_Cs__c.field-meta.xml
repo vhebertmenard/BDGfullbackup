@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Flow_CAPEX_T_Cs__c</fullName>
+    <description>Indicates which approval flow to run for CAPEX, T&amp;C Types, and T&amp;C clauses</description>
+    <externalId>false</externalId>
+    <formula>IF(AND(CAPEX_Required__c = "Yes",New_CAPEX_Value_Required__c  &gt;=  750000), 1, 
+    IF(AND(CAPEX_Required__c = "Yes",New_CAPEX_Value_Required__c &lt; 750000),3,
+
+    IF(TEXT(SBQQ__Opportunity2__r.T_C__c) = "Non-Standard - Legal", 
+
+       IF(INCLUDES(SBQQ__Opportunity2__r.T_C_Clauses__c, "Without indemnification for BD"), 1, 
+          IF(INCLUDES(SBQQ__Opportunity2__r.T_C_Clauses__c, "Without liability cap"), 1, 
+             IF(INCLUDES(SBQQ__Opportunity2__r.T_C_Clauses__c, "With liquidated damages"), 3, 
+                IF(TEXT(SBQQ__Opportunity2__r.T_C_Type__c) = "Gov't or Design/Build", 3,
+                   IF(TEXT(SBQQ__Opportunity2__r.T_C_Type__c) = "MSA", 4, 9)
+                   )
+                )
+             )
+          )
+        ,9)
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicates which approval flow to run for CAPEX and T&amp;C Types, and T&amp;C clauses</inlineHelpText>
+    <label>Approval Flow: CAPEX/T&amp;Cs</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

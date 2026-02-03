@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Insira o preço de renovação para substituir o cálculo padrão. Substitui o preço de renovação padrão calculado com base no campo Precificação de renovação da conta.</help>
+        <label><!-- Renewal Price --></label>
+        <name>SBQQ__RenewalPrice__c</name>
+    </CustomFieldTranslation>

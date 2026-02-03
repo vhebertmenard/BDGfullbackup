@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Logo_URL__c</fullName>
+    <description>Get the logo of the Branch or Indigenous Partnership from the parent opportunity</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+   OR(
+       ISBLANK(SBQQ__Opportunity2__r.Indigenous_Partnership__c),
+       ISBLANK(SBQQ__Opportunity2__r.Indigenous_Partnership__r.Template_Group__c)  
+     ),
+     SBQQ__Opportunity2__r.Branch_Name__r.Logo_URL__c ,  SBQQ__Opportunity2__r.Indigenous_Partnership__r.Logo_URL__c )</formula>
+    <inlineHelpText>Get the logo of the Branch or Indigenous Partnership from the parent opportunity</inlineHelpText>
+    <label>Logo URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Vanguard</fullName>
+        <default>false</default>
+        <label>Vanguard</label>
+    </customValue>
+    <customValue>
+        <fullName>LodgeLinks</fullName>
+        <default>false</default>
+        <label>LodgeLinks</label>
+    </customValue>
+    <customValue>
+        <fullName>BDGL</fullName>
+        <default>false</default>
+        <label>BDGL</label>
+    </customValue>
+    <customValue>
+        <fullName>MSS</fullName>
+        <default>false</default>
+        <label>MSS</label>
+    </customValue>
+    <customValue>
+        <fullName>WFS</fullName>
+        <default>false</default>
+        <label>WFS</label>
+    </customValue>
+    <customValue>
+        <fullName>ES CA</fullName>
+        <default>false</default>
+        <label>ES CA</label>
+    </customValue>
+    <customValue>
+        <fullName>ES US</fullName>
+        <default>false</default>
+        <label>ES US</label>
+    </customValue>
+    <customValue>
+        <fullName>AUS - Single Buildings</fullName>
+        <default>false</default>
+        <label>AUS - Single Buildings</label>
+    </customValue>
+    <customValue>
+        <fullName>AUS - Multi-unit Complexes</fullName>
+        <default>false</default>
+        <label>AUS - Multi-unit Complexes</label>
+    </customValue>
+    <customValue>
+        <fullName>AUS - Used Fleet</fullName>
+        <default>false</default>
+        <label>AUS - Used Fleet</label>
+    </customValue>
+    <customValue>
+        <fullName>AUS - Custom Buildings</fullName>
+        <default>false</default>
+        <label>AUS - Custom Buildings</label>
+    </customValue>
+    <customValue>
+        <fullName>AUS - Modular Classrooms</fullName>
+        <default>false</default>
+        <label>AUS - Modular Classrooms</label>
+    </customValue>
+    <customValue>
+        <fullName>AUS - Additional Services</fullName>
+        <default>false</default>
+        <label>AUS - Additional Services</label>
+    </customValue>
+    <customValue>
+        <fullName>AUS - Traditional Camps</fullName>
+        <default>false</default>
+        <label>AUS - Traditional Camps</label>
+    </customValue>
+    <customValue>
+        <fullName>AUS - Rapid Deployment Camps</fullName>
+        <default>false</default>
+        <label>AUS - Rapid Deployment Camps</label>
+    </customValue>
+    <customValue>
+        <fullName>AUS - Plug &amp; Stay Camps</fullName>
+        <default>false</default>
+        <label>AUS - Plug &amp; Stay Camps</label>
+    </customValue>
+    <customValue>
+        <fullName>AUS - Build. Own. Operate. Village</fullName>
+        <default>false</default>
+        <label>AUS - Build. Own. Operate. Village</label>
+    </customValue>
+    <customValue>
+        <fullName>AUS - Not sure</fullName>
+        <default>false</default>
+        <label>AUS - Not sure</label>
+    </customValue>
+    <customValue>
+        <fullName>WFS_US</fullName>
+        <default>false</default>
+        <label>WFS_US</label>
+    </customValue>
+    <customValue>
+        <fullName>WFS_CA</fullName>
+        <default>false</default>
+        <label>WFS_CA</label>
+    </customValue>
+    <customValue>
+        <fullName>BOXX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BOXX</label>
+    </customValue>
+    <customValue>
+        <fullName>Please Select</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Please Select</label>
+    </customValue>
+    <customValue>
+        <fullName>Vanguard;Vanguard</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Vanguard;Vanguard</label>
+    </customValue>
+    <description>Business Lines to be used for Sales Regions and Lead Mapping</description>
+    <masterLabel>Business Line</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

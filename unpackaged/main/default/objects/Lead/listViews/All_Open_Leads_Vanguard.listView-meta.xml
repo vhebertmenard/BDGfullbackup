@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Open_Leads_Vanguard</fullName>
+    <columns>GCLID__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Dead_Lead_Reason__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.LAST_ACTIVITY</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Qualified,Unqualified,Unresponsive,Duplicate,Dead,Converted</value>
+    </filters>
+    <filters>
+        <field>Business_Line__c</field>
+        <operation>equals</operation>
+        <value>Vanguard,MSS</value>
+    </filters>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.BD_Lightning,Lead.Vanguard</value>
+    </filters>
+    <filters>
+        <field>LEAD.COUNTRY_CODE</field>
+        <operation>equals</operation>
+        <value>US</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATE_CODE</field>
+        <operation>equals</operation>
+        <value>DE,MD,NJ,NY,PA,WV</value>
+    </filters>
+    <label>All Open Leads - BOXX US</label>
+    <sharedTo>
+        <group>All_Vanguard</group>
+    </sharedTo>
+</ListView>

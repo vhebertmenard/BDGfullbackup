@@ -1,0 +1,8 @@
+<HTML>
+Account Name: {!Opportunity.Account}</br>
+Opportunity Name: <a href="https://bdgl.lightning.force.com/lightning/r/Opportunity/{!Opportunity.Id}/view">{!Opportunity.Name}</a></br>
+Contract #: {!Opportunity.Contract_Number__c}</br>
+</br>
+CAPEX Approval Amount: {!Opportunity.Quote_CAPEX__c}</br>
+Contract Value: {!Opportunity.Actual_Contract_Value__c}
+</HTML>

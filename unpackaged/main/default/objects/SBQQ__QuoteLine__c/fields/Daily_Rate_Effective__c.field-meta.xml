@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Daily_Rate_Effective__c</fullName>
+    <description>Price Rule calculates the Effective Daily Rate after discounts (Monthly rate after discounts / Days in Month)</description>
+    <inlineHelpText>Price Rule calculates the Effective Daily Rate after discounts (Monthly rate after discounts / Days in Month)</inlineHelpText>
+    <label>Daily Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

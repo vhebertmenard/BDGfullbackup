@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Short reference for the partnership --></help>
+        <label><!-- Acronym --></label>
+        <name>Acronym__c</name>
+    </CustomFieldTranslation>

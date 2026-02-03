@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Company performing Engineering, Procurement and Construction --></help>
+        <label><!-- EPC --></label>
+        <name>EPC__c</name>
+        <relationshipLabel><!-- Projects (EPC) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>New Auto Response Email Rules</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Sales_Region__c</field>
+                <operation>equals</operation>
+                <value>WFS CA</value>
+            </criteriaItems>
+            <senderEmail>kleitch@blackdiamondgroup.com</senderEmail>
+            <senderName>Kimberley Leitch</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic_WFS</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Sales_Region__c</field>
+                <operation>equals</operation>
+                <value>WFS US</value>
+            </criteriaItems>
+            <senderEmail>kleitch@blackdiamondgroup.com</senderEmail>
+            <senderName>Kimberley Leitch</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic_WFS</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Brand_Code__c</field>
+                <operation>equals</operation>
+                <value>MPA</value>
+            </criteriaItems>
+            <senderEmail>dstrong@mpasystems.com</senderEmail>
+            <senderName>David Strong</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic_No_ISRep</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>cridley@britco.com</value>
+            </criteriaItems>
+            <senderEmail>cridley@britco.com</senderEmail>
+            <senderName>Chris Ridley</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Language__c</field>
+                <operation>equals</operation>
+                <value>fr-ca</value>
+            </criteriaItems>
+            <senderEmail>jprovencher@boxxmodular.com</senderEmail>
+            <senderName>Jonathan Provencher</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic_fr</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Business_Line__c</field>
+                <operation>equals</operation>
+                <value>WFS</value>
+            </criteriaItems>
+            <senderEmail>kleitch@blackdiamondgroup.com</senderEmail>
+            <senderName>Kimberley Leitch</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic_WFS</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>khoberg@blackdiamondgroup.com</value>
+            </criteriaItems>
+            <senderEmail>khoberg@blackdiamondgroup.com</senderEmail>
+            <senderName>Kennet Hoberg</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>nvarvis@boxxmodular.com</value>
+            </criteriaItems>
+            <senderEmail>nvarvis@boxxmodular.com</senderEmail>
+            <senderName>Nicholas Varvis</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>rnagel@boxxmodular.com</value>
+            </criteriaItems>
+            <senderEmail>rnagel@boxxmodular.com</senderEmail>
+            <senderName>Ryan Nagel</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>rhaughey@boxxmodular.com</value>
+            </criteriaItems>
+            <senderEmail>rhaughey@boxxmodular.com</senderEmail>
+            <senderName>Rebecca Haughey</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic_No_ISRep</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>striche@boxxmodular.com</value>
+            </criteriaItems>
+            <senderEmail>striche@boxxmodular.com</senderEmail>
+            <senderName>Sandy Triche</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>apwiebe@britco.com</value>
+            </criteriaItems>
+            <senderEmail>apwiebe@britco.com</senderEmail>
+            <senderName>Amy Wiebe</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>ktipper@britco.com</value>
+            </criteriaItems>
+            <senderEmail>ktipper@britco.com</senderEmail>
+            <senderName>Katie Tipper</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>mevans@britco.com</value>
+            </criteriaItems>
+            <senderEmail>mevans@britco.com</senderEmail>
+            <senderName>Monice Evans</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>mlodes@boxxmodular.com</value>
+            </criteriaItems>
+            <senderEmail>mlodes@boxxmodular.com</senderEmail>
+            <senderName>Mike Lodes</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>lburchfield@boxxmodular.com</value>
+            </criteriaItems>
+            <senderEmail>lburchfield@boxxmodular.com</senderEmail>
+            <senderName>Lee Burchfield</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>ssullivan@boxxmodular.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Language__c</field>
+                <operation>equals</operation>
+                <value>en-ca</value>
+            </criteriaItems>
+            <senderEmail>ssullivan@boxxmodular.com</senderEmail>
+            <senderName>Sarah Sullivan</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>dbrowning@britco.com</value>
+            </criteriaItems>
+            <senderEmail>dbrowning@britco.com</senderEmail>
+            <senderName>David Browning</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>eledi@boxxmodular.com</value>
+            </criteriaItems>
+            <senderEmail>eledi@boxxmodular.com</senderEmail>
+            <senderName>Ernest Ledi</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>hweatherlyjr@boxxmodular.com</value>
+            </criteriaItems>
+            <senderEmail>hweatherlyjr@boxxmodular.com</senderEmail>
+            <senderName>Harold Weatherly Jr.</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>stephanie@spectrummodular.com</value>
+            </criteriaItems>
+            <senderEmail>stephanie@spectrummodular.com</senderEmail>
+            <senderName>Stephanie Christian</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>ntaylor@boxxmodular.com</value>
+            </criteriaItems>
+            <senderEmail>ntaylor@boxxmodular.com</senderEmail>
+            <senderName>Nathan Taylor</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>cbalsley@boxxmodular.com</value>
+            </criteriaItems>
+            <senderEmail>cbalsley@boxxmodular.com</senderEmail>
+            <senderName>Cheree Balsley</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>dfoster@boxxmodular.com</value>
+            </criteriaItems>
+            <senderEmail>dfoster@boxxmodular.com</senderEmail>
+            <senderName>Doug Foster</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>rmartinez@boxxmodular.com</value>
+            </criteriaItems>
+            <senderEmail>rmartinez@boxxmodular.com</senderEmail>
+            <senderName>Robert Martinez</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+                <value>jdibenedetto@boxxmodular.com</value>
+            </criteriaItems>
+            <senderEmail>jdibenedetto@boxxmodular.com</senderEmail>
+            <senderName>Jack DiBenedetto</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Website_Source__c</field>
+                <operation>equals</operation>
+                <value>AUS Website</value>
+            </criteriaItems>
+            <senderEmail>info@blackdiamondgroup.com.au</senderEmail>
+            <senderName>Black Diamond Australia</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic_No_ISRep</template>
+        </ruleEntry>
+        <ruleEntry>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Lead.Sales_Region__c</field>
+                <operation>equals</operation>
+                <value>MSS - South East</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Inside_Sales_Rep_Email__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+            <senderEmail>info@boxxmodular.com</senderEmail>
+            <senderName>BOXX Modular</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic_No_ISRep</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Vanguard</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.Sales_Region__c</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+            <senderEmail>mmeyers@vanguardmodular.com</senderEmail>
+            <senderName>Mark Meyers</senderName>
+            <template>New_Lead_Templates/Customer_on_New_Lead_Automatic_Vanguard</template>
+        </ruleEntry>
+    </autoResponseRule>
+    <autoResponseRule>
+        <fullName>Web Lead</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>equals</operation>
+                <value>Britco Website</value>
+            </criteriaItems>
+            <senderEmail>info@britco.com</senderEmail>
+            <senderName>Britco Sales Team</senderName>
+            <template>Britco_Templates/Britco_Auto_Response_HTML</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>equals</operation>
+                <value>BOXXCA Website</value>
+            </criteriaItems>
+            <senderEmail>info@boxxmodular.com</senderEmail>
+            <senderName>BOXX Modular</senderName>
+            <template>BOXX_Templates/BOXXCA_Auto_Response_HTML</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>equals</operation>
+                <value>BOXXUS Website</value>
+            </criteriaItems>
+            <senderEmail>info@boxxmodular.com</senderEmail>
+            <senderName>BOXX Modular</senderName>
+            <template>BOXX_Templates/BOXXUS_Auto_Response_HTML</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>equals</operation>
+                <value>ESCA Website</value>
+            </criteriaItems>
+            <senderEmail>info@blackdiamondgroup.com</senderEmail>
+            <senderName>Black Diamond Group</senderName>
+            <template>WFS_Templates/ESCA_Auto_Response_HTML</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>equals</operation>
+                <value>ESUS Website</value>
+            </criteriaItems>
+            <senderEmail>info@blackdiamondgroup.com</senderEmail>
+            <senderName>Black Diamond Group</senderName>
+            <template>WFS_Templates/ESUS_Auto_Response_HTML</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>equals</operation>
+                <value>Camps Website</value>
+            </criteriaItems>
+            <senderEmail>info@blackdiamondgroup.com</senderEmail>
+            <senderName>Black Diamond Group</senderName>
+            <template>WFS_Templates/Camps_Auto_Response_HTML</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>equals</operation>
+                <value>AUS Website</value>
+            </criteriaItems>
+            <senderEmail>info@blackdiamondgroup.com</senderEmail>
+            <senderName>Black Diamond Group</senderName>
+            <template>AUS_Templates/AUS_Auto_Response_HTML</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>equals</operation>
+                <value>MPA Website</value>
+            </criteriaItems>
+            <senderEmail>info@mpasystems.com</senderEmail>
+            <senderName>MPA Systems</senderName>
+            <template>MPA_Templates/MPA_Auto_Response_HTML</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

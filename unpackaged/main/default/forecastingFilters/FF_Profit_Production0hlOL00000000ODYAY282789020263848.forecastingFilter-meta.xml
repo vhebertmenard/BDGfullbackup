@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingFilter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterLogic>1</filterLogic>
+    <forecastingType>Profit_Production</forecastingType>
+    <forecastingTypeSource>FTS_Profit_Production7syOL0000000085YAA896186100630187</forecastingTypeSource>
+    <isProtected>false</isProtected>
+    <masterLabel>FF_Profit_Production0hlOL00000000ODYAY282789020263848</masterLabel>
+</ForecastingFilter>

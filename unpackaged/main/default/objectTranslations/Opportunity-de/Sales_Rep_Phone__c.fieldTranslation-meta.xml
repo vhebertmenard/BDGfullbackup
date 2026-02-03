@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Phone number of Sales Rep for Outreach --></help>
+        <label><!-- Sales Rep Phone --></label>
+        <name>Sales_Rep_Phone__c</name>
+    </CustomFieldTranslation>

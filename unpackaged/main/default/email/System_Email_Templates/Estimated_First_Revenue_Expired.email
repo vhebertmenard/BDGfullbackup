@@ -1,0 +1,2 @@
+The date identified as “Estimated First Revenue Date”, on opportunity {!Opportunity.Name}, closed on {!Opportunity.CloseDate}, has passed.  Please validate the status of the project with the operations/contracts team and contact the client for a follow-up.
+Link to Opportunity: {!Opportunity.Link}

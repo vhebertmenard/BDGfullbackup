@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__CloneWithRelatedClassic</fullName>
+    <availability>online</availability>
+    <description>Clones this usage rate card with related child records.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Clone with Related</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR($Action.SBQQ__UsageRateCard__c.Clone, SBQQ__UsageRateCard__c.Id, [retURL=$Site.Prefix &amp; '/' &amp; SBQQ__UsageRateCard__c.Id,saveURL=$Site.Prefix &amp; '/apex/SBQQ__CloneUsageRateCardRelated?id=' &amp; SBQQ__UsageRateCard__c.Id])}</url>
+</WebLink>

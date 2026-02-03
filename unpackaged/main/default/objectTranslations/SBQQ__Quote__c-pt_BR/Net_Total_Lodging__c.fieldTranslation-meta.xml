@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Net total of all quote lines where Transaction Category = Lodging, excl Optional. --></help>
+        <label><!-- Net Total Lodging --></label>
+        <name>Net_Total_Lodging__c</name>
+    </CustomFieldTranslation>

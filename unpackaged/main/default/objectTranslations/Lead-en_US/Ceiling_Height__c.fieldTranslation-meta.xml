@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Ceiling Height --></label>
+        <name>Ceiling_Height__c</name>
+        <picklistValues>
+            <masterLabel>8 ft or less</masterLabel>
+            <translation><!-- 8 ft or less --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More than 8 ft</masterLabel>
+            <translation><!-- More than 8 ft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select One</masterLabel>
+            <translation><!-- Select One --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

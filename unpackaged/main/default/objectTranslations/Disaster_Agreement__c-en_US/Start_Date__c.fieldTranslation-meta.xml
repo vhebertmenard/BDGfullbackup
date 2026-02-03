@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The start date for this contract --></help>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </CustomFieldTranslation>

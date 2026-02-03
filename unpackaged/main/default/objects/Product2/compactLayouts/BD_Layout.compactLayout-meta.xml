@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Layout</fullName>
+    <fields>Family</fields>
+    <fields>Name</fields>
+    <fields>Day_Rate__c</fields>
+    <fields>ProductCode</fields>
+    <fields>CreatedById</fields>
+    <label>BD Layout</label>
+</CompactLayout>

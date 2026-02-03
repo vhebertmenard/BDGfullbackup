@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Black Diamond Group Logo - 20k</description>
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>logo, Black Diamond</keywords>
+    <name>BD Logo</name>
+    <public>true</public>
+</Document>

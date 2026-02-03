@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Extention --></label>
+        <name>Extention__c</name>
+        <picklistValues>
+            <masterLabel>Day-to-Day</masterLabel>
+            <translation><!-- Day-to-Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month-to-Month</masterLabel>
+            <translation><!-- Month-to-Month --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

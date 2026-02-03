@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2024 - Jerry visits AR</name>
+    <style>none</style>
+    <subject>On-Site in {!Contact.MailingCity}: Schedule a Face-to-Face Meeting!</subject>
+    <textOnly>Hello! Our modular expert, Jerry Schultz, will be in {!Contact.MailingCity}, AR on Friday, August 30th. If {!Account.Name} has any upcoming needs, he would love to stop by for a face-to-face meeting to discuss how our modular building solutions can support your goals.
+
+
+To connect with Jerry Schultz:
+
+--&gt; Reply to this email
+
+--&gt; Call 504-201-4006
+
+
+
+We are here to help!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

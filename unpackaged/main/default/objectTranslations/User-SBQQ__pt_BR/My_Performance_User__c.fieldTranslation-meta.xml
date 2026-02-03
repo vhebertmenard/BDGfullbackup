@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- My Performance reporting and dashboards --></help>
+        <label><!-- My Performance User --></label>
+        <name>My_Performance_User__c</name>
+    </CustomFieldTranslation>

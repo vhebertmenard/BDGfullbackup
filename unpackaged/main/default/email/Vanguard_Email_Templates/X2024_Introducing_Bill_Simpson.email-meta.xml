@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2024 - Introducing Bill Simpson</name>
+    <style>none</style>
+    <subject>Introducing Your New Contact For {!Account.Name}</subject>
+    <textOnly>Hi! We are excited to announce Bill Simpson as your new dedicated point of contact for all your commercial modular space needs.  Bill is highly experienced with decades of modular experience and successful projects. His expertise will ensure you receive exceptional communication, service, and support in fulfillment of your modular space needs.
+
+Here are some of the types of space Bill can assist you with:
+Offices
+https://www.boxxmodular.com/offices/
+Classrooms
+https://www.boxxmodular.com/classrooms/
+Specialty Buildings
+https://www.boxxmodular.com/specialty/
+
+Bill is looking forward to connecting with you!  For your convenience, here
+is his contact information:
+Bill Simpson
+bsimpson@boxxmodular.com
+(770) 508-3930
+
+If you need more space now, or are considering modular solutions for the
+future, reach out to discuss some options.
+We are here to help!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

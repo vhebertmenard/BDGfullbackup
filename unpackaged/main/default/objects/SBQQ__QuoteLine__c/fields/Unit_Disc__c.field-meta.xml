@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Disc__c</fullName>
+    <description>Additional Disc per Unit, Additional Disc divided by Term, Qty (and Billable Days for ES)</description>
+    <formula>IF ( SBQQ__AdditionalDiscount__c = 0, NULL,
+
+SBQQ__AdditionalDiscount__c / Subscription_Term_Quote__c /  SBQQ__Quantity__c /
+IF ( SBQQ__Quote__r.Region__c = "ES Canada" ,  SBQQ__Quote__r.Days_in_Month__c , 
+IF ( SBQQ__Quote__r.Region__c = "ES US" , SBQQ__Quote__r.Days_in_Month__c , 
+
+1)))</formula>
+    <inlineHelpText>Additional Disc per Unit</inlineHelpText>
+    <label>Unit Disc</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

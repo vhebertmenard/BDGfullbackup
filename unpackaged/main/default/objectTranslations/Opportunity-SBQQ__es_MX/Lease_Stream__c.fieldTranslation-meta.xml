@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Rental Rate (Monthly) (Quote) * Term Length (months) --></help>
+        <label><!-- Lease Stream --></label>
+        <name>Lease_Stream__c</name>
+    </CustomFieldTranslation>

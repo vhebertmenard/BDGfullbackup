@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Verwenden Sie "Komponente", wenn diese Option, einschließlich der Menge von der übergeordneten Komponente abhängen. Wählen Sie "Zubehör", wenn diese Option zwar von der übergeordneten Komponente abhängt, die Menge jedoch unabhängig ist. Verwenden Sie "Zugehöriges Produkt" für zugehörige, doch völlig unabhängige Produkte.</help>
+        <label><!-- Type --></label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Accessory</masterLabel>
+            <translation>Zubehör</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Component</masterLabel>
+            <translation>Komponente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Product</masterLabel>
+            <translation>Zugehöriges Produkt</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Shows the Quote Line Net Total if the Product Type is Operations &amp; is not a subscription product --></help>
+        <label><!-- Net Total OneTime --></label>
+        <name>NetTotal_OneTime__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Difference between Net Total price and the Net Cost of Sale, SubLease and Operations line items --></help>
+        <label><!-- Margin Amount --></label>
+        <name>Margin_Amount__c</name>
+    </CustomFieldTranslation>

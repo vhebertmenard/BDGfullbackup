@@ -1,0 +1,1 @@
+This is a reminder for renewal as identified for {!Opportunity.Name}, closed on {!Opportunity.CloseDate}.  Please follow-up with the client to discuss renewal options.  For more information on this opportunity, please refer to: {!Opportunity.Link}.

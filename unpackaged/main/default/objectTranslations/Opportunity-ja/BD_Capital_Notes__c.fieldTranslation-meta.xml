@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Black Diamond Capital opportunity notes --></help>
+        <label><!-- BD Capital Notes --></label>
+        <name>BD_Capital_Notes__c</name>
+    </CustomFieldTranslation>

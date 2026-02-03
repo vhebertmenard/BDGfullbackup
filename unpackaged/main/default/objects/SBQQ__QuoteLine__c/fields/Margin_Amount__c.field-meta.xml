@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Margin_Amount__c</fullName>
+    <description>Difference between Net Total price and the Net Cost of Sale, Sublease and Operations line items
+Rental, Insurance, Consumable, Carry-On, Bundled Sale items are NULL
+Subrental, Ops, Sale are NetPrice less Total Cost</description>
+    <formula>IF( TEXT(SBQQ__PricingMethod__c) = "List", NULL, SBQQ__NetPrice__c * SBQQ__Quantity__c - 
+CASE(Trans_Category__c,  
+"Sale", IF( SBQQ__Bundled__c = FALSE,  Total_Cost_of_Non_Rental__c , NULL) , 
+"Rental", NULL , 
+"Rental Cost", NULL, Total_Cost_of_Non_Rental__c))</formula>
+    <inlineHelpText>Difference between Net Total price and the Net Cost of Sale, SubLease and Operations line items</inlineHelpText>
+    <label>Margin Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

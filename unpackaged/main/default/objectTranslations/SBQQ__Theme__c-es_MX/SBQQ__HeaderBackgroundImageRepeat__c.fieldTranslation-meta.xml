@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Establece si se debe repetir la imagen del fondo del encabezado de páginas y el modo de hacerlo. (Haga clic en el icono para obtener información adicional.)</help>
+        <label><!-- Header Background Image Repeat --></label>
+        <name>SBQQ__HeaderBackgroundImageRepeat__c</name>
+        <picklistValues>
+            <masterLabel>inherit</masterLabel>
+            <translation>heredar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>initial</masterLabel>
+            <translation>inicial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>no-repeat</masterLabel>
+            <translation>no repetir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>repeat</masterLabel>
+            <translation>repetir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>repeat-x</masterLabel>
+            <translation>repetir-x</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>repeat-y</masterLabel>
+            <translation>repetir-y</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

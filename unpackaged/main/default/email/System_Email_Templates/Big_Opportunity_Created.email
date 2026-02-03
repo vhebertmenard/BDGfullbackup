@@ -1,0 +1,11 @@
+Please note, a sales opportunity in excess of $10 Million has been identified for {!Opportunity.Branch__c}.
+
+        Client: {!Opportunity.Account}
+        Name: {!Opportunity.Name}
+        Estimated Revenue: {!Opportunity.Estimated_Contract_Value__c}
+        Type: {!Opportunity.Transaction_Type__c}
+        Bid Submission Due Date: {!Opportunity.Bid_Submission_Due_Date__c}
+        Aboriginal Partnership: {!Opportunity.Aboriginal_Partnership__c}
+
+For more information regarding this opportunity, please contact {!Opportunity.OwnerFullName}, or review here: 
+{!Opportunity.Link}

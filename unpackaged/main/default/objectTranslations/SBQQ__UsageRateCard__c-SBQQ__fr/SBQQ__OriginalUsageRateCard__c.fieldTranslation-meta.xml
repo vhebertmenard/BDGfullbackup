@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The usage rate card that you cloned to create this usage rate card --></help>
+        <label>Carte de taux d'utilisation d'origine</label>
+        <name>SBQQ__OriginalUsageRateCard__c</name>
+        <relationshipLabel>Cartes de taux d'utilisation (carte de taux d'utilisation d'origine)</relationshipLabel>
+    </CustomFieldTranslation>

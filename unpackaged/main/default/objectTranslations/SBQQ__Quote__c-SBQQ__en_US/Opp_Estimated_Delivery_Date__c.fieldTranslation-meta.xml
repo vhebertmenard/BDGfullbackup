@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Reads Estimated Delivery Date field from the Opportunity. Needed for Conga report issue --></help>
+        <label><!-- Estimated Delivery Date (Opp) --></label>
+        <name>Opp_Estimated_Delivery_Date__c</name>
+    </CustomFieldTranslation>

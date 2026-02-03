@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_19073621</developerName>
+        <masterLabel>Region</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>User*User$BDG_Department__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>MSS East</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS Canada East</sourceValue>
+            </sourceValues>
+            <value>Canada East</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>MSS Prairies</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS Pacific</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS Canada West</sourceValue>
+            </sourceValues>
+            <value>Canada West</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>MSS US</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS US MP</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS US Vanguard</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MPA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS US East</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS US Southwest</sourceValue>
+            </sourceValues>
+            <value>US</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Corporate</sourceValue>
+            </sourceValues>
+            <value>Canada</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>User.Lead$OwnerId$Owner</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Name</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Title</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Sales_Region__c</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Company</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Email</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$LeadSource</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Description</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Industry</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Industry_Segment__c</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Opportunity_Province_State_Territory__c</field>
+    </columns>
+    <columns>
+        <field>User*User$BDG_Department__c</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Division__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Leads created this year and last by region</description>
+    <filter>
+        <criteriaItems>
+            <column>User.Lead$OwnerId$Business_Line__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>MSS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User*User$BDG_Division__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Modular Solutions</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.Lead$OwnerId$LeadSource</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Website,360MobileOffice,Website - Lead Forensics,Website - Used,Website - Social Media,Website - Search Engine,Website - Building Decals,Website - Referral,Website - Advertisement (Print),Website - Email Blast</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_19073621</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>User*User$BDG_Branch__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>User.Lead$OwnerId$Status</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>MSS Leads by Business Region</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Leads_with_Users__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>User.Lead$OwnerId$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2024 - Mobile Offices - Hurricane Beryl</name>
+    <style>none</style>
+    <subject>Ready-to-Deploy Mobile Offices for {!Account.Name}</subject>
+    <textOnly>Hello! As restoration begins after Hurricane Beryl, having a reliable workspace on-site is crucial. Our mobile offices are the perfect solution, providing immediate, flexible, and efficient space for your needs.
+
+
+Visit our website today to explore our complete selection of modular solutions:
+--&gt;View mobile offices
+https://www.boxxmodular.com/offices/mobile/
+
+
+To connect with us for more information:
+--&gt; Reply to this email
+
+--&gt; Request a quote on our website
+https://www.boxxmodular.com/quote-request/
+
+--&gt; Call 877-966-7839 to speak with one of our local experts
+
+
+We are here to help!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

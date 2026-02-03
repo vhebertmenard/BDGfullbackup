@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Products --></label>
+        <name>Products__c</name>
+        <picklistValues>
+            <masterLabel>Abrasives</masterLabel>
+            <translation><!-- Abrasives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hand accessories</masterLabel>
+            <translation><!-- Hand accessories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Power tools</masterLabel>
+            <translation><!-- Power tools --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

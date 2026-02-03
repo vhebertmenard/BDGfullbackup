@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- When Transaction Type is &quot;Lodging&quot;, distinguish whether BD or LodgeLink will contract --></help>
+        <label><!-- Handover Type (Lodging) --></label>
+        <name>Handover_Type__c</name>
+        <picklistValues>
+            <masterLabel>BD Direct</masterLabel>
+            <translation><!-- BD Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LodgeLink</masterLabel>
+            <translation><!-- LodgeLink --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

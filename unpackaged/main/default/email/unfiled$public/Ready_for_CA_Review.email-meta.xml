@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Ready for CA Review Template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Ready for CA Review</name>
+    <style>none</style>
+    <subject>Opportunity with Contract #: {!Opportunity.Contract_Number__c} has been submitted for CA Review</subject>
+    <textOnly>Account: {!Opportunity.Account_Name_Text__c} Opportunity: {!Opportunity.Account_Name_Text__c} Branch: {!Opportunity.Branch_Name_Text__c}
+
+Sales Rep: {!Opportunity.Sales_Rep_Name__c} Contract Value: {!Opportunity.Contract_Value__c} | {!Opportunity.Actual_Contract_Value__c} Link to the Opportunity: {!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

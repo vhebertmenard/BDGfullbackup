@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Credit Determination --></label>
+        <name>Credit_Determination__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More Information Required</masterLabel>
+            <translation><!-- More Information Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Payment Required</masterLabel>
+            <translation><!-- Pre-Payment Required --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

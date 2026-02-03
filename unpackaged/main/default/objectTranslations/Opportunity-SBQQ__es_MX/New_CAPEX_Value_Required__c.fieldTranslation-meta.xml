@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter the amount of CAPEX required for this opportunity.  If no CAPEX is required, enter $0 --></help>
+        <label><!-- New CAPEX Value Required --></label>
+        <name>New_CAPEX_Value_Required__c</name>
+    </CustomFieldTranslation>

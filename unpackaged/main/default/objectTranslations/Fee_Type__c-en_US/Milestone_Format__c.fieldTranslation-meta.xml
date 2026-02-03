@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Milestone Format --></label>
+        <name>Milestone_Format__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25/60/15</masterLabel>
+            <translation><!-- 25/60/15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25/65/10</masterLabel>
+            <translation><!-- 25/65/10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30/60/10</masterLabel>
+            <translation><!-- 30/60/10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50/50</masterLabel>
+            <translation><!-- 50/50 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

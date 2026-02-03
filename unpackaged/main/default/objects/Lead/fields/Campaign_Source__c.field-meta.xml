@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Source__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Used to map to Primary Campaign Source on Opportunity at Convert</description>
+    <inlineHelpText>Select Campaign related to this Lead</inlineHelpText>
+    <label>Campaign Source</label>
+    <referenceTo>Campaign</referenceTo>
+    <relationshipLabel>Leads</relationshipLabel>
+    <relationshipName>Leads</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

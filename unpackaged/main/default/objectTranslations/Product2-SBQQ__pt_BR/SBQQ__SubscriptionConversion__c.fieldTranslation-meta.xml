@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates how this Product is converted to Subscriptions --></help>
+        <label>Conversão de assinatura</label>
+        <name>SBQQ__SubscriptionConversion__c</name>
+        <picklistValues>
+            <masterLabel>One per subscribed asset</masterLabel>
+            <translation><!-- One per subscribed asset --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

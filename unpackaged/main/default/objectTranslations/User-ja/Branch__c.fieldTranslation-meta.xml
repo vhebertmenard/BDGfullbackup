@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Branch --></label>
+        <name>Branch__c</name>
+        <picklistValues>
+            <masterLabel>Austin, TX</masterLabel>
+            <translation><!-- Austin, TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calgary, AB</masterLabel>
+            <translation><!-- Calgary, AB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denver, CO</masterLabel>
+            <translation><!-- Denver, CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Houston, TX</masterLabel>
+            <translation><!-- Houston, TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lewisville, TX</masterLabel>
+            <translation><!-- Lewisville, TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Dakota</masterLabel>
+            <translation><!-- North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stoney Creek, ON</masterLabel>
+            <translation><!-- Stoney Creek, ON --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

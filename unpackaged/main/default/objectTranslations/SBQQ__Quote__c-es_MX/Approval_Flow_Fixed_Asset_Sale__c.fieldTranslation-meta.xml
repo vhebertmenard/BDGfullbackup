@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates which approval flow to run for Fixed Asset Sales --></help>
+        <label><!-- Approval Flow: Fixed Asset Sale --></label>
+        <name>Approval_Flow_Fixed_Asset_Sale__c</name>
+    </CustomFieldTranslation>

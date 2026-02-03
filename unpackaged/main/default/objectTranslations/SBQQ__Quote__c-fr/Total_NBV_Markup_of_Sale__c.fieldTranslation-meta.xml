@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Markup % of Sale and Carry On lines where &quot;New Unit&quot; or &quot;New Carry On&quot; is not selected in Unit No. --></help>
+        <label><!-- Total NBV Markup % of Sale --></label>
+        <name>Total_NBV_Markup_of_Sale__c</name>
+    </CustomFieldTranslation>

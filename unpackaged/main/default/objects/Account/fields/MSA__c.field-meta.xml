@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MSA__c</fullName>
+    <label>MSA</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nutrien</fullName>
+                <default>false</default>
+                <label>Nutrien</label>
+            </value>
+            <value>
+                <fullName>Kiewit</fullName>
+                <default>false</default>
+                <label>Kiewit</label>
+            </value>
+            <value>
+                <fullName>Stuard Bird</fullName>
+                <default>false</default>
+                <label>Stuard Bird</label>
+            </value>
+            <value>
+                <fullName>Graham</fullName>
+                <default>false</default>
+                <label>Graham</label>
+            </value>
+            <value>
+                <fullName>Aecon</fullName>
+                <default>false</default>
+                <label>Aecon</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

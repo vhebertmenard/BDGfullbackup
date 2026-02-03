@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used to prorate eligible products by days (default is 30.4). For WFS, combined with Term. --></help>
+        <label><!-- Billable Days --></label>
+        <name>Days_in_Month__c</name>
+    </CustomFieldTranslation>

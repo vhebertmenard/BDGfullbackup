@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total Margin Amount divided by Total Sale, Operations, Carry On Sale and Sublease Amounts --></help>
+        <label><!-- Total Margin % --></label>
+        <name>Total_Margin_Percent__c</name>
+    </CustomFieldTranslation>

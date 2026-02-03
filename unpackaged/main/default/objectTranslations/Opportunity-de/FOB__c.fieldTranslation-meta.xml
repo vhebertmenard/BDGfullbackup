@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Yard where units are to be picked up from. --></help>
+        <label><!-- Ex Works --></label>
+        <name>FOB__c</name>
+    </CustomFieldTranslation>

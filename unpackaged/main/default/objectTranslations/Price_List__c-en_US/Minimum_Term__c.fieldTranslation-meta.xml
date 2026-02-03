@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Minimum Rental Term for this Product --></help>
+        <label><!-- Minimum Term --></label>
+        <name>Minimum_Term__c</name>
+    </CustomFieldTranslation>

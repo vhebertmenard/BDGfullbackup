@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Contract Number (built from the Opp ID and Branch code) --></help>
+        <label><!-- Contract # --></label>
+        <name>Contract_Number__c</name>
+    </CustomFieldTranslation>

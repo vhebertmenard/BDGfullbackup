@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- A La Carte - Delivery Net Total --></label>
+        <name>A_La_Carte_Delivery_Net_Total__c</name>
+    </CustomFieldTranslation>

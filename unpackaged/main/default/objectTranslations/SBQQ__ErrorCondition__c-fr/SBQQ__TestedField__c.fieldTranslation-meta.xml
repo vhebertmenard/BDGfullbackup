@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Champ de l'objet Devis qui doit être utilisé lors du test de cette condition.</help>
+        <label><!-- Tested Field --></label>
+        <name>SBQQ__TestedField__c</name>
+        <picklistValues>
+            <masterLabel>Branch__c</masterLabel>
+            <translation><!-- Branch__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group Line Items</masterLabel>
+            <translation>Éléments de ligne de groupe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major_Project__c</masterLabel>
+            <translation><!-- Major_Project__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__BillingCountry__c</masterLabel>
+            <translation><!-- SBQQ__BillingCountry__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction_Type__c</masterLabel>
+            <translation><!-- Transaction_Type__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Price</masterLabel>
+            <translation>Prix unitaire</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

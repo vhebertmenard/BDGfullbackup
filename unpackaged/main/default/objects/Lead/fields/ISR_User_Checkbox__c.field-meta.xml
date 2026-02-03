@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISR_User_Checkbox__c</fullName>
+    <description>Is ISR User?</description>
+    <formula>Inside_Sales_Rep_Email__c  =  $User.Email</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Is ISR User?</inlineHelpText>
+    <label>ISR User Checkbox</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NS_Industry_ID__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case(  Industry_Segment__c ,
+'Transportation and Warehousing','1',
+'Utilities','2',
+'Commercial/Industrial','3',
+'Residential','4',
+'Discretionary (excl Travel Management)','5',
+'Staples','6',
+'Private','7',
+'Public','8',
+'Clean and Renewable','9',
+'Oil and Gas Downstream (Refineries/Petrochemicals)','10',
+'Oil and Gas Midstream (Infrastructure, Pipelines, Facilities)','11',
+'Oil and Gas Upstream - Completions','12',
+'Oil and Gas Upstream - Drilling','13',
+'Oil and Gas Upstream - Other','14',
+'Defense (Naval Bases, Air Force Bases, Army Bases)','15',
+'Indigenous','16',
+'Other Government (excl Education, Healthcare, Indigenous)','17',
+'Healthcare, Emergency Response and Social Services','18',
+'Coal','20',
+'Metals (Gold, Copper, Silver, Iron)','21',
+'Non-Metals (excl Coal)','22',
+'Other Mining','23',
+'Agriculture (incl Forestry)','24',
+'Manufacturing','25',
+'Other','26',
+'Travel Management','27',
+'Information and Professional Services (excl Travel Management)','28',
+'Religious Organizations','29',
+'19'
+)</formula>
+    <label>NS Industry ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

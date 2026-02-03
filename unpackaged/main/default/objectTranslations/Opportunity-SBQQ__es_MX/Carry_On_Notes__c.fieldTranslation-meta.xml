@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- List of Carry On needed for each Unit. Primarily used by MSS Langley Fleet Administrator. --></help>
+        <label><!-- Carry On Notes --></label>
+        <name>Carry_On_Notes__c</name>
+    </CustomFieldTranslation>

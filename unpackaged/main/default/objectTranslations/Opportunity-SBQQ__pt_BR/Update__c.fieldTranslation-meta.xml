@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter the most recent update for this opportunity. Replace the previous update and view the history of these changes in the related activity list. --></help>
+        <label><!-- Update --></label>
+        <name>Update__c</name>
+    </CustomFieldTranslation>

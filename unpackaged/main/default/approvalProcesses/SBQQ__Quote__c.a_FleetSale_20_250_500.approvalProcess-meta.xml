@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>SBQQ__Account__c</field>
+        <field>SBQQ__Opportunity2__c</field>
+        <field>SBQQ__NetAmount__c</field>
+        <field>Transaction_Type__c</field>
+        <field>Transaction_Type_Detail__c</field>
+        <field>T_C__c</field>
+        <field>SBQQ__SalesRep__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Approver_I__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Approval Level I</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.Approver_I__c</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>BM - Fleet Sale =&gt;20% =&gt;$250&lt;500K</label>
+        <name>BM_FleetSale_20_250_500</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Approver_G__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Approval Level G</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.Approver_G__c</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>RM - Fleet Sale =&gt;20% =&gt;$250&lt;500K</label>
+        <name>RM_FleetSale_20_250_500</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Approver_F__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Approval Level F (Non-Standard Legal)</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.T_C__c</field>
+                <operation>equals</operation>
+                <value>Non-Standard - Legal</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>CFO - Fleet Sale =&gt;20% =&gt;$250&lt;500K</label>
+        <name>CFO_Fleet_Sale_20_250_500</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Approver_E__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Approval Level E</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.Approver_E__c</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>VP - Fleet Sale =&gt;20% =&gt;$250&lt;500K</label>
+        <name>VP_Sale_20_250_500</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Approver_D__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Approval Level D (for E)</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.Approver_D__c</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.Approver_E__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+        </entryCriteria>
+        <label>COO - Fleet Sale =&gt;20% =&gt;$250&lt;500K</label>
+        <name>COO_FleetSale_20_250_500</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>Capital Dispositions =&gt; 20% mark-up over $250-500 NBV
+Criteria: Rental/Sale Products $250-500K NBV, Existing Sale, No CAPEX
+Level I, G, (F,) and E</description>
+    <emailTemplate>Approval_Process/Quote_Approval_Required</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.SBQQ__NetAmount__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>&quot;CAD 250,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.SBQQ__NetAmount__c</field>
+            <operation>lessThan</operation>
+            <value>&quot;CAD 500,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.Transaction_Type_Detail__c</field>
+            <operation>equals</operation>
+            <value>Existing Fleet Sale</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.Markup_Sale_Lowest__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>20</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.CAPEX_Required__c</field>
+            <operation>equals</operation>
+            <value>No</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Quote_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Send_email_notification_of_Approval</name>
+            <type>Alert</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Change_to_Denied</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Send_email_notification_of_Rejection</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Pending_Approval</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>3 FleetSale =&gt;20% $250-500K</label>
+    <processOrder>1</processOrder>
+    <recallActions>
+        <action>
+            <name>Change_status_to_Draft</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

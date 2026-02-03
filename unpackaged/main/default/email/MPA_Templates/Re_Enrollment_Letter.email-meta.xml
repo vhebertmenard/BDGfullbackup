@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>MPA_Letterhead</letterhead>
+    <name>Re-Enrollment Letter</name>
+    <style>formalLetter</style>
+    <subject>Re-enrollment for {!Account.Name}</subject>
+    <textOnly>DATE
+
+{!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}
+{!Contact.Company_Name__c}
+{!Contact.MailingAddress}
+
+Dear {!Contact.Salutation} {!Contact.LastName}:
+
+MPA Systems has received payment for your institution’s re-enrollment into our Disaster Recovery Facilities Program for the period of STARTDATE to ENDDATE. We appreciate the trust that you have placed in our company. Disasters can occur at any time and, should you face a disaster, be assured that we will respond immediately.
+
+As always, your continued satisfaction is essential to MPA. If you should have any questions or comments regarding the Disaster Recovery Facilities Program or our building sales or lease programs, please do not hesitate to call. Also, if you should you ever need to make changes or seek additional services, we are happy to discuss your needs and to provide program options that are best suited for your institution’s security.
+
+We wish you continued success and thank you for re-enrolling in our Disaster Recovery Facilities Program.
+
+
+Sincerely,
+
+
+
+
+MPA Systems, LLC
+A Boxx Modular Co.
+Toll Free 888-233-1584
+T: 972-492-4040 |  C: 214-622-3982   F: 469-568-2134
+3475 High River Road, Fort Worth, TX  76155</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

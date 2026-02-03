@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_Override__c</fullName>
+    <description>Field to enter the cost for the certain products to override the default. 
+Used in conjunction with price rule</description>
+    <inlineHelpText>Field to enter the cost for the certain products to override the default</inlineHelpText>
+    <label>Cost Override</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

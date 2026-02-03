@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Bid/Negotiated --></label>
+        <name>Bid_Negotiated__c</name>
+        <picklistValues>
+            <masterLabel>Bid</masterLabel>
+            <translation><!-- Bid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negotiated</masterLabel>
+            <translation><!-- Negotiated --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

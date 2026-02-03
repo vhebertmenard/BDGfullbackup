@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- External Quote Line Group --></label>
+        <name>External_Quote_Line_Group__c</name>
+        <relationshipLabel><!-- Quote Line Groups (External Quote Line Group) --></relationshipLabel>
+    </CustomFieldTranslation>

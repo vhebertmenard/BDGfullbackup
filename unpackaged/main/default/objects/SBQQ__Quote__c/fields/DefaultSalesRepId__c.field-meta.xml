@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DefaultSalesRepId__c</fullName>
+    <description>Sets the Sales Rep field on the Quote by default
+https://community.steelbrick.com/t5/Get-Started-Knowledge-Base/Customizing-Default-Quote-Sales-Rep/ta-p/215</description>
+    <externalId>false</externalId>
+    <formula>SBQQ__Opportunity2__r.Sales_Rep__r.Id</formula>
+    <label>DefaultSalesRepId</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

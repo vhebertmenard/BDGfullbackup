@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_72575700</developerName>
+        <masterLabel>Region</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>OWNER_DEPARTMENT</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>MSS East</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS Canada East</sourceValue>
+            </sourceValues>
+            <value>Canada East</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>MSS Prairies</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS Pacific</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS Canada West</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Canada West</sourceValue>
+            </sourceValues>
+            <value>Canada West</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>MSS US</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS US East</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS US MP</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS US Southwest</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS US Vanguard</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MPA</sourceValue>
+            </sourceValues>
+            <value>US</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Corporate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS Canada</sourceValue>
+            </sourceValues>
+            <value>Canada</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>VerticalColumn</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>CLOSE_DATE</groupingColumn>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>false</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>User.BDG_Department__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>LEAD_SOURCE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Reason_s_Won_Lost_Cancelled__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Other_Reason__c</field>
+    </columns>
+    <columns>
+        <field>User.BDG_Branch__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Parent_Industry__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.New_Contract_or_Renewal__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Won Opps this year and last by month</description>
+    <filter>
+        <criteriaItems>
+            <column>AMOUNT</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>USD 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.BDG_Division__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Energy Services,International,Workforce Solutions</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.BDG_Department__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Corporate</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Quarter</dateGranularity>
+        <field>CLOSE_DATE</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_72575700</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>WFS - Won Opps - This Year and Last</name>
+    <params>
+        <name>open</name>
+        <value>closedwon</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_PREVCURFY</interval>
+    </timeFrameFilter>
+</Report>

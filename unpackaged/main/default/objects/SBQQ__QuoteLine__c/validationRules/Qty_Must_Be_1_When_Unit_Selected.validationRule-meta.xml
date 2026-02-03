@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qty_Must_Be_1_When_Unit_Selected</fullName>
+    <active>true</active>
+    <description>If a Unit is selected, prevent Qty &lt; 1</description>
+    <errorConditionFormula>AND( OR( Trans_Category__c = "Rental", Trans_Category__c = "Sale"), SBQQ__Quantity__c &gt; 1, Unit_Text__c &lt;&gt; "Single Unit", Unit_Text__c &lt;&gt; "Complex", Unit_Text__c &lt;&gt; "New Unit", NOT(ISBLANK( Unit__c )))</errorConditionFormula>
+    <errorDisplayField>Unit__c</errorDisplayField>
+    <errorMessage>Qty cannot be greater than 1 when a Unit is selected.</errorMessage>
+</ValidationRule>

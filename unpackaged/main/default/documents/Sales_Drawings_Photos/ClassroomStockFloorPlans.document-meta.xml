@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Standard Nortex Classroom Floor Plans including the 1844, 2464, 2860 and all standard Norplex floor plans.</description>
+    <internalUseOnly>false</internalUseOnly>
+    <name>Classroom Stock Floor Plans</name>
+    <public>false</public>
+</Document>

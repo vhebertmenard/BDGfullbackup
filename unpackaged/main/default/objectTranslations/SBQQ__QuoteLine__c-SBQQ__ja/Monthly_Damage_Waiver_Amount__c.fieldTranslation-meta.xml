@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Monthly Damage Waiver is calculated at 14% of the Monthly Amount for the quote. --></help>
+        <label><!-- Monthly Damage Waiver Amount --></label>
+        <name>Monthly_Damage_Waiver_Amount__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__URL__c</fullName>
+    <deprecated>false</deprecated>
+    <description>URL to visit 'URL' is selected as the Target Object.</description>
+    <inlineHelpText>Specify URL to navigate to. You are able to add Quote, Account, and Opportunity fields available in Quote Line Editor (API Names). Examples: http://www.steelbrick.com, http://www.yoursite.com/{!Id}, or /{!Account.Name}/ {!SBQQ__YourCustomVar__c}</inlineHelpText>
+    <label>URL</label>
+    <length>2000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

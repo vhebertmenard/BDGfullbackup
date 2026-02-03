@@ -1,0 +1,11 @@
+THIS COMMUNICATION IS INTENDED FOR INTERNAL USE ONLY.  DO NOT FORWARD TO YOUR CUSTOMER.
+
+Approval #: {!Credit_Approval__c.Name}-{!Credit_Approval__c.Credit_Approval_Dept_and_Year__c}
+Project #: {!Opportunity.Navision_Project_Number__c} - {!Opportunity.Link}
+Deal Type: {!Opportunity.Revenue_Type__c}
+Floor Count: {!Opportunity.Number_of_Floors__c}
+
+Terms:
+{!Credit_Approval__c.Credit_Approval_Terms__c}
+
+If there are issues with these terms please contact me to discuss possible alternatives.

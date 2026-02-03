@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total of all operations quote lines (Delivery, Dismantle, Installation &amp; Return), excl Optional --></help>
+        <label><!-- Total Operations Contract Value --></label>
+        <name>Total_Operations_Contract_Value__c</name>
+    </CustomFieldTranslation>

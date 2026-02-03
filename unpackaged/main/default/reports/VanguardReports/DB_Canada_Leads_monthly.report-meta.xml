@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_89784278</developerName>
+        <masterLabel>Lead Source - Consolidated</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>User.Lead$OwnerId$LeadSource</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Website</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Lead Forensics</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Used</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Social Media</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Search Engine</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Building Decals</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Referral</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Advertisement (Print)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Website - Email Blast</sourceValue>
+            </sourceValues>
+            <value>Website</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>User$Name</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Name</field>
+    </columns>
+    <columns>
+        <field>User*User$BDG_Branch__c</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Id</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Owner</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$LeadSource</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Status</field>
+    </columns>
+    <columns>
+        <field>User$StateCode</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$GCLID__c</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Website_URL__c</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Rank_EMS_Designated__c</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Company</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Vanguard_State__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>User.Lead$OwnerId$LeadSource</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Website,360MobileOffice,Website - Lead Forensics,Website - Used,Website - Social Media,Website - Search Engine,Website - Building Decals,Website - Referral,Website - Advertisement (Print),Website - Email Blast</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.Lead$OwnerId$Vanguard_State__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>BC,ab,sk,mb,on,qc,nb,pe,ns</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>User.Lead$OwnerId$CreatedDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_89784278</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>DB - Canada Leads monthly</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Leads_with_Users__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>User.Lead$OwnerId$CreatedDate</dateColumn>
+        <interval>INTERVAL_PREVCURFY</interval>
+    </timeFrameFilter>
+</Report>

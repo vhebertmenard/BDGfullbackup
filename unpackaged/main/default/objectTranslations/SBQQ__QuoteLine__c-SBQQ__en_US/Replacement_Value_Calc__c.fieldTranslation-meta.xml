@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Populated from the Replacement Value field by Process Builder flow to be used in Rollup fields --></help>
+        <label><!-- Replacement Value Calc --></label>
+        <name>Replacement_Value_Calc__c</name>
+    </CustomFieldTranslation>

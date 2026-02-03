@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicate whether the customer is providing their own Property insurance or paying our fee for property coverage. For an outline of Insurance requirements, refer to your contract&apos;s T&amp;Cs. --></help>
+        <label><!-- Property Insurance Type --></label>
+        <name>Insurance_Type__c</name>
+        <picklistValues>
+            <masterLabel>Black Diamond/BOXX Property</masterLabel>
+            <translation><!-- Black Diamond/BOXX Property --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Coverage</masterLabel>
+            <translation><!-- Customer Coverage --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

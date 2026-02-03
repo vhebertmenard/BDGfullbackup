@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sum of all the Units/Floors included in this quote --></help>
+        <label><!-- # of Rental Units --></label>
+        <name>Number_Rental_of_Units__c</name>
+    </CustomFieldTranslation>

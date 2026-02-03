@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_Rental_of_Units__c</fullName>
+    <description>Sum of all the Units/Floors included in this quote. Totals all the quote lines on a rental where the # of Floors is greater than 0</description>
+    <inlineHelpText>Sum of all the Units/Floors included in this quote</inlineHelpText>
+    <label># of Rental Units</label>
+    <summarizedField>SBQQ__QuoteLine__c.Number_of_Floors__c</summarizedField>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.Transaction_Type_Text__c</field>
+        <operation>equals</operation>
+        <value>Rental</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.SBQQ__Optional__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>SBQQ__QuoteLine__c.SBQQ__Quote__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>External project, often in the energy sector, that is the source of BD Leads and Opportunities</description>
+    <motif>Custom61: Castle</motif>
+</CustomTab>

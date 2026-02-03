@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total Margin Amount of each quote line for Unit Sale, Operations, Sublease or Carry On Sale --></help>
+        <label><!-- Total Margin Amount --></label>
+        <name>Total_Margin_Amount__c</name>
+    </CustomFieldTranslation>

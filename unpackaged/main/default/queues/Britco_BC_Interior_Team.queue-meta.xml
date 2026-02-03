@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Britco BC Interior Team</name>
+    <queueMembers>
+        <users>
+            <user>apwiebe@britco.com</user>
+            <user>awiebe@boxxmodular.com</user>
+            <user>cneufeld@boxxmodular.com</user>
+            <user>dbrowning@boxxmodular.com</user>
+            <user>kschmidt@boxxmodular.com</user>
+            <user>llee@blackdiamondgroup.com</user>
+            <user>msouthwell@boxxmodular.com</user>
+            <user>mevans@boxxmodular.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

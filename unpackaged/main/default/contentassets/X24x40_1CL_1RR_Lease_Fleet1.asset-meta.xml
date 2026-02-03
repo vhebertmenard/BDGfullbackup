@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>true</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>X24x40_1CL_1RR_Lease_Fleet1</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>24x40 - 1CL 1RR - Lease Fleet.jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

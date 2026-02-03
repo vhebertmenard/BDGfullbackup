@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Date our current prequalification with the Customer Account will expire. --></help>
+        <label><!-- Pre-Qualified Expiration --></label>
+        <name>Pre_Qualified_Expiration__c</name>
+    </CustomFieldTranslation>

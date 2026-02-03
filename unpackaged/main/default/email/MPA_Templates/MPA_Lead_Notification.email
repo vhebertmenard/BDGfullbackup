@@ -1,0 +1,29 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[A new MPA Web Lead for&nbsp;{!Lead.FirstName} {!Lead.LastName} at {!Lead.Company}]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p style="color: rgb(0, 0, 0); font-size: 12pt;"><span style="font-size: 12pt;"><font face="arial">This&nbsp;</font></span><span style="font-family: Arial, sans-serif; font-size: 12pt;">Lead has been created in Salesforce and has been assigned to&nbsp;</span><span style="font-family: Arial, sans-serif; background-color: rgb(255, 255, 255);">{!Lead.OwnerTitle}</span><span style="font-family: Arial, sans-serif; font-size: 12pt;">.</span></p><p style="color: rgb(0, 0, 0); font-size: 12pt; font-family: arial; margin: 0in 0in 0pt;"></p><ul style="color: rgb(0, 0, 0); font-size: 12pt; font-family: arial;"><li style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif"><b>{!Lead.FirstName} {!Lead.LastName}</b></font></li><li style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif">Company: <b>{!Lead.Company}</b></font></li><li style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Product:&nbsp;</font><font face="Arial, sans-serif"><b>{!Lead.Product__c}</b></font></li><li style=""><font face="Arial, sans-serif" style=""><font face="arial"><span style="font-size: 12pt;">How we can help:</span></font><br><b>{!Lead.Description}</b></font></li></ul><p style="color: rgb(0, 0, 0); font-size: 12pt; font-family: arial;"></p><p style="color: rgb(0, 0, 0); font-size: 12pt; font-family: arial; margin: 0in 0in 0pt;"><span style="font-family: Arial, sans-serif; font-size: 12pt;">Your next steps:</span></p><p style="margin: 0in 0in 0pt;"></p><ol><li><span style="font-family: Arial, sans-serif; font-size: 12pt;">Review the <a href="{!Lead.Link}">Lead here</a>.&nbsp;</span></li><li><span style="font-family: Arial, sans-serif; font-size: 12pt;">Change the Lead Owner</span></li><li><span style="font-family: Arial, sans-serif; font-size: 12pt;">Contact&nbsp;</span><font face="Arial, sans-serif">{!Lead.FirstName}&nbsp;{!Lead.LastName} at&nbsp;{!Lead.Company}</font></li><li><span style="font-family: Arial, sans-serif;">Update the Lead Status</span></li></ol><div><font face="Arial, sans-serif">Click <a href="https://bdgl.my.salesforce.com/00Q?fcf=00B0g000008eiv0">here to view all your unread Leads</a>.</font></div><div><font face="Arial, sans-serif">Need help? Review the <a href="https://bdgl.sharepoint.com/MarComm/Pages/Web2Lead.aspx">training video here</a>.</font></div><p></p><p style="color: rgb(0, 0, 0); font-size: 12pt; font-family: arial; margin: 0in 0in 0pt;"><br></p><p style="color: rgb(0, 0, 0); font-size: 12pt; font-family: arial; margin: 0in 0in 0pt;"><br></p><p style="color: rgb(0, 0, 0); font-size: 12pt; font-family: arial;"><br></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt;"></p><span style="color: rgb(13, 13, 13); font-size: 8pt;"><p style="margin: 0in 0in 0pt;"></p><font face="Calibri"><p style="margin: 0in 0in 0pt;"><strong>MPA Systems, LLC</strong><font color="#000000" face="Times New Roman" size="3">
+
+</font></p><p style="margin: 0in 0in 0pt;"><b><span style="color: rgb(13, 13, 13); font-size: 8pt;">A Boxx
+Modular Co.</span></b></p><p style="margin: 0in 0in 0pt;"><font color="#000000" face="Times New Roman" size="3">
+
+</font></p></font><p style="margin: 0in 0in 0pt;"></p></span><p style="margin: 0in 0in 0pt;"></p><p style="margin: 0in 0in 0pt;"><b><span style="color: rgb(13, 13, 13); font-size: 8pt;"><font face="Calibri">Toll Free
+888-233-1584</font></span></b></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt;"><span style="color: black; font-size: 8pt;"><font face="Calibri">T:&nbsp;
+940-458-2600 |&nbsp; C: 940-391-4662 &nbsp; F: 940-458-2700 </font></span></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 12pt;"><span style="color: black; font-size: 8pt;"><font face="Calibri">3475 High River Road, Fort Worth, TX&nbsp; 76155</font></span></p><font face="Times New Roman">
+
+</font>]]></td>
+</tr>
+</table>

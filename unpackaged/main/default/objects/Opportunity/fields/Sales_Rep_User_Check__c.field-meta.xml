@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Rep_User_Check__c</fullName>
+    <description>Checked if User is Sales Rep on Opp</description>
+    <formula>Sales_Rep__c  =  $User.Id</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checked if User is Sales Rep on Opp</inlineHelpText>
+    <label>Sales Rep User Check</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

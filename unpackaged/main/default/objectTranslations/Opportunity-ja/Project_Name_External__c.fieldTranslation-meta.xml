@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Project Name given by Owner (external to BD), e.g. Shell&apos;s &quot;LNG Canada&quot; --></help>
+        <label><!-- Project Name (External) --></label>
+        <name>Project_Name_External__c</name>
+    </CustomFieldTranslation>

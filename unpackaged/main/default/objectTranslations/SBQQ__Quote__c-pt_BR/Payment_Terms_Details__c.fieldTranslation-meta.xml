@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Further payment term details. Printed on MPA, MSS US, and MSS Canada Sales Contract documents. --></help>
+        <label><!-- Payment Terms Details --></label>
+        <name>Payment_Terms_Details__c</name>
+    </CustomFieldTranslation>

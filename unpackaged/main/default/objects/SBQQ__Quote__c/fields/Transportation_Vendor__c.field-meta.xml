@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transportation_Vendor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Transportation Vendor</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>Vendor__c.Type__c</field>
+            <operation>equals</operation>
+            <value>Transportation</value>
+        </filterItems>
+        <filterItems>
+            <field>Vendor__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </filterItems>
+        <infoMessage>Pick a transportation vendor</infoMessage>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Vendor__c</referenceTo>
+    <relationshipLabel>Quotes for Transportation</relationshipLabel>
+    <relationshipName>Quotes</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allocated_BAFE_Required</fullName>
+    <active>false</active>
+    <description>Allocated BAFE is required when BAFE is selected</description>
+    <errorConditionFormula>AND(NOT(ISBLANK( BAFE__c )), 
+ISBLANK( Allocated_BAFE__c ) ,
+ DATEVALUE(CreatedDate)  &gt;= DATE( 2022, 07, 4 )
+)</errorConditionFormula>
+    <errorDisplayField>Allocated_BAFE__c</errorDisplayField>
+    <errorMessage>Allocated BAFE is required when BAFE is selected</errorMessage>
+</ValidationRule>

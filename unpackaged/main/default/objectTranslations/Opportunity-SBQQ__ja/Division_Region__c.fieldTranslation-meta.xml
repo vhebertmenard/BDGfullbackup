@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Division / Region --></label>
+        <name>Division_Region__c</name>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camps Canada</masterLabel>
+            <translation><!-- Camps Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camps US</masterLabel>
+            <translation><!-- Camps US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES Canada</masterLabel>
+            <translation><!-- ES Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES US</masterLabel>
+            <translation><!-- ES US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LodgeLink</masterLabel>
+            <translation><!-- LodgeLink --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logistics</masterLabel>
+            <translation><!-- Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MPA</masterLabel>
+            <translation><!-- MPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSS Canada</masterLabel>
+            <translation><!-- MSS Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSS Canada East</masterLabel>
+            <translation><!-- MSS Canada East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSS Canada West</masterLabel>
+            <translation><!-- MSS Canada West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSS East</masterLabel>
+            <translation><!-- MSS East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSS Pacific</masterLabel>
+            <translation><!-- MSS Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSS Prairies</masterLabel>
+            <translation><!-- MSS Prairies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSS US</masterLabel>
+            <translation><!-- MSS US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSS US East</masterLabel>
+            <translation><!-- MSS US East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSS US MP</masterLabel>
+            <translation><!-- MSS US MP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSS US Southwest</masterLabel>
+            <translation><!-- MSS US Southwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSS US Vanguard</masterLabel>
+            <translation><!-- MSS US Vanguard --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

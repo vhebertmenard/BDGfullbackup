@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible"><style type="text/css">@media only screen and (max-width: 620px) {
+	      [id=topMessageWrapper] img {
+	        height: auto !important;
+	        max-width: 100%;
+	        width: auto;
+	      }
+          [id=topMessageWrapper],
+          [id=topMessageWrapperMainTable] {
+            width: 100% !important;
+			table-layout: fixed;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+          }
+      }@media only screen and (max-width: 450px) {
+          [id=topMessageWrapper] {
+            padding: 0 10px;
+          }
+          td[class=responsiveColumn] {
+            width: 100% !important;
+            height: auto !important;
+            display:block;
+            padding: 0;
+            clear:both;
+            height:auto;
+          }
+      }</style></head><body style="margin: 0; padding: 0;"><table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" style="background-color:#ffffff"><tbody><tr><td align="center" style="text-align:left"><table align="center" cellpadding="0" cellspacing="0" id="topMessageWrapper" style="background-color: #ffffff; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px; width: 600px; margin: 0 auto;" bgcolor="#ffffff" width="600"><tbody><tr><td>
+	<!-- BASIC TEMPLATE: HeadAndMain, a HeadMainAndFoot derivation --><table cellpadding="0" cellspacing="0" border="0" width="600" id="topMessageWrapperMainTable"><tbody><tr><td class="responsiveColumn" style="background-color: transparent; border-width: 0px; border-style: none; border-color: transparent; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" bgcolor="transparent">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%"><tbody><tr><td valign="top" style="padding-top: 10px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;"> 
+									<div style="border-color: #c2d9e7;" class=""> 
+										<table cellpadding="0" cellspacing="0" border="0" width="100%" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="background-color: transparent; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top: 0px none transparent; border-right: 0px none transparent; border-bottom: 0px none transparent; border-left: 0px none transparent; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;" bgcolor="transparent">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</td> 
+												</tr></tbody></table></div> 
+								</td>
+							</tr></tbody></table></td>
+			</tr><tr><td class="responsiveColumn" style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%"><tbody><tr><td valign="top" style="padding-top: 10px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px; color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;"> 
+									<div class="" style="border-color: #c2d9e7;"> 
+										<table cellpadding="0" cellspacing="0" border="0" width="100%" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 11px;">Thanks,&nbsp;{!Lead.FirstName}!</span></span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">We're are very glad you have reached out to BOXX Modular for a modular building quote.&nbsp;You will be contacted shortly.</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">You can expect our approximate&nbsp;<strong>response times</strong>&nbsp;to be as follows:</span></p>
+
+<ul><li><span style="font-family: arial,helvetica,sans-serif;">Less than 30 minutes during business hours (9AM - 5PM Eastern, Mon - Fri)</span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif;">Less than 24 hours during evenings, weekends, and holidays</span></li>
+</ul><p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</td> 
+												</tr></tbody></table></div> 
+									<div style="border-color: #c2d9e7;" class=""> 
+										<table cellpadding="0" cellspacing="0" border="0" width="100%" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #000000; font-family: 'Trebuchet MS'; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">If you would like to <strong>change or add to the information you submitted</strong>, just let us know by replying to this email.&nbsp; Here is what we have received so far:</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">{!Lead.Ceiling_Height__c}</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">{!Lead.Occupants__c}</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">{!Lead.Name}</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">{!Lead.Company}</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">{!Lead.Title}</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">{!Lead.Street}</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">{!Lead.City},&nbsp;{!Lead.State}&nbsp;&nbsp;{!Lead.PostalCode}</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">{!Lead.Phone}</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">{!Lead.Email}</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">{!Lead.Building_Size__c}</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">{!Lead.Building_Use__c}</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">{!Lead.Unit_Number__c}</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">{!Lead.Description}</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">To save you time, here are<strong style="font-family: arial, helvetica, sans-serif;"> types of buildings we <u>do not</u> provide</strong> at this time.</span></p>
+
+<ul><li><span style="font-family: arial,helvetica,sans-serif;">Private residences</span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif;">Apartments, hotels, or multifamily housing</span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif;">Buildings with interior ceiling heights exceeding 8.0'</span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif;">Pre-engineered steel buildings (ie: warehouses, pole barns, etc.)</span></li>
+	<li><span style="font-family: arial,helvetica,sans-serif;">8' and 10' wide construction site trailers (we do provide larger construction site buildings)</span></li>
+</ul><p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">Thanks again,&nbsp;{!Lead.FirstName}.&nbsp; Looking forward to helping you get the quote you need.</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: 14px;"><strong>Mark Meyers</strong></span></span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;"><strong>Vice President, Marketing Services</strong></span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial,helvetica,sans-serif;">BOXX Modular</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-family: arial, helvetica, sans-serif;">(877) 438-8627 |&nbsp;www.boxxmodular.com</span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+
+</td> 
+												</tr></tbody></table></div> 
+									 
+								</td>
+							</tr></tbody></table></td>
+			</tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></body></html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance_Daily__c</fullName>
+    <description>Daily Insurance rate used for the Insurance product - in Price Rules</description>
+    <inlineHelpText>Daily Insurance rate used for the Insurance product - in Price Rules</inlineHelpText>
+    <label>Insurance Daily</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

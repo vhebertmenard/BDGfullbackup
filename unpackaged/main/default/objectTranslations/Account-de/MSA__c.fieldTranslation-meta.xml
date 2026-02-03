@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- MSA --></label>
+        <name>MSA__c</name>
+        <picklistValues>
+            <masterLabel>Aecon</masterLabel>
+            <translation><!-- Aecon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Graham</masterLabel>
+            <translation><!-- Graham --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiewit</masterLabel>
+            <translation><!-- Kiewit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nutrien</masterLabel>
+            <translation><!-- Nutrien --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stuard Bird</masterLabel>
+            <translation><!-- Stuard Bird --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

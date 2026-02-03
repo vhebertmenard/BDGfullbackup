@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letter_Head</letterhead>
+    <name>Intro to Sales Rep on New Opportunity - Editable(BOXX)</name>
+    <style>freeForm</style>
+    <subject>Thank you from BOXX Modular - {!Opportunity.OwnerFullName}</subject>
+    <textOnly>Hello {!Lead.FirstName} {!Lead.LastName},
+
+Thank you for your interest in BOXX Modular.
+
+I’d like to introduce you to your local sales representative who will be facilitating your quote and helping you with anything else you need.
+
+{!Opportunity.OwnerFullName}
+{!Opportunity.OwnerEmail} | {!Opportunity.OwnerPhone}
+
+Please don’t hesitate to get in touch with any questions, and we look forward to working with you!
+
+Sincerely,
+{!Opportunity.Inside_Sales_Rep__c}
+Inside Sales Representative
+BOXX Modular</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

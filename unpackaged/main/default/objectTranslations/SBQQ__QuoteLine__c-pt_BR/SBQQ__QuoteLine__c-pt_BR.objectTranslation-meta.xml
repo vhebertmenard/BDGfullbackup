@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Linha de cotação</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Linhas de cotação</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- AU Line Editor --></label>
+        <name>AU_Line_Editor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DR Line Editor --></label>
+        <name>DR_Line_Editor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ES Line Editor --></label>
+        <name>ES_Line_Editor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- xOLD ES Sale Line Editor --></label>
+        <name>ES_Sale_Line_Editor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- French Line Editor --></label>
+        <name>French_Line_Editor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LG Line Editor --></label>
+        <name>LG_Line_Editor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Lease Analysis --></label>
+        <name>Lease_Analysis</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReferencedFields --></label>
+        <name>ReferencedFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ConsumptionSchedule --></label>
+        <name>SBQQ__ConsumptionSchedule</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Line Editor --></label>
+        <name>SBQQ__LineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Non-Current Quote Line Locked Fields --></label>
+        <name>SBQQ__NonCurrentQuoteLineLockedFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Segmented Line Editor --></label>
+        <name>SBQQ__SegmentedLineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Segmented Line Editor Summary --></label>
+        <name>SBQQ__SegmentedLineEditorSummary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Standard Line Item Drawer --></label>
+        <name>SBQQ__StandardLineItemDrawer</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Summary Fields --></label>
+        <name>SBQQ__SummaryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Sale Analysis --></label>
+        <name>Sale_Analysis</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Sale Line Editor --></label>
+        <name>Sale_Line_Editor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WF Line Editor --></label>
+        <name>WF_Line_Editor</name>
+    </fieldSets>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Quote Line Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informação de descrição</label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label>Informação do desconto</label>
+            <section>Discount Information</section>
+        </sections>
+        <sections>
+            <label>Informação de precificação</label>
+            <section>Pricing Information</section>
+        </sections>
+        <sections>
+            <label>Recalculando</label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label>Informação da assinatura</label>
+            <section>Subscription Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Line Layout v1.1</layout>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- Fleet Information --></label>
+            <section>Fleet Information</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Total Pricing/Cost --></label>
+            <section>Total Pricing/Cost</section>
+        </sections>
+        <sections>
+            <label><!-- Unit Pricing/Cost --></label>
+            <section>Unit Pricing/Cost</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome da linha</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Unit products must have a value selected in the &apos;Unit&apos; field. --></errorMessage>
+        <name>A_Sale_Unit_is_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Changes cannot be made to the Original Quote Lines once they have been approved. Please add corresponding Change Order Lines to reflect any changes. --></errorMessage>
+        <name>Cannot_Change_Non_Change_Orders_on_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- One or more units has no &apos;NBV&apos;. Open the quote line drawer for each &apos;Unit&apos; to set the &apos;NBV Override&apos;. --></errorMessage>
+        <name>NBV_is_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Because you&apos;ve selected a &apos;New Unit&apos;, you will need to set the &apos;New Unit Cost&apos;. Click the wrench to configure the cost. --></errorMessage>
+        <name>New_Unit_Cost_is_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Qty cannot be greater than 1 when a Unit is selected. --></errorMessage>
+        <name>Qty_Must_Be_1_When_Unit_Selected</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A complex &apos;Shell&apos; you&apos;ve configured has no &apos;Replacement Value&apos;. Open the quote line drawer for the &apos;Shell&apos; to set the Replacement Value Override. --></errorMessage>
+        <name>Replacement_Cost_is_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You may not specify additional discount as both percentage and absolute amount. --></errorMessage>
+        <name>SBQQ__Additional_discount_percent_or_amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The subscription term must be a positive number. --></errorMessage>
+        <name>SBQQ__Invalid_Subscription_Term</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You may not specify markup as both percentage and absolute amount. --></errorMessage>
+        <name>SBQQ__Markup_percent_or_amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Charge Type is Recurring, a Billing Type must be selected. --></errorMessage>
+        <name>SBQQ__RecurringChargeTypeMustHaveBillingType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Charge Type is One-Time, a Billing Frequency value cannot be selected. --></errorMessage>
+        <name>SBQQ__Validate_billing_frequency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Charge Type is One-Time or Usage, a Billing Type value cannot be selected. --></errorMessage>
+        <name>SBQQ__Validate_billing_type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You have entered a Unit Price without a Unit Cost. Enter Unit Cost. --></errorMessage>
+        <name>Unit_Cost_is_Blank</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- CalculateQuoteFromQuoteLine --></label>
+        <name>SBQQ__CalculateQuoteFromQuoteLine</name>
+    </webLinks>
+</CustomObjectTranslation>

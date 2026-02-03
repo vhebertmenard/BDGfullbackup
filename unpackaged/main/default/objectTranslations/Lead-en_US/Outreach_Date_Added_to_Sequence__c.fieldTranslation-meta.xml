@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Date field that is updated automatically when Lead are added to a new sequence --></help>
+        <label><!-- Date Added to Sequence --></label>
+        <name>Outreach_Date_Added_to_Sequence__c</name>
+    </CustomFieldTranslation>

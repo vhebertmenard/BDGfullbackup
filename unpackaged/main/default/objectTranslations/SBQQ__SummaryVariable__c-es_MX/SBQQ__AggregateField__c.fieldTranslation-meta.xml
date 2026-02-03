@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Partida de presupuesto sobre la que actúa la función agregada.</help>
+        <label><!-- Aggregate Field --></label>
+        <name>SBQQ__AggregateField__c</name>
+        <picklistValues>
+            <masterLabel>Building_Selling_Price_2__c</masterLabel>
+            <translation><!-- Building_Selling_Price_2__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building_Selling_Price_3__c</masterLabel>
+            <translation><!-- Building_Selling_Price_3__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building_Selling_Price_4__c</masterLabel>
+            <translation><!-- Building_Selling_Price_4__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building_Selling_Price_5__c</masterLabel>
+            <translation><!-- Building_Selling_Price_5__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building_Selling_Price__c</masterLabel>
+            <translation><!-- Building_Selling_Price__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPEX_Total__c</masterLabel>
+            <translation><!-- CAPEX_Total__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List_Unit_Price_Option_1__c</masterLabel>
+            <translation><!-- List_Unit_Price_Option_1__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List_Unit_Price_Option_2__c</masterLabel>
+            <translation><!-- List_Unit_Price_Option_2__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List_Unit_Price_Option_3__c</masterLabel>
+            <translation><!-- List_Unit_Price_Option_3__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List_Unit_Price_Option_4__c</masterLabel>
+            <translation><!-- List_Unit_Price_Option_4__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List_Unit_Price_Option_5__c</masterLabel>
+            <translation><!-- List_Unit_Price_Option_5__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly_Amount_Calc__c</masterLabel>
+            <translation><!-- Monthly_Amount_Calc__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net_Total_excl_Optional__c</masterLabel>
+            <translation><!-- Net_Total_excl_Optional__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product_Sq_Ft__c</masterLabel>
+            <translation><!-- Product_Sq_Ft__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quantity</masterLabel>
+            <translation>Cantidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replacement_Value_Fleet__c</masterLabel>
+            <translation><!-- Replacement_Value_Fleet__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__ListPrice__c</masterLabel>
+            <translation><!-- SBQQ__ListPrice__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__NetTotal__c</masterLabel>
+            <translation><!-- SBQQ__NetTotal__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBQQ__UnitCost__c</masterLabel>
+            <translation><!-- SBQQ__UnitCost__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Cost__c</masterLabel>
+            <translation><!-- Total_Cost__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Cost_excl_Optional__c</masterLabel>
+            <translation><!-- Total_Cost_excl_Optional__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total_Non_Rental_Cost_excl_Optional__c</masterLabel>
+            <translation><!-- Total_Non_Rental_Cost_excl_Optional__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Length_Numeric__c</masterLabel>
+            <translation><!-- Unit_Length_Numeric__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Price__c</masterLabel>
+            <translation><!-- Unit_Price__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Width_Numeric__c</masterLabel>
+            <translation><!-- Unit_Width_Numeric__c --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How credit interest is being met aside from regular validation process. i.e. certified cheque, wire transfer, credit card, etc. --></help>
+        <label><!-- Credit Description --></label>
+        <name>Credit_Description__c</name>
+    </CustomFieldTranslation>

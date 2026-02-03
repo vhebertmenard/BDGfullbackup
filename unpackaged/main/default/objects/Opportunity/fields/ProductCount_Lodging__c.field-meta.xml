@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductCount_Lodging__c</fullName>
+    <description>Counts the number of products with the Lodging product type.</description>
+    <label>Product Count - Lodging</label>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Product_Record_Type__c</field>
+        <operation>equals</operation>
+        <value>Lodging</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

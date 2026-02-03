@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Country where the Project Site is located. Populates Site Country on all Leads/Opportunities related to this project. --></help>
+        <label><!-- Site Country --></label>
+        <name>Site_Country__c</name>
+    </CustomFieldTranslation>

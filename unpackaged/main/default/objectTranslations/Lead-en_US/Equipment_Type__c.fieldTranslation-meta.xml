@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter the quantity and type of product required for this lead. --></help>
+        <label><!-- Product Quantity/Type --></label>
+        <name>Equipment_Type__c</name>
+    </CustomFieldTranslation>

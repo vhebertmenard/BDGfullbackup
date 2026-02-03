@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Union/Non-Union --></label>
+        <name>Union_Non_Union__c</name>
+        <picklistValues>
+            <masterLabel>Non-Union</masterLabel>
+            <translation><!-- Non-Union --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union</masterLabel>
+            <translation><!-- Union --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

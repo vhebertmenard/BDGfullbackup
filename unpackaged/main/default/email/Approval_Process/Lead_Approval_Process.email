@@ -1,0 +1,4 @@
+{!User.Name} has requested that {!Lead.Company} be qualified as an account in Salesforce.  Please ensure that the following practises are executed prior to approving the conversion.
+
+        1) Ensure no duplicates exist within current Salesforce account module.
+        2) Validate the legal entity name via http://www.hoovers.com/search/company-search-results/100003765-1.html?type=company&term={!Lead.Company} for Canadian and US operations and  http://abr.business.gov.au/Index.aspx for Australian operations.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Pulls the monthly insurance amount from the product type --></help>
+        <label><!-- Monthly Insurance Value --></label>
+        <name>Monthly_Insurance_Value__c</name>
+    </CustomFieldTranslation>

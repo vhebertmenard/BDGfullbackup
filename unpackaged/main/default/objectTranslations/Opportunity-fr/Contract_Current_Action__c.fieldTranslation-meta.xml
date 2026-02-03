@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Describes the latest on where the contract review stands at this point and time. --></help>
+        <label><!-- Contract Current Action --></label>
+        <name>Contract_Current_Action__c</name>
+    </CustomFieldTranslation>

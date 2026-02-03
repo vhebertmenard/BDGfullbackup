@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Lookup relationship between Quote and Approval Flow to allow population of Approval Flow: Description --></help>
+        <label><!-- Approval Flow --></label>
+        <name>Approval_Flow__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </CustomFieldTranslation>

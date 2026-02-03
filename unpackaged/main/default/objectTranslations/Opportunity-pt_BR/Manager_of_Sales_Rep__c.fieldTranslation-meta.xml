@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Manager of Sales Rep - Outreach --></help>
+        <label><!-- Manager of Sales Rep --></label>
+        <name>Manager_of_Sales_Rep__c</name>
+    </CustomFieldTranslation>

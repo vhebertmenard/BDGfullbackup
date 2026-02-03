@@ -1,0 +1,23 @@
+<messaging:emailTemplate subject="Thank you for your interest in {!recipient.Brand_Name__r.Name}" recipientType="Contact" relatedToType="Opportunity">
+<messaging:htmlEmailBody >
+
+<p>Hello {!recipient.Name},</p>
+
+<p>Thank you for your interest in <apex:repeat value="{!relatedTo.Brand_Name__r}" var="Brand"> {!Brand.Name}</apex:repeat>.</p>
+
+<p>I’d like to introduce you to your local sales representative who will be facilitating your quote and helping you with anything else you need.</p>
+
+<p><b>{!relatedTo.Owner.Name}</b><br/>
+{!relatedTo.Owner.Email} | {!relatedTo.Owner.Phone}</p>
+
+<p>Please don’t hesitate to get in touch with any questions, and we look forward to working with you!</p>
+
+Sincerely,<br/>
+<apex:repeat value="{!relatedTo.Sales_Region__r.Inside_Sales_Rep__r}" var="ISR">{!ISR.Name}</apex:repeat><br/>
+Inside Sales Representative<br/>
+<apex:repeat value="{!relatedTo.Brand_Name__r}" var="Brand">{!Brand.Name}<br/>
+<img src="{!Brand.Logo__c}" alt="{!Brand.Name}" style="width:100%; max-width:180px;" />
+</apex:repeat>
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

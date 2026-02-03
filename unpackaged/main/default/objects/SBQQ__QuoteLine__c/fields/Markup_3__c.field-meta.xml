@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Markup_3__c</fullName>
+    <formula>IF( Shell__c ,
+     IF(OR(Infleet_Unit_Involved__c , New_Unit_Involved__c), SBQQ__Quote__r.Markup_3__c , 
+        IF(SBQQ__ProductFamily__c = 'Upfronts',  SBQQ__Quote__r.Upfront_Markup_3__c ,
+            IF( SBQQ__ProductFamily__c = 'Backend',  SBQQ__Quote__r.Backend_Markup_3__c ,NULL)  
+            )
+       ),NULL
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Markup 3</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

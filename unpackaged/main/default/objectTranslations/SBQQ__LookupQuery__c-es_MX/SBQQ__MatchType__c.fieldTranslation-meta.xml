@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si Tipo de coincidencia = Valor de campo, seleccione un Objeto probado y un Campo probado. Si Tipo de coincidencia = Valor estático, ingrese el valor en Valor probado. Si Tipo de coincidencia = Atributo de configuración, especifique un Atributo de configuración.</help>
+        <label><!-- Match Type --></label>
+        <name>SBQQ__MatchType__c</name>
+        <picklistValues>
+            <masterLabel>Field Value</masterLabel>
+            <translation>Valor de campo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Static Value</masterLabel>
+            <translation>Valor estático</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

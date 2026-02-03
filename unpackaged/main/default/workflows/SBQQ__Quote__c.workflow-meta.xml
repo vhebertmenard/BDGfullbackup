@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>AFD_Email_Alert</fullName>
+        <ccEmails>rgali@blackdiamondgroup.com</ccEmails>
+        <description>AFD Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jleslie@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>info@boxxmodular.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Approval_Process/Quote_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_on_CAPEX_Approvals</fullName>
+        <description>Email on CAPEX Approvals</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>djimenez@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>lmalyk@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>nsasaki@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rnorman@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Email_Templates/CAPEX_Quote_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_BM_and_David_on_Quote_submission_for_approval</fullName>
+        <description>Email to BM and David on Quote submission for approval</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>dsanders@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <field>Approver_G__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Approver_H__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Branch_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Email_Templates/Quote_Submitted_for_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>Quote_sent_for_Approval</fullName>
+        <description>Quote sent for Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>rgali@blackdiamondgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <field>Approver_G__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Approver_H__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Approval_Process/Quote_Approval_Required</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_email_notification_of_Approval</fullName>
+        <description>Send email notification of Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>SBQQ__SalesRep__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Approval_Process/Quote_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_email_notification_of_Approval_7_V2</fullName>
+        <description>Send email notification of Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>SBQQ__SalesRep__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Approval_Process/Quote_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_email_notification_of_Pending_Approval</fullName>
+        <description>Send email notification of Pending Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Email_Templates/Approval_Reminder</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_email_notification_of_Rejection</fullName>
+        <description>Send email notification of Rejection</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>SBQQ__SalesRep__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Approval_Process/Quote_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_email_notification_of_Rejection_7_V2</fullName>
+        <description>Send email notification of Rejection</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>SBQQ__SalesRep__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Approval_Process/Quote_Rejected</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Approval_Reminder_False</fullName>
+        <field>Approval_Reminder__c</field>
+        <literalValue>0</literalValue>
+        <name>Approval Reminder False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Reminder_True</fullName>
+        <field>Approval_Reminder__c</field>
+        <literalValue>1</literalValue>
+        <name>Approval Reminder True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Orders_Approved</fullName>
+        <field>Change_Orders_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Change Orders Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Orders_Approved_CO2</fullName>
+        <field>Change_Orders_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Change Orders Approved CO2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Orders_Approved_CO3</fullName>
+        <field>Change_Orders_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Change Orders Approved CO3</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Orders_Approved_CO4</fullName>
+        <field>Change_Orders_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Change Orders Approved CO4</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_status_to_Draft</fullName>
+        <description>Revert the Status to Draft upon recall</description>
+        <field>SBQQ__Status__c</field>
+        <literalValue>Draft</literalValue>
+        <name>Change status to Draft</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_status_to_Draft_7_V2</fullName>
+        <field>SBQQ__Status__c</field>
+        <literalValue>Draft</literalValue>
+        <name>Change status to Draft</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_to_Denied</fullName>
+        <description>Set the Quote Status to Denied</description>
+        <field>SBQQ__Status__c</field>
+        <literalValue>Denied</literalValue>
+        <name>Change to Denied</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_to_Denied_7_V2</fullName>
+        <field>SBQQ__Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Change to Denied</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Pending_Approval</fullName>
+        <description>Submitted for approval</description>
+        <field>SBQQ__Status__c</field>
+        <literalValue>In Review</literalValue>
+        <name>Pending Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Pending_Approval_7</fullName>
+        <description>Submitted for approval</description>
+        <field>SBQQ__Status__c</field>
+        <literalValue>In Review</literalValue>
+        <name>Pending Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Pending_Approval_False</fullName>
+        <field>Pending_Approval__c</field>
+        <literalValue>0</literalValue>
+        <name>Pending Approval False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Pending_Approval_True</fullName>
+        <field>Pending_Approval__c</field>
+        <literalValue>1</literalValue>
+        <name>Pending Approval True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approved</fullName>
+        <description>Change the Quote Status to Approved</description>
+        <field>SBQQ__Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Quote Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approved_1_1</fullName>
+        <field>SBQQ__Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Quote Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approved_2</fullName>
+        <field>SBQQ__Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Quote Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approved_7_V2</fullName>
+        <description>Change the Quote Status to Approved</description>
+        <field>SBQQ__Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Quote Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date3</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date4</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date5</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date6</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date7</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date8</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date_1</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date_2</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date_3</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date 3</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date_4</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date 4</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date_5</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date 5</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date_6</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date 6</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date_7</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date 7</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date_8</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date 8</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date_9_DWS</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date 9 DWS</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Bid_Submit_Date_9_Non_DWS</fullName>
+        <field>Bid_Submit_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Set Bid Submit Date 9 Non DWS</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Send Pending Approval Notification</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.Pending_Approval__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Send_email_notification_of_Pending_Approval</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>24</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Taxable_Net_Amount__c</fullName>
+    <label>Taxable Net Amount</label>
+    <summarizedField>SBQQ__QuoteLine__c.SBQQ__NetTotal__c</summarizedField>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.SBQQ__Taxable__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>SBQQ__QuoteLine__c.SBQQ__Quote__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

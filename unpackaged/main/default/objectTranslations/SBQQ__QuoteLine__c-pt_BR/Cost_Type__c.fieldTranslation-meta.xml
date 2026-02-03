@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Type of Cost used in calculations.  Defaults to Chargeable but could be Expense or CAPEX --></help>
+        <label><!-- Cost Type --></label>
+        <name>Cost_Type__c</name>
+    </CustomFieldTranslation>

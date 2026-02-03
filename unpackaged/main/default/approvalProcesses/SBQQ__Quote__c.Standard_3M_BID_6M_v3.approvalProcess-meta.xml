@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>SBQQ__Account__c</field>
+        <field>SBQQ__Opportunity2__c</field>
+        <field>SBQQ__NetAmount__c</field>
+        <field>T_C__c</field>
+        <field>SBQQ__MarkupRate__c</field>
+        <field>SBQQ__SalesRep__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Approver_I__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Authority Matrix Level I</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.Approver_I__c</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Branch Manager - Rental STD $3M-$6M</label>
+        <name>Branch_Manager_Standard_3M_BID_6M</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Approver_G__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Authority Matrix Level G</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.Approver_G__c</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Regional Manager - Rental STD $3M-$6M</label>
+        <name>Regional_Manager_Standard_3M_BID_6M</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Approver_E__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Authority Matrix Level E</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.Approver_E__c</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>VP - Rental STD $3M-$6M</label>
+        <name>VP_Standard_3M_BID_6M</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Approver_D__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Authority Matrix Level D</description>
+        <label>COO - Rental STD $3M-$6M</label>
+        <name>COO</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>16
+Bid Sets/Revenue Contracts - Standard BD Terms and Conditions
+$3M &lt;= Bid &lt; $6M
+Rental 
+No CAPEX
+Level I, G, E and D Approvals needed</description>
+    <emailTemplate>Approval_Process/Quote_Approval_Required</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 AND 2 AND (3 OR 4) AND 5 AND 6</booleanFilter>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.SBQQ__NetAmount__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>&quot;CAD 3,000,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.SBQQ__NetAmount__c</field>
+            <operation>lessThan</operation>
+            <value>&quot;CAD 6,000,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.T_C__c</field>
+            <operation>equals</operation>
+            <value>Standard</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.T_C__c</field>
+            <operation>equals</operation>
+            <value>MSSA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.Transaction_Type__c</field>
+            <operation>equals</operation>
+            <value>Rental</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.CAPEX_Required__c</field>
+            <operation>equals</operation>
+            <value>No</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Quote_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Send_email_notification_of_Approval</name>
+            <type>Alert</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Change_to_Denied</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Send_email_notification_of_Rejection</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Pending_Approval</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Rental STD $3M-$6M v3</label>
+    <processOrder>1</processOrder>
+    <recallActions>
+        <action>
+            <name>Change_status_to_Draft</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

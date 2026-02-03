@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Markup_Delivery__c</fullName>
+    <description>[Net Total - Total Cost / Total Cost] for all Delivery quote lines.</description>
+    <formula>IF( Total_Cost_Delivery__c = 0, 0, ( Net_Total_Delivery__c - Total_Cost_Delivery__c )/ Total_Cost_Delivery__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>[Net Total - Total Cost / Total Cost] for all Delivery quote lines.</inlineHelpText>
+    <label>Total Markup % Delivery</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

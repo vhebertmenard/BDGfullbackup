@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Count of MPA Disaster Contracts --></help>
+        <label><!-- # of Disaster Contracts --></label>
+        <name>Number_of_Contracts__c</name>
+    </CustomFieldTranslation>

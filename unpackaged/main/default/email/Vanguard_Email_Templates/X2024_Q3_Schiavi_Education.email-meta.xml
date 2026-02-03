@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2024 -Q3- Schiavi - Education</name>
+    <style>none</style>
+    <subject>Affordable Classroom Building for {!Account.Name}</subject>
+    <textOnly>Hello! As the new school year kicks off, are you considering leasing or purchasing modular classroom buildings?
+
+Schiavi Leasing is here to support you with any modular building needs you may have.
+
+Visit our website today to explore a full selection of modular solutions, and our team will help you find the perfect fit.
+
+--&gt; View modular classrooms
+https://www.boxxmodular.com/classrooms/
+
+--&gt; View used buildings inventory
+https://www.boxxmodular.com/used-modular/?restroom=0&amp;areamin=0&amp;areamax=null
+
+
+To connect with us for more information:
+--&gt; Reply to this email
+
+--&gt; Request a quote on our website
+https://www.boxxmodular.com/quote-request/
+--&gt; Call 207-539-8211 to speak with one of our local experts
+
+We are here to help!
+
+Schiavi Leasing is a principal brand of BOXX Modular.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

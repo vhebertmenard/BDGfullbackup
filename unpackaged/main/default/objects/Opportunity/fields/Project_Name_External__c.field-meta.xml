@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Name_External__c</fullName>
+    <description>Project Name given by Owner (external to BD)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Project Name given by Owner (external to BD), e.g. Shell's "LNG Canada"</inlineHelpText>
+    <label>Project Name (External)</label>
+    <length>120</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

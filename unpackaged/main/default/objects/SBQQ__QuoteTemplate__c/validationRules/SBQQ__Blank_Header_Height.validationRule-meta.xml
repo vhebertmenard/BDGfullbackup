@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Blank_Header_Height</fullName>
+    <active>false</active>
+    <description>Checks if Header Height is blank if Page Number Position is set to 'Header'.</description>
+    <errorConditionFormula>IF(AND(ISPICKVAL(SBQQ__PageNumberPosition__c, "Header"),
+            ISBLANK(SBQQ__HeaderHeight__c)), true, null)</errorConditionFormula>
+    <errorMessage>Header Height can not be blank if Page Number Position is set to Header.</errorMessage>
+</ValidationRule>

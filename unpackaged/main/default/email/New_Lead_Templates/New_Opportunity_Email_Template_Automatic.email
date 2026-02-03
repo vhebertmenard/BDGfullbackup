@@ -1,0 +1,6 @@
+<HTML>
+<Body>
+<p>A new Opportunity for {!Opportunity.Account} has been Converted.</p>
+<a href="https://bdgl.lightning.force.com/lightning/r/Opportunity/{!Opportunity.Id}/view">{!Opportunity.Name}</a><br/><p/>
+Description:</br>
+{!Opportunity.Description__c}

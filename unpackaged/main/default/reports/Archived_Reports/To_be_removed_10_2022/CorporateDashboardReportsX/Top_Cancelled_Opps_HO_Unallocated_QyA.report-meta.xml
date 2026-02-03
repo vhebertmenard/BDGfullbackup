@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <aggregateTypes>Average</aggregateTypes>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Reason_s_Won_Lost_Cancelled__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Loss_Reason__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Other_Reason__c</field>
+    </columns>
+    <currency>CAD</currency>
+    <description>Top Cancelled Opportunities, Head Office &amp; Unallocated</description>
+    <filter>
+        <booleanFilter>1 AND (2 OR 5) AND (3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <column>FORECAST_CATEGORY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Omitted</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Reason_s_Won_Lost_Cancelled__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Cancelled</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Branch__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>AUS Brisbane,AUS Perth,AUS Sydney,AUS Townsville,BOXX Atlanta,BOXX Austin,BOXX Banks Dallas,BOXX Calgary,BOXX Edmonton,BOXX Fort Worth,BOXX Houston,BOXX Kelowna,BOXX Langley,BOXX Lewisville,BOXX Nanaimo,BOXX Oklahoma,BOXX Ottawa,BOXX Phoenix,BOXX Prince George,BOXX Saskatchewan,BOXX Stoney Creek,BOXX Toronto East,Camps Eastern,Camps Pacific,Camps Prairies,ES Colorado,ES Edson,ES Fort Nelson,ES Fort St. John,ES Grande Prairie,ES North Dakota,ES Saskatchewan,ES Texas,Head Office,LG Camp Desk,LG Conklin Lodge,LG Edmonton,LG Enbridge Ops,LG Encana Maintenance,LG K1A Lodge,LG Kinosis Lodge,LG Kirby Lake Lodge,LG Liard Lodge,LG Nexen Cottonwood,LG Quintette Lodge,LG Resthaven Lodge,LG Saleski Grand Rapids Lodge,LG Saturn Lodge,LG Spectra Ops,LG Sunday Creek Lodge,Major Projects California,Major Projects Texas</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Branch_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Head Office</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Loss_Reason__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Project Cancelled</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Top Cancelled Opps HO &amp; Unallocated</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity@Opportunity.Competitor_LostTo__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_LASTTHISMONTH</interval>
+    </timeFrameFilter>
+</Report>

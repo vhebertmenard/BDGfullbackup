@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Rótulo exibido para essa ação na UI.</help>
+        <label><!-- Label --></label>
+        <name>SBQQ__Label__c</name>
+        <picklistValues>
+            <masterLabel>Add Favorites</masterLabel>
+            <translation>Adicionar favoritos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Group</masterLabel>
+            <translation>Adicionar grupo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Products</masterLabel>
+            <translation>Adicionar produtos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Solution Group</masterLabel>
+            <translation>Adicionar grupo de soluções</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add To Favorites</masterLabel>
+            <translation>Adicionar aos favoritos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calculate</masterLabel>
+            <translation>Calcular</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation>Cancelar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clone Group</masterLabel>
+            <translation>Clonar grupo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clone Line</masterLabel>
+            <translation>Clonar linha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete Group</masterLabel>
+            <translation>Excluir grupo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete Line</masterLabel>
+            <translation>Excluir linha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete Lines</masterLabel>
+            <translation>Excluir linhas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desegment Line</masterLabel>
+            <translation>Desfazer segmentação da linha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease/Sale Analysis</masterLabel>
+            <translation><!-- Lease/Sale Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optional: All</masterLabel>
+            <translation>Opcional: Todos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optional: None</masterLabel>
+            <translation>Opcional: Nenhum</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quick Save</masterLabel>
+            <translation>Salvar rápido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconfigure Line</masterLabel>
+            <translation>Reconfigurar linha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove From Favorites</masterLabel>
+            <translation>Remover dos favoritos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew Subscriptions</masterLabel>
+            <translation>Renovar assinaturas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resegment Line</masterLabel>
+            <translation>Refazer segmentação da linha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reset Discounts</masterLabel>
+            <translation>Redefinir descontos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Save</masterLabel>
+            <translation>Salvar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation><!-- Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ungroup</masterLabel>
+            <translation>Desagrupar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront/Backend Markups</masterLabel>
+            <translation><!-- Upfront/Backend Markups --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Assets</masterLabel>
+            <translation>Atualizar ativos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>View Discount Schedule</masterLabel>
+            <translation>Visualizar cronograma de descontos</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

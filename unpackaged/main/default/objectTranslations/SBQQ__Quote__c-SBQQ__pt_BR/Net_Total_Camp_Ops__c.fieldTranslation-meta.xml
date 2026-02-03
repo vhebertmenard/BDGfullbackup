@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Net Total of Camp Operations quote lines excluding Optional --></help>
+        <label><!-- Net Total Camp Ops --></label>
+        <name>Net_Total_Camp_Ops__c</name>
+    </CustomFieldTranslation>

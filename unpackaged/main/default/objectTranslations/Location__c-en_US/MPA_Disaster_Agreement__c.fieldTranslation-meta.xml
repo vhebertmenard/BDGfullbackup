@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- MPA Disaster Contract --></label>
+        <name>MPA_Disaster_Agreement__c</name>
+        <relationshipLabel><!-- MPA Locations --></relationshipLabel>
+    </CustomFieldTranslation>

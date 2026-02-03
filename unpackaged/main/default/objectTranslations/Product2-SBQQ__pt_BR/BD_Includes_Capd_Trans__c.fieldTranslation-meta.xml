@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is this product configured with a Bundled Capitalized Transportation line?  If so, the Package Cost (including child Quote Lines) will be used in Payback calculation --></help>
+        <label><!-- Includes Cap&apos;d Trans --></label>
+        <name>BD_Includes_Capd_Trans__c</name>
+    </CustomFieldTranslation>

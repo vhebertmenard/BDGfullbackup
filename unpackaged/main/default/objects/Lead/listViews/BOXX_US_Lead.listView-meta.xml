@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BOXX_US_Lead</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <columns>Opportunity_City__c</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Website_Source__c</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CURRENCY_ISO_CODE</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Unqualified,Dead,Qualified,Converted</value>
+    </filters>
+    <label>BOXX US Open Web Leads</label>
+    <queue>BOXX_US</queue>
+    <sharedTo>
+        <group>All_BD_Users</group>
+    </sharedTo>
+</ListView>

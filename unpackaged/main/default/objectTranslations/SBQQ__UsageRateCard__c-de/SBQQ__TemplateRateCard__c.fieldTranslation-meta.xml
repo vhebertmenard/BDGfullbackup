@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Die Nutzungsratenkarte, die Sie dem ursprünglichen Angebot hinzugefügt haben.</help>
+        <label><!-- Template Rate Card --></label>
+        <name>SBQQ__TemplateRateCard__c</name>
+        <relationshipLabel><!-- Quoted Rate Cards --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Approval Routing --></label>
+        <name>BOXX_Division__c</name>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX CA</masterLabel>
+            <translation><!-- BOXX CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOXX US</masterLabel>
+            <translation><!-- BOXX US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camps</masterLabel>
+            <translation><!-- Camps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES Canada</masterLabel>
+            <translation><!-- ES Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES US</masterLabel>
+            <translation><!-- ES US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head Office</masterLabel>
+            <translation><!-- Head Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logistics</masterLabel>
+            <translation><!-- Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury</masterLabel>
+            <translation><!-- Treasury --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Streams__c</fullName>
+    <label>Revenue Streams</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Record_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rental Revenue</fullName>
+                <default>false</default>
+                <label>Rental Revenue</label>
+            </value>
+            <value>
+                <fullName>Carry-on Options</fullName>
+                <default>false</default>
+                <label>Carry-on Options</label>
+            </value>
+            <value>
+                <fullName>New Fleet Sales</fullName>
+                <default>false</default>
+                <label>New Fleet Sales</label>
+            </value>
+            <value>
+                <fullName>Used Fleet Sales</fullName>
+                <default>false</default>
+                <label>Used Fleet Sales</label>
+            </value>
+            <value>
+                <fullName>Used Non-Fleet Sales</fullName>
+                <default>false</default>
+                <label>Used Non-Fleet Sales</label>
+            </value>
+            <value>
+                <fullName>Initial Transportation</fullName>
+                <default>false</default>
+                <label>Initial Transportation</label>
+            </value>
+            <value>
+                <fullName>Return Transportation</fullName>
+                <default>false</default>
+                <label>Return Transportation</label>
+            </value>
+            <value>
+                <fullName>Install</fullName>
+                <default>false</default>
+                <label>Install</label>
+            </value>
+            <value>
+                <fullName>Dismantle</fullName>
+                <default>false</default>
+                <label>Dismantle</label>
+            </value>
+            <value>
+                <fullName>Catering(ES)</fullName>
+                <default>false</default>
+                <label>Catering(ES)</label>
+            </value>
+            <value>
+                <fullName>Sublease Equipment</fullName>
+                <default>false</default>
+                <label>Sublease Equipment</label>
+            </value>
+            <value>
+                <fullName>Accommodation (Mandays)</fullName>
+                <default>false</default>
+                <label>Accommodation (Mandays)</label>
+            </value>
+            <value>
+                <fullName>Food &amp; beverage (Catering - LG)</fullName>
+                <default>false</default>
+                <label>Food &amp; beverage (Catering - LG)</label>
+            </value>
+            <value>
+                <fullName>Sub-Contractors (Rental/Equip/TV etc.)</fullName>
+                <default>false</default>
+                <label>Sub-Contractors (Rental/Equip/TV etc.)</label>
+            </value>
+            <value>
+                <fullName>Consumables (Fuel/Sewage/Water/Trash etc.)</fullName>
+                <default>false</default>
+                <label>Consumables (Fuel/Sewage/Water/Trash etc.)</label>
+            </value>
+            <value>
+                <fullName>Operational Services (HSE/IT/Security etc.)</fullName>
+                <default>false</default>
+                <label>Operational Services (HSE/IT/Security etc.)</label>
+            </value>
+            <value>
+                <fullName>Staffing</fullName>
+                <default>false</default>
+                <label>Staffing</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Rental</controllingFieldValue>
+            <valueName>Rental Revenue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental</controllingFieldValue>
+            <valueName>Carry-on Options</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <valueName>New Fleet Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <valueName>Used Fleet Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <valueName>Used Non-Fleet Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sublease (Recurring Non-Rental)</controllingFieldValue>
+            <valueName>Catering(ES)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sublease (Recurring Non-Rental)</controllingFieldValue>
+            <valueName>Sublease Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Initial Transportation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Return Transportation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Install</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Dismantle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lodging</controllingFieldValue>
+            <valueName>Accommodation (Mandays)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lodging</controllingFieldValue>
+            <valueName>Food &amp; beverage (Catering - LG)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lodging</controllingFieldValue>
+            <valueName>Sub-Contractors (Rental/Equip/TV etc.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lodging</controllingFieldValue>
+            <valueName>Consumables (Fuel/Sewage/Water/Trash etc.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lodging</controllingFieldValue>
+            <valueName>Operational Services (HSE/IT/Security etc.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lodging</controllingFieldValue>
+            <valueName>Staffing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Legt fest, ob/wie das Hintergrundbild der Seitenkopfzeile wiederholt werden soll (Klicken Sie auf das Symbol, um weitere Informationen anzuzeigen)</help>
+        <label><!-- Header Background Image Repeat --></label>
+        <name>SBQQ__HeaderBackgroundImageRepeat__c</name>
+        <picklistValues>
+            <masterLabel>inherit</masterLabel>
+            <translation>Übernehmen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>initial</masterLabel>
+            <translation>Anfang</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>no-repeat</masterLabel>
+            <translation>Nicht wiederholen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>repeat</masterLabel>
+            <translation>Wiederholen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>repeat-x</masterLabel>
+            <translation>X wiederholen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>repeat-y</masterLabel>
+            <translation>Y wiederholen</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

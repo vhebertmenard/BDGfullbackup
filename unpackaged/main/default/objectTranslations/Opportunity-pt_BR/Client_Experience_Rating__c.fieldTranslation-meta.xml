@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- A rating provided by Vanguard&apos;s client pertaining to their experience. This rating is input by Marketing based on the client&apos;s feedback by clicking one of three emailed links which is then reported in Google Analytics under Campaigns. --></help>
+        <label><!-- Client Experience Rating --></label>
+        <name>Client_Experience_Rating__c</name>
+        <picklistValues>
+            <masterLabel>Excellent</masterLabel>
+            <translation><!-- Excellent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Rating</masterLabel>
+            <translation><!-- No Rating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

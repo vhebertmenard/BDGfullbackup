@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Date Billing field was checked. Set via workflow. --></help>
+        <label><!-- Billed Check Date --></label>
+        <name>Billed_Check_Date__c</name>
+    </CustomFieldTranslation>

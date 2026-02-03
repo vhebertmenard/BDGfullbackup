@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If this quote line has a related Fleet Unit, this should show the year of manufacture --></help>
+        <label><!-- Unit Year of Manufacture --></label>
+        <name>Unit_Year__c</name>
+    </CustomFieldTranslation>

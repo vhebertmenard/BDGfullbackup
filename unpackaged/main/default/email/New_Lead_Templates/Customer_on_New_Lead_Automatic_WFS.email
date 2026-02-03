@@ -1,0 +1,21 @@
+<messaging:emailTemplate subject="Thank you for your interest"  recipientType="Lead" RelatedToType="Lead">
+
+<messaging:htmlEmailBody >
+<p>Hello {!recipient.FirstName},</p>
+
+<p>Thank you for reaching out to Black Diamond. Please note that we have received your inquiry and either myself or another representative will be following up with you shortly.</p>
+
+<p>In the meantime, if you have any further questions please feel free to give me a call or respond to this email.</p>
+
+<p>Thanks again for considering Black Diamond.</p>
+
+<p>
+Kennet Hoberg<br/>
+Inside Sales Representative<br/>
+Black Diamond Group<br/>
+T: 587.215.1613 | C: 587.215.1613<br/>
+Suite 1000, 440 - 2 Ave S.W. Calgary, AB T2P 5E9<br/>
+<apex:repeat var="Brand" value="{!recipient.Brand_Name__r}"><img src="{!Brand.Logo__c}" alt="{!Brand.Name}" style="max-width:100px;" width="250"/></apex:repeat></p>
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

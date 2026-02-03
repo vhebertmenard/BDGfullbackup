@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Unit Price field for Conga Quotes/Contracts that shows Unit Amount based on Product Subscription Frequency --></help>
+        <label><!-- Unit Price Display --></label>
+        <name>Unit_Price_Display__c</name>
+    </CustomFieldTranslation>

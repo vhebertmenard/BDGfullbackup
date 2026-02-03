@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Cost of the unit in our Fleet used in a rental to calculate the payback --></help>
+        <label><!-- Original Capital Cost --></label>
+        <name>Original_Capital_Cost__c</name>
+    </CustomFieldTranslation>

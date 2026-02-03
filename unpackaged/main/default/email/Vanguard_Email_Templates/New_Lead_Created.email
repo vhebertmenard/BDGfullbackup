@@ -1,0 +1,14 @@
+A new lead named {!Lead.Name} at {!Lead.Company} has been assigned to you.
+
+To View the Lead, go to 
+
+{!Lead.Link}
+
+{!Lead.City}, {!Lead.State}
+{!Lead.FirstName} {!Lead.LastName}
+
+{!Lead.Phone}
+{!Lead.Email}
+{!Lead.Title}
+
+{!Lead.Description}

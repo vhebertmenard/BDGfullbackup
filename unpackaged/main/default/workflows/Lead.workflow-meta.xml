@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>AUS_Web_Lead_Notification</fullName>
+        <ccEmails>llee@blackdiamondgroup.com</ccEmails>
+        <ccEmails>auswebleads@blackdiamondgroup.com</ccEmails>
+        <description>AUS Web Lead Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>AUS_Templates/AUS_Lead_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>MPA_Web_Lead_Notification</fullName>
+        <ccEmails>llee@blackdiamondgroup.com</ccEmails>
+        <description>MPA Web Lead Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>ghalstead@mpasystems.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>MPA_Templates/MPA_Lead_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Lead_Notification_to_AD_Distribution_Group</fullName>
+        <description>New Lead Notification to AD Distribution Group</description>
+        <protected>false</protected>
+        <recipients>
+            <field>AD_Distribution_Group__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>New_Lead_Templates/Inside_Sales_Rep_Assigned_Sales_Rep_on_new_Lead_automatic</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Lead_Notification_to_Insides_Sales_Rep</fullName>
+        <description>New Lead Notification to Inside Sales Rep</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Inside_Sales_Rep_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>info@blackdiamondgroup.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>New_Lead_Templates/Inside_Sales_Rep_Assigned_Sales_Rep_on_new_Lead_automatic</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Lead_Notification_to_Marcom</fullName>
+        <description>New Lead Notification to Marcom</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>mmeyers@boxxmodular.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/New_Lead_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Lead_Notification_to_Sales_Rep</fullName>
+        <description>New Lead Notification to Sales Rep</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>New_Lead_Templates/Inside_Sales_Rep_Assigned_Sales_Rep_on_new_Lead_automatic</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Update_Site_Zip_Code</fullName>
+        <field>Opportunity_Postal_Code__c</field>
+        <formula>Delivery_ZIP_Code__c</formula>
+        <name>Update Site Zip Code</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Delivery Zip %3D Site Zip - Vanguard</fullName>
+        <actions>
+            <name>Update_Site_Zip_Code</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.Delivery_ZIP_Code__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Vanguard</value>
+        </criteriaItems>
+        <description>To be used by Vanguard for Lead Assignment</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email to AD Distribution Group on New Lead</fullName>
+        <actions>
+            <name>New_Lead_Notification_to_AD_Distribution_Group</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.AD_Distribution_Group__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email to Inside Sales Rep if ISRep not the Sales Rep</fullName>
+        <actions>
+            <name>New_Lead_Notification_to_Insides_Sales_Rep</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>NOT(ISNULL(Sales_Region__c)) &amp;&amp;  (Owner:User.Email !=  Inside_Sales_Rep_Email__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>New Lead Notification to Marcom</fullName>
+        <actions>
+            <name>New_Lead_Notification_to_Marcom</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.CreatedById</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

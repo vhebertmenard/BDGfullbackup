@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- New Capped Costs (S) --></label>
+        <name>New_Capped_Costs_S__c</name>
+    </CustomFieldTranslation>

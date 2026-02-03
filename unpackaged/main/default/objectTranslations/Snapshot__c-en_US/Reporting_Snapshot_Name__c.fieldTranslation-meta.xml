@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used to limit results to particular snapshots --></help>
+        <label><!-- Reporting Snapshot Name --></label>
+        <name>Reporting_Snapshot_Name__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Has customer provided proof of Property Insurance coverage at required amount? For an outline of Insurance requirements, refer to your contract&apos;s T&amp;Cs. --></help>
+        <label><!-- Property Insurance Proof? --></label>
+        <name>Proof_of_Insurance_Obtained__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

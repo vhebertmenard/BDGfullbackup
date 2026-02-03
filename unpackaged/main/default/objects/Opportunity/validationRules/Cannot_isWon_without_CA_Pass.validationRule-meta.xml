@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_isWon_without_CA_Pass</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.Name = "BD MSS",  ISCHANGED( StageName ), IsWon , NOT(ISPICKVAL( CA_Review_Status__c , 'Pass')), DateValue(CreatedDate) &gt;= DATE(2025,12,15))</errorConditionFormula>
+    <errorMessage>Opportunity Should Pass CA Review before marking it WIP/Closed Won</errorMessage>
+</ValidationRule>

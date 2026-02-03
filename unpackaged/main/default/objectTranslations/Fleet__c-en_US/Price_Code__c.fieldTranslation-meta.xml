@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- SAP SND field for the pricing code.  Normally in the format of SO1260-T2 or SO1260-WT --></help>
+        <label><!-- Price Code --></label>
+        <name>Price_Code__c</name>
+    </CustomFieldTranslation>

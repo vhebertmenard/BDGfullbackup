@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>A alteração: número de versão da Nova cotação para a cotação.</help>
+        <label><!-- Amend: Re-Quote Version --></label>
+        <name>SBQQ__ChangeVersion__c</name>
+    </CustomFieldTranslation>

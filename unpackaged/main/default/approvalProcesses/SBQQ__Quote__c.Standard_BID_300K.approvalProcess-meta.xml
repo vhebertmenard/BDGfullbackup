@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>SBQQ__Account__c</field>
+        <field>SBQQ__Opportunity2__c</field>
+        <field>SBQQ__NetAmount__c</field>
+        <field>T_C__c</field>
+        <field>SBQQ__MarkupRate__c</field>
+        <field>SBQQ__SalesRep__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>mschofield@boxxmodular.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Authority Matrix Level I</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.Branch__c</field>
+                <operation>equals</operation>
+                <value>BOXX Calgary</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Calgary Branch Manager - Standard BID &lt; $300K</label>
+        <name>Calgary_Branch_Manager</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>mwozimirsky@boxxmodular.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Authority Matrix Level I</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.Branch__c</field>
+                <operation>equals</operation>
+                <value>BOXX Edmonton</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Edmonton Branch Manager - Standard BID &lt; $300K</label>
+        <name>Edmonton_Branch_Manager</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>snomura@boxxmodular.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Authority Matrix Level I</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>SBQQ__Quote__c.Branch__c</field>
+                <operation>equals</operation>
+                <value>BOXX Saskatchewan</value>
+            </criteriaItems>
+        </entryCriteria>
+        <label>Saskatchewan Branch Manager - Standard BID &lt; $300K</label>
+        <name>Saskatchewan_Branch_Manager_Standard_BID_300K</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>Bid Sets/Revenue Contracts - Standard BD Terms and Conditions
+Bid &lt; $300K
+Level I Approvals needed</description>
+    <emailTemplate>Approval_Process/Quote_Approval_Required</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.SBQQ__NetAmount__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>&quot;CAD 50,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.SBQQ__NetAmount__c</field>
+            <operation>lessThan</operation>
+            <value>&quot;CAD 300,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.T_C__c</field>
+            <operation>equals</operation>
+            <value>Standard</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.T_C__c</field>
+            <operation>equals</operation>
+            <value>MSSA</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Quote_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Send_email_notification_of_Approval</name>
+            <type>Alert</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Change_to_Denied</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Send_email_notification_of_Rejection</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Pending_Approval</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Standard BID &lt; $300K</label>
+    <processOrder>1</processOrder>
+    <recallActions>
+        <action>
+            <name>Change_status_to_Draft</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

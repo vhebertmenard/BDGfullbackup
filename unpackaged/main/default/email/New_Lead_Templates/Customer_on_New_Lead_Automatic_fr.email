@@ -1,0 +1,44 @@
+<messaging:emailTemplate subject="Merci pour ton intérêt" recipientType="Lead" RelatedToType="Lead">
+
+<messaging:htmlEmailBody >
+<p>Merci, {!recipient.FirstName}, de votre intérêt pour <apex:repeat var="Brand" value="{!recipient.Brand_Name__r}"> {!Brand.Name}!</apex:repeat></p>
+
+<p>Nous vous remercions d’avoir communiqué avec  <apex:repeat var="Brand" value="{!recipient.Brand_Name__r}"> {!Brand.Name}</apex:repeat> pour obtenir un devis. Veuillez noter que nous avons reçu votre demande et nous vous reviendrons sous peu. </p>
+
+<p>Les renseignements que vous nous avez transmis sont indiqués ci-dessous. Si vous souhaitez modifier ces renseignements ou en ajouter, vous pouvez répondre à ce courriel ou nous appeler. </p>
+<p>{!recipient.Name}<br/>
+{!recipient.Email}<br/>
+{!recipient.Phone}<br/>
+{!IF(recipient.Opportunity_Postal_Code__c != "", recipient.Opportunity_Postal_Code__c, "")}<br/>
+{!IF(recipient.Description != "", recipient.Description , "")}<br/>
+</p>
+
+<p>Merci encore, {!recipient.FirstName}. Nous sommes impatients de vous aider à recevoir le devis dont vous avez besoin pour votre projet.</p>
+
+
+
+
+<p>Thanks, {!recipient.FirstName}, for your interest in <apex:repeat var="Brand" value="{!recipient.Brand_Name__r}"> {!Brand.Name}!</apex:repeat></p>
+
+<p>We appreciate you reaching out to <apex:repeat var="Brand" value="{!recipient.Brand_Name__r}"> {!Brand.Name}</apex:repeat> for a quote. Please know that we have received your inquiry and will get back to you shortly. </p>
+
+<p>The details we received from you are outlined below. If you have any changes or additional information, you can reply to this email or give us a call. </p>
+<p>{!recipient.Name}<br/>
+{!recipient.Email}<br/>
+{!recipient.Phone}<br/>
+{!IF(recipient.Opportunity_Postal_Code__c != "", recipient.Opportunity_Postal_Code__c, "")}<br/>
+{!IF(recipient.Description != "", recipient.Description , "")}<br/>
+</p>
+
+<p>Thanks again, {!recipient.FirstName}. We look forward to helping you get the quote you need for your project. </p>
+
+<p>
+Jonathan Provencher<br/>
+Représentant des ventes<br/>
+BOXX Modular Québec<br/>
+Numéro de succursale de Montréal-Ottawa: 514 358-4271<br/>
+Courriel: jprovencher@boxxmodular.com<br/>
+<apex:repeat var="Brand" value="{!recipient.Brand_Name__r}"><img src="{!Brand.Logo__c}" alt="{!Brand.Name}" style="width:100%; max-width:180px;"/></apex:repeat></p>
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

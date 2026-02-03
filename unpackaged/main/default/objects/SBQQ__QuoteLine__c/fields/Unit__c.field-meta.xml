@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <inlineHelpText>Lookup of the fleet item corresponding to this product/quote line item</inlineHelpText>
+    <label>Unit</label>
+    <lookupFilter>
+        <active>false</active>
+        <booleanFilter>(1 OR 2)</booleanFilter>
+        <filterItems>
+            <field>Fleet__c.Rental_Status__c</field>
+            <operation>equals</operation>
+            <value>Available</value>
+        </filterItems>
+        <filterItems>
+            <field>Fleet__c.WIP_Asset__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Fleet__c</referenceTo>
+    <relationshipLabel>Quote Lines</relationshipLabel>
+    <relationshipName>Quote_Lines</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

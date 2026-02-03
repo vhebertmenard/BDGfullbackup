@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used on Bid Sheet to display Total Cost, but for only on Unit lines (hiding from Product lines) to avoid duplicate totals --></help>
+        <label><!-- Total Cost Display --></label>
+        <name>Total_Cost_Display__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Number of locations --></label>
+        <name>Vanguard_Number_of_locations__c</name>
+        <picklistValues>
+            <masterLabel>11-50</masterLabel>
+            <translation><!-- 11-50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2-10</masterLabel>
+            <translation><!-- 2-10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50+</masterLabel>
+            <translation><!-- 50+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single</masterLabel>
+            <translation><!-- Single --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

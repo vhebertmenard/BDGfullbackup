@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Gibt an, ob die Vertragserstellung für diesen Posten abgeschlossen ist.</help>
+        <label><!-- Is Contracted --></label>
+        <name>SBQQ__CompletelyContracted__c</name>
+    </CustomFieldTranslation>

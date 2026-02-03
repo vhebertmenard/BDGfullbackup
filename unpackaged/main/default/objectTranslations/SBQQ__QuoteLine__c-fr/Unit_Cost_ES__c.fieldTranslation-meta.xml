@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Data entry field for Unit Cost for ES. Used with Billable Days to populate Unit Cost on Daily Sublease. --></help>
+        <label><!-- Unit Cost (ES) --></label>
+        <name>Unit_Cost_ES__c</name>
+    </CustomFieldTranslation>

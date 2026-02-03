@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Rollup count of the products associated with this account --></help>
+        <label><!-- # of Products --></label>
+        <name>Number_of_Products__c</name>
+    </CustomFieldTranslation>

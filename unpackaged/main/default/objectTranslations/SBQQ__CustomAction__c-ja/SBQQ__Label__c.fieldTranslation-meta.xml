@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>UI でこのアクションに表示される表示ラベル。</help>
+        <label><!-- Label --></label>
+        <name>SBQQ__Label__c</name>
+        <picklistValues>
+            <masterLabel>Add Favorites</masterLabel>
+            <translation>お気に入りを追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Group</masterLabel>
+            <translation>グループを追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Products</masterLabel>
+            <translation>商品を追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Solution Group</masterLabel>
+            <translation>ソリューショングループを追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add To Favorites</masterLabel>
+            <translation>お気に入りに追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calculate</masterLabel>
+            <translation>計算</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation>キャンセル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clone Group</masterLabel>
+            <translation>グループをコピー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clone Line</masterLabel>
+            <translation>品目をコピー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete Group</masterLabel>
+            <translation>グループを削除</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete Line</masterLabel>
+            <translation>品目を削除</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete Lines</masterLabel>
+            <translation>品目を削除</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desegment Line</masterLabel>
+            <translation>品目をセグメント化解除</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease/Sale Analysis</masterLabel>
+            <translation><!-- Lease/Sale Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optional: All</masterLabel>
+            <translation>任意: すべて</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optional: None</masterLabel>
+            <translation>任意: なし</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quick Save</masterLabel>
+            <translation>適用</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconfigure Line</masterLabel>
+            <translation>品目を再設定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove From Favorites</masterLabel>
+            <translation>お気に入りから削除</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew Subscriptions</masterLabel>
+            <translation>サブスクリプションを更新</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resegment Line</masterLabel>
+            <translation>品目を再セグメント化</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reset Discounts</masterLabel>
+            <translation>割引をリセット</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Save</masterLabel>
+            <translation>保存</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation><!-- Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ungroup</masterLabel>
+            <translation>グループ化解除</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront/Backend Markups</masterLabel>
+            <translation><!-- Upfront/Backend Markups --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Assets</masterLabel>
+            <translation>納入商品をアップグレード</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>View Discount Schedule</masterLabel>
+            <translation>割引率表を表示</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

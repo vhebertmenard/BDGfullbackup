@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2024 - MPA - Disaster Recovery</name>
+    <style>none</style>
+    <subject>Ensure Business Continuity for {!Account.Name}: Rapid Recovery with Modular Buildings</subject>
+    <textOnly>Hi! Is your financial institution ready for unforeseen natural disasters?
+MPA System&apos;s comprehensive disaster recovery program is designed to help you respond to any business interruptions. From providing a fully furnished modular bank building with an optional generator to a connectivity package, we ensure your business is back up and running swiftly.
+
+To connect with us for more information:
+--&gt; Reply to this email
+--&gt; Request a quote on our website
+https://www.boxxmodular.com/about/disaster-recovery/
+--&gt; Call (888) 233-1584 to speak with one of our local experts
+
+We are here to help!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

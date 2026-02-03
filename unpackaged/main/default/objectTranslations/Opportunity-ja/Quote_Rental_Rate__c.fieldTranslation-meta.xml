@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Monthly rental rate from the primary quote --></help>
+        <label><!-- Rental Rate (Monthly) (Quote) --></label>
+        <name>Quote_Rental_Rate__c</name>
+    </CustomFieldTranslation>

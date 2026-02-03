@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Angebotsvorlage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Angebotsvorlagen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Angebotsvorlage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Angebotsvorlagen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Angebotsvorlage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Angebotsvorlagen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Angebotsvorlage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Angebotsvorlagen</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Quote Template Layout</layout>
+        <sections>
+            <label><!-- Corporate Information --></label>
+            <section>Corporate Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Header/Footer Information --></label>
+            <section>Header/Footer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Page Information --></label>
+            <section>Page Information</section>
+        </sections>
+        <sections>
+            <label><!-- Page Numbers --></label>
+            <section>Page Numbers</section>
+        </sections>
+        <sections>
+            <label><!-- Print Options --></label>
+            <section>Print Options</section>
+        </sections>
+        <sections>
+            <label><!-- Section Titles --></label>
+            <section>Section Titles</section>
+        </sections>
+        <sections>
+            <label><!-- Style Information --></label>
+            <section>Style Information</section>
+        </sections>
+        <sections>
+            <label><!-- Terms &amp;amp; Conditions --></label>
+            <section>Terms &amp;amp; Conditions</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Vorlagenname</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Fußzeilenhöhe darf nicht leer sein, wenn "Position Seitenzahl" auf "Fußzeile" eingestellt ist.</errorMessage>
+        <name>SBQQ__Blank_Footer_Height</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Kopfzeilenhöhe darf nicht leer sein, wenn "Position Seitenzahl" auf "Kopfzeile" eingestellt ist.</errorMessage>
+        <name>SBQQ__Blank_Header_Height</name>
+    </validationRules>
+    <webLinks>
+        <label>Mit Zugehörigen duplizieren</label>
+        <name>SBQQ__CloneWithRelated</name>
+    </webLinks>
+    <webLinks>
+        <label>Mit Zugehörigen duplizieren</label>
+        <name>SBQQ__CloneWithRelatedClassic</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Preview --></label>
+        <name>SBQQ__Preview</name>
+    </webLinks>
+    <webLinks>
+        <label>Übersetzen</label>
+        <name>SBQQ__Translate</name>
+    </webLinks>
+</CustomObjectTranslation>

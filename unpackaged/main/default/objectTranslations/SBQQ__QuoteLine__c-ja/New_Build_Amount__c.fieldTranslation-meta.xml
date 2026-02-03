@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- New Build (CAPEX) Amount --></help>
+        <label><!-- New Build Amount --></label>
+        <name>New_Build_Amount__c</name>
+    </CustomFieldTranslation>

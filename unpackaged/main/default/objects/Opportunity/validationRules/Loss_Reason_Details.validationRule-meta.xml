@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason_Details</fullName>
+    <active>true</active>
+    <description>Used to manage values for the Loss Reason picklist</description>
+    <errorConditionFormula>AND(
+$User.Username &lt;&gt;'rgali@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'ithelpdesk@blackdiamondgroup.com',
+$User.Username  &lt;&gt; 'salesforcedatamigration@blackdiamondgroup.com',
+RecordType.Name &lt;&gt; "Vanguard",
+ISPICKVAL( Loss_Reason__c, "Other"), 
+ISBLANK( Other_Reason__c ))</errorConditionFormula>
+    <errorDisplayField>Other_Reason__c</errorDisplayField>
+    <errorMessage>Describe "Other" Loss Reason.</errorMessage>
+</ValidationRule>

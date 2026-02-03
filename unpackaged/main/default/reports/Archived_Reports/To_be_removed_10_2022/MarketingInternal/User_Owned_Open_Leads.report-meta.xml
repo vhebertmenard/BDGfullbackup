@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_42189675</developerName>
+        <masterLabel>Lead Source</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>User.Lead$OwnerId$LeadSource</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Walk-In</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Social Media</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Referral</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Phone Inquiry</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Other</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Online Advertising</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Offline Advertising</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Indigenous Relationship</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Existing Customer</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Event/Tradeshow</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Email Marketing</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Association/Directory</sourceValue>
+            </sourceValues>
+            <value>Other</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>User.Lead$OwnerId$Owner</field>
+    </columns>
+    <columns>
+        <field>User$Name</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Name</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$Company</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$CountryCode</field>
+    </columns>
+    <columns>
+        <field>User.Lead$OwnerId$IsUnreadByOwner</field>
+    </columns>
+    <currency>CAD</currency>
+    <filter>
+        <criteriaItems>
+            <column>User.Lead$OwnerId$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Unqualified,Dead,Qualified,Converted</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>User.Lead$OwnerId$LeadSource</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>User$IsActive</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Year</dateGranularity>
+        <field>User.Lead$OwnerId$CreatedDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>User Owned Open Leads</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Leads_with_Users__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>User$LastLoginDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

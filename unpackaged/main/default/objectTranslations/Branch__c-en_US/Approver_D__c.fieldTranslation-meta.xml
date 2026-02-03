@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Authority Matrix level D Approver - pulled from Branch --></help>
+        <label><!-- Approver D --></label>
+        <name>Approver_D__c</name>
+        <relationshipLabel><!-- Branches (Approver D) --></relationshipLabel>
+    </CustomFieldTranslation>

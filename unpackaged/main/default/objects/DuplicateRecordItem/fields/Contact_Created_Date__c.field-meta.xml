@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Created_Date__c</fullName>
+    <description>Contact Created Date</description>
+    <formula>ContactName__r.CreatedDate</formula>
+    <inlineHelpText>Contact Created Date</inlineHelpText>
+    <label>Contact Created Date</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

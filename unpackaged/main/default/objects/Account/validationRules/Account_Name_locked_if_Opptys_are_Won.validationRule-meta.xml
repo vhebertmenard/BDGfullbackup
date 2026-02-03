@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Name_locked_if_Opptys_are_Won</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Number_of_Won_Opportunities__c  &gt; 0,  ISCHANGED(Name), $User.Username &lt;&gt; 'rgali@blackdiamondgroup.com.fullcopy',
+$User.Username &lt;&gt; 'rmcneill@blackdiamondgroup.com',
+$User.Username &lt;&gt; 'sbohannon@boxxmodular.com',
+$User.Username &lt;&gt; 'djimenez@boxxmodular.com.fullcopy',
+$User.Username&lt;&gt;'dlawal@blackdiamondgroup.com',
+$User.Username&lt;&gt;'jleslie@blackdiamondgroup.com.fullcopy')</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Account Name cannot be changed when there are Opportunity that are Closed Won</errorMessage>
+</ValidationRule>

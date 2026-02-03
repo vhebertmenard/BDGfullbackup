@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Read the number of MPA locations selected on the Quote onto the Opportunity --></help>
+        <label><!-- # of Locations (Quote) --></label>
+        <name>Quote_Number_of_Locations__c</name>
+    </CustomFieldTranslation>

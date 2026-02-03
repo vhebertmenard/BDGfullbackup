@@ -1,0 +1,33 @@
+<!-- File: force-app/main/default/lwc/fleetCheckedOutWarning/fleetCheckedOutWarning.html -->
+<template>
+    <template if:true={showBanner}>
+        <section class="slds-notify slds-notify_alert slds-theme_warning slds-m-bottom_small" role="alert">
+            <span class="slds-assistive-text">warning</span>
+            <span class="slds-icon_container slds-icon-utility-warning" title="warning" style="margin-right:.5rem;">
+                <lightning-icon icon-name="utility:warning" size="small"></lightning-icon>
+            </span>
+            <h2 class="slds-text-heading_small">
+                Please verify the Units selected on the Quote.
+            </h2>
+        </section>
+
+        <article class="slds-card slds-p-around_small">
+            <h3 class="slds-text-title_caps slds-m-bottom_x-small">Units currently “Checked-Out”</h3>
+            <template for:each={units} for:item="u">
+                <div key={u.unitId} class="slds-m-vertical_x-small">
+                    <lightning-formatted-url value={u.recordUrl}
+                                             label={u.unitName}
+                                             target="_blank">
+                    </lightning-formatted-url>
+                    <span class="slds-m-left_small slds-badge">Checked-Out</span>
+                </div>
+            </template>
+        </article>
+    </template>
+
+    <template if:true={error}>
+        <div class="slds-text-color_error slds-m-top_small">
+            Unable to check unit statuses.
+        </div>
+    </template>
+</template>

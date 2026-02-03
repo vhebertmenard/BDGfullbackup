@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Postal/Zip Code of the site where the potential job will take place. Auto-filled from Project Source, when selected. --></help>
+        <label><!-- Site Postal/Zip Code --></label>
+        <name>Opportunity_Postal_Code__c</name>
+    </CustomFieldTranslation>

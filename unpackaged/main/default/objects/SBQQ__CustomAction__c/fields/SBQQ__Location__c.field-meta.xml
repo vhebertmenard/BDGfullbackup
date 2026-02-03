@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Location__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Location of this action on the page.</description>
+    <inlineHelpText>Location of this action on the page.</inlineHelpText>
+    <label>Location</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SBQQ__Page__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote</fullName>
+                <default>true</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>Quote/Group</fullName>
+                <default>false</default>
+                <label>Quote/Group</label>
+            </value>
+            <value>
+                <fullName>Group</fullName>
+                <default>false</default>
+                <label>Group</label>
+            </value>
+            <value>
+                <fullName>Line</fullName>
+                <default>false</default>
+                <label>Line</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Product Configurator</controllingFieldValue>
+            <controllingFieldValue>Quote Line Editor</controllingFieldValue>
+            <valueName>Quote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Editor</controllingFieldValue>
+            <valueName>Quote/Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Editor</controllingFieldValue>
+            <valueName>Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Editor</controllingFieldValue>
+            <valueName>Line</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

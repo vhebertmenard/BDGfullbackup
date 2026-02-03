@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The first date in the term we are currently pre-qualified with this customer Account --></help>
+        <label><!-- Pre-Qualified Date --></label>
+        <name>Pre_Qualified_Date__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2020 May - COVID-19 Social Distancing Space - Food Processing</name>
+    <style>none</style>
+    <subject>Modular offices for COVID-19 testing and social distancing</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monthly_Damage_Waiver_Amount__c</fullName>
+    <description>Monthly Damage Waiver is calculated at 14% of the Total Monthly Amount for the quote.</description>
+    <formula>IF( Total_Monthly_Amount__c = 0, null,  Total_Monthly_Amount__c * 0.14)</formula>
+    <inlineHelpText>Monthly Damage Waiver is calculated at 14% of the Total Monthly Amount for the quote.</inlineHelpText>
+    <label>Total Monthly Damage Waiver</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_NBV_Markup_of_Sale__c</fullName>
+    <description>Markup % of Sale and Carry On lines where "New Unit" or "New Carry On" is not selected in Unit No.</description>
+    <formula>IF( Total_NBV_of_Sale_and_Carry_On__c = 0, 0, ( Total_Fixed_Asset_Sale_Contract_Value__c - Total_NBV_of_Sale_and_Carry_On__c )/ Total_NBV_of_Sale_and_Carry_On__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Markup % of Sale and Carry On lines where "New Unit" or "New Carry On" is not selected in Unit No.</inlineHelpText>
+    <label>Total NBV Markup % of Sale</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

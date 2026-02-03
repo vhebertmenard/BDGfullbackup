@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Large_Opportunity_Confirmation</fullName>
+    <active>true</active>
+    <description>Select if total Quote is over $1M to avoid unintentional/inaccurate notifications to executives when a large amount is entered in error.</description>
+    <errorConditionFormula>AND(Large_Opportunity__c = TRUE,SBQQ__NetAmount__c  &lt;= 1000000, $User.Username  &lt;&gt; "salesforcedatamigration@blackdiamondgroup.com", OR(RecordType.Name = "BD Modular",RecordType.Name = "BD Disaster",RecordType.Name = "Vanguard"))</errorConditionFormula>
+    <errorDisplayField>Large_Opportunity__c</errorDisplayField>
+    <errorMessage>Check Large Opportunity box on the Quote, if Net Amount is over $1M; otherwise correct quote lines to reflect correct total.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Bed Count + # of Beds (Quote rollup summary field, not yet developed) --></help>
+        <label><!-- Total # of Beds --></label>
+        <name>Total_Number_of_Beds__c</name>
+    </CustomFieldTranslation>

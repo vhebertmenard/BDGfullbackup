@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IPS_Link__c</fullName>
+    <description>Generates URL for IPS Document</description>
+    <externalId>false</externalId>
+    <formula>IF( IPS_URL__c = NULL, "", HYPERLINK( IPS_URL__c, "DWS/MP IPS/Bid Sheet", "_blank"))</formula>
+    <inlineHelpText>Link to IPS Document</inlineHelpText>
+    <label>DWS/MP IPS/Bid Sheet</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

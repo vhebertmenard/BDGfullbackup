@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_30917426</developerName>
+        <masterLabel>Business Region</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>User.BDG_Branch__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>BOXX Atlanta</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Banks Dallas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Fort Worth</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Houston</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Charlotte</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Marietta</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Raleigh</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Schiavi</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Dallas</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX MPA</sourceValue>
+            </sourceValues>
+            <value>MSS US</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>BOXX Calgary</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Edmonton</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Saskatchewan</sourceValue>
+            </sourceValues>
+            <value>MSS Prairies</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>BOXX Kelowna</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Langley</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Nanaimo</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Prince George</sourceValue>
+            </sourceValues>
+            <value>MSS Pacific</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>BOXX Ottawa</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BOXX Stoney Creek</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>MSS Canada East</sourceValue>
+            </sourceValues>
+            <value>MSS Canada East</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Head Office</sourceValue>
+            </sourceValues>
+            <value>MSS Canada</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>AUS Brisbane</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>AUS Melbourne</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>AUS Perth</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>AUS Sydney</sourceValue>
+            </sourceValues>
+            <value>AUS</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ES Colorado</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ES Estevan</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ES Fort St John</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ES Grande Prairie</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ES North Dakota</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ES Texas</sourceValue>
+            </sourceValues>
+            <value>Energy Services</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Number_of_Units__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Term_Length__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Quote_Rental_Rate__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Quote_CAPEX__c</field>
+    </columns>
+    <columns>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Quote_Transaction_Type_Detail__c</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>LEAD_SOURCE</field>
+    </columns>
+    <columns>
+        <field>User.BDG_Branch__c</field>
+    </columns>
+    <columns>
+        <field>User.BDG_Department__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Profit_Production_Primary_Quote__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>MSS Closed Won Projects of Rental Transaction Type</description>
+    <filter>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>WIP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Transaction_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Rental</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.BDG_Division__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Modular Solutions</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_30917426</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>Opportunity.Estimated_First_Revenue__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>MSS WIP - Rental Projects</name>
+    <params>
+        <name>open</name>
+        <value>closedwon</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Opportunity.Estimated_First_Revenue__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

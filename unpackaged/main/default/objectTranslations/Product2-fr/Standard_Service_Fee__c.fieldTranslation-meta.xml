@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Standard amount charged to client for cleaning and/or servicing --></help>
+        <label><!-- Standard Service Fee --></label>
+        <name>Standard_Service_Fee__c</name>
+    </CustomFieldTranslation>

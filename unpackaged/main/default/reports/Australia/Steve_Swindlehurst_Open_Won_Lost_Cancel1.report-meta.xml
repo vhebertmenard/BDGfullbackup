@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_92047573</developerName>
+        <masterLabel>Stage Type</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>STAGE_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Project Planning</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Initial Inquiry (RFI/Pre-Qual)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ROM</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>RFQ / RFP</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bid Preparation</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bid Submittal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Negotiation</sourceValue>
+            </sourceValues>
+            <value>Open</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>WIP</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Completed.</sourceValue>
+            </sourceValues>
+            <value>Won</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Lost</sourceValue>
+            </sourceValues>
+            <value>Lost</value>
+        </values>
+        <values>
+            <value>Cancelled</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>PROBABILITY</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Estimated_Contract_Value__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Transaction_Type__c</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Subtotal__c</field>
+    </columns>
+    <currency>CAD</currency>
+    <description>Open/Won/Lost/Cancelled Opps</description>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity.Division_Region__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Camps Canada,Camps US,ES Canada,ES US</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Awarded,Bid Preparation,Bid Submittal,Cancelled,Closed Lost,Closed Won,Completed,Completed.,Contract Approved,Contract Sent,Create Contract,Create Quote,Initial Inquiry (RFI/Pre-Qual),Lost,Negotiation,Negotiation/Review,No Bid,Planning,Project Planning,Proposal,Proposal Delivered,Proposal In Progress,Qualification,Qualified,Quote Prep,Quote Sent,RFQ / RFP,ROM,WIP,Won</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Steve Swindlehurst  Open/Won/Lost/Cancel</name>
+    <params>
+        <name>open</name>
+        <value>open</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>gt50</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+    <userFilter>sswindlehurst@blackdiamondgroup.com</userFilter>
+</Report>

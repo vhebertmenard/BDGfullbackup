@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total Markup of Operations items divided by the Total Cost of Operations Items --></help>
+        <label><!-- Total Operations Markup % --></label>
+        <name>Total_Operations_Markup__c</name>
+    </CustomFieldTranslation>

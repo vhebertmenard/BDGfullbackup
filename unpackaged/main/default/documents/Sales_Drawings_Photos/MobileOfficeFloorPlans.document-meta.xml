@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This flyer shows all the Standard Nortex Mobile Office Floor Plans</description>
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>Nortex Mobile Office Floor Plans</keywords>
+    <name>Mobile Office Floor Plans</name>
+    <public>false</public>
+</Document>

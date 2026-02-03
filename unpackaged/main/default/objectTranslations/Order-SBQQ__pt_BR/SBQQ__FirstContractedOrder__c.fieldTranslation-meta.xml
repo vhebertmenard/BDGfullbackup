@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If Contracting Method is set to &quot;Single Contract&quot;, this field references the original contracted order, where the single contract is created from. The field value is set by the system. --></help>
+        <label>Primeiro pedido contratado</label>
+        <name>SBQQ__FirstContractedOrder__c</name>
+        <relationshipLabel>Pedidos contratados únicos</relationshipLabel>
+    </CustomFieldTranslation>

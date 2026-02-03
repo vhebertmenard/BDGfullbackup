@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Replacement Value shown in Fleet for Serial No. selected --></help>
+        <label><!-- Replacement Value Fleet --></label>
+        <name>Replacement_Value_Fleet__c</name>
+    </CustomFieldTranslation>

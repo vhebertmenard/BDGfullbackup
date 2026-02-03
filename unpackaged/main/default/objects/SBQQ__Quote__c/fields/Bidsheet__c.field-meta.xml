@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bidsheet__c</fullName>
+    <externalId>false</externalId>
+    <formula>"https://bdgl.sharepoint.com/sites/FC/BD%20Documents/"&amp;""&amp;Contract_Number__c&amp;"/Project%20Documents/24.%20BidSheet/"&amp;Name&amp;"%20"&amp;Contract_Number__c &amp;"%20Bidsheet%20"&amp;SBQQ__Opportunity2__r.Name&amp;".pdf"</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Bidsheet</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

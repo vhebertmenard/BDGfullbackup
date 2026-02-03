@@ -1,0 +1,21 @@
+<html>
+<body>
+<p>Hello {!Lead.Name},</p>
+<p>Your modular building quote request for {!Lead.Company}, {!Lead.Address} is very important to us.</p>
+
+<p>Unfortunately, I have not yet had the pleasure of connecting with you over the phone; and that likely is because you are very busy.</p>
+
+- Is there a particular time of day that would work best for me to contact you?<br/>
+- Is {!Lead.Phone} the best phone number for me to reach you?<br/>
+
+<p>If you could please let me know as it would be my pleasure to schedule a time that is suitable for us to connect.</p>
+
+<p>Thank you for your interest in BOXX Modular, I look forward to speaking with you soon!</p>
+
+<p>Have a great day!</p>
+
+Lynn Perugini<br/>
+Marketing Specialist<br/>
+BOXX Modular<br/>
+Phone: (610) 680-0385<br/>
+<a href="www.boxxmodular.com">www.boxxmodular.com</a>

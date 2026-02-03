@@ -1,0 +1,6 @@
+<apex:page standardcontroller="SBQQ__Quote__c">
+  <p>
+  </p>
+  <font size="3">Please add your new Quote to an existing Opportunity.<p>
+  Navigate to your Opportunity and click the <b>New Quote</b> button (top right).</p></font>
+</apex:page>

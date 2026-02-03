@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Future/Proposed Asset Status --></label>
+        <name>Future_Proposed_Asset_Status__c</name>
+        <picklistValues>
+            <masterLabel>Expiring Soon</masterLabel>
+            <translation><!-- Expiring Soon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MtoM</masterLabel>
+            <translation><!-- MtoM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewed</masterLabel>
+            <translation><!-- Renewed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returning</masterLabel>
+            <translation><!-- Returning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sale</masterLabel>
+            <translation><!-- Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

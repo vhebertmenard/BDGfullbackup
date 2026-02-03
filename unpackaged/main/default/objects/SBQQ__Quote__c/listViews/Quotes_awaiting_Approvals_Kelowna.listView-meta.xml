@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quotes_awaiting_Approvals_Kelowna</fullName>
+    <columns>NAME</columns>
+    <columns>Quote_Name__c</columns>
+    <columns>SBQQ__Opportunity2__c</columns>
+    <columns>Transaction_Type__c</columns>
+    <columns>SBQQ__NetAmount__c</columns>
+    <columns>Branch__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>CAPEX_Required__c</columns>
+    <columns>Markup_Sale_Lowest__c</columns>
+    <columns>Total_Margin_Percent__c</columns>
+    <columns>Total_Markup_Percent__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SBQQ__Status__c</field>
+        <operation>equals</operation>
+        <value>In Review</value>
+    </filters>
+    <filters>
+        <field>Branch__c</field>
+        <operation>equals</operation>
+        <value>BOXX Kelowna</value>
+    </filters>
+    <label>Quotes awaiting Approvals - Kelowna</label>
+</ListView>

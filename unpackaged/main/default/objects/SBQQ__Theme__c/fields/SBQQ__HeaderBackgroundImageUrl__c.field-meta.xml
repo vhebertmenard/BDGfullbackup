@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__HeaderBackgroundImageUrl__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Url of the image uploaded as a Document to be displayed onpage header</description>
+    <inlineHelpText>Url for page header background image</inlineHelpText>
+    <label>Header Background Image Url</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

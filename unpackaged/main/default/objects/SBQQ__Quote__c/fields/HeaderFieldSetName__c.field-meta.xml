@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HeaderFieldSetName__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( OR(Record_Type_Name__c = 'BOXX',Record_Type_Name__c  = 'BD Modular'),
+CASE(TEXT(Transaction_Type__c),
+"Rental","Lease_Analysis",
+"Sale" ,"Sale_Analysis",
+"SBQQ__LineEditor"),
+"SBQQ__LineEditor"
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>HeaderFieldSetName</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

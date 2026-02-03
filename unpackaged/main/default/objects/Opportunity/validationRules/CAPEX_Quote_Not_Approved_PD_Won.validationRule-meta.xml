@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAPEX_Quote_Not_Approved_PD_Won</fullName>
+    <active>true</active>
+    <description>CAPEX Quote Needs to be Approved before marking opportunity stage as Proposal Delivered/Closed</description>
+    <errorConditionFormula>AND( 
+ $User.Username &lt;&gt; 'rgali@blackdiamondgroup.com',
+ $User.Username &lt;&gt;'ithelpdesk@blackdiamondgroup.com',
+ $User.Username &lt;&gt;'djimenez@boxxmodular.com',
+ NS_Project_ID__c = '',
+
+
+   OR(ISPICKVAL(StageName,'Proposal Delivered'),IsWon), 
+   NOT(ISPICKVAL(SBQQ__PrimaryQuote__r.SBQQ__Status__c, 'Approved')), 
+   Quote_CAPEX__c &gt; 0,
+   RecordType.Name = "BD MSS"
+
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>CAPEX Quote Needs to be Approved before marking opportunity stage as Proposal Delivered/Closed</errorMessage>
+</ValidationRule>

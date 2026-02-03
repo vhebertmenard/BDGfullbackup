@@ -1,0 +1,16 @@
+QUOTE {!SBQQ__Quote__c.Name} REJECTED with the following Comments: 
+{!ApprovalRequest.Comments} 
+
+Account: {!SBQQ__Quote__c.SBQQ__BillingName__c} 
+Opportunity: {!SBQQ__Quote__c.SBQQ__Opportunity2__c} 
+Quote: {!SBQQ__Quote__c.Quote_Name__c}
+
+Sales Rep: {!SBQQ__Quote__c.SBQQ__SalesRep__c}
+Branch: {!SBQQ__Quote__c.Branch__c} 
+Link to Quote: {!SBQQ__Quote__c.Link} 
+
+Type: {!SBQQ__Quote__c.Transaction_Type__c} - {!SBQQ__Quote__c.Transaction_Type_Detail__c} 
+Total: {!SBQQ__Quote__c.SBQQ__NetAmount__c} 
+Link to Fleet Central (for Bid Sheet): {!SBQQ__Quote__c.Fleet_Central_Link__c}
+
+Requested by: {!Approval_Requesting_User.Name}

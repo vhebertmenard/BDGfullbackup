@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Roll up all quote lines for effective Daily Amount on the Quote, excl Optional --></help>
+        <label><!-- Rental Rate (Daily) --></label>
+        <name>Total_Daily_Amount__c</name>
+    </CustomFieldTranslation>

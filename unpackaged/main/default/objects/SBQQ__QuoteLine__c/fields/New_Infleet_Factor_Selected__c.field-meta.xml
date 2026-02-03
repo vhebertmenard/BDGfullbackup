@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Infleet_Factor_Selected__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(SBQQ__Quote__r.To_be_entered_into_pipeline__c ,
+     'Term 1', New_Infleet_Factor_1__c,
+     'Term 2', New_Infleet_Factor_2__c,
+     'Term 3', New_Infleet_Factor_3__c,
+     'Term 4', New_Infleet_Factor_4__c,
+     'Term 5', New_Infleet_Factor_5__c,
+     NULL
+)</formula>
+    <label>New/Infleet Factor Selected</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>9</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

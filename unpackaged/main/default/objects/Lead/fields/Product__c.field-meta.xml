@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <label>Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sales/Leasing</fullName>
+                <default>false</default>
+                <label>Sales/Leasing</label>
+            </value>
+            <value>
+                <fullName>Disaster Recovery</fullName>
+                <default>false</default>
+                <label>Disaster Recovery</label>
+            </value>
+            <value>
+                <fullName>Not sure</fullName>
+                <default>false</default>
+                <label>Not sure</label>
+            </value>
+            <value>
+                <fullName>Single Buildings</fullName>
+                <default>false</default>
+                <label>Single Buildings</label>
+            </value>
+            <value>
+                <fullName>Multi-unit Complexes</fullName>
+                <default>false</default>
+                <label>Multi-unit Complexes</label>
+            </value>
+            <value>
+                <fullName>Modular Classrooms</fullName>
+                <default>false</default>
+                <label>Modular Classrooms</label>
+            </value>
+            <value>
+                <fullName>Additional Services</fullName>
+                <default>false</default>
+                <label>Additional Services</label>
+            </value>
+            <value>
+                <fullName>Traditional Camps</fullName>
+                <default>false</default>
+                <label>Traditional Camps</label>
+            </value>
+            <value>
+                <fullName>Rapid Deployment Camps</fullName>
+                <default>false</default>
+                <label>Rapid Deployment Camps</label>
+            </value>
+            <value>
+                <fullName>Plug &amp; Stay Camps</fullName>
+                <default>false</default>
+                <label>Plug &amp; Stay Camps</label>
+            </value>
+            <value>
+                <fullName>Build. Own. Operate. Villages</fullName>
+                <default>false</default>
+                <label>Build. Own. Operate. Villages</label>
+            </value>
+            <value>
+                <fullName>Used Fleet</fullName>
+                <default>false</default>
+                <label>Used Fleet</label>
+            </value>
+            <value>
+                <fullName>Custom Buildings</fullName>
+                <default>false</default>
+                <label>Custom Buildings</label>
+            </value>
+            <value>
+                <fullName>Breezeways</fullName>
+                <default>false</default>
+                <label>Breezeways</label>
+            </value>
+            <value>
+                <fullName>Containers</fullName>
+                <default>false</default>
+                <label>Containers</label>
+            </value>
+            <value>
+                <fullName>Bulldog Secure Offices</fullName>
+                <default>false</default>
+                <label>Bulldog Secure Offices</label>
+            </value>
+            <value>
+                <fullName>Kiosks</fullName>
+                <default>false</default>
+                <label>Kiosks</label>
+            </value>
+            <value>
+                <fullName>Designer Offices</fullName>
+                <default>false</default>
+                <label>Designer Offices</label>
+            </value>
+            <value>
+                <fullName>Office Complexes</fullName>
+                <default>false</default>
+                <label>Office Complexes</label>
+            </value>
+            <value>
+                <fullName>First Aid Buildings</fullName>
+                <default>false</default>
+                <label>First Aid Buildings</label>
+            </value>
+            <value>
+                <fullName>Washroom Buildings</fullName>
+                <default>false</default>
+                <label>Washroom Buildings</label>
+            </value>
+            <value>
+                <fullName>Skidded Field Offices</fullName>
+                <default>false</default>
+                <label>Skidded Field Offices</label>
+            </value>
+            <value>
+                <fullName>Field Offices</fullName>
+                <default>false</default>
+                <label>Field Offices</label>
+            </value>
+            <value>
+                <fullName>Mobile Offices</fullName>
+                <default>false</default>
+                <label>Mobile Offices</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

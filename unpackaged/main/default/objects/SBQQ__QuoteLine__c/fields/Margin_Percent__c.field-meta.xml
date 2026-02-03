@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Margin_Percent__c</fullName>
+    <description>Margin amount (Sale price less the unit cost) divided by the Sale price</description>
+    <formula>IF( ISBLANK(Margin_Amount__c), NULL, Margin_Amount__c /  SBQQ__NetTotal__c)</formula>
+    <inlineHelpText>Margin amount (Sale price less the unit cost) divided by the Sale price</inlineHelpText>
+    <label>Margin %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

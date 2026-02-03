@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>email2help-en_us@qmbypdihw0dki9buqvufod4s.3xsfgeas.3.apex.salesforce.com</email>
+    <name>Premier Support</name>
+    <queueMembers>
+        <users>
+            <user>cmack@blackdiamondgroup.com</user>
+            <user>kmcclure@blackdiamondgroup.com</user>
+            <user>smcnaught@blackdiamondgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

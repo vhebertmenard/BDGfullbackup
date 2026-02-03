@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Commitment_Term</fullName>
+    <active>true</active>
+    <description>If the Transaction type is Lodging, require Commitment Term (Days) to be entered</description>
+    <errorConditionFormula>AND(
+  ISBLANK( Commitment_Term_Days__c ),
+  TEXT( Transaction_Type__c )="Lodging"
+)</errorConditionFormula>
+    <errorDisplayField>Commitment_Term_Days__c</errorDisplayField>
+    <errorMessage>Please enter Commitment Term (Days)</errorMessage>
+</ValidationRule>

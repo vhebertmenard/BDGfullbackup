@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BOXX_Canada_West_Sask_Lead</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Website_Source__c</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Opportunity_Postal_Code__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Unqualified,Dead,Qualified,Converted</value>
+    </filters>
+    <label>BOXX CA West - Sask Open Web Leads</label>
+    <queue>BOXX_Canada_West_Sask</queue>
+    <sharedTo>
+        <group>All_BD_Users</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>01-Agriculture/Forestry/Fishing</fullName>
+        <default>false</default>
+        <label>01-Agriculture/Forestry/Fishing</label>
+    </customValue>
+    <customValue>
+        <fullName>02-Veterinarians</fullName>
+        <default>false</default>
+        <label>02-Veterinarians</label>
+    </customValue>
+    <customValue>
+        <fullName>07-Agricultural Services</fullName>
+        <default>false</default>
+        <label>07-Agricultural Services</label>
+    </customValue>
+    <customValue>
+        <fullName>08-Forestry</fullName>
+        <default>false</default>
+        <label>08-Forestry</label>
+    </customValue>
+    <customValue>
+        <fullName>09-Fishing Hunting &amp; Trapping</fullName>
+        <default>false</default>
+        <label>09-Fishing Hunting &amp; Trapping</label>
+    </customValue>
+    <customValue>
+        <fullName>10-Mining/Oil&amp;Gas Extrac/Pipeline</fullName>
+        <default>false</default>
+        <label>10-Mining/Oil&amp;Gas Extrac/Pipeline</label>
+    </customValue>
+    <customValue>
+        <fullName>12-Coal Mining</fullName>
+        <default>false</default>
+        <label>12-Coal Mining</label>
+    </customValue>
+    <customValue>
+        <fullName>13-Oil &amp; Gas Extraction</fullName>
+        <default>false</default>
+        <label>13-Oil &amp; Gas Extraction</label>
+    </customValue>
+    <customValue>
+        <fullName>14-Mining &amp; Quarrying-Nonmetallic Minerals</fullName>
+        <default>false</default>
+        <label>14-Mining &amp; Quarrying-Nonmetallic Minerals</label>
+    </customValue>
+    <customValue>
+        <fullName>15A-Architects &amp; Engineers</fullName>
+        <default>false</default>
+        <label>15A-Architects &amp; Engineers</label>
+    </customValue>
+    <customValue>
+        <fullName>15-Bldg Construction - G.C.</fullName>
+        <default>false</default>
+        <label>15-Bldg Construction - G.C.</label>
+    </customValue>
+    <customValue>
+        <fullName>16-Heavy Construction - Non bldg</fullName>
+        <default>false</default>
+        <label>16-Heavy Construction - Non bldg</label>
+    </customValue>
+    <customValue>
+        <fullName>17-Construction - Special Trades</fullName>
+        <default>false</default>
+        <label>17-Construction - Special Trades</label>
+    </customValue>
+    <customValue>
+        <fullName>20-Manufacturing</fullName>
+        <default>false</default>
+        <label>20-Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>20F-Food Processing</fullName>
+        <default>false</default>
+        <label>20F-Food Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>21-Tobacco Products Mfrs</fullName>
+        <default>false</default>
+        <label>21-Tobacco Products Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>22-Textile Mill Products Mfrs</fullName>
+        <default>false</default>
+        <label>22-Textile Mill Products Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>23-Apparel &amp; Other Finished Products-Mfrs</fullName>
+        <default>false</default>
+        <label>23-Apparel &amp; Other Finished Products-Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>24-Lumber &amp; Wood Prods Except Furntr Mfrs</fullName>
+        <default>false</default>
+        <label>24-Lumber &amp; Wood Prods Except Furntr Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>25-Furniture &amp; Fixtures Mfrs</fullName>
+        <default>false</default>
+        <label>25-Furniture &amp; Fixtures Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>26-Paper &amp; Allied Products Mfrs</fullName>
+        <default>false</default>
+        <label>26-Paper &amp; Allied Products Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>27-Printing Publishing &amp; Allied Industries</fullName>
+        <default>false</default>
+        <label>27-Printing Publishing &amp; Allied Industries</label>
+    </customValue>
+    <customValue>
+        <fullName>28-Chemicals &amp; Allied Products Mfrs</fullName>
+        <default>false</default>
+        <label>28-Chemicals &amp; Allied Products Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>28C-Cannabis Mfrs</fullName>
+        <default>false</default>
+        <label>28C-Cannabis Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>29-Petroleum Refining &amp; Related Inds Mfrs</fullName>
+        <default>false</default>
+        <label>29-Petroleum Refining &amp; Related Inds Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>30-Rubber &amp; Miscellaneous Plastics Mfrs</fullName>
+        <default>false</default>
+        <label>30-Rubber &amp; Miscellaneous Plastics Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>31-Leather &amp; Leather Products Mfrs</fullName>
+        <default>false</default>
+        <label>31-Leather &amp; Leather Products Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>32-Stone Clay Glass &amp; Concrete Prods Mfrs</fullName>
+        <default>false</default>
+        <label>32-Stone Clay Glass &amp; Concrete Prods Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>33-Primary Metal Industries Mfrs</fullName>
+        <default>false</default>
+        <label>33-Primary Metal Industries Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>34-Fabricated Metal Products Mfrs</fullName>
+        <default>false</default>
+        <label>34-Fabricated Metal Products Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>35-Industrial &amp; Commercial Machinery Mfrs</fullName>
+        <default>false</default>
+        <label>35-Industrial &amp; Commercial Machinery Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>36-Electronic &amp; Other Electrical Equip Mfr</fullName>
+        <default>false</default>
+        <label>36-Electronic &amp; Other Electrical Equip Mfr</label>
+    </customValue>
+    <customValue>
+        <fullName>37-Transportation Equipment Mfrs</fullName>
+        <default>false</default>
+        <label>37-Transportation Equipment Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>373-Ship and Boat Building and Repairing</fullName>
+        <default>false</default>
+        <label>373-Ship and Boat Building and Repairing</label>
+    </customValue>
+    <customValue>
+        <fullName>38-Measuring &amp; Analyzing Instruments-Mfrs</fullName>
+        <default>false</default>
+        <label>38-Measuring &amp; Analyzing Instruments-Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>39-Miscellaneous Manufacturing Inds Mfrs</fullName>
+        <default>false</default>
+        <label>39-Miscellaneous Manufacturing Inds Mfrs</label>
+    </customValue>
+    <customValue>
+        <fullName>40-Transportation</fullName>
+        <default>false</default>
+        <label>40-Transportation</label>
+    </customValue>
+    <customValue>
+        <fullName>40R-Railroad Transportation</fullName>
+        <default>false</default>
+        <label>40R-Railroad Transportation</label>
+    </customValue>
+    <customValue>
+        <fullName>41-Local/Suburban Transit &amp; Hwy Passenger</fullName>
+        <default>false</default>
+        <label>41-Local/Suburban Transit &amp; Hwy Passenger</label>
+    </customValue>
+    <customValue>
+        <fullName>42-Motor Freight Transportation/Warehouse</fullName>
+        <default>false</default>
+        <label>42-Motor Freight Transportation/Warehouse</label>
+    </customValue>
+    <customValue>
+        <fullName>43-U.S. Postal Service</fullName>
+        <default>false</default>
+        <label>43-U.S. Postal Service</label>
+    </customValue>
+    <customValue>
+        <fullName>44P-Ports &amp; Port Operators</fullName>
+        <default>false</default>
+        <label>44P-Ports &amp; Port Operators</label>
+    </customValue>
+    <customValue>
+        <fullName>44-Water Transportation</fullName>
+        <default>false</default>
+        <label>44-Water Transportation</label>
+    </customValue>
+    <customValue>
+        <fullName>45-Transportation By Air</fullName>
+        <default>false</default>
+        <label>45-Transportation By Air</label>
+    </customValue>
+    <customValue>
+        <fullName>46-Pipelines Except Natural Gas</fullName>
+        <default>false</default>
+        <label>46-Pipelines Except Natural Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>47-Travel Agencies &amp; Transp Srvcs</fullName>
+        <default>false</default>
+        <label>47-Travel Agencies &amp; Transp Srvcs</label>
+    </customValue>
+    <customValue>
+        <fullName>48-Communications Services</fullName>
+        <default>false</default>
+        <label>48-Communications Services</label>
+    </customValue>
+    <customValue>
+        <fullName>49-Electric,Gas,Water,SanitarySrv</fullName>
+        <default>false</default>
+        <label>49-Electric,Gas,Water,SanitarySrv</label>
+    </customValue>
+    <customValue>
+        <fullName>50-Wholesale Trade</fullName>
+        <default>false</default>
+        <label>50-Wholesale Trade</label>
+    </customValue>
+    <customValue>
+        <fullName>51-Wholesale Trade-Nondurable Goods</fullName>
+        <default>false</default>
+        <label>51-Wholesale Trade-Nondurable Goods</label>
+    </customValue>
+    <customValue>
+        <fullName>52-Retail</fullName>
+        <default>false</default>
+        <label>52-Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>53-General Merchandise Stores</fullName>
+        <default>false</default>
+        <label>53-General Merchandise Stores</label>
+    </customValue>
+    <customValue>
+        <fullName>54-Food Stores</fullName>
+        <default>false</default>
+        <label>54-Food Stores</label>
+    </customValue>
+    <customValue>
+        <fullName>55-Auto Dealers &amp; Gas Stations</fullName>
+        <default>false</default>
+        <label>55-Auto Dealers &amp; Gas Stations</label>
+    </customValue>
+    <customValue>
+        <fullName>56-Apparel &amp; Accessory Stores</fullName>
+        <default>false</default>
+        <label>56-Apparel &amp; Accessory Stores</label>
+    </customValue>
+    <customValue>
+        <fullName>57-Home Furniture &amp; Furnishings Stores</fullName>
+        <default>false</default>
+        <label>57-Home Furniture &amp; Furnishings Stores</label>
+    </customValue>
+    <customValue>
+        <fullName>58-Eating &amp; Drinking Places</fullName>
+        <default>false</default>
+        <label>58-Eating &amp; Drinking Places</label>
+    </customValue>
+    <customValue>
+        <fullName>59-Miscellaneous Retail</fullName>
+        <default>false</default>
+        <label>59-Miscellaneous Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>60-DepositryInstit-Banks,Cr.Union</fullName>
+        <default>false</default>
+        <label>60-DepositryInstit-Banks,Cr.Union</label>
+    </customValue>
+    <customValue>
+        <fullName>61-Non-depository Credit&amp;LoanInst</fullName>
+        <default>false</default>
+        <label>61-Non-depository Credit&amp;LoanInst</label>
+    </customValue>
+    <customValue>
+        <fullName>62-Security &amp; Commodity Brokers</fullName>
+        <default>false</default>
+        <label>62-Security &amp; Commodity Brokers</label>
+    </customValue>
+    <customValue>
+        <fullName>63-Insurance Carriers</fullName>
+        <default>false</default>
+        <label>63-Insurance Carriers</label>
+    </customValue>
+    <customValue>
+        <fullName>64-Insurance Agents &amp; Brokers</fullName>
+        <default>false</default>
+        <label>64-Insurance Agents &amp; Brokers</label>
+    </customValue>
+    <customValue>
+        <fullName>65-Real Estate</fullName>
+        <default>false</default>
+        <label>65-Real Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>67-Holding &amp; Other Investment Offices</fullName>
+        <default>false</default>
+        <label>67-Holding &amp; Other Investment Offices</label>
+    </customValue>
+    <customValue>
+        <fullName>70-Hotels,Camps &amp; Org&apos;l Lodgings</fullName>
+        <default>false</default>
+        <label>70-Hotels,Camps &amp; Org&apos;l Lodgings</label>
+    </customValue>
+    <customValue>
+        <fullName>72-Personal Services</fullName>
+        <default>false</default>
+        <label>72-Personal Services</label>
+    </customValue>
+    <customValue>
+        <fullName>73-Business Services</fullName>
+        <default>false</default>
+        <label>73-Business Services</label>
+    </customValue>
+    <customValue>
+        <fullName>75-Auto Repair, Services, Parking</fullName>
+        <default>false</default>
+        <label>75-Auto Repair, Services, Parking</label>
+    </customValue>
+    <customValue>
+        <fullName>76-Misc. Repair Services</fullName>
+        <default>false</default>
+        <label>76-Misc. Repair Services</label>
+    </customValue>
+    <customValue>
+        <fullName>78-Motion Pictures</fullName>
+        <default>false</default>
+        <label>78-Motion Pictures</label>
+    </customValue>
+    <customValue>
+        <fullName>79-Amusment Parks &amp; Recreation</fullName>
+        <default>false</default>
+        <label>79-Amusment Parks &amp; Recreation</label>
+    </customValue>
+    <customValue>
+        <fullName>801-Hospitals</fullName>
+        <default>false</default>
+        <label>801-Hospitals</label>
+    </customValue>
+    <customValue>
+        <fullName>803-Clinics</fullName>
+        <default>false</default>
+        <label>803-Clinics</label>
+    </customValue>
+    <customValue>
+        <fullName>805-Medical Offices</fullName>
+        <default>false</default>
+        <label>805-Medical Offices</label>
+    </customValue>
+    <customValue>
+        <fullName>807-Laboratories</fullName>
+        <default>false</default>
+        <label>807-Laboratories</label>
+    </customValue>
+    <customValue>
+        <fullName>809-Special Care (all other)</fullName>
+        <default>false</default>
+        <label>809-Special Care (all other)</label>
+    </customValue>
+    <customValue>
+        <fullName>80B-Behavioral Health Services</fullName>
+        <default>false</default>
+        <label>80B-Behavioral Health Services</label>
+    </customValue>
+    <customValue>
+        <fullName>80-Health Services</fullName>
+        <default>false</default>
+        <label>80-Health Services</label>
+    </customValue>
+    <customValue>
+        <fullName>81-Legal Services</fullName>
+        <default>false</default>
+        <label>81-Legal Services</label>
+    </customValue>
+    <customValue>
+        <fullName>82B-College &amp; Universities</fullName>
+        <default>false</default>
+        <label>82B-College &amp; Universities</label>
+    </customValue>
+    <customValue>
+        <fullName>82C-Charter Schools</fullName>
+        <default>false</default>
+        <label>82C-Charter Schools</label>
+    </customValue>
+    <customValue>
+        <fullName>82H-Head Start</fullName>
+        <default>false</default>
+        <label>82H-Head Start</label>
+    </customValue>
+    <customValue>
+        <fullName>82K-Daycare</fullName>
+        <default>false</default>
+        <label>82K-Daycare</label>
+    </customValue>
+    <customValue>
+        <fullName>82N-Public Schools</fullName>
+        <default>false</default>
+        <label>82N-Public Schools</label>
+    </customValue>
+    <customValue>
+        <fullName>82P-Priv/Parochial Schools</fullName>
+        <default>false</default>
+        <label>82P-Priv/Parochial Schools</label>
+    </customValue>
+    <customValue>
+        <fullName>83-Social Services</fullName>
+        <default>false</default>
+        <label>83-Social Services</label>
+    </customValue>
+    <customValue>
+        <fullName>84-Museum,Galleries,Garden,Zoos</fullName>
+        <default>false</default>
+        <label>84-Museum,Galleries,Garden,Zoos</label>
+    </customValue>
+    <customValue>
+        <fullName>86-Churches,Trade Assoc.&amp; Orgs.</fullName>
+        <default>false</default>
+        <label>86-Churches,Trade Assoc.&amp; Orgs.</label>
+    </customValue>
+    <customValue>
+        <fullName>87-Eng&apos;rs,Architects, Mngmnt Srvs</fullName>
+        <default>false</default>
+        <label>87-Eng&apos;rs,Architects, Mngmnt Srvs</label>
+    </customValue>
+    <customValue>
+        <fullName>88-Private Households</fullName>
+        <default>false</default>
+        <label>88-Private Households</label>
+    </customValue>
+    <customValue>
+        <fullName>89-Miscellaneous Services Nec</fullName>
+        <default>false</default>
+        <label>89-Miscellaneous Services Nec</label>
+    </customValue>
+    <customValue>
+        <fullName>91-Gov&apos;t- Admin Offices/Training</fullName>
+        <default>false</default>
+        <label>91-Gov&apos;t- Admin Offices/Training</label>
+    </customValue>
+    <customValue>
+        <fullName>92-Govt - Corrections/Publ Safety</fullName>
+        <default>false</default>
+        <label>92-Govt - Corrections/Publ Safety</label>
+    </customValue>
+    <customValue>
+        <fullName>93-Gov&apos;t - Civilian Agencies</fullName>
+        <default>false</default>
+        <label>93-Gov&apos;t - Civilian Agencies</label>
+    </customValue>
+    <customValue>
+        <fullName>9451-Gov&apos;t-VA Hospitals</fullName>
+        <default>false</default>
+        <label>9451-Gov&apos;t-VA Hospitals</label>
+    </customValue>
+    <customValue>
+        <fullName>94-Gov&apos;t - Administration-Human Resource Programs</fullName>
+        <default>false</default>
+        <label>94-Gov&apos;t - Administration-Human Resource Programs</label>
+    </customValue>
+    <customValue>
+        <fullName>95-Gov&apos;t - Housing - Barracks</fullName>
+        <default>false</default>
+        <label>95-Gov&apos;t - Housing - Barracks</label>
+    </customValue>
+    <customValue>
+        <fullName>96-Gov&apos;t - Administration Of Economic Programs</fullName>
+        <default>false</default>
+        <label>96-Gov&apos;t - Administration Of Economic Programs</label>
+    </customValue>
+    <customValue>
+        <fullName>97-Gov&apos;t - Homeland Security</fullName>
+        <default>false</default>
+        <label>97-Gov&apos;t - Homeland Security</label>
+    </customValue>
+    <description>Selected SIC Code</description>
+    <masterLabel>SIC Code</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

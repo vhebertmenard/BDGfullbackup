@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory__c</fullName>
+    <description>Used by Australia only.</description>
+    <inlineHelpText>Sales Territory. Used by Australia only.</inlineHelpText>
+    <label>Territory</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AUS - Eastern Oil &amp; Gas</fullName>
+                <default>false</default>
+                <label>AUS - Eastern Oil &amp; Gas</label>
+            </value>
+            <value>
+                <fullName>AUS - Eastern Region North Territory</fullName>
+                <default>false</default>
+                <label>AUS - Eastern Region North Territory</label>
+            </value>
+            <value>
+                <fullName>AUS - Eastern Region South Territory</fullName>
+                <default>false</default>
+                <label>AUS - Eastern Region South Territory</label>
+            </value>
+            <value>
+                <fullName>AUS - Education</fullName>
+                <default>false</default>
+                <label>AUS - Education</label>
+            </value>
+            <value>
+                <fullName>AUS - Western Region</fullName>
+                <default>false</default>
+                <label>AUS - Western Region</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

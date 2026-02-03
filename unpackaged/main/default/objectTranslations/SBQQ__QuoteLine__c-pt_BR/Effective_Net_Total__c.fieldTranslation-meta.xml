@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Shows Net Total for Sale and Carry On lines not &quot;bundled&quot; and &quot;bundled&quot; --></help>
+        <label><!-- Effective Net Total --></label>
+        <name>Effective_Net_Total__c</name>
+    </CustomFieldTranslation>

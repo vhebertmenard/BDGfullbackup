@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_value_of_won_lost_cnclld_opps__c</fullName>
+    <formula>IF( NOT(OR(ISPICKVAL(StageName, "Project Planning"), 
+ISPICKVAL(StageName, "Initial Inquiry (RFI/Pre-Qual)"), 
+ISPICKVAL(StageName, "ROM"), 
+ISPICKVAL(StageName, "RFQ/RFP"), 
+ISPICKVAL(StageName, "Bid Preparation"), 
+ISPICKVAL(StageName, "Bid Submittal"), 
+ISPICKVAL(StageName, "Negotiation"))),  Actual_Contract_Value__c  , Null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total $ value of won/lost/cnclld opps</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

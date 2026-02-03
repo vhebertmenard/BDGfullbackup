@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Teams_Performance_User__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>My Team's Performance dashboards and reports</description>
+    <inlineHelpText>My Team's Performance dashboards and reports</inlineHelpText>
+    <label>My Team's Performance User</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,7 @@
+<apex:page standardController="Opportunity">
+    <apex:pageBlock >
+        <apex:pageBlockSection >
+            <apex:outputField value="{!Opportunity.CA_Review_Feedback__c}" />
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

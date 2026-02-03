@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <available>true</available>
+    <description>To Customer on New Lead – automatic - New</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Customer on New Lead - Automatic - New</name>
+    <style>none</style>
+    <subject>Thank you for your interest</subject>
+    <type>visualforce</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

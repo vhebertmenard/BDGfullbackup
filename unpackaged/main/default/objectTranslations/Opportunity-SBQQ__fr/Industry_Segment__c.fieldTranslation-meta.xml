@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sub-category of Industry. If Other, must also specify Industry Details. --></help>
+        <label><!-- Industry Segment - Site Owner --></label>
+        <name>Industry_Segment__c</name>
+        <picklistValues>
+            <masterLabel>Agriculture (incl Forestry)</masterLabel>
+            <translation><!-- Agriculture (incl Forestry) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean and Renewable</masterLabel>
+            <translation><!-- Clean and Renewable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coal</masterLabel>
+            <translation><!-- Coal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial/Industrial</masterLabel>
+            <translation><!-- Commercial/Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defense (Naval Bases, Air Force Bases, Army Bases)</masterLabel>
+            <translation><!-- Defense (Naval Bases, Air Force Bases, Army Bases) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discretionary (excl Travel Management)</masterLabel>
+            <translation><!-- Discretionary (excl Travel Management) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare, Emergency Response and Social Services</masterLabel>
+            <translation><!-- Healthcare, Emergency Response and Social Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indigenous</masterLabel>
+            <translation><!-- Indigenous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information and Professional Services (excl Travel Management)</masterLabel>
+            <translation><!-- Information and Professional Services (excl Travel Management) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metals (Gold, Copper, Silver, Iron)</masterLabel>
+            <translation><!-- Metals (Gold, Copper, Silver, Iron) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Metals (excl Coal)</masterLabel>
+            <translation><!-- Non-Metals (excl Coal) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil and Gas Downstream (Refineries/Petrochemicals)</masterLabel>
+            <translation><!-- Oil and Gas Downstream (Refineries/Petrochemicals) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil and Gas Midstream (Infrastructure, Pipelines, Facilities)</masterLabel>
+            <translation><!-- Oil and Gas Midstream (Infrastructure, Pipelines, Facilities) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil and Gas Upstream - Completions</masterLabel>
+            <translation><!-- Oil and Gas Upstream - Completions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil and Gas Upstream - Drilling</masterLabel>
+            <translation><!-- Oil and Gas Upstream - Drilling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil and Gas Upstream - Other</masterLabel>
+            <translation><!-- Oil and Gas Upstream - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Government (excl Education, Healthcare, Indigenous)</masterLabel>
+            <translation><!-- Other Government (excl Education, Healthcare, Indigenous) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation><!-- Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation><!-- Public --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential</masterLabel>
+            <translation><!-- Residential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staples</masterLabel>
+            <translation><!-- Staples --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation and Warehousing</masterLabel>
+            <translation><!-- Transportation and Warehousing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Management</masterLabel>
+            <translation><!-- Travel Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

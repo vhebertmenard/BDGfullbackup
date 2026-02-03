@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Check__c</fullName>
+    <label>Credit Check</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Researching Current Limit</fullName>
+                <default>false</default>
+                <label>Researching Current Limit</label>
+            </value>
+            <value>
+                <fullName>Qualify Client</fullName>
+                <default>false</default>
+                <label>Qualify Client</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Within Existing Limit</fullName>
+                <default>false</default>
+                <label>Within Existing Limit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

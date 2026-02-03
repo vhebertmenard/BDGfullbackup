@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vanguard_Mid_Atlantic_Central_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>MSS - Mid Atlantic Central</label>
+    <queue>MSS_Mid_Atlantic_Central</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

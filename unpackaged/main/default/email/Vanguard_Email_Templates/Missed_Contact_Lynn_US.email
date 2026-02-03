@@ -1,0 +1,21 @@
+<html>
+<body>
+<p>Hello {!Lead.Name},</p>
+<p>Your modular building quote request for {!Lead.Company}, {!Lead.Address} is very important to our team at BOXX Modular. Unfortunately, I have not yet had the pleasure of connecting with you over the phone; and that likely is because you are very busy.</p>
+
+- Is there a particular time of day that would work best for me to contact you?<br/>
+- Is {!Lead.Phone} the best phone number for me to reach you?<br/>
+
+<p>If you could please let me know as I would be happy to schedule a time that is convenient for you, to connect.</p>
+
+We rent furniture, steps, and decks so you can get up-and-running quickly when you move into your building.  You may want to browse some of the <a href="https://www.boxxmodular.com/add-ons/">options available</a>. We are happy to provide custom quantities and options when needed. 
+
+<p>Thank you for your interest in BOXX Modular, I look forward to speaking with you soon!</p>
+
+<p>We are here to help!</p>
+
+Lynn Perugini<br/>
+Marketing Specialist<br/>
+BOXX Modular<br/>
+Phone: 610-680-0385<br/>
+<a href="https://www.boxxmodular.com/">www.boxxmodular.com</a>

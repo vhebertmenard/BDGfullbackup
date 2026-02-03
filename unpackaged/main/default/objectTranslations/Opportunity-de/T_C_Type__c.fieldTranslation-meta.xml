@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Type of Non-Standard Legal terms and conditions. --></help>
+        <label><!-- T&amp;C Type --></label>
+        <name>T_C_Type__c</name>
+        <picklistValues>
+            <masterLabel>Client Contract/PO</masterLabel>
+            <translation><!-- Client Contract/PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gov't or Design/Build</masterLabel>
+            <translation><!-- Gov&apos;t or Design/Build --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSA (not Gov't)</masterLabel>
+            <translation><!-- MSA (not Gov&apos;t) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

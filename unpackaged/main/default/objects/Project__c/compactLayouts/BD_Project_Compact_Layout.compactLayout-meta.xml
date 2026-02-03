@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Project_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Corporate_Owner__c</fields>
+    <fields>General_Contractor__c</fields>
+    <fields>Location_Prov_State__c</fields>
+    <fields>Location_City__c</fields>
+    <fields>OwnerId</fields>
+    <label>BD Project Compact Layout</label>
+</CompactLayout>

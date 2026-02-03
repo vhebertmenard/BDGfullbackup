@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <amount>true</amount>
+    <dateType>0</dateType>
+    <developerName>Profit_Production_New_vs_Renewal</developerName>
+    <forecastingGroupDeveloperName>New_Contract_or_Renewal_Profit_Production_New_vs_Renewal</forecastingGroupDeveloperName>
+    <hasCustomGroup>true</hasCustomGroup>
+    <hasProductFamily>false</hasProductFamily>
+    <masterLabel>Profit Production New vs Renewal</masterLabel>
+    <quantity>false</quantity>
+    <roleType>R</roleType>
+</ForecastingType>

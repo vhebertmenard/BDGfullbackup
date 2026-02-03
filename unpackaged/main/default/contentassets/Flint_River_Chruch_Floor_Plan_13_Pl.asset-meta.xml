@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>true</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>Flint_River_Chruch_Floor_Plan_13_Pl</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>Flint River Chruch Floor Plan 13 Plex.jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

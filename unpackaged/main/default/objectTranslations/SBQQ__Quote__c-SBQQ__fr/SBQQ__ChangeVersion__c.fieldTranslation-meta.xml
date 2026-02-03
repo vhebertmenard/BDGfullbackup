@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Amend: Re-Quote version number for the quote. --></help>
+        <label>Version de nouveau devis d’amendement</label>
+        <name>SBQQ__ChangeVersion__c</name>
+    </CustomFieldTranslation>

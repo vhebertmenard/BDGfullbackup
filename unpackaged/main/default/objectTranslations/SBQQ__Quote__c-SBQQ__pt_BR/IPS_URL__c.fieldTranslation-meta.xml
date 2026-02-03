@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Populated with API. Holds URL to IPS document for IPS_Link__c formula. --></help>
+        <label><!-- IPS URL --></label>
+        <name>IPS_URL__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NetTotal_OneTime__c</fullName>
+    <description>Shows the Quote Line Net Total if the Product Type is Operations &amp; is not a subscription product</description>
+    <formula>IF( AND( Product_Type_Test__c  = "Operations",   ISBLANK(TEXT( SBQQ__SubscriptionPricing__c ))),  SBQQ__NetTotal__c , NULL)</formula>
+    <inlineHelpText>Shows the Quote Line Net Total if the Product Type is Operations &amp; is not a subscription product</inlineHelpText>
+    <label>Net Total OneTime</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opp_Estimated_First_Revenue__c</fullName>
+    <description>Opportunity Estimated First Revenue</description>
+    <label>Opp Estimated First Revenue</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Province/State where the Project Site is located. Populates Site Prov/State on all Leads/Opportunities related to this project. --></help>
+        <label><!-- Site Province/State --></label>
+        <name>Location_Prov_State__c</name>
+    </CustomFieldTranslation>

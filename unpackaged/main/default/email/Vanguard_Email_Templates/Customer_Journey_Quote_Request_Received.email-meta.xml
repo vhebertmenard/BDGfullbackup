@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Customer Journey - Quote Request Received</name>
+    <style>none</style>
+    <subject>RE: {!Lead.Company} - Modular Building Quote Request - BOXX Modular</subject>
+    <textOnly>Thanks, {!Lead.FirstName}!
+
+
+We&apos;re are very glad you have reached out to Vanguard Modular Building Systems for a modular building quote. You will be contacted shortly.
+
+
+
+You can expect our approximate response times to be as follows:
+
+Less than 30 minutes during business hours (9AM - 5PM Eastern, Mon - Fri)
+Less than 24 hours during evenings, weekends, and holidays
+
+
+If you would like to change or add to the information you submitted, just let us know by replying to this email.  Here is what we have received so far:
+
+
+{!Lead.Ceiling_Height__c}
+
+{!Lead.Occupants__c}
+
+{!Lead.Name}
+
+{!Lead.Company}
+
+{!Lead.Title}
+
+{!Lead.Street}
+
+{!Lead.City}, {!Lead.State}  {!Lead.PostalCode}
+
+{!Lead.Phone}
+
+{!Lead.Email}
+
+{!Lead.Building_Size__c}
+
+{!Lead.Building_Use__c}
+
+{!Lead.Unit_Number__c}
+
+{!Lead.Description}
+
+
+
+To save you time, here are types of buildings we do not provide at this time.
+
+Private residences
+Apartments, hotels, or multifamily housing
+Buildings with interior ceiling heights exceeding 8.0&apos;
+Pre-engineered steel buildings (ie: warehouses, pole barns, etc.)
+8&apos; and 10&apos; wide construction site trailers (we do provide larger construction site buildings)
+
+
+Thanks again, {!Lead.FirstName}.  Looking forward to helping you get the quote you need.
+
+
+Mark Meyers
+
+Vice President, Marketing Services
+
+Vanguard Modular Building Systems, LLC
+
+(877) 438-8627 | www.vanguardmodular.com
+
+
+
+Find out what customers are saying about working with Vanguard Modular: client testimonials.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

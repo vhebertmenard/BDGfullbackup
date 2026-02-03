@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Click here to view chart of SIC Codes, Industry and related Segment --></help>
+        <label><!-- SIC Codes Guide --></label>
+        <name>SIC_Codes_Guide__c</name>
+    </CustomFieldTranslation>

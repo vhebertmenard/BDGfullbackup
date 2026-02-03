@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Contract Type --></label>
+        <name>Contract_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost + 10%</masterLabel>
+            <translation><!-- Cost + 10% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost + 15%</masterLabel>
+            <translation><!-- Cost + 15% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost + 5%</masterLabel>
+            <translation><!-- Cost + 5% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

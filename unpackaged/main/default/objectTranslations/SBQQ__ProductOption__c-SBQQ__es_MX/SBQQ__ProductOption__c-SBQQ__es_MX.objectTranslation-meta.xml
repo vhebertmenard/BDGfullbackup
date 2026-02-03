@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Opción de producto</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opciones de producto</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- Fleet Item Feature --></label>
+        <name>Fleet_Item_Feature</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OperationsNewModel --></label>
+        <name>OperationsNewModel</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- R&amp;M Details --></label>
+        <name>RM_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label>OptionConfiguration</label>
+        <name>SBQQ__OptionConfiguration</name>
+    </fieldSets>
+    <fieldSets>
+        <label>OptionLookup</label>
+        <name>SBQQ__OptionLookup</name>
+    </fieldSets>
+    <fieldSets>
+        <label>SearchFilters</label>
+        <name>SBQQ__SearchFilters</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Unit Dimensions --></label>
+        <name>Unit_Dimensions</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Unit Display --></label>
+        <name>Unit_Display</name>
+    </fieldSets>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>BD Product Option Layout</layout>
+        <sections>
+            <label><!-- Advanced Settings --></label>
+            <section>Advanced Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Optional SKU Information --></label>
+            <section>Optional SKU Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product Option Layout</layout>
+        <sections>
+            <label><!-- Advanced Settings --></label>
+            <section>Advanced Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Optional SKU Information --></label>
+            <section>Optional SKU Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre de opción</nameFieldLabel>
+    <validationRules>
+        <errorMessage>El campo "Aplicar inmediatamente' debe estar marcados antes de proporcionar un "Contexto de Aplicar inmediatamente". En caso contrario, cambie el campo "Contexto de Aplicar inmediatamente" a "Ninguno".</errorMessage>
+        <name>SBQQ__Apply_Immediately_Context_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se pueden incluir productos perennes y renovables en el mismo paquete.</errorMessage>
+        <name>SBQQ__Cannot_Bundle_Evergreen_Renewable_SKUs</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se pueden incluir productos perennes y renovables en el mismo paquete.</errorMessage>
+        <name>SBQQ__Cannot_Have_RenewableEvergreen_In_Bundle</name>
+    </validationRules>
+    <webLinks>
+        <label>Traducir</label>
+        <name>SBQQ__Translate</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Cost_of_Installation__c</fullName>
+    <description>Sum of cost of all quote lines where the Trans Category is Installation</description>
+    <inlineHelpText>Sum of cost of all quote lines where the Trans Category is Installation</inlineHelpText>
+    <label>Total Cost of Installation</label>
+    <summarizedField>SBQQ__QuoteLine__c.Total_Cost_of_Non_Rental__c</summarizedField>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.Trans_Category__c</field>
+        <operation>equals</operation>
+        <value>Installation</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.SBQQ__Optional__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>SBQQ__QuoteLine__c.SBQQ__Quote__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

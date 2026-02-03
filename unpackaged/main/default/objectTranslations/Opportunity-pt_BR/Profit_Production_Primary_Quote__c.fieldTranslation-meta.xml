@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Profit Production from Primary Quotes only --></help>
+        <label><!-- ProfitProduction - Primary Qt --></label>
+        <name>Profit_Production_Primary_Quote__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Carry_On_Asset_Contract_Value__c</fullName>
+    <description>Net Total of all Quote Lines where the Transaction Category is "Carry On" 
+Excluding Optional Items and "New Carry On"</description>
+    <inlineHelpText>Net Total of all Quote Lines where the Transaction Category is "Carry On" 
+Excluding Optional Items and "New Carry On"</inlineHelpText>
+    <label>Total Carry On Asset Contract Value</label>
+    <summarizedField>SBQQ__QuoteLine__c.SBQQ__NetTotal__c</summarizedField>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.Trans_Category__c</field>
+        <operation>equals</operation>
+        <value>Carry On</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.SBQQ__Optional__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.Unit_Text_Text__c</field>
+        <operation>notEqual</operation>
+        <value>New Carry On</value>
+    </summaryFilterItems>
+    <summaryForeignKey>SBQQ__QuoteLine__c.SBQQ__Quote__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

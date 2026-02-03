@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Project, external to BD, that is the source of this Lead, e.g. &quot;Shell&apos;s LNG Project&quot;. When selected, auto-fills Site address from Project. --></help>
+        <label><!-- Project Source --></label>
+        <name>Project_Source__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </CustomFieldTranslation>

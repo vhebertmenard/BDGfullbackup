@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Durée qui régit le paiement des éléments de ce devis.</help>
+        <label><!-- Payment Terms --></label>
+        <name>SBQQ__PaymentTerms__c</name>
+        <picklistValues>
+            <masterLabel>1.0% 10, Net 30</masterLabel>
+            <translation><!-- 1.0% 10, Net 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.0% 15, Net 30</masterLabel>
+            <translation><!-- 1.0% 15, Net 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.5% 10, Net 30</masterLabel>
+            <translation><!-- 1.5% 10, Net 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.5%, TEST</masterLabel>
+            <translation><!-- 1.5%, TEST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0% 10, Net 30</masterLabel>
+            <translation><!-- 2.0% 10, Net 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0% 15, Net 30</masterLabel>
+            <translation><!-- 2.0% 15, Net 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.0% 10, Net 30</masterLabel>
+            <translation><!-- 3.0% 10, Net 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.0% 14, Net 30</masterLabel>
+            <translation><!-- 3.0% 14, Net 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.0% 15, Net 30</masterLabel>
+            <translation><!-- 3.0% 15, Net 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due on receipt</masterLabel>
+            <translation>Exigible à la réception</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 0</masterLabel>
+            <translation><!-- Net 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 10</masterLabel>
+            <translation><!-- Net 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15</masterLabel>
+            <translation>15 jours net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30</masterLabel>
+            <translation>30 jours net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 45</masterLabel>
+            <translation>45 jours net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 60</masterLabel>
+            <translation>60 jours net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 90</masterLabel>
+            <translation>90 jours net</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

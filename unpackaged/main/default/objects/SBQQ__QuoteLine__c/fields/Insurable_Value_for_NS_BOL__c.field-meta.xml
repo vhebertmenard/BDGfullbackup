@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurable_Value_for_NS_BOL__c</fullName>
+    <formula>IF(	AND( Is_Unit__c , NOT(ISNULL(SBQQ__RequiredBy__c ))),  
+		SBQQ__RequiredBy__r.SBQQ__Product__r.Insurable_Value__c / SBQQ__RequiredBy__r.Number_of_Units_in_Complex__c,
+	IF(SBQQ__ProductFamily__c = 'VAPS',
+		SBQQ__Product__r.Insurable_Value__c,0
+	)
+)</formula>
+    <inlineHelpText>To be used for Insurable value mapping for NS BOL</inlineHelpText>
+    <label>Insurable Value for NS BOL</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

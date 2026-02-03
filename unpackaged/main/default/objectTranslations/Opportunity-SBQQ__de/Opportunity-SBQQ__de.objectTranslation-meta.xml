@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>BD AUS CPQ V1.0</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Delayed Details --></label>
+            <section>Delayed Details</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Location Details --></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Details --></label>
+            <section>Opportunity Details</section>
+        </sections>
+        <sections>
+            <label><!-- Project Details --></label>
+            <section>Project Details</section>
+        </sections>
+        <sections>
+            <label><!-- Quote Details --></label>
+            <section>Quote Details</section>
+        </sections>
+        <sections>
+            <label><!-- Win/Loss Analysis --></label>
+            <section>Win/Loss Analysis</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD Disaster</layout>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Status Details --></label>
+            <section>Opportunity Status Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD ES CPQ V1.0</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Delayed Details --></label>
+            <section>Delayed Details</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Location Details --></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Details --></label>
+            <section>Opportunity Details</section>
+        </sections>
+        <sections>
+            <label><!-- Project Details --></label>
+            <section>Project Details</section>
+        </sections>
+        <sections>
+            <label><!-- Quote Details --></label>
+            <section>Quote Details</section>
+        </sections>
+        <sections>
+            <label><!-- Win/Loss Analysis --></label>
+            <section>Win/Loss Analysis</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD Energy</layout>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Site Information --></label>
+            <section>Site Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD Lodging</layout>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Status Details --></label>
+            <section>Opportunity Status Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD MSS</layout>
+        <sections>
+            <label><!-- Billing Information --></label>
+            <section>Billing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Site Information --></label>
+            <section>Site Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- Vanguard Information --></label>
+            <section>Vanguard Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD MSS Disaster</layout>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Status Details --></label>
+            <section>Opportunity Status Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD MSS Major Projects</layout>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Site Information --></label>
+            <section>Site Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD MSS_Updated</layout>
+        <sections>
+            <label><!-- Billing Information --></label>
+            <section>Billing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Co-ops &amp; Partnerships --></label>
+            <section>Co-ops &amp; Partnerships</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Satisfaction --></label>
+            <section>Customer Satisfaction</section>
+        </sections>
+        <sections>
+            <label><!-- Pipeline Information --></label>
+            <section>Pipeline Information</section>
+        </sections>
+        <sections>
+            <label><!-- Project Information --></label>
+            <section>Project Information</section>
+        </sections>
+        <sections>
+            <label><!-- Site Information --></label>
+            <section>Site Information</section>
+        </sections>
+        <sections>
+            <label><!-- Vanguard Information --></label>
+            <section>Vanguard Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD Modular</layout>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Site Information --></label>
+            <section>Site Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD WFS CPQ v1.0</layout>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Location Details --></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Status Details --></label>
+            <section>Opportunity Status Details</section>
+        </sections>
+        <sections>
+            <label><!-- Quote Details --></label>
+            <section>Quote Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BD Workforce</layout>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Site Information --></label>
+            <section>Site Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BOXX-CPQ-v5.0</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Delayed Details --></label>
+            <section>Delayed Details</section>
+        </sections>
+        <sections>
+            <label><!-- Financial &amp; Legal Information --></label>
+            <section>Financial &amp; Legal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Location Details --></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label><!-- Project Details --></label>
+            <section>Project Details</section>
+        </sections>
+        <sections>
+            <label><!-- Quote Details --></label>
+            <section>Quote Details</section>
+        </sections>
+        <sections>
+            <label><!-- Win/Loss Analysis --></label>
+            <section>Win/Loss Analysis</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CPQ Opportunity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- MPA Details --></label>
+            <section>MPA Details</section>
+        </sections>
+        <sections>
+            <label><!-- Project Details --></label>
+            <section>Project Details</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- SteelBrick Information --></label>
+            <section>SteelBrick Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Copy of BD MSS for testing Renewal</layout>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Site Information --></label>
+            <section>Site Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- Vanguard Information --></label>
+            <section>Vanguard Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>International (Australia) v5.0</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Delayed Details --></label>
+            <section>Delayed Details</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Location --></label>
+            <section>Location</section>
+        </sections>
+        <sections>
+            <label><!-- Lodging --></label>
+            <section>Lodging</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Details --></label>
+            <section>Opportunity Details</section>
+        </sections>
+        <sections>
+            <label><!-- Rental &amp; Sale --></label>
+            <section>Rental &amp; Sale</section>
+        </sections>
+        <sections>
+            <label><!-- Win/Loss Analysis --></label>
+            <section>Win/Loss Analysis</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- Commitment Details --></label>
+            <section>Commitment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Location --></label>
+            <section>Location</section>
+        </sections>
+        <sections>
+            <label><!-- Lodging (Logistics Services) --></label>
+            <section>Lodging (Logistics Services)</section>
+        </sections>
+        <sections>
+            <label><!-- Operations --></label>
+            <section>Operations</section>
+        </sections>
+        <sections>
+            <label><!-- Operations new --></label>
+            <section>Operations new</section>
+        </sections>
+        <sections>
+            <label><!-- Recurring Non-Rental (Sublease) --></label>
+            <section>Recurring Non-Rental (Sublease)</section>
+        </sections>
+        <sections>
+            <label><!-- Rental --></label>
+            <section>Rental</section>
+        </sections>
+        <sections>
+            <label><!-- Sale --></label>
+            <section>Sale</section>
+        </sections>
+        <sections>
+            <label><!-- Win/Loss Analysis --></label>
+            <section>Win/Loss Analysis</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Space Rentals v5.0</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Delayed Details --></label>
+            <section>Delayed Details</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Location --></label>
+            <section>Location</section>
+        </sections>
+        <sections>
+            <label><!-- Operations --></label>
+            <section>Operations</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Details --></label>
+            <section>Opportunity Details</section>
+        </sections>
+        <sections>
+            <label><!-- Recurring Non-Rental --></label>
+            <section>Recurring Non-Rental</section>
+        </sections>
+        <sections>
+            <label><!-- Rental --></label>
+            <section>Rental</section>
+        </sections>
+        <sections>
+            <label><!-- Sale --></label>
+            <section>Sale</section>
+        </sections>
+        <sections>
+            <label><!-- Win/Loss Analysis --></label>
+            <section>Win/Loss Analysis</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vanguard</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Review --></label>
+            <section>Contract Review</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DWS Information --></label>
+            <section>DWS Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financing &amp; Building Information --></label>
+            <section>Financing &amp; Building Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Information --></label>
+            <section>Opportunity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Qualification Status --></label>
+            <section>Qualification Status</section>
+        </sections>
+        <sections>
+            <label><!-- Report Formula Fields - DO NOT CHANGE --></label>
+            <section>Report Formula Fields - DO NOT CHANGE</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information ColSpan2 --></label>
+            <section>System Information ColSpan2</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>WFS - CAN AND US 2024</layout>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key Related Information --></label>
+            <section>Key Related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Site Information --></label>
+            <section>Site Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>zzOLD Workforce Accommodation v6</layout>
+        <sections>
+            <label><!-- Campaign Information --></label>
+            <section>Campaign Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Delayed Details --></label>
+            <section>Delayed Details</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Location --></label>
+            <section>Location</section>
+        </sections>
+        <sections>
+            <label><!-- Lodging --></label>
+            <section>Lodging</section>
+        </sections>
+        <sections>
+            <label><!-- Operations --></label>
+            <section>Operations</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Details --></label>
+            <section>Opportunity Details</section>
+        </sections>
+        <sections>
+            <label><!-- Recurring Non-Rental (Sublease) --></label>
+            <section>Recurring Non-Rental (Sublease)</section>
+        </sections>
+        <sections>
+            <label><!-- Rental --></label>
+            <section>Rental</section>
+        </sections>
+        <sections>
+            <label><!-- Sale --></label>
+            <section>Sale</section>
+        </sections>
+        <sections>
+            <label><!-- Win/Loss Analysis --></label>
+            <section>Win/Loss Analysis</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Competitor --></label>
+        <name>Add_Competitor</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- CA Feedback --></label>
+        <name>CA_Feedback</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- CO Executed by Customer --></label>
+        <name>CO_Executed_by_Customer</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Clone Opportunity --></label>
+        <name>Clone_Opportunity_flow</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>Email</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Quote --></label>
+        <name>New_Quote_flow</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Ready for CA Review --></label>
+        <name>Ready_for_CA_Review</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Ready for Credit --></label>
+        <name>Ready_for_Credit</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Renew Opportunity --></label>
+        <name>Renew_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Renew Opportunity - OLD --></label>
+        <name>Renew_Opportunity_Old</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Auftrag erstellen</label>
+        <name>SBQQ__CreateOrderLightning</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Opportunity --></label>
+        <name>Update_Opp_for_Quote</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Australia CPQ enabled Opportunity --></description>
+        <label><!-- BD AUS CPQ --></label>
+        <name>BD_AUS_CPQ</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Opportunity Type with related Quotes using Salesforce CPQ --></description>
+        <label><!-- BD BOXX CPQ --></label>
+        <name>BD_BOXX_CPQ</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Sale of subscriptions for bank building disaster recovery --></description>
+        <label><!-- BD Disaster --></label>
+        <name>BD_DR</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rental and Sales of Energy Sector Equipment and Services --></description>
+        <label><!-- BD Energy --></label>
+        <name>BD_ES</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BD ES CPQ --></label>
+        <name>BD_ES_CPQ</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Booking of rooms in BD Camps &amp; Lodges --></description>
+        <label><!-- BD Lodging --></label>
+        <name>BD_LG</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rental and Sales of Modular Assets --></description>
+        <label><!-- BD Modular --></label>
+        <name>BD_MS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Opportunity for MSS Rental and Sales --></description>
+        <label><!-- BD MSS --></label>
+        <name>BD_MSS</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Opportunity for MSS Major Projects Rental and Sales --></description>
+        <label><!-- BD MSS Major Projects --></label>
+        <name>BD_MSS_MP</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Rental and Sales of Camp Assets --></description>
+        <label><!-- BD Workforce --></label>
+        <name>BD_WF</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- BD WFS CPQ --></description>
+        <label><!-- BD WFS CPQ --></label>
+        <name>BD_WFS_CPQ</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Consulting Services record type --></description>
+        <label><!-- Consulting Services --></label>
+        <name>Consulting_Services</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Equipment / Surface Rentals --></label>
+        <name>Equipment_Surface_Rentals</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- International (Australia) --></label>
+        <name>International_Australia</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Opportunity for LodgeLink --></description>
+        <label><!-- LodgeLink --></label>
+        <name>LodgeLink</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Logistics Only --></label>
+        <name>Logistics_Only</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Space Rentals --></label>
+        <name>Space_Rentals</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Vanguard --></label>
+        <name>Vanguard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Workforce Accommodation --></label>
+        <name>Workforce_Accommodation</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Specify an Accounting Contact --></errorMessage>
+        <name>Accounting_Contact_required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter Email on the Accounting Contact&apos;s record. --></errorMessage>
+        <name>Accting_Contact_Details_Required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Add one or more Product Lines with Total Price&gt;$0. --></errorMessage>
+        <name>Amount_on_Won_or_Lost</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Add one or more Quote Lines with Net Total&gt;$0 to your Primary Quote. 
+If no Primary Quote, create one or mark one as Primary. --></errorMessage>
+        <name>Amount_on_Won_or_Lost_CPQ</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CAPEX Quote Needs to be Approved before marking opportunity stage as Proposal Delivered/Closed --></errorMessage>
+        <name>CAPEX_Quote_Not_Approved_PD_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity Should Pass CA Review before marking it WIP/Closed Won --></errorMessage>
+        <name>Cannot_isWon_without_CA_Pass</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Select who the Opportunity was lost to. If unknown, select &quot;Unknown&quot;. If N/A, select &quot;None&quot;. --></errorMessage>
+        <name>Competitor_LostTo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Indicate whether a Credit Application has been obtained from a new/existing Account. --></errorMessage>
+        <name>Credit_App_required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot mark Opportunity Won as the Customer&apos;s Credit is On Hold --></errorMessage>
+        <name>Customer_Account_Credit_Hold</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Indicate whether the Handover Type is BD Direct or LodgeLink. --></errorMessage>
+        <name>Handover_Type_Required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Indicate the name of an Indigenous Partner or select &quot;None&quot;. --></errorMessage>
+        <name>Indigenous_Partnership_Required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Describe &quot;Other&quot; Industry and Industry Segment. --></errorMessage>
+        <name>Industry_Segment_Details</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Indicate 1) Property Insurance Type,
+              2) whether you have obtained Proof of Property Insurance, and
+              3) whether you have obtained Proof of General Liability Insurance. --></errorMessage>
+        <name>Insurance_Details_Required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Describe &quot;Other&quot; Lead Source. --></errorMessage>
+        <name>Lead_Source_Detail_Reqd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Indicate why the Opportunity was Lost. --></errorMessage>
+        <name>Loss_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Describe &quot;Other&quot; Loss Reason. --></errorMessage>
+        <name>Loss_Reason_Details</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Because the Transaction Type is &apos;Rental&apos;, please enter the &apos;Rental Rate&quot; --></errorMessage>
+        <name>Mandatory_Rental_Rate_BOXX_AUS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before the opportunity can be &quot;Awarded&quot; or &quot;Lost&quot;; please attach the necessary products to match the selected fields in Transaction Type. --></errorMessage>
+        <name>Matching_Products_on_Awarded_CPQ</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a valid Milestone Format on the Primary Quote --></errorMessage>
+        <name>Milestone_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Select why the opportunity was Won or Lost --></errorMessage>
+        <name>Opportunity_Lost_Reasons</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Add 1) Mobile and 2) Email on the Primary Contact&apos;s record. --></errorMessage>
+        <name>Primary_Contact_Details_Required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reason Details is required when Reason(s) Won/Lost/Cancelled is marked &apos;Other&apos; --></errorMessage>
+        <name>Reason_Detail_Required_on_Other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter Rental Commencement Date. --></errorMessage>
+        <name>Rental_Commencement_Required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter Mobile on the Site Contact&apos;s record. --></errorMessage>
+        <name>Site_Contact_Details_Required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before you can mark this opportunity as Closed Won, you need to provide the Site Contact --></errorMessage>
+        <name>Site_Contact_Required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Specify a Site Contact. --></errorMessage>
+        <name>Site_Contact_a_required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter 1) Site Country and 2) Site Province/State/Territory 3) Site Postal/Zip Code --></errorMessage>
+        <name>Site_CountryProv_Required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter 1) Site Street and 2) Site City. --></errorMessage>
+        <name>Site_StreetCity_Required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Indicate the Tax Exemption status for this Project --></errorMessage>
+        <name>Tax_Exemption_Required_for_PHC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Because the transaction type is &quot;Rental&quot;, please enter the Term Length of the contract --></errorMessage>
+        <name>Term_Required_for_Rental</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Indicate T&amp;C Type (when T&amp;Cs = Non-Standard Legal). --></errorMessage>
+        <name>Terms_Type_for_NonStandard_Legal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Update to reflect Opportunity &quot;Lost Date&quot; or Contract &quot;Signed Date&quot;. --></errorMessage>
+        <name>Update_Close_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Update Close Date to reflect Opportunity &quot;Contract Signed Date&quot; or &quot;Loss Notification Date&quot;. Date must be within the last two weeks or TODAY. --></errorMessage>
+        <name>Update_Close_Date_LEX</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date Lost must be blank unless Opportunity is Closed Lost --></errorMessage>
+        <name>Vanguard_Date_Lost_Not_Allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Opportunity is Lost, you must enter a Date Lost --></errorMessage>
+        <name>Vanguard_Lost_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Loss Reason is required when Opportunity Stage is &quot;Closed Lost&quot;. --></errorMessage>
+        <name>Vanguard_Lost_Reason_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to change an Opportunity to Closed Won --></errorMessage>
+        <name>Vanguard_Only_Sys_Admin_can_Save_as_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bid Submit Date or Proposal Submitted Date is required when Opportunity Stage is Proposal Delivered. --></errorMessage>
+        <name>Vanguard_ProposalSubmitted_Date_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Building Size (sq.ft.) is required when Opportunity is Qualified. --></errorMessage>
+        <name>Vanguard_Qualified_Building_SizeRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Building Use is required when Opportunity is Qualified. --></errorMessage>
+        <name>Vanguard_Qualified_Building_Use_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Estimated Contract Value is Required when Opportunity is Qualified --></errorMessage>
+        <name>Vanguard_Qualified_Estmd_CV_Req</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Clone_Opportunity --></label>
+        <name>Clone_Opportunity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Fleet_Central_Documents --></label>
+        <name>Fleet_Central_Documents</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_International_Documents --></label>
+        <name>Generate_International_Documents</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Space_Rental_Documents --></label>
+        <name>Generate_Space_Rental_Documents</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Surface_Agreements --></label>
+        <name>Generate_Surface_Agreements</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Work --></label>
+        <name>Generate_Work</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- LCC_Open_Project_on_Fleet_Centrallex --></label>
+        <name>LCC_Open_Project_on_Fleet_Centrallex</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- LCC_Submit_to_Cancellex --></label>
+        <name>LCC_Submit_to_Cancellex</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Project_on_Fleet_Central --></label>
+        <name>Open_Project_on_Fleet_Central</name>
+    </webLinks>
+    <webLinks>
+        <label>Vermögenswerte ändern</label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label>Vertrag ändern</label>
+        <name>SBQQ__Amend_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label>Auftrag erstellen</label>
+        <name>SBQQ__CreateOrder</name>
+    </webLinks>
+    <webLinks>
+        <label>Dokument einbeziehen</label>
+        <name>SBQQ__Include_Document</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Submit_to_Cancel --></label>
+        <name>Submit_to_Cancel</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- TEST --></label>
+        <name>TEST</name>
+    </webLinks>
+    <workflowTasks>
+        <name>Sales_Follow_Up</name>
+        <subject><!-- Sales Follow Up --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

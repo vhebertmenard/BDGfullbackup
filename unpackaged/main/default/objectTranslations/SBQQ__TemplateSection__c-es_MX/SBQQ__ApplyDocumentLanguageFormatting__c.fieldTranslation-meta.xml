@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Seleccione la casilla de verificación para aplicar el formato de idioma de documento. Solo se aplica a secciones que apuntan al contenido de plantilla del tipo "HTML".</help>
+        <label><!-- Apply Document Language Formatting --></label>
+        <name>SBQQ__ApplyDocumentLanguageFormatting__c</name>
+    </CustomFieldTranslation>

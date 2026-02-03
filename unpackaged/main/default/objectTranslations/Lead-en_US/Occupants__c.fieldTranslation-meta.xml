@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Occupants --></label>
+        <name>Occupants__c</name>
+        <picklistValues>
+            <masterLabel>Adults</masterLabel>
+            <translation><!-- Adults --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K-12</masterLabel>
+            <translation><!-- K-12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-K</masterLabel>
+            <translation><!-- Pre-K --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select One</masterLabel>
+            <translation><!-- Select One --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>
