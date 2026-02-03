@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Phone</fullName>
-    <description>Company Phone # on Account</description>
-    <inlineHelpText>Account Phone #. To update, change Company Phone on related Account.</inlineHelpText>
-    <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>true</trackHistory>
-</CustomField>

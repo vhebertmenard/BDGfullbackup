@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Customer_Account_Credit_Hold</fullName>
-    <active>true</active>
-    <errorConditionFormula>AND(Account.NS_Customer_Credit_Hold_Status__c = 'ON', IsWon, RecordTypeId = '0124u000000gt2oAAA' )</errorConditionFormula>
-    <errorDisplayField>StageName</errorDisplayField>
-    <errorMessage>Cannot mark Opportunity Won as the Customer's Credit is On Hold</errorMessage>
-</ValidationRule>

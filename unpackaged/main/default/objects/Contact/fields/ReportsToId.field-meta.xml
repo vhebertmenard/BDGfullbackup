@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ReportsToId</fullName>
-    <description>Indicate who this Contact reports to at their company.</description>
-    <inlineHelpText>Indicate who this Contact reports to at their company.</inlineHelpText>
-    <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
-    <type>Lookup</type>
-</CustomField>

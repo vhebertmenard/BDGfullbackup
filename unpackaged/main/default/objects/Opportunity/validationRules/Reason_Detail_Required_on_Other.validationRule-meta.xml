@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Reason_Detail_Required_on_Other</fullName>
-    <active>true</active>
-    <description>Reason Details required when Reason(s) Won/Lost/Cancelled is marked 'Other'</description>
-    <errorConditionFormula>AND(INCLUDES(Reason_s_Won_Lost_Cancelled__c,'Other'), ISBLANK(Other_Reason__c))</errorConditionFormula>
-    <errorDisplayField>Other_Reason__c</errorDisplayField>
-    <errorMessage>Reason Details is required when Reason(s) Won/Lost/Cancelled is marked 'Other'</errorMessage>
-</ValidationRule>

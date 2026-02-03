@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Vanguard_Only_Sys_Admin_can_Save_as_Won</fullName>
-    <active>true</active>
-    <description>On Vanguard Opportunities, only those people from Vanguard can set the Opportunity to Close Won who have the Approve Opportunities Won checkbox checked</description>
-    <errorConditionFormula>AND(   Owner.Profile.Name  = 'Vanguard Sales', IsWon ,ISCHANGED( StageName ),  NOT($User.Approve_Opportunities_Won__c ))</errorConditionFormula>
-    <errorDisplayField>StageName</errorDisplayField>
-    <errorMessage>You do not have permission to change an Opportunity to Closed Won</errorMessage>
-</ValidationRule>

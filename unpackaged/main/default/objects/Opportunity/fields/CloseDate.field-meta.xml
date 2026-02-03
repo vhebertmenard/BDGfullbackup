@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>CloseDate</fullName>
-    <inlineHelpText>Date your customer is expected to fully execute a contract with Black Diamond. Upon win/loss, update with contract signed date / loss notification date.</inlineHelpText>
-    <trackFeedHistory>true</trackFeedHistory>
-    <trackHistory>false</trackHistory>
-    <trackTrending>true</trackTrending>
-</CustomField>

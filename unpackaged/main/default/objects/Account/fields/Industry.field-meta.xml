@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Industry</fullName>
-    <description>Industry of Account. Used for investment reporting.</description>
-    <inlineHelpText>Industry of Account. Used for investment reporting.</inlineHelpText>
-    <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
-    <type>Picklist</type>
-</CustomField>

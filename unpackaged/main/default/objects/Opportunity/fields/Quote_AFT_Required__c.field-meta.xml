@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Quote_AFT_Required__c</fullName>
-    <formula>SBQQ__PrimaryQuote__r.AFT_Required__c</formula>
-    <label>AFT Required? (Quote)</label>
-    <trackHistory>false</trackHistory>
-    <type>Checkbox</type>
-</CustomField>

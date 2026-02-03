@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Recurring_Non_Rental_Sublease</fullName>
-    <active>true</active>
-    <label>Recurring Non-Rental (Sublease)</label>
-</RecordType>

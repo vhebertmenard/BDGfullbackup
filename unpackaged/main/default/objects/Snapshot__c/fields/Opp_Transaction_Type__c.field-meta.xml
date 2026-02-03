@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Opp_Transaction_Type__c</fullName>
-    <description>Opportunity Transaction Type</description>
-    <label>Opp Transaction Type</label>
-    <required>false</required>
-    <trackTrending>false</trackTrending>
-    <type>TextArea</type>
-</CustomField>

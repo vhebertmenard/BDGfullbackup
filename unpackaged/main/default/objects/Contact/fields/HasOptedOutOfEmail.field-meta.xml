@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>HasOptedOutOfEmail</fullName>
-    <description>Indicates the Contact must not be included in Email marketing.</description>
-    <inlineHelpText>Indicates the Contact must not be included in Email marketing.</inlineHelpText>
-    <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
-</CustomField>
